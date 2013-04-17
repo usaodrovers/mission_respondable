@@ -268,15 +268,20 @@ span.field-label {
 
 /* Custom Css*/
 /* line 248, ../sass/pages.scss */
+html {
+  background-color: #083228;
+}
+
+/* line 252, ../sass/pages.scss */
 #block-menu-menu-header-navigation li {
   list-style: none;
   height: 27px;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 20px;
   border-right: 1px solid black;
 }
 
-/* line 256, ../sass/pages.scss */
+/* line 260, ../sass/pages.scss */
 #block-menu-menu-header-navigation li a {
   text-decoration: none;
   color: #e5dea8;
@@ -287,53 +292,55 @@ span.field-label {
   letter-spacing: .88px;
 }
 
-/* line 266, ../sass/pages.scss */
+/* line 270, ../sass/pages.scss */
 #header {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004538), color-stop(100%, #015b4a));
-  background-image: -webkit-linear-gradient(#004538, #015b4a);
-  background-image: -moz-linear-gradient(#004538, #015b4a);
-  background-image: -o-linear-gradient(#004538, #015b4a);
-  background-image: -ms-linear-gradient(#004538, #015b4a);
-  background-image: linear-gradient(#004538, #015b4a);
-  height: 39px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: -ms-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  height: auto;
+  margin-bottom: 0;
 }
 
-/* line 271, ../sass/pages.scss */
+/* line 276, ../sass/pages.scss */
 .region-header {
   clear: none;
 }
 
-/* line 275, ../sass/pages.scss */
+/* line 280, ../sass/pages.scss */
 #block-menu-menu-header-navigation ul {
   margin: 0;
 }
 
-/* line 279, ../sass/pages.scss */
+/* line 284, ../sass/pages.scss */
 #block-menu-menu-header-navigation.block {
   margin: 0;
 }
 
-/* line 283, ../sass/pages.scss */
+/* line 288, ../sass/pages.scss */
 #logo {
-  padding: 5px 0;
+  padding: 5px 20px;
+  border-right: 1px solid black;
 }
 
-/* line 287, ../sass/pages.scss */
+/* line 293, ../sass/pages.scss */
 #block-search-form {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
-/* line 291, ../sass/pages.scss */
+/* line 297, ../sass/pages.scss */
 input.custom-search-default-value {
-  margin-left: 15px;
+  margin-left: 20px;
   border-radius: 3px 0 0 3px;
   background-color: #EAE6CD;
   border: none;
   height: 23px;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
-/* line 300, ../sass/pages.scss */
+/* line 306, ../sass/pages.scss */
 #block-search-form .form-submit {
   height: 25px;
   max-width: 100%;
