@@ -242,11 +242,19 @@ span.field-label { /* The inline field label used by the Fences module */
 
 @import "compass/css3/images";
 
+/* Fonts */
 $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+$font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+
+
+/* Colors */
 $topbar-link_color: #E5DEA8;
+$primary-nav: #007161;
+
+/* Configs */
 
 html {
-  background-color: #083228;
+  background: url("../images/pretties.png") no-repeat top center #083228;
 }
 
 #block-menu-menu-header-navigation li {
@@ -294,6 +302,10 @@ html {
   padding-left: 20px;
 }
 
+#block-search-form.block {
+  margin-bottom: -10px;
+}
+
 input.custom-search-default-value {
   margin-left: 20px;
   border-radius: 3px 0 0 3px;
@@ -310,3 +322,23 @@ input.custom-search-default-value {
   padding-top: 12px;
   margin: -6px -6px;
 }
+
+#navigation {
+  font-family: $font-myriadpro_condensed;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $primary-nav;
+  margin-top: 225px;
+}
+
+#navigation li {
+}
+
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: -4px 4px 2px black;
+  padding-left: 25px;
+}
+

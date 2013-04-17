@@ -267,12 +267,15 @@ span.field-label {
 }
 
 /* Custom Css*/
-/* line 248, ../sass/pages.scss */
+/* Fonts */
+/* Colors */
+/* Configs */
+/* line 256, ../sass/pages.scss */
 html {
-  background-color: #083228;
+  background: url("../images/pretties.png") no-repeat top center #083228;
 }
 
-/* line 252, ../sass/pages.scss */
+/* line 260, ../sass/pages.scss */
 #block-menu-menu-header-navigation li {
   list-style: none;
   height: 27px;
@@ -281,7 +284,7 @@ html {
   border-right: 1px solid black;
 }
 
-/* line 260, ../sass/pages.scss */
+/* line 268, ../sass/pages.scss */
 #block-menu-menu-header-navigation li a {
   text-decoration: none;
   color: #e5dea8;
@@ -292,7 +295,7 @@ html {
   letter-spacing: .88px;
 }
 
-/* line 270, ../sass/pages.scss */
+/* line 278, ../sass/pages.scss */
 #header {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -304,33 +307,38 @@ html {
   margin-bottom: 0;
 }
 
-/* line 276, ../sass/pages.scss */
+/* line 284, ../sass/pages.scss */
 .region-header {
   clear: none;
 }
 
-/* line 280, ../sass/pages.scss */
+/* line 288, ../sass/pages.scss */
 #block-menu-menu-header-navigation ul {
   margin: 0;
 }
 
-/* line 284, ../sass/pages.scss */
+/* line 292, ../sass/pages.scss */
 #block-menu-menu-header-navigation.block {
   margin: 0;
 }
 
-/* line 288, ../sass/pages.scss */
+/* line 296, ../sass/pages.scss */
 #logo {
   padding: 5px 20px;
   border-right: 1px solid black;
 }
 
-/* line 293, ../sass/pages.scss */
+/* line 301, ../sass/pages.scss */
 #block-search-form {
   padding-left: 20px;
 }
 
-/* line 297, ../sass/pages.scss */
+/* line 305, ../sass/pages.scss */
+#block-search-form.block {
+  margin-bottom: -10px;
+}
+
+/* line 309, ../sass/pages.scss */
 input.custom-search-default-value {
   margin-left: 20px;
   border-radius: 3px 0 0 3px;
@@ -340,11 +348,29 @@ input.custom-search-default-value {
   padding-left: 10px;
 }
 
-/* line 306, ../sass/pages.scss */
+/* line 318, ../sass/pages.scss */
 #block-search-form .form-submit {
   height: 25px;
   max-width: 100%;
   width: 25px;
   padding-top: 12px;
   margin: -6px -6px;
+}
+
+/* line 326, ../sass/pages.scss */
+#navigation {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #007161;
+  margin-top: 225px;
+}
+
+/* line 338, ../sass/pages.scss */
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: -4px 4px 2px black;
+  padding-left: 25px;
 }
