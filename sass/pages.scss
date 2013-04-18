@@ -262,7 +262,7 @@ html {
   height: 27px;
   float: left;
   padding: 5px 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid #062A21;
 }
 
 #block-menu-menu-header-navigation li a {
@@ -295,7 +295,7 @@ html {
 
 #logo {
   padding: 5px 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid #062A21;
 }
 
 #block-search-form {
@@ -332,13 +332,78 @@ input.custom-search-default-value {
   margin-top: 225px;
 }
 
-#navigation li {
-}
-
 #navigation li a {
   color: white;
   text-decoration: none;
-  text-shadow: -4px 4px 2px black;
+  text-shadow: -2px 2px 2px black;
   padding-left: 25px;
 }
 
+#navigation li.last {
+  background-color: #FFD457;
+  margin-left: 15px;
+  box-shadow: -2px 2px 2px black;
+}
+
+#navigation li.last a {
+  color: #007161;
+  padding: 0 10px 0 15px;
+  margin: 0;
+  text-shadow: none;
+}
+
+hgroup {
+  display: none;
+}
+
+.flexslider {
+  background: #0A4436;
+  border: medium #0A4436 solid;
+  border-radius: none;
+}
+
+.flex-control-nav {
+    bottom: 65px;
+    left: -450px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.flex-control-paging li a {
+    background: none repeat scroll 0 0 #0A4436;
+    border: 2px solid yellow;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: none;
+    cursor: pointer;
+    display: block;
+    height: 11px;
+    text-indent: -9999px;
+    width: 11px;
+}
+
+.flex-control-paging li a.flex-active {
+    background: none repeat scroll 0 0 yellow;
+    cursor: default;
+}
+
+.flexslider .views-field-body {
+  display: inline-block;
+}
+
+.flexslider .views-field-body span.views-label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flexslider .views-field-body .field-content {
+  display: inline-block;
+  border-left: 3px solid grey;
+  padding-left: 10px;
+  margin-left: 5px;
+}

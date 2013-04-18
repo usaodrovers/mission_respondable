@@ -281,7 +281,7 @@ html {
   height: 27px;
   float: left;
   padding: 5px 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid #062A21;
 }
 
 /* line 268, ../sass/pages.scss */
@@ -325,7 +325,7 @@ html {
 /* line 296, ../sass/pages.scss */
 #logo {
   padding: 5px 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid #062A21;
 }
 
 /* line 301, ../sass/pages.scss */
@@ -367,10 +367,90 @@ input.custom-search-default-value {
   margin-top: 225px;
 }
 
-/* line 338, ../sass/pages.scss */
+/* line 335, ../sass/pages.scss */
 #navigation li a {
   color: white;
   text-decoration: none;
-  text-shadow: -4px 4px 2px black;
+  text-shadow: -2px 2px 2px black;
   padding-left: 25px;
+}
+
+/* line 342, ../sass/pages.scss */
+#navigation li.last {
+  background-color: #FFD457;
+  margin-left: 15px;
+  box-shadow: -2px 2px 2px black;
+}
+
+/* line 348, ../sass/pages.scss */
+#navigation li.last a {
+  color: #007161;
+  padding: 0 10px 0 15px;
+  margin: 0;
+  text-shadow: none;
+}
+
+/* line 355, ../sass/pages.scss */
+hgroup {
+  display: none;
+}
+
+/* line 359, ../sass/pages.scss */
+.flexslider {
+  background: #0A4436;
+  border: medium #0A4436 solid;
+  border-radius: none;
+}
+
+/* line 365, ../sass/pages.scss */
+.flex-control-nav {
+  bottom: 65px;
+  left: -450px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 373, ../sass/pages.scss */
+.flex-control-nav li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* line 378, ../sass/pages.scss */
+.flex-control-paging li a {
+  background: none repeat scroll 0 0 #0A4436;
+  border: 2px solid yellow;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  height: 11px;
+  text-indent: -9999px;
+  width: 11px;
+}
+
+/* line 390, ../sass/pages.scss */
+.flex-control-paging li a.flex-active {
+  background: none repeat scroll 0 0 yellow;
+  cursor: default;
+}
+
+/* line 395, ../sass/pages.scss */
+.flexslider .views-field-body {
+  display: inline-block;
+}
+
+/* line 399, ../sass/pages.scss */
+.flexslider .views-field-body span.views-label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* line 404, ../sass/pages.scss */
+.flexslider .views-field-body .field-content {
+  display: inline-block;
+  border-left: 3px solid grey;
+  padding-left: 10px;
+  margin-left: 5px;
 }

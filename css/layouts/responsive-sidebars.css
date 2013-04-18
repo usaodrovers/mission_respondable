@@ -25,7 +25,7 @@
 .l-wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 1085px;
 }
 
 /* line 58, ../../sass/layouts/responsive-sidebars.scss */
@@ -57,7 +57,7 @@
 /*
  * Containers for grid items and flow items.
  */
-/* line 52, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission-respondable/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 52, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:before, #header:after,
 #main:before,
 #main:after,
@@ -66,7 +66,7 @@
   content: "";
   display: table;
 }
-/* line 56, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission-respondable/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 56, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:after,
 #main:after,
 #footer:after {
