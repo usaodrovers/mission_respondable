@@ -244,6 +244,7 @@ span.field-label { /* The inline field label used by the Fences module */
 
 /* Fonts */
 $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+$font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
 $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
 
 
@@ -358,13 +359,13 @@ hgroup {
 
 .flexslider {
   background: #0A4436;
-  border: medium #0A4436 solid;
-  border-radius: none;
+  border: 5px #0A4436 solid;
+  border-radius: 0;
 }
 
 .flex-control-nav {
-    bottom: 65px;
-    left: -450px;
+    bottom: 40px;
+    left: -445px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -377,7 +378,7 @@ hgroup {
 
 .flex-control-paging li a {
     background: none repeat scroll 0 0 #0A4436;
-    border: 2px solid yellow;
+    border: 2px solid #E5DEA8;
     border-radius: 20px 20px 20px 20px;
     box-shadow: none;
     cursor: pointer;
@@ -388,22 +389,35 @@ hgroup {
 }
 
 .flex-control-paging li a.flex-active {
-    background: none repeat scroll 0 0 yellow;
+    background: none repeat scroll 0 0 #EDC551;
     cursor: default;
 }
 
 .flexslider .views-field-body {
   display: inline-block;
+  padding-top: 7px;
 }
 
 .flexslider .views-field-body span.views-label {
   font-size: 18px;
   text-transform: uppercase;
+  font-family: $font-copperplate;
+  font-style: normal;
+  font-weight: 300;
+  color: #E5DEA8;
+  padding: 15px 15px 15px 20px;
+  letter-spacing: 2px;
+  border-right: 3px solid grey;
 }
 
 .flexslider .views-field-body .field-content {
   display: inline-block;
-  border-left: 3px solid grey;
   padding-left: 10px;
   margin-left: 5px;
+  font-family: $font-myriadpro;
+  font-weight: 300;
+  font-style: normal;
+  color: #F9E08E;
+  font-size: 14px;
+  width: 65%;
 }
