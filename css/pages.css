@@ -290,7 +290,7 @@ html {
   color: #e5dea8;
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: .88px;
 }
@@ -362,62 +362,63 @@ input.custom-search-default-value {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-style: normal;
   font-weight: 300;
+  font-size: 14.5px;
   text-transform: uppercase;
   color: #007161;
   margin-top: 225px;
 }
 
-/* line 336, ../sass/pages.scss */
+/* line 337, ../sass/pages.scss */
 #navigation li a {
   color: white;
   text-decoration: none;
   text-shadow: -2px 2px 2px black;
-  padding-left: 25px;
+  padding-left: 12px;
 }
 
-/* line 343, ../sass/pages.scss */
-#navigation li.last {
+/* line 344, ../sass/pages.scss */
+#navigation ul.links li.last {
   background-color: #FFD457;
   margin-left: 15px;
   box-shadow: -2px 2px 2px black;
+  padding: 0;
 }
 
-/* line 349, ../sass/pages.scss */
+/* line 351, ../sass/pages.scss */
 #navigation li.last a {
   color: #007161;
-  padding: 0 10px 0 15px;
+  padding: 0 10px 0 10px;
   margin: 0;
   text-shadow: none;
 }
 
-/* line 356, ../sass/pages.scss */
+/* line 358, ../sass/pages.scss */
 hgroup {
   display: none;
 }
 
-/* line 360, ../sass/pages.scss */
+/* line 362, ../sass/pages.scss */
 .flexslider {
   background: #0A4436;
   border: 5px #0A4436 solid;
   border-radius: 0;
 }
 
-/* line 366, ../sass/pages.scss */
+/* line 368, ../sass/pages.scss */
 .flex-control-nav {
-  bottom: 40px;
-  left: -445px;
-  position: absolute;
-  text-align: center;
-  width: 100%;
+  top: -65px;
+  left: -42px;
+  position: relative;
+  width: 16%;
 }
 
-/* line 374, ../sass/pages.scss */
+/* line 375, ../sass/pages.scss */
 .flex-control-nav li {
   display: inline-block;
   margin: 0 2px;
 }
 
-/* line 379, ../sass/pages.scss */
+/* line 380, ../sass/pages.scss */
 .flex-control-paging li a {
   background: none repeat scroll 0 0 #0A4436;
   border: 2px solid #E5DEA8;
@@ -430,19 +431,20 @@ hgroup {
   width: 11px;
 }
 
-/* line 391, ../sass/pages.scss */
+/* line 392, ../sass/pages.scss */
 .flex-control-paging li a.flex-active {
   background: none repeat scroll 0 0 #EDC551;
   cursor: default;
+  box-shadow: inset -2px 1px 2px gray;
 }
 
-/* line 396, ../sass/pages.scss */
+/* line 398, ../sass/pages.scss */
 .flexslider .views-field-body {
   display: inline-block;
   padding-top: 7px;
 }
 
-/* line 401, ../sass/pages.scss */
+/* line 403, ../sass/pages.scss */
 .flexslider .views-field-body span.views-label {
   font-size: 18px;
   text-transform: uppercase;
@@ -453,17 +455,60 @@ hgroup {
   padding: 15px 15px 15px 20px;
   letter-spacing: 2px;
   border-right: 3px solid grey;
+  position: absolute;
+  margin-top: 30px;
 }
 
-/* line 413, ../sass/pages.scss */
+/* line 417, ../sass/pages.scss */
 .flexslider .views-field-body .field-content {
   display: inline-block;
-  padding-left: 10px;
-  margin-left: 5px;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #F9E08E;
   font-size: 14px;
   width: 65%;
+  height: 92px;
+  position: relative;
+  margin-left: 285px;
+}
+
+/* line 430, ../sass/pages.scss */
+.button-link {
+  margin-top: 15px;
+  padding: 32px 0 0;
+  list-style: none;
+}
+
+/* line 436, ../sass/pages.scss */
+.block-mission-respondable-front-buttons {
+  height: 300px;
+}
+
+/* line 440, ../sass/pages.scss */
+.button-link {
+  color: #FFD457;
+  text-align: center;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: -ms-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  text-decoration: none;
+  width: 185px;
+  height: 40px;
+  padding-top: 20px;
+}
+
+/* line 450, ../sass/pages.scss */
+.button-link:hover {
+  border: 2px solid #FFD457;
+}
+
+/* line 454, ../sass/pages.scss */
+.oversized-text {
+  text-transform: uppercase;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-size: 32px;
 }

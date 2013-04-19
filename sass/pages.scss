@@ -271,7 +271,7 @@ html {
   color: $topbar-link_color;
   font-family: $font-copperplate;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: .88px;
 }
@@ -328,6 +328,7 @@ input.custom-search-default-value {
   font-family: $font-myriadpro_condensed;
   font-style: normal;
   font-weight: 300;
+  font-size: 14.5px;
   text-transform: uppercase;
   color: $primary-nav;
   margin-top: 225px;
@@ -337,18 +338,19 @@ input.custom-search-default-value {
   color: white;
   text-decoration: none;
   text-shadow: -2px 2px 2px black;
-  padding-left: 25px;
+  padding-left: 12px;
 }
 
-#navigation li.last {
+#navigation ul.links li.last {
   background-color: #FFD457;
   margin-left: 15px;
   box-shadow: -2px 2px 2px black;
+  padding: 0;
 }
 
 #navigation li.last a {
   color: #007161;
-  padding: 0 10px 0 15px;
+  padding: 0 10px 0 10px;
   margin: 0;
   text-shadow: none;
 }
@@ -364,11 +366,10 @@ hgroup {
 }
 
 .flex-control-nav {
-    bottom: 40px;
-    left: -445px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+    top: -65px;
+    left: -42px;
+    position: relative;
+    width: 16%;
 }
 
 .flex-control-nav li {
@@ -391,6 +392,7 @@ hgroup {
 .flex-control-paging li a.flex-active {
     background: none repeat scroll 0 0 #EDC551;
     cursor: default;
+    box-shadow: inset -2px 1px 2px gray;
 }
 
 .flexslider .views-field-body {
@@ -408,16 +410,50 @@ hgroup {
   padding: 15px 15px 15px 20px;
   letter-spacing: 2px;
   border-right: 3px solid grey;
+  position: absolute;
+  margin-top: 30px;
 }
 
 .flexslider .views-field-body .field-content {
   display: inline-block;
-  padding-left: 10px;
-  margin-left: 5px;
   font-family: $font-myriadpro;
   font-weight: 300;
   font-style: normal;
   color: #F9E08E;
   font-size: 14px;
   width: 65%;
+  height: 92px;
+  position: relative;
+  margin-left: 285px;
 }
+
+.button-link {
+  margin-top: 15px;
+  padding: 32px 0 0;
+  list-style: none;
+}
+
+.block-mission-respondable-front-buttons {
+  height: 300px;
+}
+
+.button-link {
+  color: #FFD457;
+  text-align: center;
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  text-decoration: none;
+  width: 185px;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.button-link:hover{
+  border: 2px solid #FFD457;
+}
+
+.oversized-text {
+  text-transform: uppercase;
+  font-family: $font-myriadpro-condensed;
+  font-size: 32px;
+}
+

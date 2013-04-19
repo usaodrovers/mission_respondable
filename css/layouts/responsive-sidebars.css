@@ -25,14 +25,14 @@
 .l-wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1085px;
+  max-width: 1000px;
 }
 
 /* line 58, ../../sass/layouts/responsive-sidebars.scss */
 #navigation {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /*
