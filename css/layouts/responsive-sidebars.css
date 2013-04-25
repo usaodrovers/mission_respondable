@@ -18,21 +18,21 @@
      by setting a max-width. */
   margin-left: auto;
   margin-right: auto;
-  max-width: 980px;
+  max-width: 622px;
 }
 
 /* line 52, ../../sass/layouts/responsive-sidebars.scss */
 .l-wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1024px;
 }
 
 /* line 58, ../../sass/layouts/responsive-sidebars.scss */
 #navigation {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1024px;
 }
 
 /*

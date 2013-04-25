@@ -247,6 +247,38 @@ $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copper
 $font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
 $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
 
+@mixin font-copperplate {
+  font-family: $font-copperplate;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-myriadpro {
+  font-family: $font-myriadpro;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-myriadpro_semibold {
+  @include font-myriadpro;
+  font-weight: 600;
+}
+
+@mixin font-myriadpro_bold {
+  @include font-myriadpro;
+  font-weight: 700;
+}
+
+@mixin font-myriadprocondensed {
+  font-family: $font-myriadpro_condensed;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-myriadprocondensed_bold {
+  @include font-myriadprocondensed;
+  font-weight: 700;
+}
 
 /* Colors */
 $topbar-link_color: #E5DEA8;
@@ -328,7 +360,7 @@ input.custom-search-default-value {
   font-family: $font-myriadpro_condensed;
   font-style: normal;
   font-weight: 300;
-  font-size: 14.5px;
+  font-size: 25.5px;
   text-transform: uppercase;
   color: $primary-nav;
   margin-top: 225px;
@@ -363,11 +395,12 @@ hgroup {
   background: #0A4436;
   border: 5px #0A4436 solid;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 .flex-control-nav {
     top: -65px;
-    left: -42px;
+    left: -15px;
     position: relative;
     width: 16%;
 }
@@ -401,30 +434,30 @@ hgroup {
 }
 
 .flexslider .views-field-body span.views-label {
-  font-size: 18px;
+  @include font-copperplate;
+  font-size: 16px;
   text-transform: uppercase;
-  font-family: $font-copperplate;
-  font-style: normal;
-  font-weight: 300;
   color: #E5DEA8;
-  padding: 15px 15px 15px 20px;
+  padding: 17px 16px;
   letter-spacing: 2px;
-  border-right: 3px solid grey;
+  border-right: 2px solid #E5DEA8;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 9px;
 }
 
 .flexslider .views-field-body .field-content {
   display: inline-block;
-  font-family: $font-myriadpro;
-  font-weight: 300;
-  font-style: normal;
   color: #F9E08E;
   font-size: 14px;
-  width: 65%;
-  height: 92px;
+  width: 54%;
+  height: 71px;
   position: relative;
-  margin-left: 285px;
+  margin-left: 260px;
+  @include font-myriadpro;
+}
+
+.flexslider .views-field-body .field-content p {
+  margin: 0;
 }
 
 .button-link {
@@ -433,8 +466,8 @@ hgroup {
   list-style: none;
 }
 
-.block-mission-respondable-front-buttons {
-  height: 300px;
+.pane-mission-respondable-front-buttons-front-buttons {
+  margin-top: -5px;
 }
 
 .button-link {
@@ -442,18 +475,157 @@ hgroup {
   text-align: center;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   text-decoration: none;
-  width: 185px;
-  height: 40px;
+  width: 181px;
+  height: 45px;
   padding-top: 20px;
+  margin-right: 26px;
+  display: inline-block;
+
+  &.last {
+    margin-right: 0;
+  }
 }
+
+
 
 .button-link:hover{
   border: 2px solid #FFD457;
+  width: 177px;
+  height: 43px;
+  padding-top: 16px;
 }
 
 .oversized-text {
   text-transform: uppercase;
-  font-family: $font-myriadpro-condensed;
   font-size: 32px;
+  @include font-myriadprocondensed;
 }
 
+.pane-views-testimonial-block .pane-title {
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  line-height: 1.8em;
+  margin-bottom: -4px;
+  position: relative;
+  top: -5px;
+  height: 38px;
+  margin-top: 30px;
+}
+
+.pane-views-testimonial-block .pane-title a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 25px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  @include font-copperplate;
+}
+
+.pane-views-testimonial-block .view-content div {
+  float: left;
+  background-color: #F7F4DE;
+  max-height: 177px;
+
+  &.bqstart, &.bqend {
+    float: none;
+    display: inline;
+    @include font-myriadpro;
+  }
+}
+
+.pane-views-testimonial-block .views-field-title {
+  margin-top: 5px;
+  padding-bottom: 2px;
+}
+
+.pane-views-testimonial-block .views-field-title a {
+  color: #007161;
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 14px;
+  @include font-myriadpro
+}
+
+.not-logged-in .pane-views-testimonial-block .views-field-edit-node {
+  display: none;
+}
+
+.pane-views-testimonial-block .views-field-edit-node {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px;
+}
+
+.pane-views-testimonial-block .views-field-body {
+  width: 245px;
+  padding-left: 25px;
+  font-size: 17px;
+  @include font-myriadprocondensed_bold;
+}
+
+.pane-views-testimonial-block .views-field-path a {
+  color: #007161;
+  text-decoration: none;
+  padding-left: 25px;
+  @include font-myriadpro_bold;
+}
+
+.pane-views-featured-news-block {
+  background-color: #F7F4DE;
+}
+
+.pane-views-featured-news-block .pane-title {
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  @include font-copperplate;
+  line-height: 1.8em;
+  margin-bottom: -4px;
+  position: relative;
+  top: -5px;
+  height: 38px;
+  margin-top: 208px;
+  clear: both;
+}
+
+.pane-views-featured-news-block .pane-title a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 25px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  @include font-copperplate;
+}
+
+.view-featured-news ul li {
+  border-bottom: 1px solid #DBD6AE;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.view-featured-news li div {
+  display: inline;
+}
+
+.view-featured-news .views-field-field-news-image {
+  margin-left: -5px;
+}
+
+.view-featured-news .views-field-title {
+  display: table;
+  height: 95px;
+  width: 62%;
+  margin-left: 34%;
+  margin-top: -105px;
+}
+
+.view-featured-news .views-field-title span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.view-featured-news .views-field-title span a {
+  text-decoration: none;
+  @include font-myriadpro_semibold;
+  color: #007161;
+  font-size: 16px;
+}

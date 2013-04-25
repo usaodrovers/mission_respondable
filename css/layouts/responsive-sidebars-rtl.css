@@ -22,21 +22,21 @@
      by setting a max-width. */
   margin-left: auto;
   margin-right: auto;
-  max-width: 980px;
+  max-width: 622px;
 }
 
 /* line 52, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
 .l-wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1024px;
 }
 
 /* line 58, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
 #navigation {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1024px;
 }
 
 /*
