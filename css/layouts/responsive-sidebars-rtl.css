@@ -92,10 +92,106 @@
   /*
    * Use 3 grid columns for smaller screens.
    */
+  /* line 111, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .panel-pane-views-viewbook-block {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+    clear: right;
+  }
+
+  /* line 116, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .flexslider .views-field-body .field-content {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+  }
+
+  /* line 120, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .flexslider span.views-label {
+    display: none;
+  }
+
+  /* line 124, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .button-link {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+    clear: right;
+  }
+  /* line 128, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .button-link:hover {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+    clear: right;
+  }
+
+  /* line 134, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .pane-views-testimonial-block {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+    clear: right;
+  }
+
+  /* line 139, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .pane-views-testimonial-block .view-content div {
+    max-height: 100%;
+  }
+
+  /* line 144, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .pane-views-testimonial-block img {
+    float: right;
+    width: 100%;
+    margin-right: 16.667%;
+    margin-left: -116.667%;
+    clear: right;
+  }
+  /* line 151, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .pane-views-testimonial-block .views-field-title,
+  .pane-views-testimonial-block .views-field-body,
+  .pane-views-testimonial-block .views-field-path {
+    float: right;
+    width: 90.0%;
+    margin-right: 0%;
+    margin-left: -90.0%;
+    clear: right;
+  }
+
+  /* line 157, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .view-featured-news {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+    clear: right;
+  }
+
+  /* line 163, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .view-featured-news .views-field-field-news-image {
+    float: right;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: -100%;
+  }
+  /* line 167, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  .view-featured-news .views-field-title {
+    float: right;
+    width: 50%;
+    margin-right: 50%;
+    margin-left: -100%;
+  }
+
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 116, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 178, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -103,7 +199,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-  /* line 120, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 182, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -115,7 +211,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 130, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 192, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: right;
@@ -123,7 +219,7 @@
     margin-right: 0%;
     margin-left: -66.667%;
   }
-  /* line 134, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 196, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: right;
@@ -135,7 +231,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 144, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 206, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -143,7 +239,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-  /* line 148, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 210, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -151,7 +247,7 @@
     margin-right: 0%;
     margin-left: -33.333%;
   }
-  /* line 152, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 214, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: right;
@@ -162,7 +258,7 @@
     padding-right: 0;
     clear: right;
   }
-  /* line 157, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 219, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -172,7 +268,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 160, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 222, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: right;
@@ -181,7 +277,7 @@
     margin-left: -33.333%;
     clear: right;
   }
-  /* line 164, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 226, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: right;
@@ -189,7 +285,7 @@
     margin-right: 33.333%;
     margin-left: -66.667%;
   }
-  /* line 167, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 229, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: right;
@@ -205,7 +301,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 185, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 247, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: right;
@@ -213,7 +309,7 @@
     margin-right: 20%;
     margin-left: -100%;
   }
-  /* line 189, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 251, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -225,7 +321,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 199, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 261, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: right;
@@ -233,7 +329,7 @@
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 203, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 265, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
@@ -245,7 +341,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 213, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 275, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: right;
@@ -253,7 +349,7 @@
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 217, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 279, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -261,7 +357,7 @@
     margin-right: 0%;
     margin-left: -20%;
   }
-  /* line 221, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
+  /* line 283, /Users/cdracars/Dropbox/ubuntu64-lucid/www/drupal/profiles/d7_usao_edu/themes/mission_respondable/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;

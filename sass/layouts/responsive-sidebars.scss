@@ -108,6 +108,68 @@ $zen-auto-include-item-base: false;
    */
   $zen-column-count: 3;
 
+  .panel-pane-views-viewbook-block {
+      @include zen-grid-item(3, 1);
+      @include zen-clear();
+  }
+
+  .flexslider .views-field-body .field-content {
+    @include zen-grid-item(3, 1);
+  }
+
+  .flexslider span.views-label {
+    display: none;
+  }
+
+  .button-link {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+
+    &:hover {
+      @include zen-grid-item(3, 1);
+      @include zen-clear();
+    }
+  }
+
+  .pane-views-testimonial-block {
+      @include zen-grid-item(3, 1);
+      @include zen-clear();
+  }
+
+  .pane-views-testimonial-block .view-content div {
+    max-height: 100%;
+  }
+
+  .pane-views-testimonial-block {
+    img {
+      @include zen-grid-item(3, 1.5);
+      @include zen-clear();
+    }
+
+    .views-field-title,
+    .views-field-body,
+    .views-field-path {
+      @include zen-grid-item(2.7, 1);
+      @include zen-clear();
+    }
+  }
+
+  .view-featured-news {
+      @include zen-grid-item(3, 1);
+      @include zen-clear();
+  }
+
+  .view-featured-news {
+    .views-field-field-news-image {
+      @include zen-grid-item(3, 1);
+    }
+
+    .views-field-title {
+      @include zen-grid-item(1.5, 2.5);
+    }
+  }
+
+
   /*
    * The layout when there is only one sidebar, the left one.
    */

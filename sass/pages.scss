@@ -247,6 +247,7 @@ $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copper
 $font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
 $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
 
+
 @mixin font-copperplate {
   font-family: $font-copperplate;
   font-weight: 400;
@@ -260,13 +261,21 @@ $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",san
 }
 
 @mixin font-myriadpro_semibold {
-  @include font-myriadpro;
+  font-family: $font-myriadpro;
   font-weight: 600;
+  font-style: normal;
 }
 
 @mixin font-myriadpro_bold {
-  @include font-myriadpro;
+  font-family: $font-myriadpro;
   font-weight: 700;
+  font-style: normal;
+}
+
+@mixin font-myriadpro_italic {
+  font-family: $font-myriadpro;
+  font-weight: 400;
+  font-style: italic;
 }
 
 @mixin font-myriadprocondensed {
@@ -276,8 +285,9 @@ $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",san
 }
 
 @mixin font-myriadprocondensed_bold {
-  @include font-myriadprocondensed;
+  font-family: $font-myriadpro_condensed;
   font-weight: 700;
+  font-style: normal;
 }
 
 /* Colors */
@@ -309,6 +319,7 @@ html {
 }
 
 #header {
+  background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   height: auto;
   margin-bottom: 0;
@@ -364,6 +375,9 @@ input.custom-search-default-value {
   text-transform: uppercase;
   color: $primary-nav;
   margin-top: 225px;
+  position: relative;
+  z-index: 200;
+  margin-bottom: -25px;
 }
 
 #navigation li a {
@@ -389,6 +403,16 @@ input.custom-search-default-value {
 
 hgroup {
   display: none;
+}
+
+.mission-statement {
+  @include font-myriadpro_italic;
+  font-size: 14px;
+  color: #F9E08E;
+  background-color: #004538;
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  text-align: center;
+  height: 25px;
 }
 
 .flexslider {
@@ -473,16 +497,15 @@ hgroup {
 .button-link {
   color: #FFD457;
   text-align: center;
+  background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   text-decoration: none;
-  width: 181px;
   height: 45px;
   padding-top: 20px;
-  margin-right: 26px;
   display: inline-block;
 
   &.last {
-    margin-right: 0;
+    margin-right: -5px;
   }
 }
 
@@ -502,6 +525,7 @@ hgroup {
 }
 
 .pane-views-testimonial-block .pane-title {
+  background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   line-height: 1.8em;
   margin-bottom: -4px;
@@ -556,11 +580,11 @@ hgroup {
   padding: 14px;
 }
 
-.pane-views-testimonial-block .views-field-body {
-  width: 245px;
-  padding-left: 25px;
+.pane-views-testimonial-block .views-field-body .field-content {
+  padding-right: 5px;
   font-size: 17px;
   @include font-myriadprocondensed_bold;
+  line-height: 20px;
 }
 
 .pane-views-testimonial-block .views-field-path a {
@@ -575,6 +599,7 @@ hgroup {
 }
 
 .pane-views-featured-news-block .pane-title {
+  background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   @include font-copperplate;
   line-height: 1.8em;
@@ -603,7 +628,8 @@ hgroup {
 }
 
 .view-featured-news li div {
-  display: inline;
+  display: block;
+  height: 70px;
 }
 
 .view-featured-news .views-field-field-news-image {
@@ -628,4 +654,385 @@ hgroup {
   @include font-myriadpro_semibold;
   color: #007161;
   font-size: 16px;
+}
+
+.block-mission-respondable-footer {
+  border-top: 1px solid #056553;
+}
+
+.block-mission-respondable-footer li {
+  list-style: none;
+  display: inline;
+}
+
+.icon-pinterest_logo {
+  background: url('../images/pinterest.png');
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  margin-left: -5%;
+  position: relative;
+  top: -9px;
+}
+
+.icon-googleplus_logo {
+  background: url('../images/googleplus.png');
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+.icon-facebook_logo {
+  background: url('../images/facebook.png');
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+.icon-twitter_logo {
+  background: url('../images/twitter.png');
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+.icon-youtube_logo {
+  background: url('../images/youtube.png');
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+.icon-coplac_logo {
+  background: url('../images/coplac.png');
+  display: inline-block;
+  height: 58px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 141px;
+  margin-left: 21%;
+}
+
+.icon-what_will_they_learn_logo {
+  background: url('../images/WHATwillTHEYlearn.png');
+  display: inline-block;
+  height: 59px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 139px;
+  margin-right: -5px;
+}
+
+#block-mission-respondable-footer-footer-contact {
+  background: url('../images/pretties2.png') 50% 0 no-repeat;
+  height: 145px;
+}
+
+.block-mission-respondable-footer p {
+  @include font-myriadpro;
+  font-size: 12px;
+  color: #EAE6CD;
+  width: 233px;
+  line-height: 16px;
+}
+
+.block-mission-respondable-footer p a {
+  @include font-myriadpro;
+  font-size: 12px;
+  color: #EAE6CD;
+  width: 200px;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+#block-menu-menu-footer-navigation {
+  margin-top: -92px;
+  margin-left: -30px;
+}
+
+#block-menu-menu-footer-navigation li {
+  list-style: none;
+  display: inline-block;
+  border-left: 1px solid #EAE6CD;
+  padding-left: 5px;
+  line-height: 4px;
+  height: 12px;
+}
+
+#block-menu-menu-footer-navigation li a {
+  @include font-myriadpro;
+  color: #FFD457;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#block-menu-menu-footer-navigation li.first {
+  border-left: none;
+  padding-left: 0;
+}
+
+#block-menu-menu-footer-navigation li.last {
+  display: block;
+  border-left: none;
+  padding-left: 0;
+  padding-top: 2px;
+}
+
+#block-menu-menu-footer-navigation li.last a {
+  color: #999999;
+}
+
+.panels-flexible-region-2-center {
+  width: 100%;
+}
+
+.section-news .panel-flexible .center {
+   background-color: #F7F4DE;
+   width: 382px;
+}
+
+.section-news .panel-flexible .center .panels-flexible-region-inside {
+  padding: 0;
+}
+
+.page-news #navigation {
+  margin-bottom: 50px;
+}
+
+.top-news h2 {
+  @include font-myriadprocondensed;
+  font-size: 32px;
+  color: #FFD457;
+  background-color: rgba(1, 90, 73, 0.5);
+  margin: -66px 0 0 0;
+  padding: 1px 15px;
+  text-transform: uppercase;
+}
+
+.top-news .views-field-title {
+  margin: 15px 15px -20px 15px;
+  line-height: 18px;
+}
+
+.top-news .views-field-title a {
+  @include font-myriadpro_semibold;
+  font-size: 18px;
+  color: #007161;
+  text-decoration: none;
+}
+
+.top-news .views-field-body {
+  @include font-myriadpro;
+  font-size: 14px;
+  color: #575757;
+  margin-right: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+}
+
+.latest-news .views-row {
+  border-top: 1px solid #D7D3AB;
+  padding-top: 25px;
+  margin: 0 15px;
+}
+
+.latest-news .views-field-field-news-image {
+  float: left;
+}
+
+.latest-news .views-field-field-news-image {
+  margin-right: 15px;
+}
+
+.latest-news .views-field-title {
+  line-height: 18px;
+}
+
+.latest-news .views-field-title a {
+  @include font-myriadpro_semibold;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+.latest-news .views-field-body {
+  @include font-myriadpro;
+  font-size: 14px;
+  color: #575757;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+
+.latest-news .item-list {
+  @include font-myriadpro;
+  font-size: 12px;
+  background-color: #738979;
+  padding: 10px 0;
+  color: #F7F4DE;
+}
+
+.latest-news .item-list ul {
+  margin: 0;
+}
+
+.latest-news .item-list li a {
+  color: #F7F4DE;
+  text-decoration: none;
+}
+
+.section-news .panel-flexible .headlines {
+  background-color: #F7F4DE;
+  width: 195px;
+}
+
+.section-news .panel-flexible .headlines .pane-title {
+  background-color: #004538;
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+}
+
+.section-news .panel-flexible .headlines .pane-title a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 24px;
+  @include font-copperplate;
+  position: relative;
+}
+
+.headlines .views-field-title {
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+
+.headlines .views-field-title a {
+  @include font-myriadpro_semibold;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+.headlines .views-row {
+  border-top: 1px solid #D7D3AB;
+  padding-top: 25px;
+  margin: 0 15px;
+}
+
+.headlines .views-row-first {
+  border-top: none;
+  padding-top: 0;
+}
+
+.headlines .item-list {
+  @include font-myriadpro;
+  font-size: 12px;
+  background-color: #738979;
+  padding: 10px 0;
+  color: #F7F4DE;
+}
+
+.headlines .item-list ul {
+  margin: 0;
+}
+
+.headlines .item-list li a {
+  color: #F7F4DE;
+  text-decoration: none;
+}
+
+.section-news .panel-flexible .news {
+  background-color: #F7F4DE;
+  width: 195px;
+  margin-top: -90px;
+}
+
+.section-news .panel-flexible .news .pane-title {
+  background-color: #004538;
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+}
+
+.section-news .panel-flexible .news .pane-title a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 24px;
+  @include font-copperplate;
+  position: relative;
+}
+
+.news ul {
+  padding: 0;
+  margin: -10px 0 0 0;
+}
+
+.news li {
+  border-top: 1px solid #D7D3AB;
+  padding-top: 15px;
+  margin: 0 15px;
+}
+
+.news li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.news li.first {
+  border-top: none;
+  padding-top: 0;
+}
+
+.news li a {
+  @include font-myriadpro_semibold;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.node-type-news #content {
+  margin-top: -70px;
+}
+
+.node-type-news .title {
+  @include font-myriadprocondensed;
+  position: relative;
+  top: 345px;
+  z-index: 100;
+  background-color: rgba(1, 90, 73, 0.5);
+  color: #FFD457;
+  padding: 0 15px;
+  font-size: 32px;
+}
+
+.node-type-news article {
+  background-color: #F7F4DE;
 }
