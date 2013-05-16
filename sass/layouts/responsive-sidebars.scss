@@ -12,6 +12,15 @@
 @import "base";
 
 
+/* Fonts */
+$font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+
+@mixin font-copperplate {
+  font-family: $font-copperplate;
+  font-weight: 400;
+  font-style: normal;
+}
+
 // We are going to create a 980px wide, 5 column grid with 20px gutters between
 // columns (applied as 10px of left/right padding on each column).
 $zen-column-count:  5;
@@ -20,8 +29,7 @@ $zen-gutter-width:  20px;
 
 // IE6-7 don't support box-sizing: border-box. We can fix this in 1 of 3 ways:
 // - Drop support for IE 6/7. :-) In the _base.scss, set $legacy-support-for-ie6
-//   and $legacy-support-for-ie7 to false.
-// - (Preferred) Install the box-sizing polyfill and set the variable below to
+//   and $legacy-support-for-ie7 to false.  // - (Preferred) Install the box-sizing polyfill and set the variable below to
 //   the absolute path URL to the boxsizing.htc file.
 //   @see https://github.com/Schepp/box-sizing-polyfill
 //   $box-sizing-polyfill-path: "/path/to/boxsizing.htc";
@@ -85,89 +93,239 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
 
-/*
- * Navigation bar
- */
-
-@media all and (min-width: 480px) {
-  #main {
-    padding-top: 3em; /* Move all the children of #main down to make room. */
-    position: relative;
-  }
-  #navigation {
-   // position: absolute;
-   // top: 0; /* Move the navbar up inside #main's padding. */
-   // height: 3em;
-   // width: $zen-grid-width;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (max-width: 630px) {
   /*
    * Use 3 grid columns for smaller screens.
    */
   $zen-column-count: 3;
 
-  .panel-pane-views-viewbook-block {
-      @include zen-grid-item(3, 1);
-      @include zen-clear();
+  .html {
+    background: transparent;
+    background-color: #083228;
   }
 
-  .flexslider .views-field-body .field-content {
-    @include zen-grid-item(3, 1);
+  .html nav[role="navigation"] {
+    margin-bottom: -75px;
+
+    h2 {
+      display: none;
+    }
+
+    ul {
+      display: none;
+      height: 100%;
+    }
+
+    label {
+      @include background-image(linear-gradient(#015B4A, #004538 90%));
+      @include font-copperplate;
+      font-size: 24px;
+      color: #e5dea8;
+      background-color: blue;
+      position: relative;
+      display: block;
+      height: 25px;
+      margin: 0 0 25px 0;
+      padding: 2px;
+      width: 98%;
+    }
+
+    label:after {
+        position: absolute;
+        //content: "\2261";
+        content: "Menu";
+    }
+
+    input:checked ~ ul {
+      display: block;
+
+      > li {
+        width: 100%;
+      }
+    }
   }
 
-  .flexslider span.views-label {
-    display: none;
+  .html #logo {
+    @include zen-grid-item(1, 1);
+    padding: 5px 0;
+    border-right: none;
   }
 
-  .button-link {
+  .html .block-search {
+    @include zen-grid-item(1, 2.5);
+    padding: 5px 0;
+    margin-bottom: 0;
+    height: 25px;
+
+    .custom-search-default-value {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .form-submit {
+      position: relative;
+      top: -37px;
+      right: -100%;
+      margin-bottom: -18px;
+      margin: 12px;
+      padding: 0;
+    }
+  }
+
+  .html #block-menu-menu-header-navigation {
     @include zen-grid-item(3, 1);
     @include zen-clear();
 
-    &:hover {
-      @include zen-grid-item(3, 1);
-      @include zen-clear();
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        border: none;
+        padding: 5px 10px 5px 0;
+      }
     }
   }
 
-  .pane-views-testimonial-block {
+  .html #navigation {
+    margin-top: 15px;
+    li.last {
+      width: 38%;
+    }
+  }
+
+  .html .mission-statement {
+    margin-bottom: -5px;
+    margin-top: 60px;
+  }
+
+  .html .pane-views-viewbook-block {
+    @include zen-grid-item(3,1);
+    @include zen-clear();
+
+    .views-field-body {
+      padding-top: 30px;
+    }
+
+    .flex-control-nav {
+      top: -95px;
+      left: -5px;
+    }
+
+    .views-field-body .field-content {
+      @include zen-grid-item(3, 1);
+    }
+
+    span.views-label {
+      display: none;
+    }
+  }
+
+  .html .pane-mission-respondable-front-buttons-front-buttons {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+
+    .button-link {
       @include zen-grid-item(3, 1);
       @include zen-clear();
-  }
 
-  .pane-views-testimonial-block .view-content div {
-    max-height: 100%;
-  }
-
-  .pane-views-testimonial-block {
-    img {
-      @include zen-grid-item(3, 1.5);
-      @include zen-clear();
+      &:hover {
+        @include zen-grid-item(3, 1);
+      }
     }
+  }
+
+  .html .pane-views-testimonial-block {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+    margin-bottom: 25px;
 
     .views-field-title,
     .views-field-body,
     .views-field-path {
-      @include zen-grid-item(2.7, 1);
-      @include zen-clear();
-    }
-  }
-
-  .view-featured-news {
       @include zen-grid-item(3, 1);
       @include zen-clear();
-  }
-
-  .view-featured-news {
-    .views-field-field-news-image {
-      @include zen-grid-item(3, 1);
     }
 
     .views-field-title {
-      @include zen-grid-item(1.5, 2.5);
+      margin-top: 0;
+    }
+
+    .views-field-body .field-content {
+      padding-left: 25px;
     }
   }
+
+  .html .pane-views-featured-news-block {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+
+    li {
+      @include zen-clear();
+      padding: 0;
+    }
+
+    .pane-title {
+      margin-top: 0;
+    }
+
+    .views-field-field-news-image {
+    }
+
+    .views-field-title {
+      @include zen-clear();
+      height: auto;
+      margin: 10px -5px;
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .html .icon-coplac_logo {
+    display: block;
+    margin-left: 0;
+  }
+
+  .html .icon-waht_will_they_learn_logo {
+    display: block;
+  }
+
+  .html .block-mission-respondable-footer p {
+    @include zen-grid-item(3, 1);
+    margin: 0;
+  }
+
+  .html #block-mission-respondable-footer-footer-contact {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+    background: none;
+    height: auto;
+    margin: 0;
+  }
+
+  .html #block-menu-menu-footer-navigation {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+    margin-top:0;
+    line-height: 12px;
+
+    ul, .menu {
+      margin: 0;
+      padding: 0;
+    }
+
+    .last {
+      padding-top: 5px;
+    }
+  }
+}
+
+@media all and (min-width: 631px) and (max-width: 959px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
 
 
   /*

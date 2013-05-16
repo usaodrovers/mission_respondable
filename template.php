@@ -129,7 +129,6 @@ function mission_respondable_preprocess_maintenance_page(&$variables, $hook) {
  *   The name of the template being rendered ("html" in this case.)
  */
 function mission_respondable_preprocess_html(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
 

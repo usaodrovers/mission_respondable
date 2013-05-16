@@ -9,7 +9,6 @@
 
 @import "base";
 
-
 /*
  * Body
  */
@@ -298,6 +297,11 @@ $primary-nav: #007161;
 
 html {
   background: url("../images/pretties.png") no-repeat top center #083228;
+  background-size: contain;
+}
+
+html, body {
+  min-width: 100%;
 }
 
 #block-menu-menu-header-navigation li {
@@ -323,6 +327,7 @@ html {
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   height: auto;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .region-header {
@@ -342,11 +347,8 @@ html {
   border-right: 1px solid #062A21;
 }
 
-#block-search-form {
+.block-search {
   padding-left: 20px;
-}
-
-#block-search-form.block {
   margin-bottom: -10px;
 }
 
@@ -359,12 +361,10 @@ input.custom-search-default-value {
   padding-left: 10px;
 }
 
-#block-search-form .form-submit {
+.block-search .form-submit {
   height: 25px;
   max-width: 100%;
-  width: 25px;
   padding-top: 12px;
-  margin: -6px -6px;
 }
 
 #navigation {
@@ -401,18 +401,44 @@ input.custom-search-default-value {
   text-shadow: none;
 }
 
+nav[role="navigation"] {
+  label {
+    display: none;
+  }
+}
+
+/* Fix for Android */
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+  from { padding: 0; }
+  to { padding: 0; }
+}
+
+/* default checkbox */
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
 hgroup {
   display: none;
 }
 
-.mission-statement {
+.mission-statement p {
   @include font-myriadpro_italic;
   font-size: 14px;
   color: #F9E08E;
   background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   text-align: center;
-  height: 25px;
 }
 
 .flexslider {
@@ -473,10 +499,8 @@ hgroup {
   display: inline-block;
   color: #F9E08E;
   font-size: 14px;
-  width: 54%;
   height: 71px;
   position: relative;
-  margin-left: 260px;
   @include font-myriadpro;
 }
 
@@ -545,7 +569,6 @@ hgroup {
 }
 
 .pane-views-testimonial-block .view-content div {
-  float: left;
   background-color: #F7F4DE;
   max-height: 177px;
 
@@ -813,7 +836,6 @@ hgroup {
 
 .section-news .panel-flexible .center {
    background-color: #F7F4DE;
-   width: 382px;
 }
 
 .section-news .panel-flexible .center .panels-flexible-region-inside {
