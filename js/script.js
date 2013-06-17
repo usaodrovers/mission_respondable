@@ -11,9 +11,12 @@
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
-
-
-// Place your code here.
-
-
+  Drupal.behaviors.drupaldeveloper = {
+    attach: function (context, settings) {
+      $(".html.section-news .news").before('<div id="menu">☰</div>');
+      $("#menu", context).click(function() {
+        $(".html.section-news .news").toggleClass("open");
+      });
+    }
+  };
 })(jQuery, Drupal, this, this.document);

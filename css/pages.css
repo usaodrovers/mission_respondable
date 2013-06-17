@@ -9,7 +9,7 @@
 /*
  * Body
  */
-/* line 16, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000316}}
 body {
   margin: 0;
   padding: 0;
@@ -19,11 +19,11 @@ body {
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-/* line 29, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000329}}
 #skip-link {
   margin: 0;
 }
-/* line 33, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000333}}
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -37,7 +37,7 @@ body {
 /*
  * Header
  */
-/* line 50, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000350}}
 #logo {
   /* Wrapping link for logo */
   float: left;
@@ -45,44 +45,44 @@ body {
   margin: 0;
   padding: 0;
 }
-/* line 55, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000355}}
 #logo img {
   vertical-align: bottom;
 }
 
-/* line 60, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000360}}
 #name-and-slogan {
   /* Wrapper for website name and slogan */
   float: left;
 }
 
-/* line 64, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000364}}
 #site-name {
   /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
 }
-/* line 70, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000370}}
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 76, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000376}}
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-/* line 81, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000381}}
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-/* line 86, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\0000386}}
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -95,16 +95,16 @@ body {
 /*
  * Content
  */
-/* line 107, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003107}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-/* line 108, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003108}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-/* line 112, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003112}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -112,7 +112,7 @@ body {
   padding: 0;
 }
 
-/* line 125, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003125}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -123,37 +123,37 @@ h3.title {
   margin: 0;
 }
 
-/* line 129, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003129}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 133, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003133}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 137, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003137}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-/* line 140, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003140}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 146, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003146}}
 div.status {
   /* Normal priority messages */
 }
 
-/* line 150, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003150}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -161,53 +161,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 155, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003155}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-/* line 158, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003158}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-/* line 162, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003162}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-/* line 166, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003166}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-/* line 169, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003169}}
 .region-help {
   /* Help text on a page */
 }
 
-/* line 172, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003172}}
 .more-help-link {
   /* Link to more help */
 }
 
-/* line 175, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003175}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-/* line 178, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003178}}
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-/* line 182, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003182}}
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -215,30 +215,30 @@ ul.inline li {
   /* LTR */
 }
 
-/* line 188, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003188}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-/* line 192, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003192}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-/* line 195, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003195}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-/* line 200, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003200}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 203, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003203}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -261,7 +261,7 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 237, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003237}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
@@ -270,28 +270,27 @@ span.field-label {
 /* Fonts */
 /* Colors */
 /* Configs */
-/* line 298, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003298}}
 html {
-  background: url("../images/pretties.png") no-repeat top center #083228;
-  background-size: contain;
+  background: url("../images/pretties.png") no-repeat scroll center top #083228;
 }
 
-/* line 303, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003302}}
 html, body {
   min-width: 100%;
 }
 
-/* line 307, ../sass/pages.scss */
-#block-menu-menu-header-navigation li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003306}}
+#secondary-menu li {
   list-style: none;
   height: 27px;
   float: left;
-  padding: 5px 20px;
+  padding: 5px 1%;
   border-right: 1px solid #062A21;
 }
 
-/* line 315, ../sass/pages.scss */
-#block-menu-menu-header-navigation li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003314}}
+#secondary-menu li a {
   text-decoration: none;
   color: #e5dea8;
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
@@ -301,7 +300,7 @@ html, body {
   letter-spacing: .88px;
 }
 
-/* line 325, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003324}}
 #header {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
@@ -315,34 +314,34 @@ html, body {
   padding: 0;
 }
 
-/* line 333, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003332}}
 .region-header {
   clear: none;
 }
 
-/* line 337, ../sass/pages.scss */
-#block-menu-menu-header-navigation ul {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003336}}
+#secondary-menu ul {
   margin: 0;
 }
 
-/* line 341, ../sass/pages.scss */
-#block-menu-menu-header-navigation.block {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003340}}
+#secondary-menu.block {
   margin: 0;
 }
 
-/* line 345, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003344}}
 #logo {
-  padding: 5px 20px;
+  padding: 5px 1%;
   border-right: 1px solid #062A21;
 }
 
-/* line 350, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003349}}
 .block-search {
   padding-left: 20px;
   margin-bottom: -10px;
 }
 
-/* line 355, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003354}}
 input.custom-search-default-value {
   margin-left: 20px;
   border-radius: 3px 0 0 3px;
@@ -352,14 +351,14 @@ input.custom-search-default-value {
   padding-left: 10px;
 }
 
-/* line 364, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003363}}
 .block-search .form-submit {
   height: 25px;
   max-width: 100%;
   padding-top: 12px;
 }
 
-/* line 370, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003369}}
 #navigation {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-style: normal;
@@ -370,10 +369,9 @@ input.custom-search-default-value {
   margin-top: 225px;
   position: relative;
   z-index: 200;
-  margin-bottom: -25px;
 }
 
-/* line 383, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003381}}
 #navigation li a {
   color: white;
   text-decoration: none;
@@ -381,7 +379,7 @@ input.custom-search-default-value {
   padding-left: 12px;
 }
 
-/* line 390, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003388}}
 #navigation ul.links li.last {
   background-color: #FFD457;
   margin-left: 15px;
@@ -389,7 +387,7 @@ input.custom-search-default-value {
   padding: 0;
 }
 
-/* line 397, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003395}}
 #navigation li.last a {
   color: #007161;
   padding: 0 10px 0 10px;
@@ -397,49 +395,49 @@ input.custom-search-default-value {
   text-shadow: none;
 }
 
-/* line 405, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003403}}
 nav[role="navigation"] label {
   display: none;
 }
 
 /* Fix for Android */
-/* line 411, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003409}}
 body {
   -webkit-animation: bugfix infinite 1s;
 }
 
 @-webkit-keyframes bugfix {
-  /* line 415, ../sass/pages.scss */
+  /* line 413, ../sass/pages.scss */
   from {
     padding: 0;
   }
 
-  /* line 416, ../sass/pages.scss */
+  /* line 414, ../sass/pages.scss */
   to {
     padding: 0;
   }
 }
 
 /* default checkbox */
-/* line 420, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003418}}
 input[type=checkbox] {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 426, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003424}}
 label {
   cursor: pointer;
   user-select: none;
 }
 
-/* line 431, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003429}}
 hgroup {
   display: none;
 }
 
-/* line 435, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003433}}
 .mission-statement p {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -456,7 +454,7 @@ hgroup {
   text-align: center;
 }
 
-/* line 444, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003442}}
 .flexslider {
   background: #0A4436;
   border: 5px #0A4436 solid;
@@ -464,21 +462,21 @@ hgroup {
   margin-bottom: 0;
 }
 
-/* line 451, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003449}}
 .flex-control-nav {
-  top: -65px;
+  top: -45px;
   left: -15px;
   position: relative;
   width: 16%;
 }
 
-/* line 458, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003456}}
 .flex-control-nav li {
   display: inline-block;
   margin: 0 2px;
 }
 
-/* line 463, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003461}}
 .flex-control-paging li a {
   background: none repeat scroll 0 0 #0A4436;
   border: 2px solid #E5DEA8;
@@ -491,20 +489,20 @@ hgroup {
   width: 11px;
 }
 
-/* line 475, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003473}}
 .flex-control-paging li a.flex-active {
   background: none repeat scroll 0 0 #EDC551;
   cursor: default;
   box-shadow: inset -2px 1px 2px gray;
 }
 
-/* line 481, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003479}}
 .flexslider .views-field-body {
   display: inline-block;
   padding-top: 7px;
 }
 
-/* line 486, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003484}}
 .flexslider .views-field-body span.views-label {
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
   font-weight: 400;
@@ -519,36 +517,36 @@ hgroup {
   margin-top: 9px;
 }
 
-/* line 498, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003496}}
 .flexslider .views-field-body .field-content {
   display: inline-block;
   color: #F9E08E;
   font-size: 14px;
-  height: 71px;
+  height: 45px;
   position: relative;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 507, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003505}}
 .flexslider .views-field-body .field-content p {
   margin: 0;
 }
 
-/* line 511, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003509}}
 .button-link {
   margin-top: 15px;
   padding: 32px 0 0;
   list-style: none;
 }
 
-/* line 517, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003515}}
 .pane-mission-respondable-front-buttons-front-buttons {
-  margin-top: -5px;
+  margin-top: 10px;
 }
 
-/* line 521, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003519}}
 .button-link {
   color: #FFD457;
   text-align: center;
@@ -564,12 +562,12 @@ hgroup {
   padding-top: 20px;
   display: inline-block;
 }
-/* line 531, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003529}}
 .button-link.last {
   margin-right: -5px;
 }
 
-/* line 538, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003536}}
 .button-link:hover {
   border: 2px solid #FFD457;
   width: 177px;
@@ -577,7 +575,7 @@ hgroup {
   padding-top: 16px;
 }
 
-/* line 545, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003543}}
 .oversized-text {
   text-transform: uppercase;
   font-size: 32px;
@@ -586,7 +584,7 @@ hgroup {
   font-style: normal;
 }
 
-/* line 551, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003549}}
 .pane-views-testimonial-block .pane-title {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
@@ -600,10 +598,10 @@ hgroup {
   position: relative;
   top: -5px;
   height: 38px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
-/* line 562, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003560}}
 .pane-views-testimonial-block .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
@@ -615,12 +613,11 @@ hgroup {
   font-style: normal;
 }
 
-/* line 571, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003569}}
 .pane-views-testimonial-block .view-content div {
   background-color: #F7F4DE;
-  max-height: 177px;
 }
-/* line 575, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003572}}
 .pane-views-testimonial-block .view-content div.bqstart, .pane-views-testimonial-block .view-content div.bqend {
   float: none;
   display: inline;
@@ -629,29 +626,28 @@ hgroup {
   font-style: normal;
 }
 
-/* line 582, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003579}}
 .pane-views-testimonial-block .views-field-title {
   margin-top: 5px;
   padding-bottom: 2px;
 }
 
-/* line 587, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003584}}
 .pane-views-testimonial-block .views-field-title a {
   color: #007161;
   text-decoration: none;
-  padding-left: 25px;
   font-size: 14px;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 595, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003591}}
 .not-logged-in .pane-views-testimonial-block .views-field-edit-node {
   display: none;
 }
 
-/* line 599, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003595}}
 .pane-views-testimonial-block .views-field-edit-node {
   position: absolute;
   top: 0;
@@ -659,7 +655,7 @@ hgroup {
   padding: 14px;
 }
 
-/* line 606, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003602}}
 .pane-views-testimonial-block .views-field-body .field-content {
   padding-right: 5px;
   font-size: 17px;
@@ -669,22 +665,21 @@ hgroup {
   line-height: 20px;
 }
 
-/* line 613, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003609}}
 .pane-views-testimonial-block .views-field-path a {
   color: #007161;
   text-decoration: none;
-  padding-left: 25px;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-/* line 620, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003615}}
 .pane-views-featured-news-block {
   background-color: #F7F4DE;
 }
 
-/* line 624, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003619}}
 .pane-views-featured-news-block .pane-title {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
@@ -698,14 +693,14 @@ hgroup {
   font-style: normal;
   line-height: 1.8em;
   margin-bottom: -4px;
+  margin-top: 0;
   position: relative;
   top: -5px;
   height: 38px;
-  margin-top: 208px;
   clear: both;
 }
 
-/* line 637, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003632}}
 .pane-views-featured-news-block .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
@@ -717,7 +712,7 @@ hgroup {
   font-style: normal;
 }
 
-/* line 646, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003641}}
 .view-featured-news ul li {
   border-bottom: 1px solid #DBD6AE;
   margin-top: 15px;
@@ -725,18 +720,18 @@ hgroup {
   list-style: none;
 }
 
-/* line 653, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003648}}
 .view-featured-news li div {
   display: block;
   height: 70px;
 }
 
-/* line 658, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003653}}
 .view-featured-news .views-field-field-news-image {
   margin-left: -5px;
 }
 
-/* line 662, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003657}}
 .view-featured-news .views-field-title {
   display: table;
   height: 95px;
@@ -745,13 +740,13 @@ hgroup {
   margin-top: -105px;
 }
 
-/* line 670, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003665}}
 .view-featured-news .views-field-title span {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 675, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003670}}
 .view-featured-news .views-field-title span a {
   text-decoration: none;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
@@ -761,45 +756,18 @@ hgroup {
   font-size: 16px;
 }
 
-/* line 682, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003677}}
 .block-mission-respondable-footer {
   border-top: 1px solid #056553;
 }
 
-/* line 686, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003681}}
 .block-mission-respondable-footer li {
   list-style: none;
   display: inline;
 }
 
-/* line 691, ../sass/pages.scss */
-.icon-pinterest_logo {
-  background: url("../images/pinterest.png");
-  display: inline-block;
-  height: 34px;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  width: 33px;
-  margin-left: -5%;
-  position: relative;
-  top: -9px;
-}
-
-/* line 704, ../sass/pages.scss */
-.icon-googleplus_logo {
-  background: url("../images/googleplus.png");
-  display: inline-block;
-  height: 34px;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  width: 33px;
-  position: relative;
-  top: -9px;
-}
-
-/* line 716, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003686}}
 .icon-facebook_logo {
   background: url("../images/facebook.png");
   display: inline-block;
@@ -810,9 +778,10 @@ hgroup {
   width: 33px;
   position: relative;
   top: -9px;
+  margin-left: -5%;
 }
 
-/* line 728, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003699}}
 .icon-twitter_logo {
   background: url("../images/twitter.png");
   display: inline-block;
@@ -825,7 +794,7 @@ hgroup {
   top: -9px;
 }
 
-/* line 740, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003711}}
 .icon-youtube_logo {
   background: url("../images/youtube.png");
   display: inline-block;
@@ -838,7 +807,33 @@ hgroup {
   top: -9px;
 }
 
-/* line 752, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003723}}
+.icon-googleplus_logo {
+  background: url("../images/googleplus.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003735}}
+.icon-pinterest_logo {
+  background: url("../images/pinterest.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003747}}
 .icon-coplac_logo {
   background: url("../images/coplac.png");
   display: inline-block;
@@ -847,10 +842,10 @@ hgroup {
   text-indent: 100%;
   white-space: nowrap;
   width: 141px;
-  margin-left: 21%;
+  margin-left: 18%;
 }
 
-/* line 763, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003758}}
 .icon-what_will_they_learn_logo {
   background: url("../images/WHATwillTHEYlearn.png");
   display: inline-block;
@@ -860,15 +855,16 @@ hgroup {
   white-space: nowrap;
   width: 139px;
   margin-right: -5px;
+  margin-left: 2%;
 }
 
-/* line 774, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003770}}
 #block-mission-respondable-footer-footer-contact {
   background: url("../images/pretties2.png") 50% 0 no-repeat;
   height: 145px;
 }
 
-/* line 779, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003775}}
 .block-mission-respondable-footer p {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -879,7 +875,7 @@ hgroup {
   line-height: 16px;
 }
 
-/* line 787, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003783}}
 .block-mission-respondable-footer p a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -891,13 +887,13 @@ hgroup {
   line-height: 16px;
 }
 
-/* line 796, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003792}}
 #block-menu-menu-footer-navigation {
   margin-top: -92px;
   margin-left: -30px;
 }
 
-/* line 801, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003797}}
 #block-menu-menu-footer-navigation li {
   list-style: none;
   display: inline-block;
@@ -907,7 +903,7 @@ hgroup {
   height: 12px;
 }
 
-/* line 810, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003806}}
 #block-menu-menu-footer-navigation li a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -917,13 +913,13 @@ hgroup {
   text-decoration: none;
 }
 
-/* line 817, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003813}}
 #block-menu-menu-footer-navigation li.first {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 822, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003818}}
 #block-menu-menu-footer-navigation li.last {
   display: block;
   border-left: none;
@@ -931,51 +927,51 @@ hgroup {
   padding-top: 2px;
 }
 
-/* line 829, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003825}}
 #block-menu-menu-footer-navigation li.last a {
   color: #999999;
 }
 
-/* line 833, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003829}}
 .panels-flexible-region-2-center {
   width: 100%;
 }
 
-/* line 837, ../sass/pages.scss */
-.section-news .panel-flexible .center {
-  background-color: #F7F4DE;
-}
-
-/* line 841, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003833}}
 .section-news .panel-flexible .center .panels-flexible-region-inside {
   padding: 0;
 }
 
-/* line 845, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003837}}
 .page-news #navigation {
   margin-bottom: 50px;
 }
 
-/* line 849, ../sass/pages.scss */
-.top-news h2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003841}}
+.section-news .top-news {
+  background-color: #F7F4DE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003845}}
+.top-news .pane-title {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
   color: #FFD457;
   background-color: rgba(1, 90, 73, 0.5);
-  margin: -66px 0 0 0;
   padding: 1px 15px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
-/* line 859, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003855}}
 .top-news .views-field-title {
   margin: 15px 15px -20px 15px;
   line-height: 18px;
 }
 
-/* line 864, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003860}}
 .top-news .views-field-title a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 600;
@@ -985,7 +981,7 @@ hgroup {
   text-decoration: none;
 }
 
-/* line 871, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003867}}
 .top-news .views-field-body {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -995,31 +991,37 @@ hgroup {
   margin-right: 15px;
   margin-left: 15px;
   line-height: 18px;
+  padding-bottom: 1px;
 }
 
-/* line 880, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003877}}
+.section-news .latest-news {
+  background-color: #F7F4DE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003881}}
 .latest-news .views-row {
   border-top: 1px solid #D7D3AB;
-  padding-top: 25px;
+  padding: 25px 0;
   margin: 0 15px;
 }
 
-/* line 886, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003887}}
 .latest-news .views-field-field-news-image {
   float: left;
 }
 
-/* line 890, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003891}}
 .latest-news .views-field-field-news-image {
   margin-right: 15px;
 }
 
-/* line 894, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003895}}
 .latest-news .views-field-title {
   line-height: 18px;
 }
 
-/* line 898, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003899}}
 .latest-news .views-field-title a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 600;
@@ -1029,7 +1031,7 @@ hgroup {
   text-decoration: none;
 }
 
-/* line 905, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003906}}
 .latest-news .views-field-body {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -1040,7 +1042,7 @@ hgroup {
   margin-bottom: 25px;
 }
 
-/* line 913, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003914}}
 .latest-news .item-list {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -1051,25 +1053,25 @@ hgroup {
   color: #F7F4DE;
 }
 
-/* line 921, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003922}}
 .latest-news .item-list ul {
   margin: 0;
 }
 
-/* line 925, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003926}}
 .latest-news .item-list li a {
   color: #F7F4DE;
   text-decoration: none;
 }
 
-/* line 930, ../sass/pages.scss */
-.section-news .panel-flexible .headlines {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003931}}
+.section-news .headlines {
   background-color: #F7F4DE;
   width: 195px;
 }
 
-/* line 935, ../sass/pages.scss */
-.section-news .panel-flexible .headlines .pane-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003936}}
+.section-news .headlines .pane-title {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -1077,10 +1079,11 @@ hgroup {
   background-image: -o-linear-gradient(#015b4a, #004538 90%);
   background-image: -ms-linear-gradient(#015b4a, #004538 90%);
   background-image: linear-gradient(#015b4a, #004538 90%);
+  margin-top: 0;
 }
 
-/* line 940, ../sass/pages.scss */
-.section-news .panel-flexible .headlines .pane-title a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003942}}
+.section-news .headlines .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 15px;
@@ -1093,13 +1096,13 @@ hgroup {
   position: relative;
 }
 
-/* line 951, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003953}}
 .headlines .views-field-title {
   line-height: 18px;
   padding-bottom: 20px;
 }
 
-/* line 956, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003958}}
 .headlines .views-field-title a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 600;
@@ -1109,20 +1112,20 @@ hgroup {
   text-decoration: none;
 }
 
-/* line 963, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003965}}
 .headlines .views-row {
   border-top: 1px solid #D7D3AB;
   padding-top: 25px;
   margin: 0 15px;
 }
 
-/* line 969, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003971}}
 .headlines .views-row-first {
   border-top: none;
   padding-top: 0;
 }
 
-/* line 974, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003976}}
 .headlines .item-list {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -1133,26 +1136,25 @@ hgroup {
   color: #F7F4DE;
 }
 
-/* line 982, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003984}}
 .headlines .item-list ul {
   margin: 0;
 }
 
-/* line 986, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003988}}
 .headlines .item-list li a {
   color: #F7F4DE;
   text-decoration: none;
 }
 
-/* line 991, ../sass/pages.scss */
-.section-news .panel-flexible .news {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003993}}
+.section-news .news {
   background-color: #F7F4DE;
   width: 195px;
-  margin-top: -90px;
 }
 
-/* line 997, ../sass/pages.scss */
-.section-news .panel-flexible .news .pane-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003998}}
+.section-news .news .pane-title {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -1160,10 +1162,11 @@ hgroup {
   background-image: -o-linear-gradient(#015b4a, #004538 90%);
   background-image: -ms-linear-gradient(#015b4a, #004538 90%);
   background-image: linear-gradient(#015b4a, #004538 90%);
+  margin-top: 0;
 }
 
-/* line 1002, ../sass/pages.scss */
-.section-news .panel-flexible .news .pane-title a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031004}}
+.section-news .news .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 15px;
@@ -1176,32 +1179,32 @@ hgroup {
   position: relative;
 }
 
-/* line 1013, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031015}}
 .news ul {
   padding: 0;
   margin: -10px 0 0 0;
 }
 
-/* line 1018, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031020}}
 .news li {
   border-top: 1px solid #D7D3AB;
   padding-top: 15px;
   margin: 0 15px;
 }
 
-/* line 1024, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031026}}
 .news li.leaf {
   list-style-image: none;
   list-style-type: none;
 }
 
-/* line 1029, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031031}}
 .news li.first {
   border-top: none;
   padding-top: 0;
 }
 
-/* line 1034, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031036}}
 .news li a {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 600;
@@ -1213,18 +1216,17 @@ hgroup {
   display: block;
 }
 
-/* line 1043, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031045}}
 .node-type-news #content {
-  margin-top: -70px;
+  margin-top: 25px;
 }
 
-/* line 1047, ../sass/pages.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031049}}
 .node-type-news .title {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 400;
   font-style: normal;
   position: relative;
-  top: 345px;
   z-index: 100;
   background-color: rgba(1, 90, 73, 0.5);
   color: #FFD457;
@@ -1232,7 +1234,35 @@ hgroup {
   font-size: 32px;
 }
 
-/* line 1058, ../sass/pages.scss */
-.node-type-news article {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031059}}
+.node-type-news .masthead {
+  position: relative;
+  top: -123px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031064}}
+.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #007161;
+  font-size: 18px;
+  background-color: rgba(235, 234, 213, 0.5);
+  height: 30px;
+  padding: 5px 0 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031073}}
+.node-type-news .field-name-field-news-published {
+  margin-bottom: -150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031077}}
+.node-type-news .field-name-body {
   background-color: #F7F4DE;
+  padding-top: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031081}}
+.node-type-news .field-name-body p {
+  margin: 0 15px;
 }
