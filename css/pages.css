@@ -1233,13 +1233,13 @@ hgroup {
   color: #FFD457;
   padding: 0 15px;
   font-size: 32px;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031061}}
 .node-type-news .masthead {
   position: relative;
-  top: -153px;
+  top: -140px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031066}}
