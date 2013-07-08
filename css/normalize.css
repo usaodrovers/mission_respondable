@@ -193,9 +193,9 @@ h2 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/normalize\.scss}line{font-family:\00003219}}
 h3 {
   font-size: 1.17em;
-  line-height: 1.282em;
-  margin-top: 1.282em;
-  margin-bottom: 1.282em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 1.28205em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/normalize\.scss}line{font-family:\00003225}}
@@ -209,9 +209,9 @@ h4 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/normalize\.scss}line{font-family:\00003231}}
 h5 {
   font-size: 0.83em;
-  line-height: 1.807em;
-  margin-top: 1.807em;
-  margin-bottom: 1.807em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 1.80723em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/normalize\.scss}line{font-family:\00003237}}
@@ -474,17 +474,17 @@ fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
   border-top-style: solid;
-  border-top-width: 0.063em;
-  padding-top: 0.462em;
+  border-top-width: 0.0625em;
+  padding-top: 0.4625em;
   border-bottom-style: solid;
-  border-bottom-width: 0.063em;
-  padding-bottom: 0.913em;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.9125em;
   border-left-style: solid;
-  border-left-width: 0.063em;
-  padding-left: 0.913em;
+  border-left-width: 0.0625em;
+  padding-left: 0.9125em;
   border-right-style: solid;
-  border-right-width: 0.063em;
-  padding-right: 0.913em;
+  border-right-width: 0.0625em;
+  padding-right: 0.9125em;
 }
 
 /*
