@@ -1089,3 +1089,11 @@ hgroup {
   position:relative;
   z-index: 200;
 }
+
+#page {
+  background-color: #F7F4DE;
+}
+
+.front #page, .section-news #page {
+  background-color: none;
+}
