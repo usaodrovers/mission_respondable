@@ -169,7 +169,7 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003180}}
-  .html .block-search .custom-search-default-value {
+  .html .block-search .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
@@ -478,7 +478,7 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003420}}
-  .html .block-search .custom-search-default-value {
+  .html .block-search .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
@@ -750,7 +750,7 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003594}}
-  .html .block-search .custom-search-default-value {
+  .html .block-search .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
