@@ -341,7 +341,7 @@ html, body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003354}}
-input.custom-search-default-value {
+input.custom-search-box {
   margin-left: 20px;
   border-radius: 3px 0 0 3px;
   background-color: #EAE6CD;
