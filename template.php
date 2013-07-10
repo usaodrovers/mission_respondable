@@ -227,6 +227,8 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
 
 function mission_respondable_prevnext($nid, $ntype) {
 
+  $ntype = "testimonial";
+
   $prev = db_query("SELECT nid, title FROM {node} WHERE nid < :nid AND type = :ntype AND status = 1 ORDER BY nid DESC LIMIT 1", array(':nid' => $nid, ':ntype' => $ntype));
 
   $next = db_query("SELECT nid, title FROM {node} WHERE nid > :nid AND type = :ntype AND status = 1 ORDER BY nid ASC LIMIT 1", array(':nid' => $nid, ':ntype' => $ntype));
