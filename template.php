@@ -224,34 +224,3 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
-
-function mission_respondable_prevnext($nid, $ntype) {
-
-  $ntype = "testimonial";
-
-  $prev = db_query("SELECT nid, title FROM {node} WHERE nid < :nid AND type = :ntype AND status = 1 ORDER BY nid DESC LIMIT 1", array(':nid' => $nid, ':ntype' => $ntype));
-
-  $next = db_query("SELECT nid, title FROM {node} WHERE nid > :nid AND type = :ntype AND status = 1 ORDER BY nid ASC LIMIT 1", array(':nid' => $nid, ':ntype' => $ntype));
-
-  foreach ($prev as $prev_node) {
-
-    $prev_link = '<a href="/' . drupal_lookup_path('alias', 'node/' . $prev_node->nid) . '" title="previous"><span>' .$prev_node->title. '</span></a>';
-
-  }
-
-  foreach ($next as $next_node) {
-
-    $next_link = '<a href="/' . drupal_lookup_path('alias', 'node/' . $next_node->nid) . '" title="next"><span>' .$next_node->title. '</span></a>';
-
-  }
-
-  $output = '
-    <ul id="erf_pager">
-      <li>'. $prev_link .'</li>
-      <li>'. $next_link .'</li>
-    </ul>
-  ';
-
-return $output;
-
-}
