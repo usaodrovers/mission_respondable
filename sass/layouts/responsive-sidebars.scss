@@ -623,7 +623,7 @@ $zen-auto-include-item-base: false;
     @include zen-clear();
 
     .views-field-body .field-content {
-      @include zen-grid-item(7 , 4.8);
+      @include zen-grid-item(7.3 , 4.8);
     }
 
   }
