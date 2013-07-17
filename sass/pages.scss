@@ -1152,6 +1152,17 @@ hgroup {
   padding: 0 15px;
 }
 
+.node-type-testiminoial .field-name-field-testimonial-major {
+    background-color: rgba(235, 234, 213, 0.7);
+    color: #007161;
+    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    height: 30px;
+    padding: 5px 0 0 30px;
+}
+
 .view-testimonial .views-field-title a {
   @include font-myriadpro_semibold;
   font-size: 14px;
