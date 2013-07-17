@@ -1227,7 +1227,7 @@ hgroup {
   z-index: 100;
   background-color: rgba(1, 90, 73, 0.5);
   color: #FFD457;
-  padding: 5px 15px;
+  padding: 5px 30px;
   font-size: 32px;
   line-height: 1em;
   height: 65px;
@@ -1248,7 +1248,7 @@ hgroup {
   font-size: 18px;
   background-color: rgba(235, 234, 213, 0.7);
   height: 30px;
-  padding: 5px 0 0 15px;
+  padding: 5px 0 0 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031079}}
