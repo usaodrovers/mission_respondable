@@ -1116,6 +1116,7 @@ hgroup {
 .section-testimonials #content, .section-search #content {
   background-color: #F7F4DE;
   margin-top: 40px;
+  padding: 0;
 }
 
 .node-type-testimonial .title {
@@ -1129,4 +1130,9 @@ hgroup {
   line-height: 1em;
   height: 65px;
   top: -80px;
+  margin-bottom: -80px;
+}
+
+.node-type-testimonial .field-name-body {
+  padding: 0 10px;
 }
