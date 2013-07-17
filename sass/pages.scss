@@ -1113,7 +1113,7 @@ hgroup {
   z-index: 200;
 }
 
-.page-testimonials h1 {
+.page-testimonials h1, .section-search h1 {
   text-transform: uppercase;
   font-size: 32px;
   @include font-myriadprocondensed;
@@ -1149,7 +1149,6 @@ hgroup {
   font-size: 14px;
   color: #007161;
   text-decoration: none;
-  margin: 0 15px;
 }
 
 .view-testimonial .views-field-field-testimonial-image {
