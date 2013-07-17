@@ -1305,13 +1305,31 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031116}}
+.page-testimonials h1.page-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFD457;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  padding-left: 15px;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031127}}
 .section-testimonials #content, .section-search #content {
   background-color: #F7F4DE;
   margin-top: 40px;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031133}}
 .node-type-testimonial .title {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 400;
@@ -1328,7 +1346,7 @@ hgroup {
   margin-bottom: -80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031147}}
 .node-type-testimonial .field-name-body {
   padding: 0 10px;
 }

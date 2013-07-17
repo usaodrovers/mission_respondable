@@ -1113,6 +1113,17 @@ hgroup {
   z-index: 200;
 }
 
+.page-testimonials h1.page-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  @include font-myriadprocondensed;
+  color: #FFD457;
+  background-color: #004538;
+  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  padding-left: 15px;
+  margin: 0;
+}
+
 .section-testimonials #content, .section-search #content {
   background-color: #F7F4DE;
   margin-top: 40px;
