@@ -1086,6 +1086,9 @@ hgroup {
 
   p {
     margin: 1em 30px;
+    @include font-myriadpro;
+    color: #575757;
+    line-height: 18px;
   }
 }
 
