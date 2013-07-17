@@ -1153,6 +1153,7 @@ hgroup {
   font-size: 14px;
   color: #007161;
   text-decoration: none;
+  margin: 0 15px;
 }
 
 .view-testimonial .views-field-body {
@@ -1160,11 +1161,14 @@ hgroup {
   font-size: 14px;
   color: #575757;
   line-height: 18px;
-  margin-bottom: 25px;
+  margin: 0 15px 25px 15px;
 }
 
 .view-testimonial .views-row {
     border-top: 1px solid #D7D3AB;
-    margin: 0 15px;
     padding: 25px 0 0 0;
+}
+
+.view-testimonial .views-row-first {
+  padding: 0;
 }
