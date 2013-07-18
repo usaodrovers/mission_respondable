@@ -1133,6 +1133,13 @@ hgroup {
   margin-bottom: 25px;
 }
 
+.section-search h2 {
+  @include font-myriadpro_semibold;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
 .node-type-testimonial .title {
   @include font-myriadprocondensed;
   position: relative;
