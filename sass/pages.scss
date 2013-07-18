@@ -1134,6 +1134,10 @@ hgroup {
   padding: 0 15px;
 }
 
+.section-search h1 {
+  padding: 0;
+}
+
 .node-type-testimonial .title {
   @include font-myriadprocondensed;
   position: relative;
