@@ -491,7 +491,7 @@ $zen-auto-include-item-base: false;
     .views-field-field-testimonial-image {
       @include zen-grid-item(3, 1);
       line-height: 0;
-      margin-bottom: 0;
+      margin-bottom: -180px;
       margin-top: -1px;
     }
 
@@ -664,7 +664,7 @@ $zen-auto-include-item-base: false;
     .views-field-field-testimonial-image {
       @include zen-grid-item(7, 1);
       line-height: 0;
-      margin-bottom: 0;
+      margin-bottom: -180px;
       margin-top: -1px;
     }
 
