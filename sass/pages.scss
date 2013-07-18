@@ -931,7 +931,7 @@ hgroup {
   margin-bottom: 25px;
 }
 
-.latest-news .item-list {
+.item-list {
   @include font-myriadpro;
   font-size: 12px;
   padding: 10px 0;
@@ -942,15 +942,15 @@ hgroup {
   .pager-current {
     color: #FFD457;
   }
-}
 
-.latest-news .item-list ul {
-  margin: 0;
-}
+  ul {
+    margin: 0;
+  }
 
-.latest-news .item-list li a {
-  color: #F7F4DE;
-  text-decoration: none;
+  li a {
+    color: #F7F4DE;
+    text-decoration: none;
+  }
 }
 
 .section-news .headlines {
@@ -993,23 +993,6 @@ hgroup {
 .headlines .views-row-first {
   border-top: none;
   padding-top: 0;
-}
-
-.item-list {
-  @include font-myriadpro;
-  font-size: 12px;
-  background-color: #738979;
-  padding: 10px 0;
-  color: #F7F4DE;
-}
-
-.item-list ul {
-  margin: 0;
-}
-
-.item-list li a {
-  color: #F7F4DE;
-  text-decoration: none;
 }
 
 .section-news .news {
