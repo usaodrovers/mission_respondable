@@ -1139,7 +1139,7 @@ hgroup {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003989}}
 .headlines .views-row {
   border-top: 1px solid #D7D3AB;
-  padding-top: 25px;
+  padding: 10px 0;
   margin: 0 15px;
 }
 
