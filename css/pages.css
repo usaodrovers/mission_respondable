@@ -717,7 +717,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003648}}
-.view-featured-news ul li {
+.view-featured-news .views-row {
   border-bottom: 1px solid #DBD6AE;
   margin-top: 15px;
   padding-bottom: 20px;
