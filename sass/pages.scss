@@ -995,7 +995,7 @@ hgroup {
   padding-top: 0;
 }
 
-.headlines .item-list {
+.item-list {
   @include font-myriadpro;
   font-size: 12px;
   background-color: #738979;
@@ -1003,11 +1003,11 @@ hgroup {
   color: #F7F4DE;
 }
 
-.headlines .item-list ul {
+.item-list ul {
   margin: 0;
 }
 
-.headlines .item-list li a {
+.item-list li a {
   color: #F7F4DE;
   text-decoration: none;
 }

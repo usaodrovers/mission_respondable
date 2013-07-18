@@ -1154,7 +1154,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003998}}
-.headlines .item-list {
+.item-list {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1165,12 +1165,12 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031006}}
-.headlines .item-list ul {
+.item-list ul {
   margin: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\000031010}}
-.headlines .item-list li a {
+.item-list li a {
   color: #F7F4DE;
   text-decoration: none;
 }
