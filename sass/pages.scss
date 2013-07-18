@@ -567,6 +567,8 @@ hgroup {
 
 .pane-views-testimonial-block .view-content div {
   background-color: #F7F4DE;
+  max-height: 182px;
+  min-height: 182px;
 
   &.bqstart, &.bqend {
     float: none;
