@@ -259,9 +259,9 @@ $zen-auto-include-item-base: false;
     @include zen-clear();
     margin-bottom: 25px;
 
-    .views-field-title,
-    .views-field-body,
-    .views-field-path {
+    .testimonial-title,
+    .testimonial-body,
+    .testimonial-path {
       @include zen-grid-item(3, 1);
       @include zen-clear();
     }
@@ -271,7 +271,7 @@ $zen-auto-include-item-base: false;
       text-align: center;
     }
 
-    .views-field-title {
+    .testimoinial-title {
       margin-top: 0;
 
       a {
@@ -279,11 +279,11 @@ $zen-auto-include-item-base: false;
       }
     }
 
-    .views-field-body .field-content {
+    .testimonial-body {
       padding-left: 25px;
     }
 
-    .views-field-path {
+    .testimonial-path {
       margin-top: 0;
 
       a {
@@ -495,14 +495,14 @@ $zen-auto-include-item-base: false;
       margin-top: -1px;
     }
 
-    .views-field-title,
-    .views-field-body,
-    .views-field-path {
+    .testimonial-title,
+    .testimonial-body,
+    .testimonial-path {
       @include zen-grid-item(2, 4);
       @include zen-clear();
     }
 
-    .views-field-path {
+    .testimonial-path {
       margin-bottom: 3.1%;
     }
   }
