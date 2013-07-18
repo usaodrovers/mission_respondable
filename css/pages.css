@@ -622,23 +622,23 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003578}}
-.pane-views-testimonial-block .views-field-title {
+.pane-views-testimonial-block .testimoinial-title {
   margin-top: -180px;
   padding-bottom: 2px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003583}}
-.pane-views-testimonial-block .views-field-body {
+.pane-views-testimonial-block .testimonial-body {
   margin-top: -125px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003587}}
-.pane-views-testimonial-block .views-field-path {
+.pane-views-testimonial-block .testimonial-path {
   margin-top: -45px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003591}}
-.pane-views-testimonial-block .views-field-title a {
+.pane-views-testimonial-block .testimonial-title a {
   color: #007161;
   text-decoration: none;
   font-size: 14px;
@@ -661,7 +661,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003609}}
-.pane-views-testimonial-block .views-field-body .field-content {
+.pane-views-testimonial-block .testimonial-body .field-content {
   padding-right: 5px;
   font-size: 17px;
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
@@ -671,7 +671,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003616}}
-.pane-views-testimonial-block .views-field-path a {
+.pane-views-testimonial-block .testimonial-path a {
   color: #007161;
   text-decoration: none;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;

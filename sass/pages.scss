@@ -575,20 +575,20 @@ hgroup {
   }
 }
 
-.pane-views-testimonial-block .views-field-title {
+.pane-views-testimonial-block .testimoinial-title {
   margin-top: -180px;
   padding-bottom: 2px;
 }
 
-.pane-views-testimonial-block .views-field-body {
+.pane-views-testimonial-block .testimonial-body {
   margin-top: -125px;
 }
 
-.pane-views-testimonial-block .views-field-path {
+.pane-views-testimonial-block .testimonial-path {
   margin-top: -45px;
 }
 
-.pane-views-testimonial-block .views-field-title a {
+.pane-views-testimonial-block .testimonial-title a {
   color: #007161;
   text-decoration: none;
   font-size: 14px;
@@ -606,14 +606,14 @@ hgroup {
   padding: 14px;
 }
 
-.pane-views-testimonial-block .views-field-body .field-content {
+.pane-views-testimonial-block .testimonial-body .field-content {
   padding-right: 5px;
   font-size: 17px;
   @include font-myriadprocondensed_bold;
   line-height: 20px;
 }
 
-.pane-views-testimonial-block .views-field-path a {
+.pane-views-testimonial-block .testimonial-path a {
   color: #007161;
   text-decoration: none;
   @include font-myriadpro_bold;
