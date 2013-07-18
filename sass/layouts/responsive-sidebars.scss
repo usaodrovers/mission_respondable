@@ -498,7 +498,7 @@ $zen-auto-include-item-base: false;
     .testimonial-title,
     .testimonial-body,
     .testimonial-path {
-      @include zen-grid-item(2, 4);
+      @include zen-grid-item(2, 3.8);
       @include zen-clear();
     }
 
