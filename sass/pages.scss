@@ -582,6 +582,7 @@ hgroup {
 
 .pane-views-testimonial-block .testimonial-body {
   margin-top: -125px;
+  @include font-myriadprocondensed;
 }
 
 .pane-views-testimonial-block .testimonial-path {
@@ -592,7 +593,7 @@ hgroup {
   color: #007161;
   text-decoration: none;
   font-size: 14px;
-  @include font-myriadpro
+  @include font-myriadpro;
 }
 
 .not-logged-in .pane-views-testimonial-block .views-field-edit-node {
