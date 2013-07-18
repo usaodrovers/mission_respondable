@@ -293,11 +293,11 @@
     text-align: center;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003274}}
-  .html .pane-views-testimonial-block .testimoinial-title {
+  .html .pane-views-testimonial-block .testimonial-title {
     margin-top: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003277}}
-  .html .pane-views-testimonial-block .testimoinial-title a {
+  .html .pane-views-testimonial-block .testimonial-title a {
     padding-left: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003282}}
@@ -868,9 +868,9 @@
     margin-top: -1px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003673}}
-  .html .pane-views-testimonial-block .views-field-title,
-  .html .pane-views-testimonial-block .views-field-body,
-  .html .pane-views-testimonial-block .views-field-path {
+  .html .pane-views-testimonial-block .testimonial-title,
+  .html .pane-views-testimonial-block .testimonial-body,
+  .html .pane-views-testimonial-block .testimonial-path {
     float: left;
     width: 41.66667%;
     margin-left: 58.33333%;
@@ -878,7 +878,7 @@
     clear: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003678}}
-  .html .pane-views-testimonial-block .views-field-path {
+  .html .pane-views-testimonial-block .testimonial-path {
     margin-bottom: 3.1%;
   }
 

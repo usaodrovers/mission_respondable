@@ -271,7 +271,7 @@ $zen-auto-include-item-base: false;
       text-align: center;
     }
 
-    .testimoinial-title {
+    .testimonial-title {
       margin-top: 0;
 
       a {
@@ -668,14 +668,14 @@ $zen-auto-include-item-base: false;
       margin-top: -1px;
     }
 
-    .views-field-title,
-    .views-field-body,
-    .views-field-path {
+    .testimonial-title,
+    .testimonial-body,
+    .testimonial-path {
       @include zen-grid-item(5, 8);
       @include zen-clear();
     }
 
-    .views-field-path {
+    .testimonial-path {
       margin-bottom: 3.1%;
     }
   }
