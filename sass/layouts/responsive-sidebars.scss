@@ -96,7 +96,7 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
 
-@media all and (max-width: 480px) {
+/*@media all and (max-width: 480px) {
   .html .pane-views-featured-news-block .views-field-title {
     @include zen-clear();
     height: auto;
@@ -105,7 +105,7 @@ $zen-auto-include-item-base: false;
     display: block;
     width: 100%;
   }
-}
+}*/
 
 @media all and (max-width: 650px) {
   /*
@@ -259,12 +259,12 @@ $zen-auto-include-item-base: false;
   .html .pane-views-testimonial-block {
     @include zen-grid-item(3, 1);
     @include zen-clear();
-    margin-bottom: 25px;
+    margin-bottom: 65px;
 
     .testimonial-title,
     .testimonial-body,
     .testimonial-path {
-      @include zen-grid-item(2.9, 1.1);
+      @include zen-grid-item(2.85, 1.1);
       @include zen-clear();
     }
 

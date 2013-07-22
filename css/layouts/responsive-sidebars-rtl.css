@@ -78,17 +78,16 @@
   clear: both;
 }
 
-@media all and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003100}}
+/*@media all and (max-width: 480px) {
   .html .pane-views-featured-news-block .views-field-title {
-    clear: right;
+    @include zen-clear();
     height: auto;
     margin: 10px -5px;
     padding: 0;
     display: block;
     width: 100%;
   }
-}
+}*/
 @media all and (max-width: 650px) {
   /*
    * Use 3 grid columns for smaller screens.
@@ -281,16 +280,16 @@
     margin-right: 0%;
     margin-left: -100%;
     clear: right;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003266}}
   .html .pane-views-testimonial-block .testimonial-title,
   .html .pane-views-testimonial-block .testimonial-body,
   .html .pane-views-testimonial-block .testimonial-path {
     float: right;
-    width: 96.66667%;
+    width: 95.0%;
     margin-right: 3.33333%;
-    margin-left: -100%;
+    margin-left: -98.33333%;
     clear: right;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003271}}
