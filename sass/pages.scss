@@ -921,16 +921,13 @@ hgroup {
   margin: 0;
 }
 
-.latest-news .views-row {
-  margin: 0 15px;
-}
-
 .latest-news .views-field-field-news-image {
   margin-left: -15px;
 }
 
 .latest-news .views-field-title {
   line-height: 18px;
+  margin: 0 15px;
 }
 
 .latest-news .views-field-title a {
@@ -945,7 +942,7 @@ hgroup {
   font-size: 14px;
   color: #575757;
   line-height: 18px;
-  margin-bottom: 25px;
+  margin: 0 15px 25px 15px;
 }
 
 .item-list {
