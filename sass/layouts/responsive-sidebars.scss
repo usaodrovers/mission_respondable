@@ -221,7 +221,8 @@ $zen-auto-include-item-base: false;
     @include zen-clear();
 
     .views-field-body {
-      padding-top: 30px;
+      padding: 10px;
+      height: 70px;
     }
 
     .flex-control-nav {
