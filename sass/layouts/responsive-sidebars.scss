@@ -257,7 +257,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial {
     @include zen-grid-item(3, 1);
     @include zen-clear();
     margin-bottom: 65px;
@@ -462,7 +462,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial {
     @include zen-grid-item(5, 1);
     @include zen-clear();
     background-color: #F7F4DE;
@@ -634,7 +634,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial {
     @include zen-grid-item(12, 1);
     @include zen-clear();
     background-color: #F7F4DE;
