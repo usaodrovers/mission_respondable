@@ -659,13 +659,17 @@ $zen-auto-include-item-base: false;
   }
 
   .html .pane-views-featured-news-block {
-    @include zen-grid-item(12, 1);
+    @include zen-grid-item(7.1, 1);
     @include zen-clear();
     margin-top: 25px;
 
     .views-field-field-news-image {
       padding-bottom: 15px;
     }
+  }
+
+  .html .panel-pane.events {
+    @include zen-grid-item(3, 9);
   }
 
   .html .block-mission-respondable-footer p {
