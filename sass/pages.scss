@@ -563,7 +563,7 @@ hgroup {
   @include font-myriadprocondensed;
 }
 
-.pane-views-testimonial .pane-title {
+.pane-testimonial .pane-title {
   background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   line-height: 1.8em;
@@ -574,7 +574,7 @@ hgroup {
   margin-top: 5px;
 }
 
-.pane-views-testimonial .pane-title a {
+.pane-testimonial .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 25px;
@@ -583,7 +583,7 @@ hgroup {
   @include font-copperplate;
 }
 
-.pane-views-testimonial .view-content div {
+.pane-testimonial .view-content div {
   background-color: #F7F4DE;
   max-height: 182px;
   min-height: 182px;
@@ -595,45 +595,45 @@ hgroup {
   }
 }
 
-.pane-views-testimonial .testimonial-title {
+.pane-testimonial .testimonial-title {
   padding-bottom: 2px;
 }
 
-.pane-views-testimonial .testimonial-body {
+.pane-testimonial .testimonial-body {
   @include font-myriadprocondensed;
   font-size: 20px;
   color: #575757;
 }
 
-.pane-views-testimonial .testimonial-path {
+.pane-testimonial .testimonial-path {
 }
 
-.pane-views-testimonial .testimonial-title a {
+.pane-testimonial .testimonial-title a {
   color: #007161;
   text-decoration: none;
   font-size: 14px;
   @include font-myriadpro;
 }
 
-.not-logged-in .pane-views-testimonial .views-field-edit-node {
+.not-logged-in .pane-testimonial .views-field-edit-node {
   display: none;
 }
 
-.pane-views-testimonial .views-field-edit-node {
+.pane-testimonial .views-field-edit-node {
   position: absolute;
   top: 0;
   right: 0;
   padding: 14px;
 }
 
-.pane-views-testimonial .testimonial-body .field-content {
+.pane-testimonial .testimonial-body .field-content {
   padding-right: 5px;
   font-size: 17px;
   @include font-myriadprocondensed_bold;
   line-height: 20px;
 }
 
-.pane-views-testimonial .testimonial-path a {
+.pane-testimonial .testimonial-path a {
   color: #007161;
   text-decoration: none;
   @include font-myriadpro_bold;
@@ -702,6 +702,10 @@ hgroup {
   @include font-myriadpro_semibold;
   color: #007161;
   font-size: 16px;
+}
+
+.panel-pane.events {
+  background-color: #F7F4DE;
 }
 
 .block-mission-respondable-footer {

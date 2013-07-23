@@ -275,7 +275,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003260}}
-  .html .pane-views-testimonial {
+  .html .pane-testimonial {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -284,9 +284,9 @@
     margin-bottom: 65px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003267}}
-  .html .pane-views-testimonial .testimonial-title,
-  .html .pane-views-testimonial .testimonial-body,
-  .html .pane-views-testimonial .testimonial-path {
+  .html .pane-testimonial .testimonial-title,
+  .html .pane-testimonial .testimonial-body,
+  .html .pane-testimonial .testimonial-path {
     float: right;
     width: 95.0%;
     margin-right: 3.33333%;
@@ -294,7 +294,7 @@
     clear: right;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003272}}
-  .html .pane-views-testimonial .views-field-field-testimonial-image {
+  .html .pane-testimonial .views-field-field-testimonial-image {
     margin: 0 auto;
     text-align: center;
   }
@@ -558,7 +558,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003465}}
-  .html .pane-views-testimonial {
+  .html .pane-testimonial {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -568,7 +568,7 @@
     margin-top: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003471}}
-  .html .pane-views-testimonial .views-field-field-testimonial-image {
+  .html .pane-testimonial .views-field-field-testimonial-image {
     float: right;
     width: 60%;
     margin-right: 0%;
@@ -578,9 +578,9 @@
     margin-top: -1px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003480}}
-  .html .pane-views-testimonial .testimonial-title,
-  .html .pane-views-testimonial .testimonial-body,
-  .html .pane-views-testimonial .testimonial-path {
+  .html .pane-testimonial .testimonial-title,
+  .html .pane-testimonial .testimonial-body,
+  .html .pane-testimonial .testimonial-path {
     float: right;
     width: 40%;
     margin-right: 56%;
@@ -825,7 +825,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003637}}
-  .html .pane-views-testimonial {
+  .html .pane-testimonial {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -835,7 +835,7 @@
     margin-top: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003643}}
-  .html .pane-views-testimonial .views-field-field-testimonial-image {
+  .html .pane-testimonial .views-field-field-testimonial-image {
     float: right;
     width: 58.33333%;
     margin-right: 0%;
@@ -845,9 +845,9 @@
     margin-top: -1px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003652}}
-  .html .pane-views-testimonial .testimonial-title,
-  .html .pane-views-testimonial .testimonial-body,
-  .html .pane-views-testimonial .testimonial-path {
+  .html .pane-testimonial .testimonial-title,
+  .html .pane-testimonial .testimonial-body,
+  .html .pane-testimonial .testimonial-path {
     float: right;
     width: 41.66667%;
     margin-right: 56.66667%;
@@ -872,12 +872,13 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003671}}
   .html .panel-pane.events {
     float: right;
-    width: 25%;
-    margin-right: 66.66667%;
-    margin-left: -91.66667%;
+    width: 33.33333%;
+    margin-right: 64.16667%;
+    margin-left: -97.5%;
+    margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003678}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003679}}
   .html #block-mission-respondable-footer-footer-contact {
     float: right;
     width: 100%;
@@ -886,7 +887,7 @@
     clear: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003684}}
   .html #block-menu-menu-footer-navigation {
     float: right;
     width: 100%;
@@ -896,7 +897,7 @@
     margin-top: -115px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003690}}
   .html.section-news .top {
     float: left;
     width: 64.16667%;
@@ -904,7 +905,7 @@
     margin-right: -64.16667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003694}}
   .html.section-news .middle {
     float: right;
     width: 16.66667%;
@@ -915,7 +916,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003703}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: right;
@@ -923,7 +924,7 @@
     margin-right: 8.33333%;
     margin-left: -41.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003707}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -935,7 +936,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003717}}
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: right;
@@ -943,7 +944,7 @@
     margin-right: 0%;
     margin-left: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003721}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
@@ -955,7 +956,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003730}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003731}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: right;
@@ -963,7 +964,7 @@
     margin-right: 8.33333%;
     margin-left: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003735}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -971,7 +972,7 @@
     margin-right: 0%;
     margin-left: -8.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003738}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003739}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
