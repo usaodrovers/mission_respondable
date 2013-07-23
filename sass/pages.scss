@@ -244,8 +244,7 @@ span.field-label { /* The inline field label used by the Fences module */
 /* Fonts */
 $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
 $font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
-$font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
-
+$font-myriadprocondensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
 
 @mixin font-copperplate {
   font-family: $font-copperplate;
@@ -278,15 +277,21 @@ $font-myriadpro_condensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",san
 }
 
 @mixin font-myriadprocondensed {
-  font-family: $font-myriadpro_condensed;
+  font-family: $font-myriadprocondensed;
   font-weight: 400;
   font-style: normal;
 }
 
 @mixin font-myriadprocondensed_bold {
-  font-family: $font-myriadpro_condensed;
+  font-family: $font-myriadprocondensed;
   font-weight: 700;
   font-style: normal;
+}
+
+@mixin font-myriadprocondensed_semibold_italic {
+  font-family: $font-myriadprocondensed;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* Colors */
@@ -367,9 +372,7 @@ input.custom-search-box {
 }
 
 #navigation {
-  font-family: $font-myriadpro_condensed;
-  font-style: normal;
-  font-weight: 300;
+  @include font-myriadprocondensed;
   font-size: 25.5px;
   text-transform: uppercase;
   color: $primary-nav;
@@ -707,6 +710,68 @@ hgroup {
 .panel-pane.events {
   background-color: #F7F4DE;
 }
+
+.panel-pane.events br {
+  line-height: 0;
+}
+
+.panel-pane.events .views-row {
+  margin: 10px;
+  border-top: 1px solid #056553;
+  padding: 15px 0;
+
+  &.views-row-first {
+    margin-top: 0;
+    border-top: none;
+  }
+}
+
+.panel-pane.events .date_day {
+  @include font-myriadprocondensed_bold;
+  font-size: 40px;
+  color: #007161;
+  margin-left: 10px;
+  line-height: 5px;
+}
+
+.panel-pane.events .date_month {
+  @include font-copperplate;
+  font-size: 18px;
+  color: #007161;
+  margin-left: 10px;
+  line-height: 5px;
+}
+
+.panel-pane.events .date_time {
+  @include font-myriadprocondensed_semibold_italic;
+  font-size: 12px;
+  color: #007161;
+  line-height: 5px;
+
+  .date-display-single {
+    margin-left: 15px;
+  }
+
+  .date-display-start {
+    margin-left: -15px;
+  }
+}
+
+.panel-pane.events .views-field-nothing {
+  float: left;
+  width: 75px;
+}
+
+.panel-pane.events .views-field-title {
+  @include font-myriadprocondensed_bold;
+  font-size: 18px;
+}
+
+.panel-pane.events .views-field-title a {
+  color: #575757;
+  text-decoration: none;
+}
+
 
 .block-mission-respondable-footer {
   border-top: 1px solid #056553;
@@ -1179,12 +1244,10 @@ hgroup {
 }
 
 .node-type-testiminoial .field-name-field-testimonial-major {
+    @include font-myriadprocondensed_bold;
     background-color: rgba(235, 234, 213, 0.7);
     color: #007161;
-    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
     height: 30px;
     padding: 5px 0 0 30px;
 }
