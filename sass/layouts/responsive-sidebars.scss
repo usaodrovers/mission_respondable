@@ -297,6 +297,11 @@ $zen-auto-include-item-base: false;
 
   }
 
+  .html .panel-pane.events {
+    @include zen-grid-item(3, 1);
+    margin-top: 25px;
+  }
+
   .html .icon-coplac_logo {
     display: block;
     margin-left: 0;
