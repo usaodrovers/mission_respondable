@@ -278,7 +278,7 @@ $zen-auto-include-item-base: false;
 
   .html .pane-views-featured-news-block {
     @include zen-grid-item(3, 1);
-    @include zen-clear();
+    @include zen-clear(left);
 
     li {
       @include zen-clear();
@@ -298,7 +298,7 @@ $zen-auto-include-item-base: false;
   }
 
   .html .panel-pane.events {
-    @include zen-clear(left);
+    @include zen-clear();
     @include zen-grid-item(3, 1);
     margin-top: 25px;
   }
