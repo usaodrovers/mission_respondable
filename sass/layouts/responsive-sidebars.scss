@@ -496,6 +496,11 @@ $zen-auto-include-item-base: false;
     }
   }
 
+  .html .panel-pane.events {
+    @include zen-grid-item(4.4, 8.6);
+    margin-top: 25px;
+  }
+
   .html .block-mission-respondable-footer p {
   }
 
