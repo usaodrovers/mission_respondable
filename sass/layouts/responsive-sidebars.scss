@@ -497,7 +497,7 @@ $zen-auto-include-item-base: false;
   }
 
   .html .panel-pane.events {
-    @include zen-grid-item(2, 3);
+    @include zen-grid-item(2, 4);
     margin-top: 25px;
   }
 
