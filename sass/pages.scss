@@ -673,6 +673,7 @@ hgroup {
   margin-top: 15px;
   padding-bottom: 20px;
   list-style: none;
+  display: table;
 }
 
 .view-featured-news li div {
@@ -682,17 +683,11 @@ hgroup {
 
 .view-featured-news .views-field-field-news-frontpage-image {
   margin-left: 15px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .view-featured-news .views-field-title {
-  display: table;
-  height: 95px;
-  width: 62%;
-  margin-left: 34%;
-  margin-top: -105px;
-}
-
-.view-featured-news .views-field-title span {
   display: table-cell;
   vertical-align: middle;
 }
