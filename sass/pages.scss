@@ -682,12 +682,13 @@ hgroup {
 }
 
 .view-featured-news .views-field-field-news-frontpage-image {
-  margin-left: 15px;
+  padding-left: 15px;
   display: table-cell;
   vertical-align: middle;
 }
 
 .view-featured-news .views-field-title {
+  padding: 0 15px;
   display: table-cell;
   vertical-align: middle;
 }
