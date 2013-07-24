@@ -587,9 +587,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003489}}
   .html .pane-views-featured-news-block {
     float: left;
-    width: 100%;
+    width: 50%;
     margin-left: 0%;
-    margin-right: -100%;
+    margin-right: -50%;
     clear: left;
     margin-top: 25px;
   }
@@ -601,9 +601,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003499}}
   .html .panel-pane.events {
     float: left;
-    width: 88%;
-    margin-left: 152%;
-    margin-right: -240%;
+    width: 40%;
+    margin-left: 40%;
+    margin-right: -80%;
     margin-top: 25px;
   }
 
