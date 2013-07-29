@@ -601,7 +601,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003569}}
-.pane-testimonial .pane-title {
+.pane-views-testimonial-block .pane-title {
   background-color: #004538;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -617,7 +617,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003580}}
-.pane-testimonial .pane-title a {
+.pane-views-testimonial-block .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 25px;
@@ -629,13 +629,13 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003589}}
-.pane-testimonial .view-content div {
+.pane-views-testimonial-block .view-content div {
   background-color: #F7F4DE;
   max-height: 182px;
   min-height: 182px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003594}}
-.pane-testimonial .view-content div.bqstart, .pane-testimonial .view-content div.bqend {
+.pane-views-testimonial-block .view-content div.bqstart, .pane-views-testimonial-block .view-content div.bqend {
   float: none;
   display: inline;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
@@ -644,12 +644,12 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003601}}
-.pane-testimonial .testimonial-title {
+.pane-views-testimonial-block .testimonial-title {
   padding-bottom: 2px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003605}}
-.pane-testimonial .testimonial-body {
+.pane-views-testimonial-block .testimonial-body {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -658,7 +658,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003614}}
-.pane-testimonial .testimonial-title a {
+.pane-views-testimonial-block .testimonial-title a {
   color: #007161;
   text-decoration: none;
   font-size: 14px;
@@ -668,12 +668,12 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003621}}
-.not-logged-in .pane-testimonial .views-field-edit-node {
+.not-logged-in .pane-views-testimonial-block .views-field-edit-node {
   display: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003625}}
-.pane-testimonial .views-field-edit-node {
+.pane-views-testimonial-block .views-field-edit-node {
   position: absolute;
   top: 0;
   right: 0;
@@ -681,7 +681,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003632}}
-.pane-testimonial .testimonial-body .field-content {
+.pane-views-testimonial-block .testimonial-body .field-content {
   padding-right: 5px;
   font-size: 17px;
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
@@ -691,7 +691,7 @@ hgroup {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/pages\.scss}line{font-family:\00003639}}
-.pane-testimonial .testimonial-path a {
+.pane-views-testimonial-block .testimonial-path a {
   color: #007161;
   text-decoration: none;
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
