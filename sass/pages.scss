@@ -611,13 +611,6 @@ hgroup {
 .pane-views-testimonial-block .testimonial-path {
 }
 
-.pane-views-testimonial-block .testimonial-title a {
-  color: #007161;
-  text-decoration: none;
-  font-size: 14px;
-  @include font-myriadpro;
-}
-
 .not-logged-in .pane-views-testimonial-block .views-field-edit-node {
   display: none;
 }
@@ -653,19 +646,19 @@ hgroup {
   line-height: 1.8em;
   margin-bottom: -4px;
   margin-top: 0;
-  position: relative;
-  top: -5px;
   height: 38px;
   clear: both;
 }
 
-.pane-views-featured-news-block h2 a, .panel-pane.events h2 a {
+.pane-views-testimonial-block h2 a, .pane-views-featured-news-block h2 a, .panel-pane.events h2 a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 25px;
   letter-spacing: 2px;
   font-size: 16px;
   @include font-copperplate;
+  position: relative;
+  top: -5px;
 }
 
 .view-featured-news .views-row {
