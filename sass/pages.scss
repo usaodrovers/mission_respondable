@@ -1230,7 +1230,8 @@ hgroup {
   padding: 0 15px;
 }
 
-.node-type-testimonial .field-name-field-testimonial-major {
+.node-type-testimonial .field-name-field-testimonial-major,
+.node-type-testimonial .field-name-field-testimonial-grad-year {
     @include font-myriadprocondensed_bold;
     background-color: rgba(235, 234, 213, 0.7);
     color: #007161;
