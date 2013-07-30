@@ -1222,8 +1222,7 @@ hgroup {
   font-size: 32px;
   line-height: 1em;
   height: 65px;
-  top: -80px;
-  margin-bottom: -80px;
+  top: -150px;
 }
 
 .node-type-testimonial .field-name-body {
@@ -1238,6 +1237,8 @@ hgroup {
     font-size: 18px;
     height: 30px;
     padding: 5px 0 0 15px;
+    position: relative;
+    top: -150px;
 }
 
 .section-testimonials .view-testimonial .views-field-title a {
