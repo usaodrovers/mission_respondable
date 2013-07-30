@@ -1137,8 +1137,7 @@ hgroup {
   top: -150px;
 }
 
-.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published,
-.node-type-testimonial .field-name-field-testimonial-major {
+.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
   @include font-myriadprocondensed_bold;
   color: #007161;
   font-size: 18px;
@@ -1231,13 +1230,13 @@ hgroup {
   padding: 0 15px;
 }
 
-.node-type-testiminoial .field-name-field-testimonial-major {
+.node-type-testimonial .field-name-field-testimonial-major {
     @include font-myriadprocondensed_bold;
     background-color: rgba(235, 234, 213, 0.7);
     color: #007161;
     font-size: 18px;
     height: 30px;
-    padding: 5px 0 0 30px;
+    padding: 5px 0 0 15px;
 }
 
 .section-testimonials .view-testimonial .views-field-title a {
