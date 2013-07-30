@@ -1137,7 +1137,8 @@ hgroup {
   top: -150px;
 }
 
-.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
+.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published,
+.node-type-testimonial .field-name-field-testimonial-major {
   @include font-myriadprocondensed_bold;
   color: #007161;
   font-size: 18px;
