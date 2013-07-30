@@ -575,7 +575,7 @@ $zen-auto-include-item-base: false;
     border: none;
   }
 
-  .html .block-search {
+  body.html .block-search {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;

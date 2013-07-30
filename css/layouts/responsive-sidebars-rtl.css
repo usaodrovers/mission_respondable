@@ -736,7 +736,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003578}}
-  .html .block-search {
+  body.html .block-search {
     float: right;
     width: 16.66667%;
     margin-right: 66.66667%;
@@ -746,12 +746,12 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003584}}
-  .html .block-search .custom-search-box {
+  body.html .block-search .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003589}}
-  .html .block-search .form-submit {
+  body.html .block-search .form-submit {
     position: relative;
     top: -37px;
     right: -100%;
