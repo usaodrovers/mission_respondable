@@ -11,101 +11,17 @@
 
 @import "../base";
 
-/* Fonts */
-$font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
-
-@mixin font-copperplate {
-  font-family: $font-copperplate;
-  font-weight: 400;
-  font-style: normal;
-}
-
-// We are going to create a 980px wide, 5 column grid with 20px gutters between
-// columns (applied as 10px of left/right padding on each column).
-$zen-column-count:  5;
-$zen-gutter-width:  20px;
-
-
-// IE6-7 don't support box-sizing: border-box. We can fix this in 1 of 3 ways:
-// - Drop support for IE 6/7. :-) In the _base.scss, set $legacy-support-for-ie6
-//   and $legacy-support-for-ie7 to false.  // - (Preferred) Install the box-sizing polyfill and set the variable below to
-//   the absolute path URL to the boxsizing.htc file.
-//   @see https://github.com/Schepp/box-sizing-polyfill
-//   $box-sizing-polyfill-path: "/path/to/boxsizing.htc";
-// - Use the same CSS unit for grid width and gutter width (use px for both or
-//   use % for both, etc.) and set the box-sizing variable to content-box.
-//   $zen-box-sizing: content-box;
-
-
-// You can generate more efficient CSS if you manually apply the
-// zen-grid-item-base mixin to all grid items from within a single ruleset.
-$zen-auto-include-item-base: false;
-// $zen-auto-include-flow-item-base: false;
-
-
-/*
- * Center the page.
- */
-
-#page,
-.region-bottom {
-  /* For screen sizes larger than 1200px, prevent excessively long lines of text
-     by setting a max-width. */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 622px;
-  //max-width: 1024px;
-}
-
-// comment this out in dev for size fix
-.l-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-}
-
-#navigation {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-}
-
-
-/*
- * Apply the shared properties of grid items in a single, efficient ruleset.
- */
-// See the note about $zen-auto-include-item-base above.
-
-#header,
-#content,
-#navigation,
-.region-sidebar-first,
-.region-sidebar-second,
-#footer {
-  @include zen-grid-item-base();
-}
-
-/*
- * Containers for grid items and flow items.
- */
-
-#header,
-#main,
-#footer {
-  @include zen-grid-container();
-}
-
   /*
    * Use 5 grid columns for larger screens.
    */
   $zen-column-count: 12;
 
-    .html #logo {
+  .lt-ie9 #logo {
     @include zen-grid-item(2, 1);
     border: none;
   }
 
-  body.html .block-search {
+  .lt-ie9 .block-search {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;
@@ -126,7 +42,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html #secondary-menu {
+  .lt-ie9 #secondary-menu {
     @include zen-grid-item(7, 2.5);
 
     li {
@@ -138,7 +54,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-viewbook-block {
+  .lt-ie9 .pane-views-viewbook-block {
     @include zen-grid-item(12,1);
     @include zen-clear();
 
@@ -148,7 +64,7 @@ $zen-auto-include-item-base: false;
 
   }
 
-  .html .pane-mission-respondable-front-buttons-front-buttons {
+  .lt-ie9 .pane-mission-respondable-front-buttons-front-buttons {
     @include zen-grid-item(12, 1);
     @include zen-clear();
 
@@ -175,7 +91,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .lt-ie9 .pane-views-testimonial-block {
     @include zen-grid-item(12, 1);
     @include zen-clear();
     background-color: #F7F4DE;
@@ -199,7 +115,7 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-featured-news-block {
+  .lt-ie9 .pane-views-featured-news-block {
     @include zen-grid-item(7.1, 1);
     @include zen-clear();
     margin-top: 25px;
@@ -209,76 +125,30 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .panel-pane.events {
+  .lt-ie9 .panel-pane.events {
     @include zen-grid-item(4.4, 8.6);
     margin-top: 25px;
   }
 
-  .html .block-mission-respondable-footer p {
+  .lt-ie9 .block-mission-respondable-footer p {
   }
 
-  .html #block-mission-respondable-footer-footer-contact {
+  .lt-ie9 #block-mission-respondable-footer-footer-contact {
     @include zen-grid-item(12, 1);
     @include zen-clear();
   }
 
-  .html #block-menu-menu-footer-navigation {
+  .lt-ie9 #block-menu-menu-footer-navigation {
     @include zen-grid-item(12, .4);
     @include zen-clear();
     margin-top: -115px;
   }
 
- .html.section-news .top {
+ .lt-ie9.section-news .top {
    @include zen-grid-item(7.7, 1, right);
  }
 
- .html.section-news .middle {
+ .lt-ie9.section-news .middle {
    @include zen-grid-item(2, 1, left);
  }
-
-  /*
-   * The layout when there is only one sidebar, the left one.
-   */
-
-  .sidebar-first {
-    #content { /* Span 4 columns, starting in 2nd column from left. */
-      @include zen-grid-item(4, 2);
-    }
-
-    .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
-    }
-  }
-
-  /*
-   * The layout when there is only one sidebar, the right one.
-   */
-
-  .sidebar-second {
-    #content { /* Span 4 columns, starting in 1st column from left. */
-      @include zen-grid-item(4, 1);
-    }
-
-    .region-sidebar-second { /* Span 1 column, starting in 5th column from left. */
-      @include zen-grid-item(1, 5);
-    }
-  }
-
-  /*
-   * The layout when there are two sidebars.
-   */
-
-  .two-sidebars {
-    #content { /* Span 3 columns, starting in 2nd column from left. */
-      @include zen-grid-item(3, 2);
-    }
-
-    .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
-    }
-
-    .region-sidebar-second { /* Span 1 column, starting in 5th column from left. */
-      @include zen-grid-item(1, 5);
-    }
-  }
 
