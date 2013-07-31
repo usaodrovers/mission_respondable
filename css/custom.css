@@ -227,8 +227,10 @@
   word-wrap: break-word;
   clear: left;
   margin-top: 25px;
+  padding: 0;
+  background-color: #F7F4DE;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003101}}
 .lt-ie9 .pane-views-testimonial-block .views-field-field-testimonial-image {
   float: left;
   width: 58.33333%;
@@ -246,7 +248,7 @@
   margin-top: -1px;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003111}}
 .lt-ie9 .pane-views-testimonial-block .testimonial-title,
 .lt-ie9 .pane-views-testimonial-block .testimonial-body,
 .lt-ie9 .pane-views-testimonial-block .testimonial-path {
@@ -264,7 +266,7 @@
   clear: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003120}}
 .lt-ie9 .pane-views-featured-news-block {
   float: left;
   width: 59.16667%;
@@ -281,12 +283,12 @@
   margin-top: 25px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003126}}
 .lt-ie9 .pane-views-featured-news-block .views-field-field-news-image {
   padding-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003131}}
 .lt-ie9 .panel-pane.events {
   float: left;
   width: 35.0%;
@@ -300,9 +302,10 @@
   box-sizing: border-box;
   word-wrap: break-word;
   margin-top: 25px;
+  padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003140}}
 .lt-ie9 #block-mission-respondable-footer-footer-contact {
   float: left;
   width: 100%;
@@ -318,7 +321,7 @@
   clear: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003145}}
 .lt-ie9 #block-menu-menu-footer-navigation {
   float: left;
   width: 100%;
@@ -335,7 +338,7 @@
   margin-top: -115px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003151}}
 .lt-ie9.section-news .top {
   float: right;
   width: 64.16667%;
@@ -350,7 +353,7 @@
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003155}}
 .lt-ie9.section-news .middle {
   float: left;
   width: 16.66667%;

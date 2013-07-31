@@ -95,6 +95,8 @@
     @include zen-grid-item(12, 1);
     @include zen-clear();
     margin-top: 25px;
+    padding: 0;
+    background-color: #F7F4DE;
 
     .views-field-field-testimonial-image {
       @include zen-grid-item(7, 1);
@@ -129,6 +131,7 @@
   .lt-ie9 .panel-pane.events {
     @include zen-grid-item(4.2, 8.6);
     margin-top: 25px;
+    padding: 0;
   }
 
   .lt-ie9 .block-mission-respondable-footer p {
