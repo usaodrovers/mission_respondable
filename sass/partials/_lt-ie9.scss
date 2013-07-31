@@ -119,6 +119,7 @@
     @include zen-grid-item(7.1, 1.2);
     @include zen-clear();
     margin-top: 25px;
+    padding: 0;
 
     .views-field-field-news-image {
       padding-bottom: 15px;
