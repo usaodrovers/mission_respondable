@@ -92,7 +92,7 @@
   }
 
   .lt-ie9 .pane-views-testimonial-block {
-    @include zen-grid-item(11.5, 1);
+    @include zen-grid-item(12, 1);
     @include zen-clear();
     margin-top: 25px;
 
