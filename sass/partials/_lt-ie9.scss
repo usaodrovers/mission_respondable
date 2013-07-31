@@ -148,11 +148,11 @@
     margin-top: -115px;
   }
 
- .lt-ie9.section-news .top {
+ .lt-ie9 .section-news .top {
    @include zen-grid-item(7.7, 1, right);
  }
 
- .lt-ie9.section-news .middle {
+ .lt-ie9 .section-news .middle {
    @include zen-grid-item(2, 1, left);
  }
 
