@@ -94,7 +94,6 @@
   .lt-ie9 .pane-views-testimonial-block {
     @include zen-grid-item(11.5, 1.5);
     @include zen-clear();
-    background-color: #F7F4DE;
     margin-top: 25px;
 
     .views-field-field-testimonial-image {
@@ -102,6 +101,7 @@
       line-height: 0;
       margin-bottom: -180px;
       margin-top: -1px;
+      padding-left: 0;
     }
 
     .testimonial-title,
