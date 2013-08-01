@@ -16,6 +16,10 @@
    */
   $zen-column-count: 12;
 
+  img {
+    width: auto;
+  }
+
   .lt-ie9 #logo {
     @include zen-grid-item(2, 1);
     border: none;
