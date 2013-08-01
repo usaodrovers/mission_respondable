@@ -660,7 +660,7 @@ hgroup {
   top: -5px;
 }
 
-.view-featured-news .views-row {
+.view-featured-news .views-row, .view-events .views-row {
   border-bottom: 1px solid #DBD6AE;
   margin-top: 15px;
   padding-bottom: 20px;
@@ -680,7 +680,7 @@ hgroup {
   min-width: 142px;
 }
 
-.view-featured-news .views-field-title {
+.view-featured-news .views-field-title, .view-events .views-field-title, .veiw-events .views-field-nothing {
   padding: 0 15px;
   display: table-cell;
   vertical-align: middle;
