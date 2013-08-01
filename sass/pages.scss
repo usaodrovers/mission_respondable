@@ -685,7 +685,6 @@ hgroup {
 }
 
 .view-featured-news .views-field-title, .view-events .views-field-title, .view-events .views-field-nothing {
-  padding: 0 15px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -750,6 +749,7 @@ hgroup {
 .panel-pane.events .views-field-nothing {
   float: left;
   width: 75px;
+  margin-top: 15px;
 }
 
 .panel-pane.events .views-field-title {
