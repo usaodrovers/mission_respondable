@@ -687,6 +687,12 @@ hgroup {
 .view-featured-news .views-field-title, .view-events .views-field-title, .view-events .views-field-nothing {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 15px;
+}
+
+.view-events .views-field-title, .view-events .views-field-nothing {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .view-featured-news .views-field-title span a {
