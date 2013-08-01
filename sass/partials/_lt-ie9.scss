@@ -160,10 +160,12 @@
    @include zen-grid-item(2, 1, left);
  }
 
-.lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published {
+.lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published,
+.lt-ie9 .node-type-testimonial .field-name-field-testimonial-major,
+.lt-ie9 .node-type-testimonial .field-name-field-testimonial-grad-year {
   background-image: url('../images/cream.png');
 }
 
-.lt-ie9 .node-type-news .title {
+.lt-ie9 .node-type-news .title, .lt-ie9 .node-type-testimonial .title {
   background-image: url('../images/green.png');
 }
