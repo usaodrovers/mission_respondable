@@ -660,11 +660,15 @@ hgroup {
   top: -5px;
 }
 
-.view-featured-news .views-row, .view-events .views-row {
+.view-featured-news .views-row {
   border-bottom: 1px solid #DBD6AE;
   margin-top: 15px;
   padding-bottom: 20px;
   list-style: none;
+  display: table;
+}
+
+.view-events .views-row {
   display: table;
 }
 
