@@ -376,6 +376,9 @@ $zen-auto-include-item-base: false;
    @include zen-clear();
    margin-bottom: 25px;
  }
+
+ .html.section-testimonial .field-name-field-testimonial-major {
+   top: 0;
 }
 
 
@@ -575,7 +578,7 @@ $zen-auto-include-item-base: false;
     border: none;
   }
 
-  body.html .block-search {
+  .html .block-search {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;
