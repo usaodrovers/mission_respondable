@@ -585,19 +585,15 @@ hgroup {
   @include font-copperplate;
 }
 
-.pane-views-testimonial-block .view-content div {
+.pane-views-testimonial-block .view-content .views-field-nothing {
   background-color: #F7F4DE;
   max-height: 182px;
   min-height: 182px;
 
-  &.bqstart, &.bqend {
+  .bqstart, .bqend {
     float: none;
     display: inline;
     @include font-myriadpro;
-  }
-
-  &.views-field-field-testimonial-image {
-    background-color: none;
   }
 }
 
