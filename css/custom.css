@@ -367,3 +367,8 @@
   box-sizing: border-box;
   word-wrap: break-word;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003159}}
+.lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published {
+  background-image: url("../images/cream.png");
+}

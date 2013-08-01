@@ -156,3 +156,6 @@
    @include zen-grid-item(2, 1, left);
  }
 
+.lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published {
+  background-image: url('../images/cream.png');
+}
