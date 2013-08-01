@@ -595,6 +595,10 @@ hgroup {
     display: inline;
     @include font-myriadpro;
   }
+
+  &.views-field-field-testimonial-image {
+    background-color: none;
+  }
 }
 
 .pane-views-testimonial-block .testimonial-title {
