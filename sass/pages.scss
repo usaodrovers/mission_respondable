@@ -761,6 +761,8 @@ hgroup {
 .panel-pane.events .views-field-title {
   @include font-myriadprocondensed_bold;
   font-size: 18px;
+  color: #575757;
+  text-decoration: none;
 }
 
 .panel-pane.events .views-field-title a {
