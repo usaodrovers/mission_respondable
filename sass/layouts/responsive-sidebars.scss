@@ -345,7 +345,7 @@ $zen-auto-include-item-base: false;
     margin-top: 65px;
   }
 
-  .html.node-type-news .masthead {
+  .html.node-type-news .masthead, .html.node-type-testimonials .masthead {
     top: 0;
   }
 
@@ -375,10 +375,6 @@ $zen-auto-include-item-base: false;
    @include zen-grid-item(3, 1);
    @include zen-clear();
    margin-bottom: 25px;
- }
-
- .html.section-testimonials .field-name-field-testimonial-major {
-   top: 0;
  }
 
 }
