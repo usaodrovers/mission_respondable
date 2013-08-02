@@ -925,17 +925,17 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003710}}
   .html.section-news .top {
     float: right;
-    width: 62.5%;
+    width: 61.66667%;
     margin-right: 0%;
-    margin-left: -62.5%;
+    margin-left: -61.66667%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003714}}
   .html.section-news .middle {
     float: left;
-    width: 18.33333%;
+    width: 20%;
     margin-left: 0%;
-    margin-right: -18.33333%;
+    margin-right: -20%;
   }
 
   /*

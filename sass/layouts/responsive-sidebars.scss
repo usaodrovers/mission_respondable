@@ -708,11 +708,11 @@ $zen-auto-include-item-base: false;
   }
 
  .html.section-news .top {
-   @include zen-grid-item(7.5, 1, right);
+   @include zen-grid-item(7.4, 1, right);
  }
 
  .html.section-news .middle {
-   @include zen-grid-item(2.2, 1, left);
+   @include zen-grid-item(2.4, 1, left);
  }
 
   /*
