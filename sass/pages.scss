@@ -1145,7 +1145,7 @@ hgroup {
   z-index: 100;
   background-color: rgba(1, 90, 73, 0.5);
   color: #FFD457;
-  padding: 5px 15px;
+  padding: 5px 30px;
   font-size: 32px;
   line-height: 1em;
   height: 65px;
@@ -1162,7 +1162,7 @@ hgroup {
   font-size: 18px;
   background-color: rgba(235, 234, 213, 0.7);
   height: 30px;
-  padding: 5px 0 0 15px;
+  padding: 5px 0 0 30px;
 }
 
 .node-type-news .field-name-field-news-published {
@@ -1174,7 +1174,7 @@ hgroup {
   padding: 0;
 
   p {
-    margin: 1em 15px;
+    margin: 1em 30px;
     @include font-myriadpro;
     color: #575757;
     line-height: 18px;
