@@ -433,6 +433,10 @@ hgroup {
   display: none;
 }
 
+#main {
+  margin-bottom: 25px;
+}
+
 .mission-statement p {
   @include font-myriadpro_italic;
   font-size: 14px;
