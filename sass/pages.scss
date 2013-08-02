@@ -1183,7 +1183,7 @@ hgroup {
   z-index: 200;
 }
 
-.page-testimonials h1, .section-search h1 {
+.page-testimonials h1, .section-search h1, .page-node h1 {
   text-transform: uppercase;
   font-size: 32px;
   @include font-myriadprocondensed;
@@ -1194,7 +1194,7 @@ hgroup {
   margin: 0;
 }
 
-.section-testimonials #content, .section-search #content {
+.section-testimonials #content, .section-search #content, .page-node #content {
   background-color: #F7F4DE;
   margin-top: 40px;
   padding: 0;
