@@ -191,6 +191,11 @@
   letter-spacing: .88px;
 }
 
+.lt-ie9 .block-search {
+  position: absolute;
+  top: 0;
+}
+
 .lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-major,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-grad-year {
