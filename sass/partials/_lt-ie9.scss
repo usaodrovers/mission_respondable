@@ -168,6 +168,37 @@
   padding: 0;
 }
 
+.lt-ie9 .l-wrapper ul.links {
+  @include font-myriadprocondensed;
+  font-size: 25.5px;
+  text-transform: uppercase;
+  color: $primary-nav;
+  margin-top: 225px;
+  position: relative;
+  z-index: 200;
+}
+
+.lt-ie9 .l-wrapper li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: -2px 2px 2px black;
+  padding-left: 12px;
+}
+
+.lt-ie9 .l-wrapper li.last {
+  background-color: #FFD457;
+  margin-left: 15px;
+  box-shadow: -2px 2px 2px black;
+  padding: 0;
+}
+
+.lt-ie9 .l-wrapper li.last a {
+  color: #007161;
+  padding: 0 10px 0 10px;
+  margin: 0;
+  text-shadow: none;
+}
+
 .lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-major,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-grad-year {
