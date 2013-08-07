@@ -354,6 +354,10 @@ html, body {
 .block-search {
   padding-left: 20px;
   margin-bottom: -10px;
+
+  .search-form {
+    height: 20px;
+  }
 }
 
 input.custom-search-box {
