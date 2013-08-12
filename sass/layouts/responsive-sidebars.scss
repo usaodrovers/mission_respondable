@@ -221,7 +221,7 @@ $zen-auto-include-item-base: false;
 
   .html .mission-statement {
     margin-bottom: -5px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .html .pane-views-viewbook-block {
@@ -267,7 +267,6 @@ $zen-auto-include-item-base: false;
   .html .pane-views-testimonial-block {
     @include zen-grid-item(3, 1);
     @include zen-clear();
-    margin-bottom: 115px;
 
     .testimonial-title,
     .testimonial-body,
