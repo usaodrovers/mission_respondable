@@ -77,7 +77,6 @@ $zen-auto-include-item-base: false;
  */
 // See the note about $zen-auto-include-item-base above.
 
-#header,
 #content,
 #navigation,
 .region-sidebar-first,
@@ -155,10 +154,18 @@ $zen-auto-include-item-base: false;
 
       > li {
         width: 100%;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin: 0;
+        padding: 10px 0;
+
+        &.first {
+          margin-top: -10px;
+        }
 
         &.last {
           width: 60%;
-          margin-bottom: 35px;
+          margin-bottom: 25px;
         }
       }
     }
