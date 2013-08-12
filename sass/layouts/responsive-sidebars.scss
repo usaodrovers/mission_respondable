@@ -348,6 +348,12 @@ $zen-auto-include-item-base: false;
     }
   }
 
+  .section-testimonials #content,
+  .section-search #content,
+  .not-front #content {
+    margin-top: 0;
+  }
+
   .html.node-type-news #content {
     margin-top: 65px;
   }
