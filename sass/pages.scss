@@ -944,6 +944,13 @@ hgroup, #site-name, #site-slogan {
   padding: 0 15px;
 }
 
+article {
+  @include font-myriadpro;
+  color: #575757;
+  line-height: 18px;
+}
+
+
 .section-news .panel-flexible .center .panels-flexible-region-inside {
   padding: 0;
 }
