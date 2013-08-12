@@ -995,7 +995,6 @@ hgroup, #site-name, #site-slogan {
 }
 
 .section-news h2.pane-title {
-  text-transform: uppercase;
   font-size: 32px;
   @include font-myriadprocondensed;
   color: #FFD457;
@@ -1056,20 +1055,6 @@ hgroup, #site-name, #site-slogan {
 .section-news .headlines {
   background-color: #F7F4DE;
   width: 195px;
-}
-
-.section-news .headlines .pane-title {
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
-  margin-top: 0;
-  color: #E5DEA8;
-  text-decoration: none;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  letter-spacing: 2px;
-  font-size: 16px;
-  @include font-copperplate;
-  position: relative;
 }
 
 .headlines .views-field-title {
