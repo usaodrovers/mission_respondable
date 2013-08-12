@@ -308,6 +308,18 @@ html, body {
   min-width: 100%;
 }
 
+a:link,
+a:visited {
+  @include font_myriadprocondensed;
+  color: #083228;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
 #secondary-menu li {
   list-style: none;
   height: 27px;
