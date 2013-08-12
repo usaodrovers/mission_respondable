@@ -450,7 +450,7 @@ hgroup, #site-name, #site-slogan {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003448}}
-.mission-statement p {
+.mission-statement {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
   font-style: italic;
