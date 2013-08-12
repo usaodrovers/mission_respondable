@@ -145,7 +145,7 @@
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003162}}
   .html nav#main-menu[role="navigation"] input:checked ~ ul > li.first {
-    margin-top: -10px;
+    margin-top: -25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003166}}
   .html nav#main-menu[role="navigation"] input:checked ~ ul > li.last {
