@@ -310,6 +310,7 @@ html, body {
 
 a:link,
 a:visited {
+  @include font-myriadprocondensed_bold;
   color: #083228;
   text-decoration: none;
 }
@@ -1185,7 +1186,7 @@ article {
 
 .node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
   @include font-myriadprocondensed_bold;
-  color: #007161;
+  color: #575757;
   font-size: 18px;
   background-color: rgba(235, 234, 213, 0.7);
   height: 30px;
