@@ -308,18 +308,6 @@ html, body {
   min-width: 100%;
 }
 
-a:link,
-a:visited {
-  @include font-myriadprocondensed_bold;
-  color: #083228;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
 #secondary-menu li {
   list-style: none;
   height: 27px;
@@ -960,6 +948,18 @@ article {
   @include font-myriadpro;
   color: #575757;
   line-height: 18px;
+
+  a:link,
+  a:visited {
+    @include font-myriadprocondensed_bold;
+    color: #007161;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
 }
 
 
