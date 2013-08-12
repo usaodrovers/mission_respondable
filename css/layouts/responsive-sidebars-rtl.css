@@ -393,9 +393,9 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003354}}
-  .section-testimonials #content,
-  .section-search #content,
-  .not-front #content {
+  .html.section-testimonials #content,
+  .html.section-search #content,
+  .html.not-front #content {
     margin-top: 0;
   }
 

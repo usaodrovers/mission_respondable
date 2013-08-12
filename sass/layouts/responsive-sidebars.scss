@@ -349,9 +349,9 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .section-testimonials #content,
-  .section-search #content,
-  .not-front #content {
+  .html.section-testimonials #content,
+  .html.section-search #content,
+  .html.not-front #content {
     margin-top: 0;
   }
 
