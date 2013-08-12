@@ -424,14 +424,20 @@ img {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003203}}
+.lt-ie9 .oversized-text {
+  position: relative;
+  top: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003210}}
 .lt-ie9 .node-type-news .field-name-field-news-author, .lt-ie9 .node-type-news .field-name-field-news-published,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-major,
 .lt-ie9 .node-type-testimonial .field-name-field-testimonial-grad-year {
   background-image: url("../images/cream.png");
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_lt-ie9\.scss}line{font-family:\00003214}}
 .lt-ie9 .node-type-news .title, .lt-ie9 .node-type-testimonial .title {
   background-image: url("../images/green.png");
 }
