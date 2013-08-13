@@ -667,17 +667,17 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003546}}
   .html.section-news .top {
     float: left;
-    width: 64%;
+    width: 62%;
     margin-left: 0%;
-    margin-right: -64%;
+    margin-right: -62%;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003550}}
   .html.section-news .middle {
     float: right;
-    width: 40%;
+    width: 44%;
     margin-right: 0%;
-    margin-left: -40%;
+    margin-left: -44%;
   }
 
   /*
