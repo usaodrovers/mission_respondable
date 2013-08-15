@@ -1239,8 +1239,16 @@ article {
   background-color: transparent;
 }
 
-.section-search .item-list {
+.section-search #content {
   margin: 0 -15px;
+}
+
+.section-search .views-row {
+  margin: 15px 0;
+}
+
+.section-search .attachment {
+  margin: 15px 0;
 }
 
 .section-search {
