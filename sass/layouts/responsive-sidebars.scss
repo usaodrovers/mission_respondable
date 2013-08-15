@@ -177,7 +177,7 @@ $zen-auto-include-item-base: false;
     border-right: none;
   }
 
-  .html .block-search {
+  .html #block-views-exp-search-panel-pane-1 {
     @include zen-grid-item(1, 2.62);
     padding: 5px 0;
     margin-bottom: 0;
@@ -417,7 +417,7 @@ $zen-auto-include-item-base: false;
     border: none;
   }
 
-  .html #views-exposed-form-search-panel-pane-1 {
+  .html #block-views-exp-search-panel-pane-1 {
     @include zen-grid-item(1, 4);
     padding: 5px 0;
     margin-bottom: 0;
@@ -597,7 +597,7 @@ $zen-auto-include-item-base: false;
     border: none;
   }
 
-  .html #views-exposed-form-search-panel-pane-1 {
+  .html #block-views-exp-search-panel-pane-1 {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;

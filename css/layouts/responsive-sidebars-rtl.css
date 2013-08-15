@@ -168,7 +168,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003180}}
-  .html .block-search {
+  .html #block-views-exp-search-panel-pane-1 {
     float: right;
     width: 33.33333%;
     margin-right: 54.0%;
@@ -179,12 +179,12 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003187}}
-  .html .block-search .custom-search-box {
+  .html #block-views-exp-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003192}}
-  .html .block-search .form-submit {
+  .html #block-views-exp-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
     right: -100%;
@@ -482,7 +482,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003420}}
-  .html #views-exposed-form-search-panel-pane-1 {
+  .html #block-views-exp-search-panel-pane-1 {
     float: right;
     width: 20%;
     margin-right: 60%;
@@ -493,12 +493,12 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003428}}
-  .html #views-exposed-form-search-panel-pane-1 .custom-search-box {
+  .html #block-views-exp-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003433}}
-  .html #views-exposed-form-search-panel-pane-1 .form-submit {
+  .html #block-views-exp-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
     right: -100%;
@@ -760,7 +760,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003600}}
-  .html #views-exposed-form-search-panel-pane-1 {
+  .html #block-views-exp-search-panel-pane-1 {
     float: right;
     width: 16.66667%;
     margin-right: 66.66667%;
@@ -770,12 +770,12 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003606}}
-  .html #views-exposed-form-search-panel-pane-1 .custom-search-box {
+  .html #block-views-exp-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003611}}
-  .html #views-exposed-form-search-panel-pane-1 .form-submit {
+  .html #block-views-exp-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
     right: -100%;
