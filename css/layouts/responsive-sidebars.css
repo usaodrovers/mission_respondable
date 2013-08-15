@@ -756,7 +756,7 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003600}}
-  .html .block-search {
+  .html #views-exposed-form-search-panel-pane-1 {
     float: left;
     width: 16.66667%;
     margin-left: 66.66667%;
@@ -766,12 +766,12 @@
     height: 25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003606}}
-  .html .block-search .custom-search-box {
+  .html #views-exposed-form-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003611}}
-  .html .block-search .form-submit {
+  .html #views-exposed-form-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
     right: -100%;

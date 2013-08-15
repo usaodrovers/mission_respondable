@@ -597,7 +597,7 @@ $zen-auto-include-item-base: false;
     border: none;
   }
 
-  .html .block-search {
+  .html #views-exposed-form-search-panel-pane-1 {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;
