@@ -490,7 +490,8 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
     @include zen-grid-item(5, 1);
     @include zen-clear();
     background-color: #F7F4DE;
@@ -667,7 +668,8 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
     @include zen-grid-item(12, 1);
     @include zen-clear();
     background-color: #F7F4DE;
