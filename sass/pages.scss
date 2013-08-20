@@ -586,7 +586,8 @@ hgroup, #site-name, #site-slogan {
   @include font-myriadprocondensed;
 }
 
-.pane-views-testimonial-block .pane-title {
+.pane-views-testimonial-block .pane-title,
+.pane-testimonial .pane-title {
   background-color: #004538;
   @include background-image(linear-gradient(#015B4A, #004538 90%));
   line-height: 1.8em;
@@ -597,7 +598,8 @@ hgroup, #site-name, #site-slogan {
   margin-top: 5px;
 }
 
-.pane-views-testimonial-block .pane-title a {
+.pane-views-testimonial-block .pane-title,
+.pane-testimonial .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
   padding-left: 25px;
@@ -606,7 +608,8 @@ hgroup, #site-name, #site-slogan {
   @include font-copperplate;
 }
 
-.pane-views-testimonial-block .view-content .views-field-nothing {
+.pane-views-testimonial-block .view-content .views-field-nothing,
+.pane-testimonial .view-content .views-field-nothing {
   background-color: #F7F4DE;
   max-height: 182px;
   min-height: 182px;
@@ -618,38 +621,41 @@ hgroup, #site-name, #site-slogan {
   }
 }
 
-.pane-views-testimonial-block .testimonial-title {
+.pane-views-testimonial-block .testimonial-title,
+.pane-testimonial .testimonial-title {
   padding-bottom: 2px;
 }
 
-.pane-views-testimonial-block .testimonial-body {
+.pane-views-testimonial-block .testimonial-body,
+.pane-testimonial .testimonial-body {
   @include font-myriadprocondensed;
   font-size: 20px;
   color: #575757;
 }
 
-.pane-views-testimonial-block .testimonial-path {
-}
-
-.not-logged-in .pane-views-testimonial-block .views-field-edit-node {
+.not-logged-in .pane-views-testimonial-block .views-field-edit-node,
+.not-logged-in .pane-testimonial .views-field-edit-node {
   display: none;
 }
 
-.pane-views-testimonial-block .views-field-edit-node {
+.pane-views-testimonial-block .views-field-edit-node,
+.pane-testimonial .views-field-edit-node {
   position: absolute;
   top: 0;
   right: 0;
   padding: 14px;
 }
 
-.pane-views-testimonial-block .testimonial-body .field-content {
+.pane-views-testimonial-block .testimonial-body .field-content,
+.pane-testimonial .testimonial-body .field-content {
   padding-right: 5px;
   font-size: 17px;
   @include font-myriadprocondensed_bold;
   line-height: 20px;
 }
 
-.pane-views-testimonial-block .testimonial-path a {
+.pane-views-testimonial-block .testimonial-path a,
+.pane-testimonial .testimonial-path a {
   color: #007161;
   text-decoration: none;
   @include font-myriadpro_bold;
