@@ -359,6 +359,15 @@ html, body {
     display: none;
   }
 
+  input {
+    margin-left: 20px;
+    border-radius: 3px 0 0 3px;
+    background-color: #EAE6CD;
+    border: none;
+    height: 23px;
+    padding-left: 10px;
+  }
+
   .search-form {
     height: 20px;
 
@@ -366,15 +375,6 @@ html, body {
       height: 20px;
     }
   }
-}
-
-input.custom-search-box {
-  margin-left: 20px;
-  border-radius: 3px 0 0 3px;
-  background-color: #EAE6CD;
-  border: none;
-  height: 23px;
-  padding-left: 10px;
 }
 
 #block-views-exp-search-panel-pane-1 .form-submit {
