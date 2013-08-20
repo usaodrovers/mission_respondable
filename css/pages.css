@@ -636,7 +636,7 @@ hgroup, #site-name, #site-slogan {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003602}}
-.pane-views-testimonial-block .pane-title,
+.pane-views-testimonial-block .pane-title a,
 .pane-testimonial .pane-title a {
   color: #E5DEA8;
   text-decoration: none;
