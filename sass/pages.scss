@@ -966,6 +966,11 @@ article {
   @include font-myriadpro;
   color: #575757;
   line-height: 18px;
+  padding: 15px;
+
+  .field-name-body {
+    padding: 0;
+  }
 
   a:link,
   a:visited {
