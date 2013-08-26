@@ -593,7 +593,7 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003494}}
   .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
+  .html.page-frontpage .pane-testimonial {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -604,7 +604,7 @@
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003500}}
   .html .pane-views-testimonial-block .views-field-field-testimonial-image,
-  .html .pane-testimonial .views-field-field-testimonial-image {
+  .html.page-frontpage .pane-testimonial .views-field-field-testimonial-image {
     float: right;
     width: 60%;
     margin-right: 0%;
@@ -617,9 +617,9 @@
   .html .pane-views-testimonial-block .testimonial-title,
   .html .pane-views-testimonial-block .testimonial-body,
   .html .pane-views-testimonial-block .testimonial-path,
-  .html .pane-testimonial .testimonial-title,
-  .html .pane-testimonial .testimonial-body,
-  .html .pane-testimonial .testimonial-path {
+  .html.page-frontpage .pane-testimonial .testimonial-title,
+  .html.page-frontpage .pane-testimonial .testimonial-body,
+  .html.page-frontpage .pane-testimonial .testimonial-path {
     float: right;
     width: 40%;
     margin-right: 56%;
