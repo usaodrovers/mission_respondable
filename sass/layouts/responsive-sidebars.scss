@@ -264,7 +264,8 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block {
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
     @include zen-grid-item(3, 1);
     @include zen-clear();
 
@@ -491,7 +492,7 @@ $zen-auto-include-item-base: false;
   }
 
   .html .pane-views-testimonial-block,
-  .html.page-frontpage .pane-testimonial {
+  .html .pane-testimonial {
     @include zen-grid-item(5, 1);
     @include zen-clear();
     background-color: #F7F4DE;
