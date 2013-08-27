@@ -962,7 +962,7 @@ hgroup, #site-name, #site-slogan {
   padding: 0 15px;
 }
 
-div.links {
+div.links a {
   color: #007161;
   text-decoration: none;
   @include font-myriadpro_bold;
