@@ -1081,7 +1081,7 @@ hgroup, #site-name, #site-slogan {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003965}}
-article {
+article, .webform-confirmation {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1090,12 +1090,13 @@ article {
   padding: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003971}}
-article .field-name-body {
+article .field-name-body, .webform-confirmation .field-name-body {
   margin-left: -15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003976}}
 article a:link,
-article a:visited {
+article a:visited, .webform-confirmation a:link,
+.webform-confirmation a:visited {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1104,7 +1105,8 @@ article a:visited {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003983}}
 article a:hover,
-article a:focus {
+article a:focus, .webform-confirmation a:hover,
+.webform-confirmation a:focus {
   text-decoration: underline;
 }
 
