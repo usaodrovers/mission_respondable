@@ -962,6 +962,13 @@ hgroup, #site-name, #site-slogan {
   padding: 0 15px;
 }
 
+div.links {
+  color: #007161;
+  text-decoration: none;
+  @include font-myriadpro_bold;
+  padding-left: 15px;
+}
+
 article, .webform-confirmation {
   @include font-myriadpro;
   color: #575757;
