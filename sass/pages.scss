@@ -905,7 +905,7 @@ hgroup, #site-name, #site-slogan {
   @include font-myriadpro;
   font-size: 12px;
   color: #EAE6CD;
-  width: 240px;
+  width: 255px;
   line-height: 16px;
 }
 
@@ -936,7 +936,7 @@ hgroup, #site-name, #site-slogan {
 #block-menu-menu-footer-navigation li a {
   @include font-myriadpro;
   color: #FFD457;
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -952,7 +952,7 @@ hgroup, #site-name, #site-slogan {
   padding-top: 2px;
 }
 
-.worx a {
+a.worx {
   color: #999999;
 }
 

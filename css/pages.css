@@ -1010,7 +1010,7 @@ hgroup, #site-name, #site-slogan {
   font-style: normal;
   font-size: 12px;
   color: #EAE6CD;
-  width: 240px;
+  width: 255px;
   line-height: 16px;
 }
 
@@ -1049,7 +1049,7 @@ hgroup, #site-name, #site-slogan {
   font-weight: 400;
   font-style: normal;
   color: #FFD457;
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -1068,7 +1068,7 @@ hgroup, #site-name, #site-slogan {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/pages\.scss}line{font-family:\00003955}}
-.worx a {
+a.worx {
   color: #999999;
 }
 
