@@ -719,7 +719,6 @@ $zen-auto-include-item-base: false;
   .html #block-menu-menu-footer-navigation {
     @include zen-grid-item(12, .4);
     @include zen-clear();
-    margin-top: -115px;
   }
 
  .html.section-news .top {
