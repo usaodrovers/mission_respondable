@@ -25,13 +25,13 @@
     border: none;
   }
 
-  .lt-ie9 .block-search {
+  .lt-ie9 .block-views-exp-search-panel-pane-1 {
     @include zen-grid-item(2, 9);
     padding: 5px 0;
     margin-bottom: 0;
     height: 25px;
 
-    .custom-search-box {
+    input {
       width: 100%;
       margin-left: 0;
     }
