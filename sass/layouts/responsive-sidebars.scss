@@ -335,7 +335,8 @@ $zen-auto-include-item-base: false;
   .html #block-menu-menu-footer-navigation {
     @include zen-grid-item(3, 1);
     @include zen-clear();
-    margin-top:0;
+    margin-top:195px;
+    margin-bottom: 10px;
     line-height: 12px;
 
     ul, .menu {
@@ -530,9 +531,6 @@ $zen-auto-include-item-base: false;
     margin-top: 25px;
   }
 
-  .html .block-mission-respondable-footer p {
-  }
-
   .html #block-mission-respondable-footer-footer-contact {
     @include zen-grid-item(5, 1);
     @include zen-clear();
@@ -541,7 +539,6 @@ $zen-auto-include-item-base: false;
   .html #block-menu-menu-footer-navigation {
     @include zen-grid-item(5, .77);
     @include zen-clear();
-    margin-top: -115px;
   }
 
  .html.section-news .top {
@@ -706,9 +703,6 @@ $zen-auto-include-item-base: false;
   .html .panel-pane.events {
     @include zen-grid-item(4.4, 8.6);
     margin-top: 25px;
-  }
-
-  .html .block-mission-respondable-footer p {
   }
 
   .html #block-mission-respondable-footer-footer-contact {
