@@ -87,7 +87,7 @@
   <meta http-equiv="cleartype" content="on">
 
 <?php
-  $path = request_uri();
+/*  $path = request_uri();
   if($path == '/' || $path == '/frontpage/2' || $path == '/?utm_expid=' || $path == '/frontpage/2?utm_expid=') {
     echo <<<EOD
 <!-- Google Analytics Content Experiment code -->
@@ -107,7 +107,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 EOD;
  }
-?>
+*/?>
 
   <?php print $styles; ?>
   <?php print $scripts; ?>
