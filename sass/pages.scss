@@ -1349,3 +1349,13 @@ article, .webform-confirmation {
 .section-testimonials .view-testimonial .views-row-first {
   padding: 0;
 }
+
+.html.section-apply {
+  #page {
+    max-width: 777px;
+  }
+
+  iframe {
+    border: 0;
+  }
+}
