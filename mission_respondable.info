@@ -5,6 +5,7 @@
 ; Drupal 7 stores a cache of the data in this .info files. If you modify any
 ; lines in this file, you MUST refresh Drupal 7's cache by simply visiting the
 ; Appearance page at admin/appearance.
+; Appearance page at admin/appearance.
 
 
 
