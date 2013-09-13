@@ -277,35 +277,6 @@
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003267}}
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    float: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: -100%;
-    clear: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003273}}
-  .html .pane-views-testimonial-block .testimonial-title,
-  .html .pane-views-testimonial-block .testimonial-body,
-  .html .pane-views-testimonial-block .testimonial-path,
-  .html .pane-testimonial .testimonial-title,
-  .html .pane-testimonial .testimonial-body,
-  .html .pane-testimonial .testimonial-path {
-    float: left;
-    width: 95.0%;
-    margin-left: 3.33333%;
-    margin-right: -98.33333%;
-    clear: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003278}}
-  .html .pane-views-testimonial-block .views-field-field-testimonial-image,
-  .html .pane-testimonial .views-field-field-testimonial-image {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003285}}
   .html .pane-views-featured-news-block {
     float: left;
     width: 100%;
@@ -314,22 +285,22 @@
     clear: left;
     margin-top: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003272}}
   .html .pane-views-featured-news-block li {
     clear: left;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003277}}
   .html .pane-views-featured-news-block .pane-title {
     margin-top: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003281}}
   .html .pane-views-featured-news-block .views-field-field-news-frontpage-image {
     margin-bottom: 20px;
     margin-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003289}}
   .html .panel-pane.events {
     clear: left;
     float: left;
@@ -339,18 +310,18 @@
     margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003295}}
   .html .icon-coplac_logo {
     display: block;
     margin-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003300}}
   .html .icon-waht_will_they_learn_logo {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003304}}
   .html .block-mission-respondable-footer p {
     float: left;
     width: 100%;
@@ -359,7 +330,7 @@
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003309}}
   .html #block-mission-respondable-footer-footer-contact {
     float: left;
     width: 100%;
@@ -371,7 +342,7 @@
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003317}}
   .html #block-menu-menu-footer-navigation {
     float: left;
     width: 100%;
@@ -382,39 +353,38 @@
     margin-bottom: 10px;
     line-height: 12px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003324}}
   .html #block-menu-menu-footer-navigation ul, .html #block-menu-menu-footer-navigation .menu {
     margin: 0;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003329}}
   .html #block-menu-menu-footer-navigation .last {
     padding-top: 5px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003354}}
-  .html.section-testimonials #content,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003335}}
   .html.section-search #content,
   .html.not-front #content {
     margin-top: 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003339}}
   .html.node-type-news #content {
     margin-top: 65px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003362}}
-  .html.node-type-news .masthead, .html.node-type-testimonial .masthead {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003343}}
+  .html.node-type-news .masthead {
     top: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003347}}
   .html.node-type-news .field-name-field-news-published {
     margin-bottom: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003351}}
   .html.section-news .news {
     float: left;
     width: 100%;
@@ -425,7 +395,7 @@
     margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003358}}
   .html.section-news .headlines {
     float: left;
     width: 100%;
@@ -434,7 +404,7 @@
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003363}}
   .html.section-news .top-news {
     float: left;
     width: 100%;
@@ -444,7 +414,7 @@
     margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003369}}
   .html.section-news .latest-news {
     float: left;
     width: 100%;
@@ -453,27 +423,17 @@
     clear: left;
     margin-bottom: 25px;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003394}}
-  .html.node-type-testimonial .title {
-    top: 0;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003398}}
-  .html.node-type-testimonial .field-name-field-testimonial-grad-year {
-    margin-bottom: 0;
-  }
 }
 @media all and (min-width: 651px) and (max-width: 959px) {
   /*
    * Use 5 grid columns for smaller screens.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003384}}
   html.wf-active {
     background: url("../../images/pretties.png") no-repeat scroll center 40px #083228;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003389}}
   .html #logo {
     float: left;
     width: 16%;
@@ -482,7 +442,7 @@
     border: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003394}}
   .html #block-views-exp-search-panel-pane-1 {
     float: left;
     width: 20%;
@@ -493,12 +453,12 @@
     margin-top: -35px;
     height: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003402}}
   .html #block-views-exp-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003407}}
   .html #block-views-exp-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
@@ -508,7 +468,7 @@
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003417}}
   .html #secondary-menu {
     float: left;
     width: 80%;
@@ -516,16 +476,16 @@
     margin-right: -80%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003421}}
   .html #secondary-menu li {
     padding: 5px 2.8%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003425}}
   .html #secondary-menu li.last {
     border: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003430}}
   .html .pane-views-viewbook-block {
     float: left;
     width: 100%;
@@ -533,7 +493,7 @@
     margin-right: -100%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003434}}
   .html .pane-views-viewbook-block .views-field-body .field-content {
     float: left;
     width: 56%;
@@ -541,7 +501,7 @@
     margin-right: -100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003440}}
   .html .pane-mission-respondable-front-buttons-front-buttons {
     float: left;
     width: 100%;
@@ -549,42 +509,42 @@
     margin-right: -100%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003444}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link {
     float: left;
     width: 32%;
     margin-left: 34%;
     margin-right: -66%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003447}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.first {
     float: left;
     width: 32%;
     margin-left: 0%;
     margin-right: -32%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003449}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.first:hover {
     float: left;
     width: 32%;
     margin-left: 0%;
     margin-right: -32%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003454}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.last {
     float: left;
     width: 32%;
     margin-left: 68%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003456}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.last:hover {
     float: left;
     width: 32%;
     margin-left: 68%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003461}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link:hover {
     float: left;
     width: 32%;
@@ -592,43 +552,7 @@
     margin-right: -66%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003495}}
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    float: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: -100%;
-    clear: left;
-    background-color: #F7F4DE;
-    margin-top: 25px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003501}}
-  .html .pane-views-testimonial-block .views-field-field-testimonial-image,
-  .html .pane-testimonial .views-field-field-testimonial-image {
-    float: left;
-    width: 60%;
-    margin-left: 0%;
-    margin-right: -60%;
-    line-height: 0;
-    margin-bottom: -180px;
-    margin-top: -1px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003510}}
-  .html .pane-views-testimonial-block .testimonial-title,
-  .html .pane-views-testimonial-block .testimonial-body,
-  .html .pane-views-testimonial-block .testimonial-path,
-  .html .pane-testimonial .testimonial-title,
-  .html .pane-testimonial .testimonial-body,
-  .html .pane-testimonial .testimonial-path {
-    float: left;
-    width: 40%;
-    margin-left: 56%;
-    margin-right: -96%;
-    clear: left;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003467}}
   .html .pane-views-featured-news-block {
     float: left;
     width: 60%;
@@ -637,12 +561,12 @@
     clear: left;
     margin-top: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003472}}
   .html .pane-views-featured-news-block .views-field-field-news-image {
     padding-bottom: 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003477}}
   .html .panel-pane.events {
     float: left;
     width: 36%;
@@ -651,7 +575,7 @@
     margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003482}}
   .html #block-mission-respondable-footer-footer-contact {
     float: left;
     width: 100%;
@@ -660,7 +584,7 @@
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003539}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003487}}
   .html #block-menu-menu-footer-navigation {
     float: left;
     width: 100%;
@@ -669,7 +593,7 @@
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003492}}
   .html.section-news .top {
     float: right;
     width: 62%;
@@ -677,7 +601,7 @@
     margin-left: -62%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003496}}
   .html.section-news .middle {
     float: left;
     width: 44%;
@@ -688,7 +612,7 @@
   /*
   * The layout when there are two sidebars.
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003505}}
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -696,7 +620,7 @@
     margin-left: 20%;
     margin-right: -60%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003509}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -704,7 +628,7 @@
     margin-left: 0%;
     margin-right: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003513}}
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: left;
@@ -715,7 +639,7 @@
     padding-right: 0;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003518}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -725,7 +649,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003521}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: left;
@@ -734,7 +658,7 @@
     margin-right: -20%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003525}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: left;
@@ -742,7 +666,7 @@
     margin-left: 20%;
     margin-right: -40%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003580}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003528}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: left;
@@ -755,7 +679,7 @@
   /*
    * Use 12 grid columns for larger screens.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003541}}
   .html #logo {
     float: left;
     width: 16.66667%;
@@ -764,7 +688,7 @@
     border: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003546}}
   .html #block-views-exp-search-panel-pane-1 {
     float: left;
     width: 16.66667%;
@@ -774,12 +698,12 @@
     margin-bottom: 0;
     height: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003552}}
   .html #block-views-exp-search-panel-pane-1 .custom-search-box {
     width: 100%;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003557}}
   .html #block-views-exp-search-panel-pane-1 .form-submit {
     position: relative;
     top: -37px;
@@ -789,23 +713,23 @@
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003567}}
   .html #secondary-menu {
     float: left;
     width: 58.33333%;
     margin-left: 12.5%;
     margin-right: -70.83333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003570}}
   .html #secondary-menu li {
     padding: 5px 2.8%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003574}}
   .html #secondary-menu li.last {
     border: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003579}}
   .html .pane-views-viewbook-block {
     float: left;
     width: 100%;
@@ -813,7 +737,7 @@
     margin-right: -100%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003583}}
   .html .pane-views-viewbook-block .views-field-body .field-content {
     float: left;
     width: 62.5%;
@@ -821,7 +745,7 @@
     margin-right: -94.16667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003589}}
   .html .pane-mission-respondable-front-buttons-front-buttons {
     float: left;
     width: 100%;
@@ -829,42 +753,42 @@
     margin-right: -100%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003593}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link {
     float: left;
     width: 31.66667%;
     margin-left: 34.16667%;
     margin-right: -65.83333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003596}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.first {
     float: left;
     width: 31.66667%;
     margin-left: 0%;
     margin-right: -31.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003598}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.first:hover {
     float: left;
     width: 31.66667%;
     margin-left: 0%;
     margin-right: -31.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003603}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.last {
     float: left;
     width: 31.66667%;
     margin-left: 68.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003657}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003605}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link.last:hover {
     float: left;
     width: 31.66667%;
     margin-left: 68.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003610}}
   .html .pane-mission-respondable-front-buttons-front-buttons .button-link:hover {
     float: left;
     width: 31.66667%;
@@ -872,7 +796,7 @@
     margin-right: -65.83333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003669}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003617}}
   .html .pane-views-featured-news-block {
     float: left;
     width: 59.16667%;
@@ -881,12 +805,12 @@
     clear: left;
     margin-top: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003674}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003622}}
   .html .pane-views-featured-news-block .views-field-field-news-image {
     padding-bottom: 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003627}}
   .html .panel-pane.events {
     float: left;
     width: 36.66667%;
@@ -895,7 +819,7 @@
     margin-top: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003684}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003632}}
   .html #block-mission-respondable-footer-footer-contact {
     float: left;
     width: 100%;
@@ -904,7 +828,7 @@
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003637}}
   .html #block-menu-menu-footer-navigation {
     float: left;
     width: 100%;
@@ -913,7 +837,7 @@
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003642}}
   .html.section-news .top {
     float: right;
     width: 61.66667%;
@@ -921,7 +845,7 @@
     margin-left: -61.66667%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003646}}
   .html.section-news .middle {
     float: left;
     width: 20%;
@@ -932,7 +856,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003707}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003655}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: left;
@@ -940,7 +864,7 @@
     margin-left: 8.33333%;
     margin-right: -41.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003659}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -952,7 +876,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003669}}
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: left;
@@ -960,7 +884,7 @@
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003673}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;
@@ -972,7 +896,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003683}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: left;
@@ -980,7 +904,7 @@
     margin-left: 8.33333%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003687}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -988,7 +912,7 @@
     margin-left: 0%;
     margin-right: -8.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003691}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;

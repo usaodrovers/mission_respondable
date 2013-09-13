@@ -263,24 +263,6 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    @include zen-grid-item(3, 1);
-    @include zen-clear();
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(2.85, 1.1);
-      @include zen-clear();
-    }
-
-    .views-field-field-testimonial-image {
-      margin: 0 auto;
-      text-align: center;
-    }
-
-  }
 
   .html .pane-views-featured-news-block {
     @include zen-grid-item(3, 1);
@@ -349,7 +331,6 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html.section-testimonials #content,
   .html.section-search #content,
   .html.not-front #content {
     margin-top: 30px;
@@ -359,7 +340,7 @@ $zen-auto-include-item-base: false;
     margin-top: 65px;
   }
 
-  .html.node-type-news .masthead, .html.node-type-testimonial .masthead {
+  .html.node-type-news .masthead {
     top: 0;
   }
 
@@ -389,14 +370,6 @@ $zen-auto-include-item-base: false;
    @include zen-grid-item(3, 1);
    @include zen-clear();
    margin-bottom: 25px;
- }
-
- .html.node-type-testimonial .title {
-   top: 0;
- }
-
- .html.node-type-testimonial .field-name-field-testimonial-grad-year {
-   margin-bottom: 0;
  }
 
 }
@@ -488,31 +461,6 @@ $zen-auto-include-item-base: false;
       &:hover {
         @include zen-grid-item(1.6, 2.7);
       }
-    }
-  }
-
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    @include zen-grid-item(5, 1);
-    @include zen-clear();
-    background-color: #F7F4DE;
-    margin-top: 25px;
-
-    .views-field-field-testimonial-image {
-      @include zen-grid-item(3, 1);
-      line-height: 0;
-      margin-bottom: -180px;
-      margin-top: -1px;
-    }
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(2, 3.8);
-      @include zen-clear();
-    }
-
-    .testimonial-path {
     }
   }
 

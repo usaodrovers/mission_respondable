@@ -443,11 +443,78 @@ img {
   background-image: url("../images/green.png");
 }
 
-@media all and (min-width: 960px) {
+@media all and (max-width: 650px) {
   /*
-   * Use 12 grid columns for larger screens.
+   * Use 3 grid columns for smaller screens.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000310}}
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    clear: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000316}}
+  .html .pane-views-testimonial-block .testimonial-title,
+  .html .pane-views-testimonial-block .testimonial-body,
+  .html .pane-views-testimonial-block .testimonial-path,
+  .html .pane-testimonial .testimonial-title,
+  .html .pane-testimonial .testimonial-body,
+  .html .pane-testimonial .testimonial-path {
+    float: left;
+    width: 95.0%;
+    margin-left: 3.33333%;
+    margin-right: -98.33333%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    clear: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000321}}
+  .html .pane-views-testimonial-block .views-field-field-testimonial-image,
+  .html .pane-testimonial .views-field-field-testimonial-image {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000327}}
+  .html.section-testimonials #content {
+    margin-top: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000331}}
+  .html.node-type-testimonial .masthead {
+    top: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000335}}
+  .html.node-type-testimonial .title {
+    top: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000339}}
+  .html.node-type-testimonial .field-name-field-testimonial-grad-year {
+    margin-bottom: 0;
+  }
+}
+@media all and (min-width: 651px) and (max-width: 959px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000352}}
   .html .pane-views-testimonial-block,
   .html .pane-testimonial {
     float: left;
@@ -465,7 +532,68 @@ img {
     background-color: #F7F4DE;
     margin-top: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000358}}
+  .html .pane-views-testimonial-block .views-field-field-testimonial-image,
+  .html .pane-testimonial .views-field-field-testimonial-image {
+    float: left;
+    width: 60%;
+    margin-left: 0%;
+    margin-right: -60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    line-height: 0;
+    margin-bottom: -180px;
+    margin-top: -1px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000367}}
+  .html .pane-views-testimonial-block .testimonial-title,
+  .html .pane-views-testimonial-block .testimonial-body,
+  .html .pane-views-testimonial-block .testimonial-path,
+  .html .pane-testimonial .testimonial-title,
+  .html .pane-testimonial .testimonial-body,
+  .html .pane-testimonial .testimonial-path {
+    float: left;
+    width: 40%;
+    margin-left: 56%;
+    margin-right: -96%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    clear: left;
+  }
+}
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000385}}
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    clear: left;
+    background-color: #F7F4DE;
+    margin-top: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000391}}
   .html .pane-views-testimonial-block .views-field-field-testimonial-image,
   .html .pane-testimonial .views-field-field-testimonial-image {
     float: left;
@@ -483,7 +611,7 @@ img {
     margin-bottom: -180px;
     margin-top: -1px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/partials\/_testimonials\.scss}line{font-family:\00003100}}
   .html .pane-views-testimonial-block .testimonial-title,
   .html .pane-views-testimonial-block .testimonial-body,
   .html .pane-views-testimonial-block .testimonial-path,
@@ -503,17 +631,4 @@ img {
     word-wrap: break-word;
     clear: left;
   }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/mission_respondable\.scss}line{font-family:\000036}}
-.comments {
-  /* Wrapper for the list of comments and its title */
-  margin: 1.5em 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/mission_respondable\.scss}line{font-family:\000039}}
-.comments h2.title {
-  /* Heading for the list of comments */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drakythe\/USAO\/mission_respondable\/sass\/mission_respondable\.scss}line{font-family:\0000312}}
-.comments h2.comment-form {
-  /* Heading for the comment form */
 }
