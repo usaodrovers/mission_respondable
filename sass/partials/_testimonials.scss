@@ -1,0 +1,32 @@
+@import "../base";
+@media all and (min-width: 960px) {
+/*
+ * Use 12 grid columns for larger screens.
+ */
+  $zen-column-count: 12;
+
+  .html .pane-views-testimonial-block,
+  .html .pane-testimonial {
+    @include zen-grid-item(12, 1);
+    @include zen-clear();
+    background-color: #F7F4DE;
+    margin-top: 25px;
+
+    .views-field-field-testimonial-image {
+      @include zen-grid-item(7, 1);
+      line-height: 0;
+      margin-bottom: -180px;
+      margin-top: -1px;
+    }
+
+    .testimonial-title,
+    .testimonial-body,
+    .testimonial-path {
+      @include zen-grid-item(5, 7.8);
+      @include zen-clear();
+    }
+
+    .testimonial-path {
+    }
+  }
+}
