@@ -286,12 +286,6 @@ $zen-auto-include-item-base: false;
 
   }
 
-  .html .panel-pane.events {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-    margin-top: 25px;
-  }
-
   .html .icon-coplac_logo {
     display: block;
     margin-left: 0;
@@ -474,11 +468,6 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html .panel-pane.events {
-    @include zen-grid-item(1.8, 4.2);
-    margin-top: 25px;
-  }
-
   .html #block-mission-respondable-footer-footer-contact {
     @include zen-grid-item(5, 1);
     @include zen-clear();
@@ -622,11 +611,6 @@ $zen-auto-include-item-base: false;
     .views-field-field-news-image {
       padding-bottom: 15px;
     }
-  }
-
-  .html .panel-pane.events {
-    @include zen-grid-item(4.4, 8.6);
-    margin-top: 25px;
   }
 
   .html #block-mission-respondable-footer-footer-contact {
