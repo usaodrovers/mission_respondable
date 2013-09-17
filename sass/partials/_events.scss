@@ -58,9 +58,20 @@
 
   .event-date {
     border: 1px solid;
+    height: 48px;
+    text-align: center;
+    width: 34px;
 
     .event-year {
-      transform: rotate(90deg);
+      background-color: #808080;
+      color: #0000FF;
+      display: inline-block;
+      margin-bottom: -20px;
+      margin-left: 21px;
+      padding: 0 5px;
+      position: relative;
+      top: -36px;
+      transform: rotate(-90deg);
     }
   }
 
