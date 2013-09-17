@@ -36,6 +36,7 @@
   .html .panel-pane.events {
     @include zen-grid-item(4.4, 8.6);
     margin-top: 25px;
+    padding: 0;
   }
 }
 
@@ -57,14 +58,14 @@
   background-color: #F7F4DE;
 
   .event-date {
-    border: 1px solid;
+    border: 1px solid #004538;
     height: 48px;
     text-align: center;
     width: 34px;
 
     .event-year {
-      background-color: #808080;
-      color: #0000FF;
+      background-color: #004538;
+      color: #E5DEA8;
       display: inline-block;
       margin-bottom: -20px;
       margin-left: 21px;
