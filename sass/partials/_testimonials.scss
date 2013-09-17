@@ -6,8 +6,7 @@
  */
   $zen-column-count: 3;
 
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
+  .html .testimonial {
     @include zen-grid-item(3, 1);
     @include zen-clear();
 
@@ -18,7 +17,7 @@
       @include zen-clear();
     }
 
-    .views-field-field-testimonial-image {
+    img {
       margin: 0 auto;
       text-align: center;
     }
