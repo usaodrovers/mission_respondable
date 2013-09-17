@@ -74,6 +74,22 @@
       top: -36px;
       transform: rotate(-90deg);
     }
+
+    .event-day {
+      @include font-myriadprocondensed_bold;
+      font-size: 40px;
+      color: #007161;
+      margin-left: 10px;
+      line-height: 5px;
+    }
+
+    .event-month {
+      @include font-copperplate;
+      font-size: 18px;
+      color: #007161;
+      margin-left: 10px;
+      line-height: 5px;
+    }
   }
 
   br {
@@ -89,22 +105,6 @@
       margin-top: 0;
       border-top: none;
     }
-  }
-
-  .date_day {
-    @include font-myriadprocondensed_bold;
-    font-size: 40px;
-    color: #007161;
-    margin-left: 10px;
-    line-height: 5px;
-  }
-
-  .date_month {
-    @include font-copperplate;
-    font-size: 18px;
-    color: #007161;
-    margin-left: 10px;
-    line-height: 5px;
   }
 
   .date_time {

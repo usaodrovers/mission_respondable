@@ -713,23 +713,8 @@ img {
   top: -36px;
   transform: rotate(-90deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000379}}
-.events br {
-  line-height: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000383}}
-.events .views-row {
-  margin: 10px;
-  border-top: 1px solid #056553;
-  padding: 15px 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000388}}
-.events .views-row.views-row-first {
-  margin-top: 0;
-  border-top: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000394}}
-.events .date_day {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000378}}
+.events .event-date .event-day {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -738,8 +723,8 @@ img {
   margin-left: 10px;
   line-height: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\00003102}}
-.events .date_month {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000386}}
+.events .event-date .event-month {
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
   font-weight: 400;
   font-style: normal;
@@ -747,6 +732,21 @@ img {
   color: #007161;
   margin-left: 10px;
   line-height: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000395}}
+.events br {
+  line-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000399}}
+.events .views-row {
+  margin: 10px;
+  border-top: 1px solid #056553;
+  padding: 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\00003104}}
+.events .views-row.views-row-first {
+  margin-top: 0;
+  border-top: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\00003110}}
 .events .date_time {
