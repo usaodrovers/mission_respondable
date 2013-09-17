@@ -699,7 +699,7 @@ img {
   border: 1px solid #004538;
   height: 48px;
   text-align: center;
-  width: 34px;
+  width: 38px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000366}}
 .events .event-date .event-year {
@@ -709,7 +709,7 @@ img {
   background-color: #004538;
   color: #E5DEA8;
   display: inline-block;
-  margin-left: 19px;
+  margin-left: 25px;
   padding: 0 5px;
   position: relative;
   top: -36px;
