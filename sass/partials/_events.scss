@@ -56,6 +56,14 @@
 .events {
   background-color: #F7F4DE;
 
+  .event-date {
+    border: 1px solid;
+
+    .event-year {
+      transform: rotate(90deg);
+    }
+  }
+
   br {
     line-height: 0;
   }
