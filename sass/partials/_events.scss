@@ -64,6 +64,7 @@
     width: 34px;
 
     .event-year {
+      @include font-myriadprocondensed_bold;
       background-color: #004538;
       color: #E5DEA8;
       display: inline-block;
@@ -73,11 +74,12 @@
       position: relative;
       top: -36px;
       transform: rotate(-90deg);
+      letter-spacing: 4px;
     }
 
     .event-day {
       @include font-myriadprocondensed_bold;
-      font-size: 40px;
+      font-size: 30px;
       color: #007161;
       margin-left: 10px;
       line-height: 5px;
@@ -85,7 +87,7 @@
 
     .event-month {
       @include font-copperplate;
-      font-size: 18px;
+      font-size: 13px;
       color: #007161;
       margin-left: 10px;
       line-height: 5px;
