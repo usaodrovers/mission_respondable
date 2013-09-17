@@ -40,20 +40,6 @@
   }
 }
 
-.view-events {
-
-  .views-row {
-    display: table;
-  }
-
-  .views-field-title,
-  .views-field-nothing {
-    display: table-cell;
-    vertical-align: middle;
-  }
-}
-
-
 .events {
   background-color: #F7F4DE;
 
@@ -103,7 +89,6 @@
     padding: 15px 0;
 
     &.views-row-first {
-      margin-top: 0;
       border-top: none;
     }
   }
