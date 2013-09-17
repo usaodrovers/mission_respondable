@@ -700,10 +700,6 @@ hgroup, #site-name, #site-slogan {
   display: table;
 }
 
-.view-events .views-row {
-  display: table;
-}
-
 .view-featured-news li div {
   display: block;
   height: 70px;
@@ -722,86 +718,12 @@ hgroup, #site-name, #site-slogan {
   padding: 0 15px;
 }
 
-.view-events .views-field-title, .view-events .views-field-nothing {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .view-featured-news .views-field-title span a {
   text-decoration: none;
   @include font-myriadpro_semibold;
   color: #007161;
   font-size: 16px;
 }
-
-.panel-pane.events {
-  background-color: #F7F4DE;
-}
-
-.panel-pane.events br {
-  line-height: 0;
-}
-
-.panel-pane.events .views-row {
-  margin: 10px;
-  border-top: 1px solid #056553;
-  padding: 15px 0;
-
-  &.views-row-first {
-    margin-top: 0;
-    border-top: none;
-  }
-}
-
-.panel-pane.events .date_day {
-  @include font-myriadprocondensed_bold;
-  font-size: 40px;
-  color: #007161;
-  margin-left: 10px;
-  line-height: 5px;
-}
-
-.panel-pane.events .date_month {
-  @include font-copperplate;
-  font-size: 18px;
-  color: #007161;
-  margin-left: 10px;
-  line-height: 5px;
-}
-
-.panel-pane.events .date_time {
-  @include font-myriadprocondensed_semibold_italic;
-  font-size: 12px;
-  color: #007161;
-  line-height: 5px;
-
-  .date-display-single {
-    margin-left: 15px;
-  }
-
-  .date-display-start {
-    margin-left: -15px;
-  }
-}
-
-.panel-pane.events .views-field-nothing {
-  float: left;
-  width: 75px;
-  margin-top: 15px;
-}
-
-.panel-pane.events .views-field-title {
-  @include font-myriadprocondensed_bold;
-  font-size: 18px;
-  color: #575757;
-  text-decoration: none;
-}
-
-.panel-pane.events .views-field-title a {
-  color: #575757;
-  text-decoration: none;
-}
-
 
 .block-mission-respondable-footer {
   border-top: 1px solid #056553;
