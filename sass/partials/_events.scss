@@ -68,20 +68,18 @@
       background-color: #004538;
       color: #E5DEA8;
       display: inline-block;
-      margin-bottom: -20px;
-      margin-left: 21px;
+      margin-left: 19px;
       padding: 0 5px;
       position: relative;
-      top: -36px;
+      top: -37px;
       @include rotate(-90deg);
-      letter-spacing: 4px;
+      letter-spacing: 3px;
     }
 
     .event-day {
       @include font-myriadprocondensed_bold;
       font-size: 30px;
       color: #007161;
-      margin-left: 10px;
       line-height: 5px;
     }
 
@@ -89,7 +87,6 @@
       @include font-copperplate;
       font-size: 13px;
       color: #007161;
-      margin-left: 10px;
       line-height: 5px;
     }
   }
