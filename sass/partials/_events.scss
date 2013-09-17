@@ -61,26 +61,14 @@
     border: 1px solid #004538;
     height: 48px;
     text-align: center;
-    width: 38px;
-
-    .event-year {
-      @include font-myriadprocondensed_bold;
-      background-color: #004538;
-      color: #E5DEA8;
-      display: inline-block;
-      margin-left: 25px;
-      padding: 0 5px;
-      position: relative;
-      top: -36px;
-      @include rotate(-90deg);
-      letter-spacing: 3px;
-    }
+    width: 61px;
 
     .event-day {
       @include font-myriadprocondensed_bold;
       font-size: 30px;
       color: #007161;
       line-height: 5px;
+      margin-left: 10px;
     }
 
     .event-month {
@@ -88,6 +76,21 @@
       font-size: 13px;
       color: #007161;
       line-height: 5px;
+      margin-left: 10px;
+    }
+
+    .event-year {
+      @include font-myriadprocondensed_bold;
+      background-color: #004538;
+      color: #E5DEA8;
+      display: inline-block;
+      margin-left: 29px;
+      padding: 0 5px 1px;
+      position: relative;
+      top: -37px;
+      @include rotate(-90deg);
+      letter-spacing: 3px;
+      line-height: 14px;
     }
   }
 
