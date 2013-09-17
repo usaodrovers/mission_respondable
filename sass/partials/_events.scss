@@ -73,7 +73,7 @@
       padding: 0 5px;
       position: relative;
       top: -36px;
-      transform: rotate(-90deg);
+      @include rotate(-90deg);
       letter-spacing: 4px;
     }
 
