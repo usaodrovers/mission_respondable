@@ -12,6 +12,11 @@
     margin-top: 25px;
   }
 
+ .html.section-events .category {
+   @include zen-grid-item(3, 1);
+   @include zen-clear();
+ }
+
 }
 
 
