@@ -100,15 +100,7 @@
     @include font-myriadprocondensed_semibold_italic;
     font-size: 12px;
     color: #007161;
-    line-height: 5px;
-
-    .date-display-single {
-      margin-left: 15px;
-    }
-
-    .date-display-start {
-      margin-left: -15px;
-    }
+    margin-top: 5px;
   }
 
   .views-field-nothing {
