@@ -55,8 +55,7 @@
   }
 
   .html.section-events .events-top {
-    @include zen-grid-item(7, 5);
-    @include zen-clear();
+    @include zen-grid-item(8, 6);
   }
 }
 
