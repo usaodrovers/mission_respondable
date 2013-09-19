@@ -30,6 +30,11 @@
     @include zen-grid-item(1.8, 4.2);
     margin-top: 25px;
   }
+
+ .html.section-events .category {
+   @include zen-grid-item(3, 1);
+   @include zen-clear();
+ }
 }
 
 @media all and (min-width: 960px) {
@@ -42,6 +47,11 @@
     @include zen-grid-item(4.4, 8.6);
     margin-top: 25px;
     padding: 0;
+  }
+
+  .html.section-events .category {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
   }
 }
 
