@@ -841,3 +841,8 @@ img {
   color: #575757;
   text-decoration: none;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\00003148}}
+.section-events .category, .section-events .events-top {
+  background-color: #F7F4DE;
+}
