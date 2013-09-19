@@ -50,7 +50,12 @@
   }
 
   .html.section-events .category {
-    @include zen-grid-item(3, 1);
+    @include zen-grid-item(4, 1);
+    @include zen-clear();
+  }
+
+  .html.section-events .events-top {
+    @include zen-grid-item(7, 5);
     @include zen-clear();
   }
 }
