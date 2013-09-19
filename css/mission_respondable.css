@@ -714,9 +714,9 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000352}}
   .html.section-events .category {
     float: left;
-    width: 33.33333%;
+    width: 41.66667%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -41.66667%;
     padding-left: 10px;
     padding-right: 10px;
     -moz-box-sizing: border-box;
@@ -730,9 +730,9 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/partials\/_events\.scss}line{font-family:\0000357}}
   .html.section-events .events-top {
     float: left;
-    width: 66.66667%;
+    width: 50%;
     margin-left: 41.66667%;
-    margin-right: -108.33333%;
+    margin-right: -91.66667%;
     padding-left: 10px;
     padding-right: 10px;
     -moz-box-sizing: border-box;
