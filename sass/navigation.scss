@@ -64,9 +64,15 @@ li a.active {
 
     li { /* A simple method to get navigation links to appear in one line. */
       float: left; /* LTR */
-      padding: 0 10px 0 0; /* LTR */
+      padding: 0 4px 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
+      &.last {
+        background-color: #FFD457;
+        box-shadow: -2px 2px 2px #000000;
+        margin-left: 9px;
+        padding: 0;
+      }
     }
   }
 }
@@ -100,4 +106,26 @@ li a.active {
  */
 
 .block-menu-block {
+}
+
+@media all and (min-width: 481px) {/* Hard/Soft Breakpoint start of Tablets */
+}
+
+@media all and (min-width: 651px) {/* Hard Breakpoint  */
+}
+
+@media all and (min-width: 960px) {/* Hard Breakpoint PC */
+}
+
+@media all and (min-width: 1020px) {/* Soft Breakpoint */
+  #navigation {
+    ul.menu { /* Menu block links */
+      li {
+        padding: 0 10px 0 0; /* LTR */
+        &.last {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
 }

@@ -2,13 +2,13 @@
  * @file
  * RTL companion for the tabs.css file.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/tabs-rtl\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/tabs-rtl\.scss}line{font-family:\0000311}}
 ul.primary li,
 ul.secondary li {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/Dropbox\/ubuntu64-lucid\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_respondable\/sass\/tabs-rtl\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/tabs-rtl\.scss}line{font-family:\0000317}}
 ul.primary li {
   margin: 0.5em 3px 0 0;
 }

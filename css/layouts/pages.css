@@ -1,0 +1,1498 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+/*
+ * Body
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000316}}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000329}}
+#skip-link {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000333}}
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000350}}
+#logo {
+  /* Wrapping link for logo */
+  float: left;
+  /* LTR */
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000355}}
+#logo img {
+  vertical-align: bottom;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000360}}
+#name-and-slogan {
+  /* Wrapper for website name and slogan */
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000364}}
+#site-name {
+  /* The name of the website */
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000370}}
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000376}}
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000381}}
+#site-slogan {
+  /* The slogan (or tagline) of a website */
+  margin: 0;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\0000386}}
+.region-header {
+  /* Wrapper for any blocks placed in the header region */
+  clear: both;
+  /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+/*
+ * Content
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003107}}
+.breadcrumb {
+  /* The path to the current page in the form of a list of links */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003108}}
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003112}}
+.breadcrumb li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003125}}
+h1.title,
+h2.node-title,
+h2.block-title,
+h2.title,
+h2.comment-form,
+h3.title {
+  /* Comment title */
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003129}}
+tr.even {
+  /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003133}}
+tr.odd {
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003137}}
+div.messages {
+  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0;
+  /* Drupal core uses "6px 0" margin */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003140}}
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003146}}
+div.status {
+  /* Normal priority messages */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003150}}
+div.warning,
+tr.warning {
+  /* Medium priority messages */
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003155}}
+div.error,
+tr.error {
+  /* High priority messages. See also the .error declaration below. */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003158}}
+.error {
+  /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003162}}
+.warning {
+  /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003166}}
+.tabs {
+  /* See also the tabs.css file. */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003169}}
+.region-help {
+  /* Help text on a page */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003172}}
+.more-help-link {
+  /* Link to more help */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003175}}
+.region-content {
+  /* Wrapper for the actual page content */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003178}}
+ul.inline {
+  /* List of links generated by theme_links() */
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003182}}
+ul.inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 1em 0 0;
+  /* LTR */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003188}}
+span.field-label {
+  /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0;
+  /* LTR */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003192}}
+.item-list .pager {
+  /* A list of page numbers when more than 1 page of content is available */
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003195}}
+.item-list .pager li {
+  /* Each page number in the pager list */
+  padding: 0 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003200}}
+.feed-icon {
+  /* The link to the RSS or Atom feed for the current list of content */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003203}}
+.more-link {
+  /* Aggregator, blog, and forum more link */
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+/*
+ * Footer
+ */
+/*
+ * Page bottom
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003237}}
+.region-bottom {
+  /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/* Custom Css*/
+/* Fonts */
+/* Colors */
+/* Configs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003303}}
+html {
+  background: url("../images/pretties.png") no-repeat scroll center top #083228;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003307}}
+html, body {
+  min-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003311}}
+#secondary-menu li {
+  list-style: none;
+  height: 27px;
+  float: left;
+  padding: 5px 1%;
+  border-right: 1px solid #062A21;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003319}}
+#secondary-menu li a {
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #e5dea8;
+  font-size: 12px;
+  letter-spacing: .88px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003327}}
+#header {
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  height: auto;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003335}}
+.region-header {
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003339}}
+#secondary-menu ul {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003343}}
+#secondary-menu.block {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003347}}
+#logo {
+  padding: 5px 1%;
+  border-right: 1px solid #062A21;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003352}}
+#block-views-exp-search-panel-pane-1 {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003355}}
+#block-views-exp-search-panel-pane-1 label {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003359}}
+#block-views-exp-search-panel-pane-1 .views-exposed-form .views-exposed-widget {
+  float: left;
+  padding: 0 1em 0 0;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003365}}
+#block-views-exp-search-panel-pane-1 input.form-text {
+  border-radius: 3px 0 0 3px;
+  background-color: #EAE6CD;
+  border: none;
+  height: 23px;
+  padding-left: 10px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003374}}
+#block-views-exp-search-panel-pane-1 .search-form {
+  height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003377}}
+#block-views-exp-search-panel-pane-1 .search-form .container-inline {
+  height: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003383}}
+#block-views-exp-search-panel-pane-1 .form-submit {
+  height: 25px;
+  max-width: 100%;
+  padding-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003389}}
+#navigation {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25.5px;
+  text-transform: uppercase;
+  color: #007161;
+  margin-top: 225px;
+  position: relative;
+  z-index: 200;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003399}}
+.html #navigation ul.links {
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003403}}
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: -2px 2px 2px black;
+  padding-left: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003410}}
+#navigation ul.links li.last {
+  background-color: #FFD457;
+  margin-left: 15px;
+  box-shadow: -2px 2px 2px black;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003417}}
+#navigation li.last a {
+  color: #007161;
+  padding: 0 10px 0 10px;
+  margin: 0;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003425}}
+nav[role="navigation"] label {
+  display: none;
+}
+
+/* Fix for Android */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003431}}
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+
+@-webkit-keyframes bugfix {
+  /* line 435, ../../sass/layouts/pages.scss */
+  from {
+    padding: 0;
+  }
+
+  /* line 436, ../../sass/layouts/pages.scss */
+  to {
+    padding: 0;
+  }
+}
+
+/* default checkbox */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003440}}
+#navigation input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003446}}
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003451}}
+hgroup, #site-name, #site-slogan {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003455}}
+#main {
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003459}}
+.mission-statement {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  color: #F9E08E;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003469}}
+.flexslider {
+  background: #0A4436;
+  border: 5px #0A4436 solid;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003476}}
+.flex-control-nav {
+  top: -45px;
+  left: 10px;
+  position: relative;
+  width: 17%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003483}}
+.flex-control-nav li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003488}}
+.flex-control-paging li a {
+  background: none repeat scroll 0 0 #0A4436;
+  border: 2px solid #E5DEA8;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  height: 11px;
+  text-indent: -9999px;
+  width: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003500}}
+.flex-control-paging li a.flex-active {
+  background: none repeat scroll 0 0 #EDC551;
+  cursor: default;
+  box-shadow: inset -2px 1px 2px gray;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003506}}
+.flexslider .views-field-body {
+  padding-top: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003510}}
+.flexslider .views-field-body span.views-label {
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #E5DEA8;
+  padding: 17px 16px;
+  letter-spacing: 2px;
+  border-right: 2px solid #E5DEA8;
+  position: absolute;
+  margin-top: 9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003522}}
+.flexslider .views-field-body .field-content {
+  display: inline-block;
+  color: #F9E08E;
+  font-size: 14px;
+  height: 45px;
+  position: relative;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003531}}
+.flexslider .views-field-body .field-content p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003535}}
+.flex-direction-nav a {
+  background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  margin: -20px 0 0;
+  opacity: 0;
+  position: absolute;
+  text-indent: -9999px;
+  top: 50%;
+  width: 30px;
+  z-index: 10;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003552}}
+.button-link {
+  margin-top: 15px;
+  padding: 32px 0 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003558}}
+.pane-mission-respondable-front-buttons-front-buttons {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003562}}
+.button-link {
+  color: #FFD457;
+  text-align: center;
+  border: 2px solid #083228;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  text-decoration: none;
+  height: 41px;
+  padding-top: 20px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003573}}
+.button-link.last {
+  margin-right: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003578}}
+.button-link:hover {
+  border: 2px solid #FFD457;
+  width: 177px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003583}}
+.oversized-text {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003590}}
+.pane-views-testimonial-block .pane-title,
+.pane-testimonial .pane-title {
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  line-height: 1.8em;
+  margin-bottom: -4px;
+  position: relative;
+  top: -5px;
+  height: 38px;
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003602}}
+.pane-views-testimonial-block .pane-title a,
+.pane-testimonial .pane-title a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 25px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003612}}
+.pane-views-testimonial-block .view-content .views-field-nothing,
+.pane-testimonial .view-content .views-field-nothing {
+  background-color: #F7F4DE;
+  max-height: 182px;
+  min-height: 182px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003617}}
+.pane-views-testimonial-block .view-content .views-field-nothing .bqstart, .pane-views-testimonial-block .view-content .views-field-nothing .bqend,
+.pane-testimonial .view-content .views-field-nothing .bqstart,
+.pane-testimonial .view-content .views-field-nothing .bqend {
+  float: none;
+  display: inline;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003625}}
+.pane-views-testimonial-block .testimonial-title,
+.pane-testimonial .testimonial-title {
+  padding-bottom: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003630}}
+.pane-views-testimonial-block .testimonial-body,
+.pane-testimonial .testimonial-body {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #575757;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003637}}
+.not-logged-in .pane-views-testimonial-block .views-field-edit-node,
+.not-logged-in .pane-testimonial .views-field-edit-node {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003642}}
+.pane-views-testimonial-block .views-field-edit-node,
+.pane-testimonial .views-field-edit-node {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003650}}
+.pane-views-testimonial-block .testimonial-body .field-content,
+.pane-testimonial .testimonial-body .field-content {
+  padding-right: 5px;
+  font-size: 17px;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003658}}
+.pane-views-testimonial-block .testimonial-path a,
+.pane-testimonial .testimonial-path a {
+  color: #007161;
+  text-decoration: none;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003664}}
+.pane-views-featured-news-block {
+  background-color: #F7F4DE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003668}}
+.pane-views-featured-news-block .pane-title, .panel-pane.events .pane-title {
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8em;
+  margin-bottom: -4px;
+  margin-top: 0;
+  height: 38px;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003679}}
+.pane-testimonial h2 a, .pane-views-testimonial-block h2 a, .pane-views-featured-news-block h2 a, .panel-pane.events h2 a {
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 25px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003690}}
+.view-featured-news .views-row {
+  border-bottom: 1px solid #DBD6AE;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  list-style: none;
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003698}}
+.view-featured-news li div {
+  display: block;
+  height: 70px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003703}}
+.view-featured-news .views-field-field-news-frontpage-image {
+  padding-left: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 142px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003710}}
+.view-featured-news .views-field-title {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003716}}
+.view-featured-news .views-field-title span a {
+  text-decoration: none;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #007161;
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003723}}
+.block-mission-respondable-footer {
+  border-top: 1px solid #056553;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003727}}
+.block-mission-respondable-footer li {
+  list-style: none;
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003732}}
+.icon-facebook_logo {
+  background: url("../images/facebook.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+  margin-left: -5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003745}}
+.icon-twitter_logo {
+  background: url("../images/twitter.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003757}}
+.icon-youtube_logo {
+  background: url("../images/youtube.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003769}}
+.icon-googleplus_logo {
+  background: url("../images/googleplus.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003781}}
+.icon-pinterest_logo {
+  background: url("../images/pinterest.png");
+  display: inline-block;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+  position: relative;
+  top: -9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003793}}
+.icon-coplac_logo {
+  background: url("../images/coplac.png");
+  display: inline-block;
+  height: 58px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 141px;
+  margin-left: 18%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003804}}
+.icon-what_will_they_learn_logo {
+  background: url("../images/WHATwillTHEYlearn.png");
+  display: inline-block;
+  height: 59px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 139px;
+  margin-right: -5px;
+  margin-left: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003816}}
+#block-mission-respondable-footer-footer-contact {
+  background: url("../images/pretties2.png") 100% 0 no-repeat;
+  height: 145px;
+  padding-top: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003822}}
+.block-mission-respondable-footer p {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #EAE6CD;
+  width: 255px;
+  line-height: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003830}}
+.block-mission-respondable-footer p a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #EAE6CD;
+  width: 200px;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003839}}
+#block-menu-menu-footer-navigation {
+  margin-left: -30px;
+  margin-top: 100px;
+  margin-bottom: -60px;
+  position: relative;
+  z-index: 200;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003847}}
+#block-menu-menu-footer-navigation li {
+  list-style: none;
+  display: inline-block;
+  border-left: 1px solid #EAE6CD;
+  padding-left: 5px;
+  line-height: 8px;
+  height: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003856}}
+#block-menu-menu-footer-navigation li a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFD457;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003863}}
+#block-menu-menu-footer-navigation li.first {
+  border-left: none;
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003868}}
+.block-mission-respondable-footer p a.worx {
+  color: #999999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003872}}
+.panels-flexible-region-2-center {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003876}}
+.not-front .field-name-body {
+  padding: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003880}}
+div.links a {
+  color: #007161;
+  text-decoration: none;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-left: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003887}}
+article, .webform-confirmation {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #575757;
+  line-height: 18px;
+  padding: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003893}}
+article .field-name-body, .webform-confirmation .field-name-body {
+  margin-left: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003898}}
+article a:link,
+article a:visited, .webform-confirmation a:link,
+.webform-confirmation a:visited {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #007161;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003905}}
+article a:hover,
+article a:focus, .webform-confirmation a:hover,
+.webform-confirmation a:focus {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003910}}
+.section-news .panel-flexible .center .panels-flexible-region-inside {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003914}}
+.page-news #navigation {
+  margin-bottom: 38px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003918}}
+.section-news .top-news {
+  background-color: #F7F4DE;
+  margin-bottom: -1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003923}}
+.top-news .pane-title {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #FFD457;
+  background-color: rgba(1, 90, 73, 0.5);
+  padding: 1px 15px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003934}}
+.top-news .views-field-title {
+  margin: 15px 15px -20px 15px;
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003939}}
+.top-news .views-field-title a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #007161;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003946}}
+.top-news .views-field-body {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #575757;
+  margin-right: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003956}}
+.section-news .latest-news {
+  background-color: #F7F4DE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003960}}
+.section-news h2.pane-title {
+  font-size: 32px;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFD457;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  padding-left: 15px;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003973}}
+.latest-news .views-field-title {
+  line-height: 18px;
+  margin: 0 15px;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003979}}
+.latest-news .views-field-title a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003986}}
+.latest-news .views-field-body {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #575757;
+  line-height: 18px;
+  margin: 0 15px 25px 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\00003994}}
+.item-list {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  padding: 10px 0;
+  color: #F7F4DE;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031002}}
+.item-list .pager-current {
+  color: #FFD457;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031006}}
+.item-list ul {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031010}}
+.item-list ul li a {
+  color: #F7F4DE;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031018}}
+.section-news .headlines {
+  background-color: #F7F4DE;
+  width: 195px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031023}}
+.section-news .headlines .pane-title {
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  margin-top: 0;
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031037}}
+.headlines .views-field-title {
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031042}}
+.headlines .views-field-title a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031049}}
+.headlines .views-row {
+  border-top: 1px solid #D7D3AB;
+  padding: 10px 0;
+  margin: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031055}}
+.headlines .views-row-first {
+  border-top: none;
+  padding-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031060}}
+.section-news .news {
+  background-color: #F7F4DE;
+  width: 195px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031065}}
+.section-news .news .pane-title {
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  margin-top: 0;
+  color: #E5DEA8;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031079}}
+.news ul {
+  padding: 0;
+  margin: -10px 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031084}}
+.news li {
+  border-top: 1px solid #D7D3AB;
+  padding-top: 15px;
+  margin: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031090}}
+.news li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031095}}
+.news li.first {
+  border-top: none;
+  padding-top: 15px;
+  margin: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031101}}
+.news li a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+  padding-bottom: 15px;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031110}}
+.node-type-news #content {
+  margin-top: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031114}}
+.node-type-news .title {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+  background-color: rgba(1, 90, 73, 0.5);
+  color: #FFD457;
+  padding: 5px 30px;
+  font-size: 32px;
+  line-height: 1em;
+  height: 65px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031126}}
+.node-type-news .masthead {
+  position: relative;
+  top: -41px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031131}}
+.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #575757;
+  font-size: 18px;
+  background-color: rgba(235, 234, 213, 0.7);
+  height: 30px;
+  padding: 5px 0 0 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031140}}
+.node-type-news .field-name-field-news-published {
+  margin-bottom: -41px;
+  background-color: #ebead5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031145}}
+.node-type-news .field-name-body, .node-type-testimonial .field-name-body {
+  background-color: #F7F4DE;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031149}}
+.node-type-news .field-name-body p, .node-type-testimonial .field-name-body p {
+  margin: 1em 30px;
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #575757;
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031157}}
+.node-type-news .tabs {
+  position: relative;
+  z-index: 200;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031162}}
+.page-testimonials h1, .section-search h1, .not-front h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFD457;
+  background-color: #004538;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
+  background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
+  background-image: -moz-linear-gradient(#015b4a, #004538 90%);
+  background-image: -o-linear-gradient(#015b4a, #004538 90%);
+  background-image: linear-gradient(#015b4a, #004538 90%);
+  padding-left: 15px;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031173}}
+.section-testimonials #content, .section-search #content, .not-front #content {
+  background-color: #F7F4DE;
+  margin-top: 40px;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031179}}
+.page-news #content, .section-events #content, .page-future-students #content {
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031183}}
+.section-search .panel-pane {
+  margin: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031187}}
+.section-search .item-list {
+  margin: 0 -22px 0 -15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031191}}
+.section-search .views-row {
+  margin: 15px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031195}}
+.section-search .attachment {
+  margin: 15px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031199}}
+.section-search {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #575757;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031207}}
+.section-search a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031214}}
+.node-type-testimonial .title {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+  background-color: rgba(1, 90, 73, 0.5);
+  color: #FFD457;
+  padding: 5px 30px;
+  font-size: 32px;
+  line-height: 1em;
+  height: 65px;
+  top: -150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031228}}
+.node-type-testimonial .field-name-field-testimonial-major,
+.node-type-testimonial .field-name-field-testimonial-grad-year {
+  font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(235, 234, 213, 0.7);
+  color: #007161;
+  font-size: 18px;
+  height: 30px;
+  padding: 5px 0 0 30px;
+  position: relative;
+  top: -150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031239}}
+.node-type-testimonial .field-name-field-testimonial-grad-year {
+  margin-bottom: -150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031244}}
+.section-testimonials .view-testimonial .views-field-title a,
+.view-testimonial .testimonial-title a {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #007161;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031251}}
+.section-testimonials .view-testimonial .views-field-field-testimonial-image {
+  margin: 0 -15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031255}}
+.section-testimonials .view-testimonial .views-field-body {
+  font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #575757;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031263}}
+.section-testimonials .view-testimonial .views-row {
+  margin: 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031267}}
+.section-testimonials .view-testimonial .views-row-first {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031272}}
+.html.section-apply #page {
+  max-width: 777px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal\/profiles\/d7_usao_edu\/themes\/mission_repondable\/sass\/layouts\/pages\.scss}line{font-family:\000031276}}
+.html.section-apply iframe {
+  border: 0;
+}

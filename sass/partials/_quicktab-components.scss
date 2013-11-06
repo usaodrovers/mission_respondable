@@ -1,0 +1,84 @@
+/**
+ * This SASS is for the Future Students Testimonial feature
+ */
+.view-id-featured_testimonials {
+  .quicktabs-wrapper { 
+    .item-list {
+      padding: 0;
+    }
+    ul {
+      padding: 0;
+      li {
+        float: left;
+        font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0;
+        width: 16.667%;
+        a {
+          @include background-image(linear-gradient(#015B4A, #004538 90%));
+          border-right: 1px solid #F7F4DE;
+          display: block;
+          padding: 10px 0;
+          text-align: center;
+          text-transform: uppercase;
+          &:hover {
+            color: #FFD457;
+          }
+          &.hide-border {
+            border: none;
+          }
+        }
+        &.last a {
+          border-right: none;
+        }
+        &.active a {
+          border: 2px solid #FFD457;
+          padding: 8px 0;
+        }
+      }
+    }
+  }
+
+  .quicktabs-tabpage { /* .view-id-featured_testimonials .quicktabs-tabpage */
+    clear: left;
+    position: relative;
+  }
+  .testimonial-title {
+    color: $primary-nav;
+    font-size: 12px;
+    float: left;
+    width: 96%;
+    margin: 5px 2%;
+  }
+  .testimonial-body {
+    display: block;
+    margin: 5px 2%;
+    width: 96%;
+  }
+  .testimonial-body p {
+    display: inline;
+  }
+
+  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+    background: #F7F4DE;
+    padding: 1px 0;
+    .field-content {
+      margin: 0;
+      padding: 10px 0 0;
+      width: 100%;
+    }
+    a {
+      background-color: #FFD457;
+      box-shadow: -2px 2px 3px #777;
+      color: $primary-nav;
+      display: block;
+      font-weight: bold;
+      margin: 15px 2%;
+      padding: 6px 0;
+      text-align: center;
+      text-decoration: none;
+      width: 96%;
+    }
+  }
+}
