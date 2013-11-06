@@ -439,7 +439,7 @@ body {
 }
 
 /* default checkbox */
-input[type=checkbox] {
+#navigation input[type=checkbox] {
   position: absolute;
   top: -9999px;
   left: -9999px;
@@ -917,6 +917,8 @@ hgroup, #site-name, #site-slogan {
   width: 200px;
   text-decoration: none;
   line-height: 16px;
+  position: relative;
+  z-index: 1000;
 }
 
 #block-menu-menu-footer-navigation {
@@ -958,6 +960,7 @@ hgroup, #site-name, #site-slogan {
 
 .not-front .field-name-body {
   padding: 0 15px;
+  margin: 0 30px;
 }
 
 div.links a {
@@ -1230,7 +1233,7 @@ article, .webform-confirmation {
   padding: 0;
 
   p {
-    margin: 1em 30px;
+    margin: 1em 0;
     @include font-myriadpro;
     color: #575757;
     line-height: 18px;
