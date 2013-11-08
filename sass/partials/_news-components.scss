@@ -1,0 +1,96 @@
+@media all and (max-width: 650px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .html .pane-views-featured-news-block {
+    @include zen-grid-item(3, 1);
+    @include zen-clear(left);
+    margin-top: 25px;
+
+    li {
+      @include zen-clear();
+      padding: 0;
+    }
+
+    .pane-title {
+      margin-top: 0;
+    }
+
+    .views-field-field-news-frontpage-image {
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media all and (min-width: 651px) and (max-width: 959px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .html .pane-views-featured-news-block {
+    @include zen-grid-item(3, 1);
+    margin-top: 25px;
+
+    .views-field-field-news-image {
+      padding-bottom: 15px;
+    }
+  }
+}
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+  
+  .html .pane-views-featured-news-block {
+    @include zen-grid-item(7.1, 1);
+    margin-top: 25px;
+
+    .views-field-field-news-image {
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.html .pane-views-featured-news-block {
+  background-color: #F7F4DE;
+  padding: 0;
+}
+
+.view-featured-news .views-row {
+  border-bottom: 1px solid #DBD6AE;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  list-style: none;
+  display: table;
+}
+
+.view-featured-news li div {
+  display: block;
+  height: 70px;
+}
+
+.view-featured-news .views-field-field-news-frontpage-image {
+  padding-left: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 142px;
+}
+
+.view-featured-news .views-field-title {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+
+.view-featured-news .views-field-title span a {
+  text-decoration: none;
+  @include font-myriadpro_semibold;
+  color: #007161;
+  font-size: 16px;
+}

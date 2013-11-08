@@ -1,0 +1,93 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
+.pane-directory-mini-panes-future-students-directory {
+  background-color: $box-background;
+  
+  .pane-content {
+    margin: 10px;
+  }
+
+  .views-row {
+    border-top: 1px solid $divider;
+    clear: both;
+    margin-top: 10px;
+    padding-top: 10px;
+    &.views-row-first {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+
+  .views-field-field-prof-photo {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .views-field-field-prof-last-name {
+    color: #007161;
+    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+    text-decoration: none;
+    h3 {
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+
+  .views-field-title {
+    color: #575757;
+    font-size: 0.9em;
+    line-height: 1.3em;
+  }
+
+  .views-field-nothing {
+    clear: both;
+  }
+}
+
+@media all and (min-width: 481px) { //HARD BREAK POINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .pane-directory-mini-panes-future-students-directory {
+
+    .views-field-field-prof-photo {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media all and (min-width: 651px) { //HARD BREAK POINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .pane-directory-mini-panes-future-students-directory {
+
+    .views-field-field-prof-photo {
+      img {
+        height: 80px; //delete this later when imagecahce set
+      }
+    }
+  }
+}
+
+@media all and (min-width: 960px) { //HARD BREAK POINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+}

@@ -95,17 +95,6 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
 
-/*@media all and (max-width: 480px) {
-  .html .pane-views-featured-news-block .views-field-title {
-    @include zen-clear();
-    height: auto;
-    margin: 10px -5px;
-    padding: 0;
-    display: block;
-    width: 100%;
-  }
-}*/
-
 @media all and (max-width: 650px) {
   /*
    * Use 3 grid columns for smaller screens.
@@ -224,8 +213,6 @@ $zen-auto-include-item-base: false;
   }
 
   .html .pane-views-viewbook-block {
-    @include zen-grid-item(3,1);
-    @include zen-clear();
 
     .views-field-body {
       padding: 10px;
@@ -248,66 +235,13 @@ $zen-auto-include-item-base: false;
   }
 
   .html .pane-mission-respondable-front-buttons-front-buttons {
-    @include zen-grid-item(3, 1);
-    @include zen-clear();
+    width: 100%;
     margin-bottom: 15px;
 
     .button-link {
-      @include zen-grid-item(3, 1);
-      @include zen-clear();
+      width: 100%;
       margin-bottom: 10px;
-
-      &:hover {
-        @include zen-grid-item(3, 1);
-      }
     }
-  }
-
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    @include zen-grid-item(3, 1);
-    @include zen-clear();
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(2.85, 1.1);
-      @include zen-clear();
-    }
-
-    .views-field-field-testimonial-image {
-      margin: 0 auto;
-      text-align: center;
-    }
-
-  }
-
-  .html .pane-views-featured-news-block {
-    @include zen-grid-item(3, 1);
-    @include zen-clear(left);
-    margin-top: 25px;
-
-    li {
-      @include zen-clear();
-      padding: 0;
-    }
-
-    .pane-title {
-      margin-top: 0;
-    }
-
-    .views-field-field-news-frontpage-image {
-      margin-bottom: 20px;
-      margin-left: 0;
-    }
-
-
-  }
-
-  .html .panel-pane.events {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-    margin-top: 25px;
   }
 
   .html .icon-coplac_logo {
@@ -349,56 +283,10 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  .html.section-testimonials #content,
   .html.section-search #content,
   .html.not-front #content {
     margin-top: 30px;
   }
-
-  .html.node-type-news #content {
-    margin-top: 65px;
-  }
-
-  .html.node-type-news .masthead, .html.node-type-testimonial .masthead {
-    top: 0;
-  }
-
-  .html.node-type-news .field-name-field-news-published {
-    margin-bottom: 0;
-  }
-
-  .html.section-news .news {
-   @include zen-grid-item(3, 1);
-   @include zen-clear();
-   margin-bottom: 25px;
-   margin-top: 25px;
- }
-
- .html.section-news .headlines {
-   @include zen-grid-item(3, 1);
-   @include zen-clear();
- }
-
- .html.section-news .top-news {
-   @include zen-grid-item(3, 1);
-   @include zen-clear();
-   margin-top: 25px;
- }
-
- .html.section-news .latest-news {
-   @include zen-grid-item(3, 1);
-   @include zen-clear();
-   margin-bottom: 25px;
- }
-
- .html.node-type-testimonial .title {
-   top: 0;
- }
-
- .html.node-type-testimonial .field-name-field-testimonial-grad-year {
-   margin-bottom: 0;
- }
-
 }
 
 
@@ -424,7 +312,6 @@ $zen-auto-include-item-base: false;
     margin-bottom: 0;
     margin-top: -35px;
     height: 25px;
-
 
     .custom-search-box {
       width: 100%;
@@ -461,74 +348,39 @@ $zen-auto-include-item-base: false;
     .views-field-body .field-content {
       @include zen-grid-item(2.8, 3.2);
     }
-
   }
 
-  .html .pane-mission-respondable-front-buttons-front-buttons {
+  .pane-mission-respondable-front-buttons-front-buttons {
     @include zen-grid-item(5, 1);
     @include zen-clear();
+    clear: left;
 
     .button-link {
-      @include zen-grid-item(1.6, 2.7);
+      @include zen-grid-item(1.53, 2.7);
 
       &.first {
-        @include zen-grid-item(1.6, 1);
+        @include zen-grid-item(1.53, 1);
           &:hover {
-            @include zen-grid-item(1.6, 1);
+            @include zen-grid-item(1.53, 1);
           }
       }
 
       &.last {
-        @include zen-grid-item(1.6, 4.4);
+        @include zen-grid-item(1.53, 4.4);
           &:hover {
-            @include zen-grid-item(1.6, 4.4);
+            @include zen-grid-item(1.53, 4.4);
           }
       }
 
       &:hover {
-        @include zen-grid-item(1.6, 2.7);
+        @include zen-grid-item(1.53, 2.7);
       }
     }
   }
 
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    @include zen-grid-item(5, 1);
-    @include zen-clear();
-    background-color: #F7F4DE;
-    margin-top: 25px;
-
-    .views-field-field-testimonial-image {
-      @include zen-grid-item(3, 1);
-      line-height: 0;
-      margin-bottom: -180px;
-      margin-top: -1px;
-    }
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(2, 3.8);
-      @include zen-clear();
-    }
-
-    .testimonial-path {
-    }
-  }
-
-  .html .pane-views-featured-news-block {
-    @include zen-grid-item(3, 1);
-    @include zen-clear();
-    margin-top: 25px;
-
-    .views-field-field-news-image {
-      padding-bottom: 15px;
-    }
-  }
-
-  .html .panel-pane.events {
-    @include zen-grid-item(1.8, 4.2);
-    margin-top: 25px;
+  body .pane-mission-respondable-front-buttons-front-buttons {
+    float: none;
+    height: 80px;
   }
 
   .html #block-mission-respondable-footer-footer-contact {
@@ -540,14 +392,6 @@ $zen-auto-include-item-base: false;
     @include zen-grid-item(5, .77);
     @include zen-clear();
   }
-
- .html.section-news .top {
-   @include zen-grid-item(3.1, 1, right);
- }
-
- .html.section-news .middle {
-   @include zen-grid-item(2.2, 1, left);
- }
 
    /*
    * The layout when there are two sidebars.
@@ -586,7 +430,7 @@ $zen-auto-include-item-base: false;
 
 @media all and (min-width: 960px) {
   /*
-   * Use 5 grid columns for larger screens.
+   * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
 
@@ -638,71 +482,33 @@ $zen-auto-include-item-base: false;
 
   }
 
-  .html .pane-mission-respondable-front-buttons-front-buttons {
+  .pane-mission-respondable-front-buttons-front-buttons {
     @include zen-grid-item(12, 1);
     @include zen-clear();
+    height: 80px;
+    float: none;
 
     .button-link {
-      @include zen-grid-item(3.8, 5.1);
+      @include zen-grid-item(3.64, 5.1);
 
       &.first {
-        @include zen-grid-item(3.8, 1);
+        @include zen-grid-item(3.64, 1);
           &:hover {
-            @include zen-grid-item(3.8, 1);
+            @include zen-grid-item(3.64, 1);
           }
       }
 
       &.last {
-        @include zen-grid-item(3.8, 9.2);
+        @include zen-grid-item(3.64, 9.2);
           &:hover {
-            @include zen-grid-item(3.8, 9.2);
+            @include zen-grid-item(3.64, 9.2);
           }
       }
 
       &:hover {
-        @include zen-grid-item(3.8, 5.1);
+        @include zen-grid-item(3.64, 5.1);
       }
     }
-  }
-
-  .html .pane-views-testimonial-block,
-  .html .pane-testimonial {
-    @include zen-grid-item(12, 1);
-    @include zen-clear();
-    background-color: #F7F4DE;
-    margin-top: 25px;
-
-    .views-field-field-testimonial-image {
-      @include zen-grid-item(7, 1);
-      line-height: 0;
-      margin-bottom: -180px;
-      margin-top: -1px;
-    }
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(5, 7.8);
-      @include zen-clear();
-    }
-
-    .testimonial-path {
-    }
-  }
-
-  .html .pane-views-featured-news-block {
-    @include zen-grid-item(7.1, 1);
-    @include zen-clear();
-    margin-top: 25px;
-
-    .views-field-field-news-image {
-      padding-bottom: 15px;
-    }
-  }
-
-  .html .panel-pane.events {
-    @include zen-grid-item(4.4, 8.6);
-    margin-top: 25px;
   }
 
   .html #block-mission-respondable-footer-footer-contact {
@@ -714,14 +520,6 @@ $zen-auto-include-item-base: false;
     @include zen-grid-item(12, .4);
     @include zen-clear();
   }
-
- .html.section-news .top {
-   @include zen-grid-item(7.4, 1, right);
- }
-
- .html.section-news .middle {
-   @include zen-grid-item(2.4, 1, left);
- }
 
   /*
    * The layout when there is only one sidebar, the left one.

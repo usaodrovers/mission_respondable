@@ -1,165 +1,152 @@
-/**
- * @file
- * Positioning for responsive layout .
- *
- * Define CSS classes to create a table-free, 3-column, 2-column, or single
- * column layout depending on whether blocks are enabled in the left or right
- * columns.
- *
- * This layout uses the Zen Grids plugin for Compass: http://zengrids.com
+/*
+ * Use 12 grid columns for larger screens.
  */
+$zen-column-count: 12;
 
-@import "../base";
+img {
+  width: auto;
+}
 
-  /*
-   * Use 5 grid columns for larger screens.
-   */
-  $zen-column-count: 12;
+.lt-ie9 #logo {
+  @include zen-grid-item(2, 1);
+  border: none;
+}
 
-  img {
-    width: auto;
+.lt-ie9 #block-views-exp-search-panel-pane-1 {
+  @include zen-grid-item(2, 9);
+  padding: 0;
+  margin-bottom: -20px;
+  margin-top: -30px;
+  height: 25px;
+
+  input {
+    width: 100%;
+    margin-left: 0;
   }
 
-  .lt-ie9 #logo {
-    @include zen-grid-item(2, 1);
+  .form-submit {
+    position: relative;
+    top: -37px;
+    right: -100%;
+    margin-bottom: -18px;
+    margin: 12px;
+    padding: 0;
+  }
+}
+
+.lt-ie9 #secondary-menu {
+  @include zen-grid-item(7, 2.5);
+
+  li {
+    padding: 5px 2.8%;
+  }
+
+  li.last {
     border: none;
   }
+}
 
-  .lt-ie9 #block-views-exp-search-panel-pane-1 {
-    @include zen-grid-item(2, 9);
-    padding: 0;
-    margin-bottom: -20px;
-    margin-top: -30px;
-    height: 25px;
+.lt-ie9 .pane-views-viewbook-block {
+  @include zen-grid-item(12,1);
+  @include zen-clear();
 
-    input {
-      width: 100%;
-      margin-left: 0;
-    }
-
-    .form-submit {
-      position: relative;
-      top: -37px;
-      right: -100%;
-      margin-bottom: -18px;
-      margin: 12px;
-      padding: 0;
-    }
+  .views-field-body .field-content {
+    @include zen-grid-item(7.5 , 4.8);
   }
 
-  .lt-ie9 #secondary-menu {
-    @include zen-grid-item(7, 2.5);
+}
 
-    li {
-      padding: 5px 2.8%;
+.lt-ie9 .pane-mission-respondable-front-buttons-front-buttons {
+  @include zen-grid-item(12, 1);
+  @include zen-clear();
+
+  .button-link {
+    @include zen-grid-item(3.8, 5.1);
+
+    &.first {
+      @include zen-grid-item(3.8, 1);
+        &:hover {
+          @include zen-grid-item(3.8, 1);
+        }
     }
 
-    li.last {
-      border: none;
-    }
-  }
-
-  .lt-ie9 .pane-views-viewbook-block {
-    @include zen-grid-item(12,1);
-    @include zen-clear();
-
-    .views-field-body .field-content {
-      @include zen-grid-item(7.5 , 4.8);
+    &.last {
+      @include zen-grid-item(3.8, 9.2);
+        &:hover {
+          @include zen-grid-item(3.8, 9.2);
+        }
     }
 
-  }
-
-  .lt-ie9 .pane-mission-respondable-front-buttons-front-buttons {
-    @include zen-grid-item(12, 1);
-    @include zen-clear();
-
-    .button-link {
+    &:hover {
       @include zen-grid-item(3.8, 5.1);
-
-      &.first {
-        @include zen-grid-item(3.8, 1);
-          &:hover {
-            @include zen-grid-item(3.8, 1);
-          }
-      }
-
-      &.last {
-        @include zen-grid-item(3.8, 9.2);
-          &:hover {
-            @include zen-grid-item(3.8, 9.2);
-          }
-      }
-
-      &:hover {
-        @include zen-grid-item(3.8, 5.1);
-      }
     }
   }
+}
 
-  .lt-ie9 .pane-views-testimonial-block {
-    @include zen-grid-item(11.6, 1.2);
-    @include zen-clear();
-    margin-top: 25px;
-    padding: 0;
-    background-color: #F7F4DE;
+.lt-ie9 .pane-views-testimonial-block {
+  @include zen-grid-item(11.6, 1.2);
+  @include zen-clear();
+  margin-top: 25px;
+  padding: 0;
+  background-color: #F7F4DE;
 
-    .views-field-field-testimonial-image {
-      @include zen-grid-item(7, 1);
-      line-height: 0;
-      margin-bottom: -180px;
-      margin-top: -1px;
-      padding-left: 0;
-    }
-
-    .testimonial-title,
-    .testimonial-body,
-    .testimonial-path {
-      @include zen-grid-item(5, 7.8);
-      @include zen-clear();
-    }
-
-    .testimonial-path {
-    }
+  .views-field-field-testimonial-image {
+    @include zen-grid-item(7, 1);
+    line-height: 0;
+    margin-bottom: -180px;
+    margin-top: -1px;
+    padding-left: 0;
   }
 
-  .lt-ie9 .pane-views-featured-news-block {
-    @include zen-grid-item(7.1, 1.2);
-    @include zen-clear();
-    margin-top: 25px;
-    padding: 0;
-
-    .views-field-field-news-image {
-      padding-bottom: 15px;
-    }
-  }
-
-  .lt-ie9 .panel-pane.events {
-    @include zen-grid-item(4.2, 8.6);
-    margin-top: 25px;
-    padding: 0;
-  }
-
-  .lt-ie9 .block-mission-respondable-footer p {
-  }
-
-  .lt-ie9 #block-mission-respondable-footer-footer-contact {
-    @include zen-grid-item(12, 1);
+  .testimonial-title,
+  .testimonial-body,
+  .testimonial-path {
+    @include zen-grid-item(5, 7.8);
     @include zen-clear();
   }
 
-  .lt-ie9 #block-menu-menu-footer-navigation {
-    @include zen-grid-item(12, .4);
-    @include zen-clear();
-    margin-top: -115px;
+  .testimonial-path {
   }
+}
 
- .lt-ie9 .section-news .top {
-   @include zen-grid-item(7.7, 1, right);
- }
+.lt-ie9 .pane-views-featured-news-block {
+  @include zen-grid-item(7.1, 1.2);
+  @include zen-clear();
+  margin-top: 25px;
+  padding: 0;
 
- .lt-ie9 .section-news .middle {
-   @include zen-grid-item(2, 1, left);
- }
+  .views-field-field-news-image {
+    padding-bottom: 15px;
+  }
+}
+
+.lt-ie9 .panel-pane.events {
+  @include zen-grid-item(4.2, 8.6);
+  margin-top: 25px;
+  padding: 0;
+}
+
+.lt-ie9 .block-mission-respondable-footer p {
+}
+
+.lt-ie9 #block-mission-respondable-footer-footer-contact {
+  @include zen-grid-item(12, 1);
+  @include zen-clear();
+}
+
+.lt-ie9 #block-menu-menu-footer-navigation {
+  @include zen-grid-item(12, .4);
+  @include zen-clear();
+  margin-top: -115px;
+}
+
+.lt-ie9 .section-news .top {
+  @include zen-grid-item(7.7, 1, right);
+}
+
+.lt-ie9 .section-news .middle {
+  @include zen-grid-item(2, 1, left);
+}
 
 .lt-ie9 .l-wrapper {
   background-color: #004538;

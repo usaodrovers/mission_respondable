@@ -1,0 +1,82 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
+.section-calendar #page {
+  max-width: 1200px;
+}
+
+.view .date-nav-wrapper .date-prev {
+  right: 100px;
+  top: 7px;
+
+  a {
+    color: $primary_nav;
+  }
+}
+
+.view .date-nav-wrapper .date-next {
+  right: 40px;
+  top: 7px;
+
+  a {
+    color: $primary_nav;
+  }
+}
+
+// This kinda makes it turn into a list mode for mobile
+/*@media all and (max-width: 480px) { //SOFT BREAK POINT
+ .view .date-nav-wrapper .date-heading {
+    text-align: left;
+  }
+  .calendar-calendar .month-view table.full {
+    position: relative;
+  }
+  .calendar-calendar .month-view .full tr td {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .calendar-calendar tbody tr:hover td {
+    background: none;
+  }
+  .calendar-calendar .month-view .full tr.single-day {
+    border-top: 1px solid #ccc;
+  }
+  .calendar-calendar .month-view .full tr td.single-day:before {
+    content: attr(data-day-of-month) ",\0000a0" attr(headers);
+    font-weight: bold;
+  }
+  .calendar-calendar .month-view .full thead tr,
+  .calendar-calendar .month-view .full tr th.days,
+  .calendar-calendar .month-view .full tr td.date-box,
+  .calendar-calendar .month-view .full tr td.no-entry,
+  .calendar-calendar .month-view .full tr td.empty {
+    display: none;
+  }
+}*/
+
+@media all and (min-width: 481px) { //HARD BREAK POINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+
+
+}
+
+@media all and (min-width: 651px) { //HARD BREAK POINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+}
+
+@media all and (min-width: 960px) { //HARD BREAK POINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+}

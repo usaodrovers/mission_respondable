@@ -1,0 +1,474 @@
+@media all and (max-width: 650px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .events {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+  }
+
+ .section-events .category {
+   @include zen-grid-item(3, 1);
+   @include zen-clear();
+   float: none;
+ }
+
+ .section-events .events-top {
+   @include zen-grid-item(3, 1);
+   float: none;
+ }
+
+ .section-events .events-secondary {
+   @include zen-clear();
+   @include zen-grid-item(3, 1);
+ }
+
+ .section-events .category-secondary {
+   @include zen-clear();
+   @include zen-grid-item(3, 1);
+   float: none;
+ }
+
+ .section-events .pane-wec-wec-calendar {
+   @include zen-clear();
+   @include zen-grid-item(3, 1);
+   float: none;
+ }
+
+ .section-events .events-past {
+   @include zen-clear();
+   @include zen-grid-item(3, 1);
+   float: none;
+ }
+
+ .section-events .events-future  {
+   @include zen-grid-item(3, 1);
+   float: none;
+ }
+}
+
+
+@media all and (min-width: 651px) and (max-width: 959px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .events {
+    @include zen-grid-item(1.8, 4.2);
+  }
+
+ .section-events .category {
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .category-secondary {
+   @include zen-clear();
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .pane-wec-wec-calendar {
+   @include zen-clear();
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .events-top {
+    @include zen-grid-item(3.1, 1, right);
+  }
+
+ .section-events .events-past {
+   @include zen-clear(right);
+   @include zen-grid-item(1.5, 1);
+ }
+
+ .section-events .events-future  {
+   @include zen-grid-item(3.25, 2.75);
+ }
+}
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+  .events {
+    @include zen-grid-item(4.4, 8.6);
+  }
+
+  .section-events .category {
+    @include zen-grid-item(4, 1);
+    float: none;
+    padding: 0;
+  }
+  
+  .section-events .category-secondary {
+    @include zen-clear();
+    @include zen-grid-item(4, 1);
+    float: none;
+  }
+
+  .section-events .pane-wec-wec-calendar {
+    @include zen-clear();
+    @include zen-grid-item(4, 1);
+    float: none;
+  }
+
+  .section-events .events-top {
+    @include zen-grid-item(7.3, 1, right);
+  }
+
+  .section-events .events-past {
+    @include zen-clear(right);
+    @include zen-grid-item(3.75, 1);
+  }
+
+  .section-events .events-future  {
+    @include zen-grid-item(7.75, 5.25);
+  }
+}
+/*
+ * End Media Quieries.
+ * Start Global CSS
+ */
+
+.section-events {
+
+  .panels-flexible-region {
+    width: 100%;
+  }
+
+  .category,
+  .category-secondary,
+  .events-top,
+  .events-secondary,
+  .events-past,
+  .events-future {
+    background-color: #F7F4DE;
+
+    a {
+      @include font-myriadprocondensed;
+      font-size: 16px;
+      color: $primary-nav;
+      line-height: 18px;
+      text-decoration: none;
+    }
+
+    .item-list {
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .view-empty {
+      margin: 10px;
+    }
+
+    p {
+      @include font-myriadpro;
+      margin: 0 15px 15px;
+      font-size: 16px;
+      color: $body-text;
+      line-height: 18px;
+
+      a {
+        @include font-myriadpro;
+        margin: 0;
+      }
+    }
+
+    .views-field-field-event-image {
+      text-align: center;
+    }
+
+    .views-field-title {
+
+      a {
+        @include font-myriadpro_semibold;
+        font-size: 14px;
+        color: #007161;
+        text-decoration: none;
+        margin-left: 15px;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin-top: 10px;
+
+      li {
+        list-style: none;
+        border-bottom: 1px solid $divider-bar;
+        padding: 3px 0;
+        margin: 0 10px;
+
+        &.active {
+          background-color: $event-active;
+          margin: -1px 0 0;
+          padding: 0 10px;
+        }
+
+        a {
+          &:hover {
+            text-decoration: underline;
+          }
+          &.wec {
+            color: #007161;
+          }
+        }
+
+        img {
+          float: left;
+          padding-right: 10px;
+        }
+      }
+    }
+
+    .view-footer {
+
+      a {
+        @include font-myriadprocondensed;
+        font-size: 16px;
+        color: $primary-nav;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .category {
+    padding: 0;
+  }
+
+  .category-secondary {
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  .pane-wec-wec-calendar {
+    padding: 0;
+
+    .pane-content a {
+      @include font-myriadprocondensed;
+      @include background-image(linear-gradient(#015B4A, #004538 90%));
+      font-size: 35px;
+      line-height: 1em;
+      color: #FFD457;
+      padding: 8px 0 10px 10px;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        border: 2px solid #FFD457;
+        padding: 6px 0 10px 8px;
+        margin-bottom: -2px;
+      }
+    }
+  }
+
+  .events-top {
+    padding: 0;
+    margin: 0;
+
+    .pane-title {
+      @include font-myriadprocondensed;
+      font-size: 28px;
+      color: #FFD457;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+
+    .views-row {
+      margin: 30px 0;
+      padding: 0;
+      border-top: none;
+    }
+
+    .views-row-first {
+      margin: 0 0 30px 0;
+    }
+
+    ul {
+      li {
+        border-bottom: none;
+
+        a {
+          color: #F7F4DE;
+          @include font-myriadpro;
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .event-date {
+      float: right;
+    }
+
+    .date_time {
+      margin: 7px 0 0 15px;
+      color: $body-text;
+      @include font-myriadprocondensed_bold;
+      font-size: 16px;
+
+      a {
+        font-style: italic;
+        margin: 0;
+      }
+    }
+  }
+
+  .events-secondary {
+    padding: 14px 0;
+    margin: 0;
+
+    .views-row {
+      padding: 7px 0;
+    }
+
+    a {
+      img {
+        margin: 0;
+      }
+    }
+
+    .event-date {
+      float: right;
+    }
+
+    .date_time {
+      margin: 7px 0 0 15px;
+    }
+  }
+
+  .events-future, .events-past {
+    ul {
+      li.views-row-last {
+        border-bottom: none;
+      }
+    }
+  }
+
+}
+
+.node-type-event {
+
+  #content {
+    margin-top: 25px;
+  }
+
+  .masthead {
+    @include font-myriadprocondensed;
+    position: relative;
+    z-index: 100;
+    background-color: rgba(1, 90, 73, 0.5);
+    padding: 5px 30px;
+    font-size: 32px;
+    line-height: 1em;
+
+    a {
+      color: #FFD457;
+      text-decoration: none;
+    }
+  }
+
+  .masthead {
+    position: relative;
+    top: -41px;
+  }
+
+  .views-field-field-event-category, .views-field-field-event-other {
+    @include font-myriadprocondensed_bold;
+    color: $body-text;
+    font-size: 18px;
+    background-color: rgba(235, 234, 213, 0.7);
+    padding: 5px 0 5px 30px;
+
+    a {
+      text-decoration: none;
+      color: $primary-nav;
+    }
+  }
+
+  .views-field-field-event-other {
+    margin-top: -41px;
+    background-color: rgba(235, 234, 213, 1.0);
+
+    .location {
+      border-left: solid 2px $primary-nav;
+      padding-left: 10px;
+      margin-left: 7px;
+    }
+  }
+
+  .views-field-body {
+    background-color: #F7F4DE;
+    padding: 0;
+
+    p {
+      margin: 0;
+      padding: 1em 30px;
+      @include font-myriadpro;
+      color: $body-text;
+      line-height: 18px;
+
+      a {
+        text-decoration: none;
+        color: $primary-nav;
+      }
+    }
+  }
+
+  .events-past {
+    padding: 0;
+    background-color: #F7F4DE;
+
+    .date-display-single {
+      @include font-myriadprocondensed_bold;
+    }
+  }
+
+  .events-future {
+    padding: 0;
+    background-color: #F7F4DE;
+
+    .date-display-single {
+      @include font-myriadprocondensed_bold;
+    }
+
+    ul {
+      li {
+        margin-bottom: 15px;
+        overflow: hidden;
+        padding-bottom: 15px;
+      }
+    }
+  }
+
+  .tabs {
+    position:relative;
+    z-index: 200;
+  }
+
+  .panels-flexible-region {
+    width: 100%;
+  }
+}
