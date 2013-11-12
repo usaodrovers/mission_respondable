@@ -102,22 +102,10 @@
 }
 
 @media all and (min-width: 481px) {
-  /*
-   * Use 3 grid columns for smaller screens.
-   */
-  $zen-column-count: 3;
 }
 
 @media all and (min-width: 651px) {
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
-  $zen-column-count: 5;
 }
 
 @media all and (min-width: 960px) {
-  /*
-   * Use 12 grid columns for larger screens.
-   */
-  $zen-column-count: 12;
 }

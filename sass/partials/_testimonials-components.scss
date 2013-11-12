@@ -1,3 +1,38 @@
+/*
+ * Use 3 grid columns for smaller screens.
+ */
+$zen-column-count: 3;
+
+.testimonial {
+	background-color: #F7F4DE;
+
+	.testimonial-image {
+		float: none;
+		display: block;
+		padding: 0;
+		max-width: 100%;
+		img {
+			width: 100%
+		}
+	}
+}
+
+.section-testimonials #content {
+	margin-top: 30px;
+}
+
+.node-type-testimonial .masthead {
+	top: 0;
+}
+
+.node-type-testimonial .title {
+	top: 0;
+}
+
+.node-type-testimonial .field-name-field-testimonial-grad-year {
+	margin-bottom: 0;
+}
+
 .testimonial {
   padding: 0;
 
@@ -61,55 +96,17 @@
   display: none;
 }
 
-@media all and (max-width: 650px) {
-/*
- * Use 3 grid columns for smaller screens.
- */
-  $zen-column-count: 3;
-
-  .testimonial {
-    background-color: #F7F4DE;
-
-    .testimonial-image {
-      float: none;
-      display: block;
-      padding: 0;
-      max-width: 100%;
-			img {
-			  width: 100%
-			}
-    }
-  }
-
-  .html.section-testimonials #content {
-    margin-top: 30px;
-  }
-
-  .html.node-type-testimonial .masthead {
-    top: 0;
-  }
-
-  .html.node-type-testimonial .title {
-    top: 0;
-  }
-
-  .html.node-type-testimonial .field-name-field-testimonial-grad-year {
-    margin-bottom: 0;
-  }
-
+@media all and (min-width: 481px) { //HARD BREAK POINT
 }
 
-@media all and (min-width: 651px) and (max-width: 959px) {
+@media all and (min-width: 651px) { //HARD BREAK POINT
 /*
  * Use 5 grid columns for smaller screens.
  */
   $zen-column-count: 5;
 
   .testimonial {
-    @include zen-grid-item(5, 1);
-    @include zen-clear();
     background-color: #F7F4DE;
-    margin-top: 25px;
 
     .testimonial-image {
       max-width: 325px;
@@ -125,7 +122,7 @@
 
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 960px) { //HARD BREAK POINT
 /*
  * Use 12 grid columns for larger screens.
  */

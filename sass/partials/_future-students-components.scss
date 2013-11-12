@@ -60,7 +60,7 @@ li.contact-blue a {
   display: none;
 }
   
-.html .view-display-id-testimonials_future_students {
+.view-display-id-testimonials_future_students {
   overflow: hidden;
   position: relative;
 }
@@ -251,11 +251,6 @@ li.contact-blue a {
 }
 
 @media all and (min-width: 481px) {
-  /*
-   * Use 3 grid columns for smaller screens.
-   */
-  $zen-column-count: 3;
-
   ul.student-contact-bar {
     li {
       width: 33.3%;
@@ -314,11 +309,6 @@ li.contact-blue a {
 }
 
 @media all and (min-width: 651px) {
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
-  $zen-column-count: 5;
-
   .view-id-featured_testimonials {
     .views-field-nothing-1 {
       .field-content {
@@ -372,11 +362,6 @@ li.contact-blue a {
 }
 
 @media all and (min-width: 960px) {
-  /*
-   * Use 12 grid columns for larger screens.
-   */
-  $zen-column-count: 12;
-
   .pane-events-future-students-events {
     .views-field-title {
       font-size: 14px;

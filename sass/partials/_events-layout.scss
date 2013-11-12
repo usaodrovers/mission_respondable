@@ -1,137 +1,51 @@
-@media all and (max-width: 650px) {
-  /*
-   * Use 3 grid columns for smaller screens.
-   */
-  $zen-column-count: 3;
+/*
+ * Use 3 grid columns for smaller screens.
+ */
+$zen-column-count: 3;
 
-  .events {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-  }
-
- .section-events .category {
-   @include zen-grid-item(3, 1);
-   @include zen-clear();
-   float: none;
- }
-
- .section-events .events-top {
-   @include zen-grid-item(3, 1);
-   float: none;
- }
-
- .section-events .events-secondary {
-   @include zen-clear();
-   @include zen-grid-item(3, 1);
- }
-
- .section-events .category-secondary {
-   @include zen-clear();
-   @include zen-grid-item(3, 1);
-   float: none;
- }
-
- .section-events .pane-wec-wec-calendar {
-   @include zen-clear();
-   @include zen-grid-item(3, 1);
-   float: none;
- }
-
- .section-events .events-past {
-   @include zen-clear();
-   @include zen-grid-item(3, 1);
-   float: none;
- }
-
- .section-events .events-future  {
-   @include zen-grid-item(3, 1);
-   float: none;
- }
+.events {
+  @include zen-grid-item(3, 1);
 }
 
-
-@media all and (min-width: 651px) and (max-width: 959px) {
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
-  $zen-column-count: 5;
-
-  .events {
-    @include zen-grid-item(1.8, 4.2);
-  }
-
- .section-events .category {
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .category-secondary {
-   @include zen-clear();
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .pane-wec-wec-calendar {
-   @include zen-clear();
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .events-top {
-    @include zen-grid-item(3.1, 1, right);
-  }
-
- .section-events .events-past {
-   @include zen-clear(right);
-   @include zen-grid-item(1.5, 1);
- }
-
- .section-events .events-future  {
-   @include zen-grid-item(3.25, 2.75);
- }
+.section-events .category {
+  @include zen-grid-item(3, 1);
+  @include zen-clear();
+  float: none;
 }
 
-@media all and (min-width: 960px) {
-  /*
-   * Use 12 grid columns for larger screens.
-   */
-  $zen-column-count: 12;
-
-  .events {
-    @include zen-grid-item(4.4, 8.6);
-  }
-
-  .section-events .category {
-    @include zen-grid-item(4, 1);
-    float: none;
-    padding: 0;
-  }
-  
-  .section-events .category-secondary {
-    @include zen-clear();
-    @include zen-grid-item(4, 1);
-    float: none;
-  }
-
-  .section-events .pane-wec-wec-calendar {
-    @include zen-clear();
-    @include zen-grid-item(4, 1);
-    float: none;
-  }
-
-  .section-events .events-top {
-    @include zen-grid-item(7.3, 1, right);
-  }
-
-  .section-events .events-past {
-    @include zen-clear(right);
-    @include zen-grid-item(3.75, 1);
-  }
-
-  .section-events .events-future  {
-    @include zen-grid-item(7.75, 5.25);
-  }
+.section-events .events-top {
+  @include zen-grid-item(3, 1);
+  float: none;
 }
+
+.section-events .events-secondary {
+  @include zen-clear();
+  @include zen-grid-item(3, 1);
+}
+
+.section-events .category-secondary {
+  @include zen-clear();
+  @include zen-grid-item(3, 1);
+  float: none;
+}
+
+.section-events .pane-wec-wec-calendar {
+  @include zen-clear();
+  @include zen-grid-item(3, 1);
+  float: none;
+}
+
+.section-events .events-past {
+  @include zen-clear();
+  @include zen-grid-item(3, 1);
+  float: none;
+}
+
+.section-events .events-future  {
+  @include zen-grid-item(3, 1);
+  float: none;
+}
+
 /*
  * End Media Quieries.
  * Start Global CSS
@@ -470,5 +384,93 @@
 
   .panels-flexible-region {
     width: 100%;
+  }
+}
+
+@media all and (min-width: 481px) {
+
+}
+
+
+@media all and (min-width: 651px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .events {
+    @include zen-grid-item(1.8, 4.2);
+  }
+
+ .section-events .category {
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .category-secondary {
+   @include zen-clear();
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .pane-wec-wec-calendar {
+   @include zen-clear();
+   @include zen-grid-item(1.6, 1);
+   float: none;
+ }
+
+ .section-events .events-top {
+    @include zen-grid-item(3.1, 1, right);
+  }
+
+ .section-events .events-past {
+   @include zen-clear(right);
+   @include zen-grid-item(1.5, 1);
+ }
+
+ .section-events .events-future  {
+   @include zen-grid-item(3.25, 2.75);
+ }
+}
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+  .events {
+    @include zen-grid-item(4.4, 8.6);
+  }
+
+  .section-events .category {
+    @include zen-grid-item(4, 1);
+    float: none;
+    padding: 0;
+  }
+  
+  .section-events .category-secondary {
+    @include zen-clear();
+    @include zen-grid-item(4, 1);
+    float: none;
+  }
+
+  .section-events .pane-wec-wec-calendar {
+    @include zen-clear();
+    @include zen-grid-item(4, 1);
+    float: none;
+  }
+
+  .section-events .events-top {
+    @include zen-grid-item(7.3, 1, right);
+  }
+
+  .section-events .events-past {
+    @include zen-clear(right);
+    @include zen-grid-item(3.75, 1);
+  }
+
+  .section-events .events-future  {
+    @include zen-grid-item(7.75, 5.25);
   }
 }
