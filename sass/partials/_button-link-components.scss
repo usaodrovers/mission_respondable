@@ -1,0 +1,78 @@
+/* General / Cell Phone */
+.pane-mission-respondable-front-buttons-front-buttons {
+  margin-top: 10px;
+}
+
+.pane-mission-respondable-front-buttons-front-buttons {
+	width: 100%;
+	margin-bottom: 15px;
+
+	.button-link {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+
+@media all and (min-width: 481px) { //HARD BREAK POINT  Tablet 1
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+}
+
+@media all and (min-width: 651px) { //HARD BREAK POINT Tablet 2
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+	
+	.pane-mission-respondable-front-buttons-front-buttons {
+    @include zen-clear();
+    clear: left;
+		height: 80px;
+
+    .button-link {
+      @include zen-grid-item(1.58, 2.7);
+      height: 43px;
+
+      &.first {
+        @include zen-grid-item(1.58, 1);
+      }
+
+      &.last {
+        @include zen-grid-item(1.58, 4.4);
+      }
+    }
+  }
+}
+
+@media all and (min-width: 960px) { //HARD BREAK POINT Desktop
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+	.pane-mission-respondable-front-buttons-front-buttons {
+    @include zen-clear();
+    float: none;
+
+		padding: 0;
+
+    .button-link {
+      @include zen-grid-item(3.684, 5.1);
+
+      &.first {
+        @include zen-grid-item(3.684, 1);
+      }
+
+      &.last {
+        @include zen-grid-item(3.684, 9.2);
+      }
+    }
+  }
+
+	.pane-mission-respondable-front-buttons-front-buttons {
+		padding: 0;
+	}
+}
