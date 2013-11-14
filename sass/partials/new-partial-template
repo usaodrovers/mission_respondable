@@ -1,24 +1,20 @@
-/*
- * Use 1 grid columns for smaller screens.
- * All generic code goes here.
- */
-$zen-column-count: 1;
+/* General / Cell Phone */
 
-@media all and (min-width: 481px) { //HARD BREAK POINT
+@media all and (min-width: 481px) { //HARD BREAK POINT  Tablet 1
   /*
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
 }
 
-@media all and (min-width: 651px) { //HARD BREAK POINT
+@media all and (min-width: 651px) { //HARD BREAK POINT Tablet 2
   /*
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
 }
 
-@media all and (min-width: 960px) { //HARD BREAK POINT
+@media all and (min-width: 960px) { //HARD BREAK POINT Desktop
   /*
    * Use 12 grid columns for larger screens.
    */
