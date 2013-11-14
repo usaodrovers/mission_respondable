@@ -8,7 +8,6 @@
     height: 48px;
     width: 61px;
     margin: 0 10px 10px 0;
-    float: left;
 
     .event-day {
       @include font-myriadprocondensed_bold;
@@ -87,13 +86,13 @@
       color: $primary-nav;
       text-decoration: none;
     }
-		h3 {
+    h3 {
       font-size: 16px;
       font-style: normal;
       font-weight: bold;
       margin: 0;
       line-height: 18px;
-		}
+    }
   }
 }
 
@@ -102,6 +101,11 @@
 }
 
 @media all and (min-width: 481px) {
+  .panel-pane.events {
+    .event-date {
+      float: left;
+    }
+  }
 }
 
 @media all and (min-width: 651px) {

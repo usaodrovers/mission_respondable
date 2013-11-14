@@ -16,10 +16,9 @@
       padding-top: 0;
     }
   }
-
-  .views-field-field-prof-photo {
-    float: left;
-    margin-right: 10px;
+  
+  .views-field {
+    text-align: center;
   }
 
   .views-field-field-prof-last-name {
@@ -61,7 +60,13 @@
 @media all and (min-width: 651px) { //HARD BREAK POINT
   .pane-directory-mini-panes-future-students-directory {
 
+    .views-field {
+      text-align: left;
+    }
+
     .views-field-field-prof-photo {
+      float: left;
+      margin-right: 10px;
       img {
         height: 80px; //delete this later when imagecahce set
       }

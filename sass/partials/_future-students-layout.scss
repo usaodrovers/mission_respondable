@@ -3,25 +3,17 @@
   position: relative;
 }
 
-.pane-directory-mini-panes-future-students-directory {
+.pane-directory-mini-panes-future-students-directory, 
+.pane-announcements-future-students-announcements, 
+.page-future-students .panel-pane.events, 
+.pane-menu-menu-future-students-resources {
   padding: 0;
-  margin-top: 25px;
-}
- 
-.pane-announcements-future-students-announcements {
-  padding: 0;
-  margin-top: 25px;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .page-future-students .panel-pane.events {
   float: none;
-  padding: 0;
-  margin-top: 25px;
-}
-
-.pane-menu-future-students-resources {
-  padding: 0;
-  margin-top: 25px;
 }
 
 @media all and (min-width: 481px) {
@@ -37,30 +29,24 @@
    */
   $zen-column-count: 5;
 
-  .pane-directory-mini-panes-future-students-directory {
+  .pane-directory-mini-panes-future-students-directory, 
+  .pane-menu-menu-future-students-resources {
     @include zen-grid-item(2, 1);
     padding: 0;
-    margin-top: 10px;
   }
 
-  .pane-announcements-future-students-announcements {
+  .pane-announcements-future-students-announcements, 
+  .page-future-students .panel-pane.events {
     @include zen-grid-item(2.75, 1, right);
     padding: 0;
-    margin-top: 10px;
   }
 
   .page-future-students .panel-pane.events {
-    @include zen-grid-item(2.75, 1, right);
     @include zen-clear(right);
-    padding: 0;
-    margin-top: 25px;
   }
 
-  .pane-menu-future-students-resources {
+  .pane-menu-menu-future-students-resources {
     @include zen-clear(left);
-    @include zen-grid-item(2, 1);
-    padding: 0;
-    margin-top: 25px;
   }
 }
 
@@ -70,29 +56,23 @@
    */
   $zen-column-count: 12;
 
-  .pane-directory-mini-panes-future-students-directory {
+  .pane-directory-mini-panes-future-students-directory, 
+  .pane-menu-menu-future-students-resources {
     @include zen-grid-item(4.4, 1);
     padding: 0;
-    margin-top: 10px;
   }
  
-  .pane-announcements-future-students-announcements {
+  .pane-announcements-future-students-announcements, 
+  .page-future-students .panel-pane.events {
     @include zen-grid-item(7, 1, right);
     padding: 0;
-    margin-top: 10px;
   }
 
   .page-future-students .panel-pane.events {
-    @include zen-grid-item(7, 1, right);
     @include zen-clear(right);
-    padding: 0;
-    margin-top: 25px;
   }
 
-  .pane-menu-future-students-resources {
+  .pane-menu-menu-future-students-resources {
     @include zen-clear(left);
-    @include zen-grid-item(4.4, 1);
-    padding: 0;
-    margin-top: 25px;
   }
 }

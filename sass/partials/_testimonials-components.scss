@@ -4,33 +4,33 @@
 $zen-column-count: 3;
 
 .testimonial {
-	background-color: #F7F4DE;
+  background-color: #F7F4DE;
 
-	.testimonial-image {
-		float: none;
-		display: block;
-		padding: 0;
-		max-width: 100%;
-		img {
-			width: 100%
-		}
-	}
+  .testimonial-image {
+    float: none;
+    display: block;
+    padding: 0;
+    max-width: 100%;
+    img {
+      width: 100%
+    }
+  }
 }
 
 .section-testimonials #content {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .node-type-testimonial .masthead {
-	top: 0;
+  top: 0;
 }
 
 .node-type-testimonial .title {
-	top: 0;
+  top: 0;
 }
 
 .node-type-testimonial .field-name-field-testimonial-grad-year {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .testimonial {
@@ -38,7 +38,6 @@ $zen-column-count: 3;
 
    .testimonial-image {
      float: left;
-     padding-right: 10px;
      margin-bottom: -5px;
    }
  }
@@ -91,6 +90,16 @@ $zen-column-count: 3;
   }
 }
 
+.pane-views-testimonial-block {
+  .testimonial-title {
+    padding: 0 15px 2px;
+  }
+  .views-field-body, 
+  .views-field-path {
+    padding: 0 15px;
+  }
+}
+
 .not-logged-in .pane-views-testimonial-block .views-field-edit-node,
 .not-logged-in .pane-testimonial .views-field-edit-node {
   display: none;
@@ -110,6 +119,7 @@ $zen-column-count: 3;
 
     .testimonial-image {
       max-width: 325px;
+      padding-right: 15px;
     }
   }
 

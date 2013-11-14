@@ -2,9 +2,13 @@
   width: 100%;
 }
 
+.panels-flexible-region-new-center {
+  width: 100%;
+}
+
 #content .pane-block-1 {/* block-1 is the id of the block */
   background: #F7F4DE;
-  margin-top: 15px;
+  margin: 15px 0;
   .pane-title {
     margin-bottom: 0;
     z-index: 2;
@@ -32,7 +36,7 @@ ul.student-contact-bar {
 li.contact-green, li.contact-green a {
   color: #015a49;
   text-decoration: none;
-	position: relative;
+  position: relative;
 }
 
 li.contact-blue a {
@@ -77,6 +81,7 @@ li.contact-blue a {
       font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
       font-size: 15px;
       font-weight: bold;
+      margin: 0;
       padding: 0;
       width: 16.667%;
       a {
@@ -165,14 +170,14 @@ li.contact-blue a {
 
 .pane-announcements-future-students-announcements {
   background-color: #F7F4DE;
-  .pane-menu-future-students-resources {
+  .pane-menu-menu-future-students-resources {
     background-color: #F7F4DE;
   }
 }
 
 /* .page-future-students .pane-events-future-students-events .pane-title, 
 .page-future-students .pane-announcements-future-students-announcements .pane-title, 
-.page-future-students .pane-menu-future-students-resources .pane-title {
+.page-future-students .pane-menu-menu-future-students-resources .pane-title {
   color: #E5DEA8;
   line-height: 2.3em;
   margin-bottom: -4px;
@@ -219,7 +224,7 @@ li.contact-blue a {
   }
 }
 
-.pane-menu-future-students-resources {
+.pane-menu-menu-future-students-resources {
   background-color: #F7F4DE;
   ul {
     padding: 0;

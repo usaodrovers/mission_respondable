@@ -10,9 +10,10 @@
       padding: 0;
       li {
         float: left;
-        font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+        font-family: $font-myriadprocondensed;
         font-size: 15px;
         font-weight: bold;
+        margin: 0;
         padding: 0;
         width: 16.667%;
         a {
