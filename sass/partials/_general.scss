@@ -16,6 +16,197 @@ body {
   background-color: #083228;
 }
 
+nav#main-menu[role="navigation"] {
+  margin: 0 auto;
+  max-width: 1024px;
+  h2 {
+    display: none;
+  }
+
+  label {
+    @include background-image(linear-gradient(#015B4A, #004538 90%));
+    @include font-copperplate;
+    font-size: 16px;
+    color: #e5dea8;
+    background-color: blue;
+    position: relative;
+    display: block;
+    height: 25px;
+    margin: 0 0 25px 0;
+    padding: 0 0 0 9px;
+    width: 98%;
+    text-transform: none;
+  }
+
+  label:after {
+      position: absolute;
+      //content: "\2261";
+      content: "Menu";
+  }
+
+  input:checked ~ ul {
+    display: block;
+
+    > li {
+      width: 100%;
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      margin: 0;
+      padding: 10px 0;
+
+      &.first {
+        margin-top: -25px;
+      }
+
+      &.last {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+#logo {
+  @include zen-grid-item(1, 1.1);
+  padding: 5px 0;
+  border-right: none;
+}
+
+#block-views-exp-search-panel-pane-1 {
+  @include zen-grid-item(1, 2.62);
+  padding: 5px 0;
+  margin-bottom: 0;
+  margin-top: -35px;
+  height: 35px;
+
+  .custom-search-box {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+#secondary-menu {
+  @include zen-grid-item(2.9, 1.1);
+  @include zen-clear();
+  padding: 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 5px 10px 5px 0;
+  }
+}
+
+.mission-statement {
+  margin-bottom: -5px;
+}
+
+.pane-views-viewbook-block {
+  @include zen-clear();
+
+  .views-field-body {
+    padding: 10px;
+    height: 85px;
+  }
+
+  .flex-control-nav {
+    top: -70px;
+    left: -5px;
+    display: none;
+  }
+
+  .views-field-body {
+    height: auto;
+    padding-top: 7px;
+
+    .field-content {
+      //@include zen-grid-item(2.97, 1.13);
+      display: inline-block;
+      color: #F9E08E;
+      font-size: 14px;
+      height: 45px;
+      position: relative;
+      @include font-myriadpro;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  span.views-label {
+    @include font-copperplate;
+    display: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #E5DEA8;
+    padding: 17px 16px;
+    letter-spacing: 2px;
+    border-right: 2px solid #E5DEA8;
+    position: absolute;
+    margin-top: 9px;
+  }
+}
+
+.icon-waht_will_they_learn_logo {
+  display: block;
+}
+
+.block-mission-respondable-footer p {
+  margin: 0;
+}
+
+#block-menu-menu-footer-navigation {
+
+  ul, .menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  .last {
+    padding-top: 5px;
+  }
+}
+
+.section-search #content,
+.not-front #content {
+  margin-top: 30px;
+}
+
+#logo {
+  @include zen-grid-item(.8, 1);
+  border: none;
+}
+
+#block-views-exp-search-panel-pane-1 {
+  @include zen-grid-item(1, 4);
+  padding: 5px 0;
+  margin-bottom: 0;
+  margin-top: -35px;
+  height: 25px;
+
+  .custom-search-box {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+#secondary-menu {
+  @include zen-grid-item(4, 1);
+  @include zen-clear();
+  padding: 0;
+
+  li {
+    padding: 5px 2.8%;
+  }
+
+  li.last {
+    border: none;
+  }
+}
+
 html, body {
   min-width: 100%;
 }
@@ -103,27 +294,24 @@ html, body {
   margin-top: 12px;
   text-transform: uppercase;
   z-index: 200;
-}
 
-#navigation li a {
-  color: white;
-  text-decoration: none;
-  text-shadow: -2px 2px 2px black;
-  padding-left: 12px;
-}
-
-#navigation ul.links li.last {
-  background-color: #FFD457;
-  margin-left: 15px;
-  box-shadow: -2px 2px 2px black;
-  padding: 0;
-}
-
-#navigation li.last a {
-  color: #007161;
-  padding: 0 10px 0 10px;
-  margin: 0;
-  text-shadow: none;
+  li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: -2px 2px 2px black;
+    padding-left: 12px;
+  }
+  ul.links li.last {
+    background-color: #FFD457;
+    box-shadow: -2px 2px 2px black;
+    padding: 0;
+    a {
+      color: #007161;
+      padding: 0 10px 0 10px;
+      margin: 0;
+      text-shadow: none;
+    }
+  }
 }
 
 nav[role="navigation"] {
@@ -180,14 +368,7 @@ hgroup, #site-name, #site-slogan {
   margin-bottom: 0;
 }
 
-.flex-control-nav {
-  top: -45px;
-  left: 10px;
-  position: relative;
-  width: 17%;
-}
-
-.flex-control-nav li {
+.pane-views-viewbook-block .flex-control-nav li {
   display: inline-block;
   margin: 0 2px;
 }
@@ -210,35 +391,6 @@ hgroup, #site-name, #site-slogan {
   box-shadow: inset -2px 1px 2px gray;
 }
 
-.flexslider .views-field-body {
-  padding-top: 7px;
-}
-
-.flexslider .views-field-body span.views-label {
-  @include font-copperplate;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #E5DEA8;
-  padding: 17px 16px;
-  letter-spacing: 2px;
-  border-right: 2px solid #E5DEA8;
-  position: absolute;
-  margin-top: 9px;
-}
-
-.flexslider .views-field-body .field-content {
-  display: inline-block;
-  color: #F9E08E;
-  font-size: 14px;
-  height: 45px;
-  position: relative;
-  @include font-myriadpro;
-}
-
-.flexslider .views-field-body .field-content p {
-  margin: 0;
-}
-
 .flex-direction-nav a {
     background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
     cursor: pointer;
@@ -251,9 +403,6 @@ hgroup, #site-name, #site-slogan {
     top: 50%;
     width: 30px;
     z-index: 10;
-}
-
-.flexslider .flex-direction-nav a, .flexslider .flex-direction-nav a {
 }
 
 .quicktabs_main img {display: block;}
@@ -288,6 +437,8 @@ hgroup, #site-name, #site-slogan {
   font-size: 32px;
   @include font-myriadprocondensed;
 }
+
+.breadcrumb {display: none;}
 
 .pane-views-featured-news-block {
   background-color: #F7F4DE;
@@ -750,38 +901,7 @@ article, .webform-confirmation {
   margin-top: 25px;
 }
 
-.node-type-news .title {
-  @include font-myriadprocondensed;
-  position: relative;
-  z-index: 100;
-  background-color: rgba(1, 90, 73, 0.5);
-  color: #FFD457;
-  padding: 5px 30px;
-  font-size: 32px;
-  line-height: 1em;
-  height: 65px;
-}
-
-.node-type-news .masthead {
-  position: relative;
-  top: -41px;
-}
-
-.node-type-news .field-name-field-news-author, .node-type-news .field-name-field-news-published {
-  @include font-myriadprocondensed_bold;
-  color: #575757;
-  font-size: 18px;
-  background-color: rgba(235, 234, 213, 0.7);
-  height: 30px;
-  padding: 5px 0 0 30px;
-}
-
-.node-type-news .field-name-field-news-published {
-  margin-bottom: -41px;
-  background-color: rgba(235, 234, 213, 1.0);
-}
-
-.node-type-news .field-name-body, .node-type-testimonial .field-name-body {
+.node-type-testimonial .field-name-body {
   background-color: #F7F4DE;
   padding: 0;
 
@@ -791,11 +911,6 @@ article, .webform-confirmation {
     color: #575757;
     line-height: 18px;
   }
-}
-
-.node-type-news .tabs {
-  position:relative;
-  z-index: 200;
 }
 
 .page-testimonials h1, .section-search h1, .not-front h1 {
@@ -925,141 +1040,6 @@ article, .webform-confirmation {
   body {
     background: url("../images/pretties.png") no-repeat scroll center top #083228;
   }
-
-  nav#main-menu[role="navigation"] {
-    margin: 0 auto;
-    max-width: 1024px;
-    h2 {
-      display: none;
-    }
-
-    label {
-      @include background-image(linear-gradient(#015B4A, #004538 90%));
-      @include font-copperplate;
-      font-size: 16px;
-      color: #e5dea8;
-      background-color: blue;
-      position: relative;
-      display: block;
-      height: 25px;
-      margin: 0 0 25px 0;
-      padding: 0 0 0 9px;
-      width: 98%;
-      text-transform: none;
-    }
-
-    label:after {
-        position: absolute;
-        //content: "\2261";
-        content: "Menu";
-    }
-
-    input:checked ~ ul {
-      display: block;
-
-      > li {
-        width: 100%;
-        border-top: 1px solid;
-        border-bottom: 1px solid;
-        margin: 0;
-        padding: 10px 0;
-
-        &.first {
-          margin-top: -25px;
-        }
-
-        &.last {
-          margin-bottom: 25px;
-        }
-      }
-    }
-  }
-
-  #logo {
-    @include zen-grid-item(1, 1.1);
-    padding: 5px 0;
-    border-right: none;
-  }
-
-  #block-views-exp-search-panel-pane-1 {
-    @include zen-grid-item(1, 2.62);
-    padding: 5px 0;
-    margin-bottom: 0;
-    margin-top: -35px;
-    height: 35px;
-
-    .custom-search-box {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-
-  #secondary-menu {
-    @include zen-grid-item(2.9, 1.1);
-    @include zen-clear();
-		padding: 0;
-
-    ul {
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      border-right: 1px solid #062A21;
-      padding: 5px 10px 5px 0;
-    }
-  }
-
-  .mission-statement {
-    margin-bottom: -5px;
-  }
-
-  .pane-views-viewbook-block {
-
-    .views-field-body {
-      padding: 10px;
-      height: 85px;
-    }
-
-    .flex-control-nav {
-      top: -70px;
-      left: -5px;
-      display: none;
-    }
-
-    .views-field-body .field-content {
-      @include zen-grid-item(2.97, 1.13);
-    }
-
-    span.views-label {
-      display: none;
-    }
-  }
-
-  .icon-waht_will_they_learn_logo {
-    display: block;
-  }
-
-  .block-mission-respondable-footer p {
-    margin: 0;
-  }
-
-  #block-menu-menu-footer-navigation {
-
-    ul, .menu {
-      margin: 0;
-      padding: 0;
-    }
-
-    .last {
-      padding-top: 5px;
-    }
-  }
-
-  .section-search #content,
-  .not-front #content {
-    margin-top: 30px;
-  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
@@ -1068,47 +1048,24 @@ article, .webform-confirmation {
    */
   $zen-column-count: 5;
 
-  body {
-    background: url("../images/pretties.png") no-repeat scroll center 37px #083228;
-  }
-
-  #logo {
-    @include zen-grid-item(.8, 1);
-    border: none;
-  }
-
-  #block-views-exp-search-panel-pane-1 {
-    @include zen-grid-item(1, 4);
-    padding: 5px 0;
-    margin-bottom: 0;
-    margin-top: -35px;
-    height: 25px;
-
-    .custom-search-box {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-
-  #secondary-menu {
-    @include zen-grid-item(4, 1);
-    @include zen-clear();
-		padding: 0;
-
-    li {
-      padding: 5px 2.8%;
-    }
-
-    li.last {
-      border: none;
-    }
-  }
-
   .pane-views-viewbook-block {
-    @include zen-clear();
-
+    span.views-label {
+      display: block;
+    }
     .views-field-body .field-content {
-      @include zen-grid-item(2.8, 3.2);
+      @include zen-grid-item(3.3 , 2.6);
+    }
+
+    .flex-control-nav {
+      display: block;
+    }
+
+     .flex-control-nav {
+      display: block;
+      top: -45px;
+      left: 10px;
+      position: relative;
+      width: 17%;
     }
   }
 }
@@ -1124,9 +1081,15 @@ article, .webform-confirmation {
   }
 
   #logo {
-     @include zen-grid-item(2, 1);
-     border: none;
-   }
+    @include zen-grid-item(2, 1);
+    border: none;
+  }
+
+  #navigation {
+    li a {
+      padding-left: 6px;
+    }
+  }
 
   #block-views-exp-search-panel-pane-1 {
     @include zen-grid-item(2, 9);
@@ -1146,6 +1109,7 @@ article, .webform-confirmation {
     clear: none;
 
     li {
+      border-right: 1px solid #062A21;
       padding: 5px 2.8%;
     }
 
@@ -1154,12 +1118,15 @@ article, .webform-confirmation {
     }
   }
 
-  .pane-views-viewbook-block {
-    @include zen-clear();
+  .pane-views-viewbook-block .views-field-body .field-content {
+    @include zen-grid-item(7.5 , 4.8);
+  }
+}
 
-    .views-field-body .field-content {
-      @include zen-grid-item(7.5 , 4.8);
+@media all and (min-width: 1024px) { //SOFT BREAK POINT
+  #navigation {
+    li a {
+      padding-left: 12px;
     }
-
   }
 }
