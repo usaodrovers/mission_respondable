@@ -81,9 +81,6 @@
   margin: 0;
 }
 
-.latest-news .views-field-field-news-image {
-}
-
 .latest-news .views-field-title {
   line-height: 18px;
   margin: 0 15px;
@@ -228,16 +225,12 @@
   }
 
   .title {
-    @include font-myriadprocondensed;
     position: relative;
     z-index: 100;
     background-color: rgba(1, 90, 73, 0.5);
-    color: #FFD457;
-    padding: 5px 30px;
-    font-size: 32px;
+    padding: 5px;
     line-height: 1em;
   }
-
 
   .masthead {
     position: relative;
@@ -249,8 +242,7 @@
     color: #575757;
     font-size: 18px;
     background-color: rgba(235, 234, 213, 0.7);
-    height: 30px;
-    padding: 5px 0 0 30px;
+    padding: 5px;
   }
 
   .field-name-field-news-published {
@@ -263,7 +255,7 @@
     padding: 0;
 
     p {
-      margin: 1em 30px;
+      margin: 1em 0;
       @include font-myriadpro;
       color: #575757;
       line-height: 18px;
@@ -277,10 +269,31 @@
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
+  .node-type-news {
+
+		.title {
+		  height: 65px;
+			padding: 5px 30px;
+		}
+
+		.field-name-field-news-author, .field-name-field-news-published {
+      height: 30px;
+			padding: 5px 0 0 30px;
+		}
+
+		.field-name-body {	
+			p {
+				margin: 1em 30px;
+			}
+		}
+	}
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
 }
 
 @media all and (min-width: 960px) { //HARD BREAK POINT
+  .view-news-page .views-field-field-news-image img {
+    width: 100%;
+  }
 }
