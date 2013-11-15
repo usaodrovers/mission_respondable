@@ -22,7 +22,7 @@
   }
 
   .views-field-field-prof-last-name {
-    color: #007161;
+    color: $primary_nav;
     font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -37,7 +37,7 @@
   }
 
   .views-field-title {
-    color: #575757;
+    color: $body_text;
     font-size: 0.9em;
     line-height: 1.3em;
   }

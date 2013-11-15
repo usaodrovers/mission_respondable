@@ -88,7 +88,7 @@ img {
   @include zen-clear();
   margin-top: 25px;
   padding: 0;
-  background-color: #F7F4DE;
+  background-color: $box-background;
 
   .views-field-field-testimonial-image {
     @include zen-grid-item(7, 1);
@@ -149,8 +149,8 @@ img {
 }
 
 .lt-ie9 .l-wrapper {
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   height: auto;
   margin-bottom: 0;
   padding: 0;
@@ -170,16 +170,14 @@ img {
   height: 27px;
   float: left;
   padding: 5px 1%;
-  border-right: 1px solid #062A21;
+  border-right: 1px solid $attention-gold;
 }
 
 .lt-ie9 .l-wrapper li a {
   text-decoration: none;
   color: $topbar-link_color;
-  font-family: $font-copperplate;
-  font-style: normal;
+  @include font-copperplate;
   font-size: 12px;
-  font-weight: 600;
   letter-spacing: .88px;
 }
 

@@ -4,7 +4,7 @@
 $zen-column-count: 3;
 
 .testimonial {
-  background-color: #F7F4DE;
+  background-color: $box-background;
 
   .testimonial-image {
     float: none;
@@ -44,7 +44,7 @@ $zen-column-count: 3;
 
 .pane-testimonial, 
 .pane-views-testimonial-block {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   .pane-title {
     margin: 0;
   }
@@ -66,7 +66,7 @@ $zen-column-count: 3;
   .testimonial-body {
     @include font-myriadprocondensed;
     font-size: 20px;
-    color: #575757;
+    color: $body-text;
   }
   .views-field-edit-node {
     position: absolute;
@@ -81,7 +81,7 @@ $zen-column-count: 3;
     line-height: 20px;
   }
   .testimonial-path a {
-    color: #007161;
+    color: $primary-nav;
     text-decoration: none;
     @include font-myriadpro_bold;
   }
@@ -115,7 +115,7 @@ $zen-column-count: 3;
   $zen-column-count: 5;
 
   .testimonial {
-    background-color: #F7F4DE;
+    background-color: $box-background;
 
     .testimonial-image {
       max-width: 325px;

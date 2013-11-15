@@ -1,10 +1,10 @@
 .pane-views-featured-news-block {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   padding: 0;
 }
 
 .view-featured-news .views-row {
-  border-bottom: 1px solid #DBD6AE;
+  border-bottom: 1px solid $divider;
   margin-top: 15px;
   padding-bottom: 20px;
   list-style: none;
@@ -32,12 +32,12 @@
 .view-featured-news .views-field-title span a {
   text-decoration: none;
   @include font-myriadpro_semibold;
-  color: #007161;
+  color: $primary_nav;
   font-size: 16px;
 }.top-news .pane-title {
   @include font-myriadprocondensed;
   font-size: 32px;
-  color: #FFD457;
+  color: $attention-gold;
   background-color: rgba(1, 90, 73, 0.5);
   padding: 1px 15px;
   text-transform: uppercase;
@@ -53,14 +53,14 @@
 .top-news .views-field-title a {
   @include font-myriadpro_semibold;
   font-size: 18px;
-  color: #007161;
+  color: $primary_nav;
   text-decoration: none;
 }
 
 .top-news .views-field-body {
   @include font-myriadpro;
   font-size: 14px;
-  color: #575757;
+  color: $body_text;
   margin-right: 15px;
   margin-left: 15px;
   line-height: 18px;
@@ -68,15 +68,15 @@
 }
 
 .section-news .latest-news {
-  background-color: #F7F4DE;
+  background-color: $box-background;
 }
 
 .section-news h2.pane-title {
   font-size: 32px;
   @include font-myriadprocondensed;
-  color: #FFD457;
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  color: $attention-gold;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   padding-left: 15px;
   margin: 0;
 }
@@ -90,14 +90,14 @@
 .latest-news .views-field-title a {
   @include font-myriadpro_semibold;
   font-size: 14px;
-  color: #007161;
+  color: $primary_nav;
   text-decoration: none;
 }
 
 .latest-news .views-field-body {
   @include font-myriadpro;
   font-size: 14px;
-  color: #575757;
+  color: $body_text;
   line-height: 18px;
   margin: 0 15px 25px 15px;
 }
@@ -106,12 +106,12 @@
   @include font-myriadpro;
   font-size: 12px;
   padding: 10px 0;
-  color: #F7F4DE;
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  color: $box-background;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
 
   .pager-current {
-    color: #FFD457;
+    color: $attention-gold;
   }
 
   ul {
@@ -119,7 +119,7 @@
 
     li {
       a {
-        color: #F7F4DE;
+        color: $box-background;
         text-decoration: none;
       }
     }
@@ -127,15 +127,15 @@
 }
 
 .section-news .headlines {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   width: 195px;
 }
 
 .section-news .headlines .pane-title {
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   margin-top: 0;
-  color: #E5DEA8;
+  color: $topbar-link_color;
   text-decoration: none;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -153,12 +153,12 @@
 .headlines .views-field-title a {
   @include font-myriadpro_semibold;
   font-size: 14px;
-  color: #007161;
+  color: $primary_nav;
   text-decoration: none;
 }
 
 .headlines .views-row {
-  border-top: 1px solid #D7D3AB;
+  border-top: 1px solid $divider;
   padding: 10px 0;
   margin: 0 15px;
 }
@@ -169,15 +169,15 @@
 }
 
 .section-news .news {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   width: 195px;
 }
 
 .section-news .news .pane-title {
-  background-color: #004538;
-  @include background-image(linear-gradient(#015B4A, #004538 90%));
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   margin-top: 0;
-  color: #E5DEA8;
+  color: $topbar-link_color;
   text-decoration: none;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -193,7 +193,7 @@
 }
 
 .news li {
-  border-top: 1px solid #D7D3AB;
+  border-top: 1px solid $divider;
   padding-top: 15px;
   margin: 0 15px;
 }
@@ -212,7 +212,7 @@
 .news li a {
   @include font-myriadpro_semibold;
   font-size: 14px;
-  color: #007161;
+  color: $primary_nav;
   text-decoration: none;
   padding-bottom: 15px;
   display: block;
@@ -239,7 +239,7 @@
 
   .field-name-field-news-author, .field-name-field-news-published {
     @include font-myriadprocondensed_bold;
-    color: #575757;
+    color: $body_text;
     font-size: 18px;
     background-color: rgba(235, 234, 213, 0.7);
     padding: 5px;
@@ -251,13 +251,13 @@
   }
 
   .field-name-body {
-    background-color: #F7F4DE;
+    background-color: $box-background;
     padding: 0;
 
     p {
       margin: 1em 0;
       @include font-myriadpro;
-      color: #575757;
+      color: $body_text;
       line-height: 18px;
     }
   }
@@ -271,22 +271,22 @@
 @media all and (min-width: 481px) { //HARD BREAK POINT
   .node-type-news {
 
-		.title {
-		  height: 65px;
-			padding: 5px 30px;
-		}
+    .title {
+      height: 65px;
+      padding: 5px 30px;
+    }
 
-		.field-name-field-news-author, .field-name-field-news-published {
+    .field-name-field-news-author, .field-name-field-news-published {
       height: 30px;
-			padding: 5px 0 0 30px;
-		}
+      padding: 5px 0 0 30px;
+    }
 
-		.field-name-body {	
-			p {
-				margin: 1em 30px;
-			}
-		}
-	}
+    .field-name-body {	
+      p {
+        margin: 1em 30px;
+      }
+    }
+  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT

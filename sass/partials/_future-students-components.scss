@@ -14,7 +14,7 @@ $zen-column-count: 1;
 
 #content .pane-block-1 {/* block-1 is the id of the block */
   background: $box-background;
-  margin: 15px 0;
+  margin: 0 0 15px;
   .pane-title {
     margin-bottom: 0;
     z-index: 2;
@@ -255,6 +255,11 @@ li.contact-green, li.contact-green a {
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+  
   ul.student-contact-bar {
     li {
       width: 33.3%;
@@ -270,8 +275,6 @@ li.contact-green, li.contact-green a {
     .testimonial-title {
       color: $primary-nav;
       font-size: 14px;
-      float: left;
-      width: 100%;
       margin: 5px 0 0;
     }
     .testimonial-body {
@@ -288,14 +291,13 @@ li.contact-green, li.contact-green a {
       height: 100%;
       position: absolute;
       top: 0;
-      width: 100%;
+      @include zen_grid_item(3, 1, none);
 
       .field-content {
-        float: right;
         margin: 0;
         padding-right: 5px;
         padding-top: 10px;
-        width: 50%;
+        @include zen_grid_item(1.5, 1, right);
       }
 
       a {
@@ -308,18 +310,23 @@ li.contact-green, li.contact-green a {
         padding: 6px 3px;
         text-align: center;
         text-decoration: none;
-        width: 85%;
+        @include zen_grid_item(2.55, 1, none);
       }
     }
   }
 }
 
 @media all and (min-width: 651px) { //HARD BREAKPOINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+  
   .view-id-featured_testimonials {
     .views-field-nothing-1 {
       .field-content {
         padding-top: 24px;
-        width: 39%;
+        @include zen_grid_item(1.95, 1, right);
       }
       a {
         margin: 15px 0;
@@ -368,6 +375,11 @@ li.contact-green, li.contact-green a {
 }
 
 @media all and (min-width: 960px) { //HARD BREAKPOINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+  
   .pane-events-future-students-events {
     .views-field-title {
       font-size: 14px;

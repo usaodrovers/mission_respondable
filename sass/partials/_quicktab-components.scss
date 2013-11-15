@@ -17,14 +17,14 @@
         padding: 0;
         width: 16.667%;
         a {
-          @include background-image(linear-gradient(#015B4A, #004538 90%));
-          border-right: 1px solid #F7F4DE;
+          @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+          border-right: 1px solid $box-background;
           display: block;
           padding: 10px 0;
           text-align: center;
           text-transform: uppercase;
           &:hover {
-            color: #FFD457;
+            color: $attention-gold;
           }
           &.hide-border {
             border: none;
@@ -34,7 +34,7 @@
           border-right: none;
         }
         &.active a {
-          border: 2px solid #FFD457;
+          border: 2px solid $attention-gold;
           padding: 8px 0;
         }
       }
@@ -62,7 +62,7 @@
   }
 
   .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-    background: #F7F4DE;
+    background: $box-background;
     padding: 1px 0;
     .field-content {
       margin: 0;
@@ -70,8 +70,8 @@
       width: 100%;
     }
     a {
-      background-color: #FFD457;
-      box-shadow: -2px 2px 3px #777;
+      background-color: $attention-gold;
+      box-shadow: -2px 2px 3px $shadow-grey;
       color: $primary-nav;
       display: block;
       font-weight: bold;

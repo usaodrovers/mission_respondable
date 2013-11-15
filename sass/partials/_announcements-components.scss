@@ -3,7 +3,7 @@
 }
 
 .node-type-announcements .masthead a {
-    color: #FFD457;
+    color: $attention-gold;
     text-decoration: none;
 }
 
@@ -12,7 +12,7 @@
     display: block;
   }
   .views-field-body p {
-    color: #575757;
+    color: $body_text;
     font-family: "myriad-pro-1","myriad-pro-2",sans-serif;
     font-style: normal;
     font-weight: 400;
