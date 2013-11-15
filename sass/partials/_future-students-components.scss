@@ -161,7 +161,7 @@ li.contact-green, li.contact-green a {
 
     a {
       background-color: $attention-gold;
-      box-shadow: -2px 2px 3px $shadow-grey;
+      @include single-box-shadow($shadow-grey, -2px, 2px, 3px);
       color: $primary-nav;
       display: block;
       font-weight: bold;
@@ -302,7 +302,7 @@ li.contact-green, li.contact-green a {
 
       a {
         background-color: $attention-gold;
-        box-shadow: -2px 2px 3px $shadow-grey;
+        @include single-box-shadow($shadow-grey, -2px, 2px, 3px);
         color: $primary-nav;
         display: inline-block;
         font-weight: bold;

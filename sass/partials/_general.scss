@@ -302,7 +302,7 @@ html, body {
   }
   ul.links li.last {
     background-color: $attention-gold;
-    box-shadow: -2px 2px 2px black;
+    @include single-box-shadow($shadow-grey, -2px, 2px, 2px);
     padding: 0;
     a {
       color: $primary_nav;
@@ -376,7 +376,7 @@ hgroup, #site-name, #site-slogan {
   background: none repeat scroll 0 0 $gradient-green_light;
   border: 2px solid $topbar-link_color;
   border-radius: 20px 20px 20px 20px;
-  box-shadow: none;
+  @include single-box-shadow(transparent, 0, 0, 0);
   cursor: pointer;
   display: block;
   height: 11px;
@@ -387,7 +387,7 @@ hgroup, #site-name, #site-slogan {
 .flex-control-paging li a.flex-active {
   background: none repeat scroll 0 0 $topbar-link_color;
   cursor: default;
-  box-shadow: inset -2px 1px 2px gray;
+  @include single-box-shadow($shadow-grey, -2px, 1px, 2px, false, true);
 }
 
 .flex-direction-nav a {
