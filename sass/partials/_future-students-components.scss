@@ -1,3 +1,9 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
 .panels-flexible-region-9-center {
   width: 100%;
 }
@@ -7,7 +13,7 @@
 }
 
 #content .pane-block-1 {/* block-1 is the id of the block */
-  background: #F7F4DE;
+  background: $box-background;
   margin: 15px 0;
   .pane-title {
     margin-bottom: 0;
@@ -34,14 +40,9 @@ ul.student-contact-bar {
 }
 
 li.contact-green, li.contact-green a {
-  color: #015a49;
+  color: $primary_nav;
   text-decoration: none;
   position: relative;
-}
-
-li.contact-blue a {
-  color: #3B5998; 
-  text-decoration: none;
 }
 
 .contact-jtrigger {
@@ -49,10 +50,10 @@ li.contact-blue a {
 }
 
 .act-jquery-content, .fafsa-jquery-content {
-  background: #F7F4DE;
-  border: 1px solid #083228;
+  background: $box-background;
+  border: 1px solid $background;
   border-radius: 3px;
-  color: #000;
+  color: $background;
   font-size: 18px;
   font-weight: normal;
   margin: -22px 0 0;
@@ -85,14 +86,14 @@ li.contact-blue a {
       padding: 0;
       width: 16.667%;
       a {
-        @include background-image(linear-gradient(#015B4A, #004538 90%));
-        border-right: 1px solid #F7F4DE;
+        @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
+        border-right: 1px solid $box-background;
         display: block;
         padding: 10px 0;
         text-align: center;
         text-transform: uppercase;
         &:hover {
-          color: #FFD457;
+          color: $attention-gold;
         }
         &.hide-border {
           border: none;
@@ -102,25 +103,25 @@ li.contact-blue a {
         border-right: none;
       }
       &.active a {
-        border: 2px solid #FFD457;
+        border: 2px solid $attention-gold;
         padding: 8px 0;
       }
     }
   }
 
   .tinynav {
-    color: #E5DEA8;
-    font-family: "Copperplate Gothic Bold","Copperplate Gothic Light",Copperplate,"kelvingrove-1","kelvingrove-2",serif;
+    color: $topbar-link_color;
+    @include font-copperplate;
     font-size: 16px;
     width: 100%;
-    @include background-image(linear-gradient(#015B4A, #004538 90%));
+    @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
     option {
-      color: #E5DEA8;
-      font-family: "Copperplate Gothic Bold","Copperplate Gothic Light",Copperplate,"kelvingrove-1","kelvingrove-2",serif;
+      color: $topbar-link_color;
+      @include font-copperplate;
       font-size: 16px;
-      @include background-image(linear-gradient(#015B4A, #004538 90%));
+      @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
       &:hover {
-        color: #E5DEA8;
+        color: $topbar-link_color;
       }
     }
   }
@@ -129,6 +130,7 @@ li.contact-blue a {
     clear: left;
     position: relative;
   }
+  
   .testimonial-title {
     color: $primary-nav;
     font-size: 12px;
@@ -136,26 +138,30 @@ li.contact-blue a {
     width: 96%;
     margin: 5px 2%;
   }
+  
   .testimonial-body {
     display: block;
     margin: 5px 2%;
     width: 96%;
   }
+
   .testimonial-body p {
     display: inline;
   }
 
   .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-    background: #F7F4DE;
+    background: $box-background;
     padding: 1px 0;
+
     .field-content {
       margin: 0;
       padding: 10px 0 0;
       width: 100%;
     }
+
     a {
-      background-color: #FFD457;
-      box-shadow: -2px 2px 3px #777;
+      background-color: $attention-gold;
+      box-shadow: -2px 2px 3px $shadow-grey;
       color: $primary-nav;
       display: block;
       font-weight: bold;
@@ -169,16 +175,16 @@ li.contact-blue a {
 }
 
 .pane-announcements-future-students-announcements {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   .pane-menu-menu-future-students-resources {
-    background-color: #F7F4DE;
+    background-color: $box-background;
   }
 }
 
 /* .page-future-students .pane-events-future-students-events .pane-title, 
 .page-future-students .pane-announcements-future-students-announcements .pane-title, 
 .page-future-students .pane-menu-menu-future-students-resources .pane-title {
-  color: #E5DEA8;
+  color: $topbar-link_color;
   line-height: 2.3em;
   margin-bottom: -4px;
   padding: 11px 0 10px 10%;
@@ -208,14 +214,7 @@ li.contact-blue a {
       line-height: 18px;
     }
   }
-  .views-field-body {
-    color: #7A6B38;
-    font-size: 0.9em;
-    line-height: 1.3em;
-    p {
-      margin: 0;
-    }
-  }
+
   .views-field-nothing {
     border-bottom: 1px solid $divider;
     clear: both;
@@ -225,7 +224,7 @@ li.contact-blue a {
 }
 
 .pane-menu-menu-future-students-resources {
-  background-color: #F7F4DE;
+  background-color: $box-background;
   ul {
     padding: 0;
   }
@@ -255,7 +254,12 @@ li.contact-blue a {
   }
 }
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 481px) { //HARD BREAKPOINT
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+  
   ul.student-contact-bar {
     li {
       width: 33.3%;
@@ -271,15 +275,13 @@ li.contact-blue a {
     .testimonial-title {
       color: $primary-nav;
       font-size: 14px;
-      float: left;
-      width: 100%;
       margin: 5px 0 0;
     }
     .testimonial-body {
       margin: 5px 0;
     }
     .testimonial-body p {
-      color: #5d5d5d;
+      color: $body_text;
       font-weight:bold;
     }
 
@@ -289,17 +291,18 @@ li.contact-blue a {
       height: 100%;
       position: absolute;
       top: 0;
-      width: 100%;
+      @include zen_grid_item(3, 1, none);
+
       .field-content {
-        float: right;
         margin: 0;
         padding-right: 5px;
         padding-top: 10px;
-        width: 50%;
+        @include zen_grid_item(1.5, 1, right);
       }
+
       a {
-        background-color: #FFD457;
-        box-shadow: -2px 2px 3px #777;
+        background-color: $attention-gold;
+        box-shadow: -2px 2px 3px $shadow-grey;
         color: $primary-nav;
         display: inline-block;
         font-weight: bold;
@@ -307,18 +310,23 @@ li.contact-blue a {
         padding: 6px 3px;
         text-align: center;
         text-decoration: none;
-        width: 85%;
+        @include zen_grid_item(2.55, 1, none);
       }
     }
   }
 }
 
-@media all and (min-width: 651px) {
+@media all and (min-width: 651px) { //HARD BREAKPOINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+  
   .view-id-featured_testimonials {
     .views-field-nothing-1 {
       .field-content {
         padding-top: 24px;
-        width: 39%;
+        @include zen_grid_item(1.95, 1, right);
       }
       a {
         margin: 15px 0;
@@ -345,7 +353,7 @@ li.contact-blue a {
       width: auto;
     }
     li {
-      border-right: 1px solid #000000;
+      border-right: 1px solid $background;
       font-size: 13px;
       line-height: 1.3em;
       margin-right: 8px;
@@ -366,7 +374,12 @@ li.contact-blue a {
 
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 960px) { //HARD BREAKPOINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+  
   .pane-events-future-students-events {
     .views-field-title {
       font-size: 14px;

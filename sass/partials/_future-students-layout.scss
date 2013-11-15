@@ -1,3 +1,9 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
 .view-display-id-testimonials_future_students {
   padding: 0;
   position: relative;
@@ -16,14 +22,14 @@
   float: none;
 }
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 481px) { //HARD BREAKPOINT
   /*
    * Use 3 grid columns for smaller screens.
    */
   $zen-column-count: 3;
 }
 
-@media all and (min-width: 651px) {
+@media all and (min-width: 651px) { //HARD BREAKPOINT
   /*
    * Use 5 grid columns for smaller screens.
    */
@@ -50,7 +56,7 @@
   }
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 960px) { //HARD BREAKPOINT
   /*
    * Use 12 grid columns for larger screens.
    */

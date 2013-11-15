@@ -1,60 +1,44 @@
 /*
- * Use 3 grid columns for smaller screens.
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
  */
-$zen-column-count: 3;
-
-.events {
-  @include zen-grid-item(3, 1);
-}
-
-.section-events .category {
-  @include zen-grid-item(3, 1);
-  @include zen-clear();
-  float: none;
-}
-
-.section-events .events-top {
-  @include zen-grid-item(3, 1);
-  float: none;
-}
-
-.section-events .events-secondary {
-  @include zen-clear();
-  @include zen-grid-item(3, 1);
-}
-
-.section-events .category-secondary {
-  @include zen-clear();
-  @include zen-grid-item(3, 1);
-  float: none;
-}
-
-.section-events .pane-wec-wec-calendar {
-  @include zen-clear();
-  @include zen-grid-item(3, 1);
-  float: none;
-}
-
-.section-events .events-past {
-  @include zen-clear();
-  @include zen-grid-item(3, 1);
-  float: none;
-}
-
-.section-events .events-future  {
-  @include zen-grid-item(3, 1);
-  float: none;
-}
-
-/*
- * End Media Quieries.
- * Start Global CSS
- */
+$zen-column-count: 1;
 
 .section-events {
 
   .panels-flexible-region {
     width: 100%;
+  }
+
+  a {
+    @include font-myriadprocondensed;
+    font-size: 16px;
+    color: $primary-nav;
+    line-height: 18px;
+    text-decoration: none;
+  }
+
+  .item-list {
+    a {
+      font-size: 12px;
+    }
+  }
+
+  .view-empty {
+    margin: 10px;
+  }
+
+  p {
+    @include font-myriadpro;
+    margin: 0 15px 15px;
+    font-size: 16px;
+    color: $body-text;
+    line-height: 18px;
+
+    a {
+      @include font-myriadpro;
+      margin: 0;
+    }
   }
 
   .category,
@@ -63,38 +47,7 @@ $zen-column-count: 3;
   .events-secondary,
   .events-past,
   .events-future {
-    background-color: #F7F4DE;
-
-    a {
-      @include font-myriadprocondensed;
-      font-size: 16px;
-      color: $primary-nav;
-      line-height: 18px;
-      text-decoration: none;
-    }
-
-    .item-list {
-      a {
-        font-size: 12px;
-      }
-    }
-
-    .view-empty {
-      margin: 10px;
-    }
-
-    p {
-      @include font-myriadpro;
-      margin: 0 15px 15px;
-      font-size: 16px;
-      color: $body-text;
-      line-height: 18px;
-
-      a {
-        @include font-myriadpro;
-        margin: 0;
-      }
-    }
+    background-color: $box_background;
 
     .views-field-field-event-image {
       text-align: center;
@@ -105,12 +58,12 @@ $zen-column-count: 3;
       a {
         @include font-myriadpro_semibold;
         font-size: 14px;
-        color: #007161;
+        color: $primary_nav;
         text-decoration: none;
         margin-left: 15px;
         display: inline-block;
 
-        &:hover {
+        &:hover, &:focus {
           text-decoration: underline;
         }
       }
@@ -133,11 +86,11 @@ $zen-column-count: 3;
         }
 
         a {
-          &:hover {
+          &:hover, &:focus {
             text-decoration: underline;
           }
           &.wec {
-            color: #007161;
+            color: $primary_nav;
           }
         }
 
@@ -156,7 +109,7 @@ $zen-column-count: 3;
         color: $primary-nav;
         text-decoration: none;
 
-        &:hover {
+        &:hover, &:focus {
           text-decoration: underline;
         }
       }
@@ -175,12 +128,12 @@ $zen-column-count: 3;
   .pane-wec-wec-calendar {
     padding: 0;
 
-    .pane-content a {
+    a {
       @include font-myriadprocondensed;
-      @include background-image(linear-gradient(#015B4A, #004538 90%));
+      @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
       font-size: 35px;
       line-height: 1em;
-      color: #FFD457;
+      color: $attention-gold;
       padding: 8px 0 10px 10px;
       text-transform: uppercase;
       margin-top: 0;
@@ -188,8 +141,8 @@ $zen-column-count: 3;
       text-decoration: none;
       display: block;
 
-      &:hover {
-        border: 2px solid #FFD457;
+      &:hover, &:focus {
+        border: 2px solid $attention-gold;
         padding: 6px 0 10px 8px;
         margin-bottom: -2px;
       }
@@ -203,7 +156,7 @@ $zen-column-count: 3;
     .pane-title {
       @include font-myriadprocondensed;
       font-size: 28px;
-      color: #FFD457;
+      color: $attention-gold;
       text-transform: uppercase;
       margin-bottom: 0;
     }
@@ -223,7 +176,7 @@ $zen-column-count: 3;
         border-bottom: none;
 
         a {
-          color: #F7F4DE;
+          color: $box_background;
           @include font-myriadpro;
         }
       }
@@ -299,7 +252,7 @@ $zen-column-count: 3;
     line-height: 1em;
 
     a {
-      color: #FFD457;
+      color: $attention-gold;
       text-decoration: none;
     }
   }
@@ -334,12 +287,13 @@ $zen-column-count: 3;
   }
 
   .views-field-body {
-    background-color: #F7F4DE;
+    background-color: $box_background;
     padding: 0;
 
     p {
       margin: 0;
-      padding: 1em 30px;
+      padding: .5em 30px;
+      color: $body_text;
       @include font-myriadpro;
       color: $body-text;
       line-height: 18px;
@@ -353,7 +307,7 @@ $zen-column-count: 3;
 
   .events-past {
     padding: 0;
-    background-color: #F7F4DE;
+    background-color: $box_background;
 
     .date-display-single {
       @include font-myriadprocondensed_bold;
@@ -362,7 +316,7 @@ $zen-column-count: 3;
 
   .events-future {
     padding: 0;
-    background-color: #F7F4DE;
+    background-color: $box_background;
 
     .date-display-single {
       @include font-myriadprocondensed_bold;
@@ -388,7 +342,53 @@ $zen-column-count: 3;
 }
 
 @media all and (min-width: 481px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
 
+  .events {
+    @include zen-grid-item(3, 1);
+  }
+
+  .section-events .category {
+    @include zen-grid-item(3, 1);
+    @include zen-clear();
+    float: none;
+  }
+
+  .section-events .events-top {
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
+
+  .section-events .events-secondary {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+  }
+
+  .section-events .category-secondary {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
+
+  .section-events .pane-wec-wec-calendar {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
+
+  .section-events .events-past {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
+
+  .section-events .events-future  {
+    @include zen-grid-item(3, 1);
+    float: none;
+  }
 }
 
 
