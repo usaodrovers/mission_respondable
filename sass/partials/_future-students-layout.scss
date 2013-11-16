@@ -4,6 +4,26 @@
  */
 $zen-column-count: 1;
 
+.panels-flexible-region-9-center {
+  width: 100%;
+}
+
+.panels-flexible-region-new-center {
+  width: 100%;
+}
+
+#content .pane-block-1 {/* block-1 is the id of the block */
+  .view-content {
+    width: 100%;
+  }
+}
+
+ul.student-contact-bar {
+  li {
+    width: 100%;
+  }
+}
+
 .view-display-id-testimonials_future_students {
   padding: 0;
   position: relative;
@@ -22,11 +42,79 @@ $zen-column-count: 1;
   float: none;
 }
 
+.act-jquery-content,
+.fafsa-jquery-content {
+  width: 100%
+}
+
+.view-id-featured_testimonials {
+  .quicktabs-wrapper ul {
+    padding: 0;
+    li {
+      width: 16.667%;
+    }
+  }
+
+  .tinynav {
+    width: 100%;
+  }
+  
+  .testimonial-title {
+    width: 96%;
+  }
+  
+  .testimonial-body {
+    width: 96%;
+  }
+
+  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+
+    .field-content {
+      width: 100%;
+    }
+
+    a {
+      width: 96%;
+    }
+  }
+}
+
+
+@media all and (min-width: 330px) {/*Soft Breakpoint */
+  ul.student-contact-bar {
+    li {
+      width: 50%;
+    }
+  }
+}
+
+
 @media all and (min-width: 481px) { //HARD BREAKPOINT
   /*
    * Use 3 grid columns for smaller screens.
    */
   $zen-column-count: 3;
+  
+  ul.student-contact-bar {
+    li {
+      width: 33.3%;
+    }
+  }
+
+  .view-id-featured_testimonials {
+    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+      height: 100%;
+      @include zen_grid_item(3, 1, none);
+
+      .field-content {
+        @include zen_grid_item(1.5, 1, right);
+      }
+
+      a {
+        @include zen_grid_item(2.55, 1, none);
+      }
+    }
+  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAKPOINT
@@ -53,6 +141,18 @@ $zen-column-count: 1;
 
   .pane-menu-menu-future-students-resources {
     @include zen-clear(left);
+  }
+  
+  .view-id-featured_testimonials {
+    .views-field-nothing-1 {
+      .field-content {
+        @include zen_grid_item(1.95, 1, right);
+      }
+    }
+  }
+
+  .act-jquery-content, .fafsa-jquery-content{
+    width: auto;
   }
 }
 

@@ -1,7 +1,7 @@
 /*
- * Use 3 grid columns for smaller screens.
+ * Use 1 grid columns for smaller screens.
  */
-$zen-column-count: 3;
+$zen-column-count: 1;
 
 .node-type-news #content {
 	margin-top: 65px;
@@ -73,11 +73,15 @@ $zen-column-count: 3;
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
   /*
-   * Use 5 grid columns for smaller screens.
+   * Use 5 grid columns for medium screens.
    */
   $zen-column-count: 5;
 

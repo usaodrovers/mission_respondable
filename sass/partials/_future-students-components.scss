@@ -4,14 +4,6 @@
  */
 $zen-column-count: 1;
 
-.panels-flexible-region-9-center {
-  width: 100%;
-}
-
-.panels-flexible-region-new-center {
-  width: 100%;
-}
-
 #content .pane-block-1 {/* block-1 is the id of the block */
   background: $box-background;
   margin: 0 0 15px;
@@ -19,9 +11,8 @@ $zen-column-count: 1;
     margin-bottom: 0;
     z-index: 2;
   }
-  .pane-content {
+  .view-content {
     display: inline-block;
-    width: 100%;
   }
 }
 
@@ -34,7 +25,6 @@ ul.student-contact-bar {
   list-style: none outside none;
   li {
     display: inline-block;
-    width: 100%;
     text-align: center;
   }
 }
@@ -58,7 +48,6 @@ li.contact-green, li.contact-green a {
   font-weight: normal;
   margin: -22px 0 0;
   position: absolute;
-  width: 100%
 }
 
 .student-contact-hide {
@@ -84,7 +73,6 @@ li.contact-green, li.contact-green a {
       font-weight: bold;
       margin: 0;
       padding: 0;
-      width: 16.667%;
       a {
         @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
         border-right: 1px solid $box-background;
@@ -113,7 +101,6 @@ li.contact-green, li.contact-green a {
     color: $topbar-link_color;
     @include font-copperplate;
     font-size: 16px;
-    width: 100%;
     @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
     option {
       color: $topbar-link_color;
@@ -135,14 +122,12 @@ li.contact-green, li.contact-green a {
     color: $primary-nav;
     font-size: 12px;
     float: left;
-    width: 96%;
     margin: 5px 2%;
   }
   
   .testimonial-body {
     display: block;
     margin: 5px 2%;
-    width: 96%;
   }
 
   .testimonial-body p {
@@ -156,12 +141,11 @@ li.contact-green, li.contact-green a {
     .field-content {
       margin: 0;
       padding: 10px 0 0;
-      width: 100%;
     }
 
     a {
       background-color: $attention-gold;
-      @include single-box-shadow($shadow-grey, -2px, 2px, 3px);
+      box-shadow: -2px 2px 3px $shadow-grey;
       color: $primary-nav;
       display: block;
       font-weight: bold;
@@ -169,7 +153,6 @@ li.contact-green, li.contact-green a {
       padding: 6px 0;
       text-align: center;
       text-decoration: none;
-      width: 96%;
     }
   }
 }
@@ -192,7 +175,7 @@ li.contact-green, li.contact-green a {
   font-size: 16px;
 } */
 
-.pane-announcements-future-students-announcements .pane-content {
+.pane-announcements-future-students-announcements .view-content {
   margin: 10px;
 }
 
@@ -248,7 +231,6 @@ li.contact-green, li.contact-green a {
 @media all and (min-width: 330px) {/*Soft Breakpoint */
   ul.student-contact-bar {
     li {
-      width: 50%;
       text-align: center;
     }
   }
@@ -262,7 +244,6 @@ li.contact-green, li.contact-green a {
   
   ul.student-contact-bar {
     li {
-      width: 33.3%;
       text-align: center;
     }
   }
@@ -288,21 +269,18 @@ li.contact-green, li.contact-green a {
     .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
       @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
       background-color: transparent;
-      height: 100%;
       position: absolute;
       top: 0;
-      @include zen_grid_item(3, 1, none);
 
       .field-content {
         margin: 0;
         padding-right: 5px;
         padding-top: 10px;
-        @include zen_grid_item(1.5, 1, right);
       }
 
       a {
         background-color: $attention-gold;
-        @include single-box-shadow($shadow-grey, -2px, 2px, 3px);
+        box-shadow: -2px 2px 3px $shadow-grey;
         color: $primary-nav;
         display: inline-block;
         font-weight: bold;
@@ -310,7 +288,6 @@ li.contact-green, li.contact-green a {
         padding: 6px 3px;
         text-align: center;
         text-decoration: none;
-        @include zen_grid_item(2.55, 1, none);
       }
     }
   }
@@ -325,7 +302,6 @@ li.contact-green, li.contact-green a {
   .view-id-featured_testimonials {
     .views-field-nothing-1 {
       .field-content {
-        padding-top: 24px;
         @include zen_grid_item(1.95, 1, right);
       }
       a {
@@ -348,7 +324,7 @@ li.contact-green, li.contact-green a {
       width: auto;
       margin-right: 5px;
     }
-    .pane-content {
+    .view-content {
       display: inline-block;
       width: auto;
     }
@@ -369,7 +345,6 @@ li.contact-green, li.contact-green a {
 
   .act-jquery-content, .fafsa-jquery-content{
     padding: 3px 6px;
-    width: auto;
   }
 
 }
