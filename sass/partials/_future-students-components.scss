@@ -4,37 +4,6 @@
  */
 $zen-column-count: 1;
 
-#content .pane-block-1 {/* block-1 is the id of the block */
-  background: $box-background;
-  margin: 0 0 15px;
-  .pane-title {
-    margin-bottom: 0;
-    z-index: 2;
-  }
-  .view-content {
-    display: inline-block;
-  }
-}
-
-ul.student-contact-bar {
-  display: inline;
-  margin: 0;
-  position: relative;
-  padding: 6px 0;
-  z-index: 1;
-  list-style: none outside none;
-  li {
-    display: inline-block;
-    text-align: center;
-  }
-}
-
-li.contact-green, li.contact-green a {
-  color: $primary_nav;
-  text-decoration: none;
-  position: relative;
-}
-
 .contact-jtrigger {
   text-transform: uppercase;
 }
@@ -52,109 +21,6 @@ li.contact-green, li.contact-green a {
 
 .student-contact-hide {
   display: none;
-}
-  
-.view-display-id-testimonials_future_students {
-  overflow: hidden;
-  position: relative;
-}
-
-.view-id-featured_testimonials .quicktabs-wrapper .item-list {
-  padding: 0;
-}
-
-.view-id-featured_testimonials {
-  .quicktabs-wrapper ul {
-    padding: 0;
-    li {
-      float: left;
-      font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
-      font-size: 15px;
-      font-weight: bold;
-      margin: 0;
-      padding: 0;
-      a {
-        @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
-        border-right: 1px solid $box-background;
-        display: block;
-        padding: 10px 0;
-        text-align: center;
-        text-transform: uppercase;
-        &:hover {
-          color: $attention-gold;
-        }
-        &.hide-border {
-          border: none;
-        }
-      }
-      &.last a {
-        border-right: none;
-      }
-      &.active a {
-        border: 2px solid $attention-gold;
-        padding: 8px 0;
-      }
-    }
-  }
-
-  .tinynav {
-    color: $topbar-link_color;
-    @include font-copperplate;
-    font-size: 16px;
-    @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
-    option {
-      color: $topbar-link_color;
-      @include font-copperplate;
-      font-size: 16px;
-      @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
-      &:hover {
-        color: $topbar-link_color;
-      }
-    }
-  }
-  
-  .quicktabs-tabpage { /* .view-id-featured_testimonials .quicktabs-tabpage */
-    clear: left;
-    position: relative;
-  }
-  
-  .testimonial-title {
-    color: $primary-nav;
-    font-size: 12px;
-    float: left;
-    margin: 5px 2%;
-  }
-  
-  .testimonial-body {
-    display: block;
-    margin: 5px 2%;
-  }
-
-  .testimonial-body p {
-    display: inline;
-  }
-
-  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-    background: $box-background;
-    padding: 1px 0;
-
-    .field-content {
-      margin: 0;
-      padding: 10px 0 0;
-    }
-
-    a {
-      background-color: $attention-gold;
-      box-shadow: -2px 2px 3px $shadow-grey;
-      color: $primary-nav;
-      display: block;
-      font-weight: bold;
-      margin: 15px 2%;
-      padding: 6px 0;
-      text-align: center;
-      text-decoration: none;
-    }
-  }
 }
 
 .pane-announcements-future-students-announcements {
@@ -189,7 +55,7 @@ li.contact-green, li.contact-green a {
       text-decoration: none;
     }
      h3 {
-      font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+      font-family: $font-myriadprocondensed;
       font-size: 16px;
       font-style: normal;
       font-weight: bold;
@@ -218,7 +84,7 @@ li.contact-green, li.contact-green a {
     padding-bottom: 8px;
   }
   a {
-    @include font-myriadprocondensed;
+    @include $font-myriadprocondensed;
     font-size: 16px;
     color: $primary-nav;
     line-height: 18px;
@@ -251,46 +117,6 @@ li.contact-green, li.contact-green a {
   .act-jquery-content, .fafsa-jquery-content{
     margin: 0;
   }
-
-  .view-id-featured_testimonials {
-    .testimonial-title {
-      color: $primary-nav;
-      font-size: 14px;
-      margin: 5px 0 0;
-    }
-    .testimonial-body {
-      margin: 5px 0;
-    }
-    .testimonial-body p {
-      color: $body_text;
-      font-weight:bold;
-    }
-
-    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-      @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
-      background-color: transparent;
-      position: absolute;
-      top: 0;
-
-      .field-content {
-        margin: 0;
-        padding-right: 5px;
-        padding-top: 10px;
-      }
-
-      a {
-        background-color: $attention-gold;
-        box-shadow: -2px 2px 3px $shadow-grey;
-        color: $primary-nav;
-        display: inline-block;
-        font-weight: bold;
-        margin: 15px 0;
-        padding: 6px 3px;
-        text-align: center;
-        text-decoration: none;
-      }
-    }
-  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAKPOINT
@@ -298,48 +124,11 @@ li.contact-green, li.contact-green a {
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
-  
-  .view-id-featured_testimonials {
-    .views-field-nothing-1 {
-      .field-content {
-        @include zen_grid_item(1.95, 1, right);
-      }
-      a {
-        margin: 15px 0;
-      }
-    }
-  }
 
   .view-display-id-future_students_announcements {
     .views-field-field-announcement-image {
       float: left;
       padding-right: 10px;
-    }
-  }
-  
-  #content .pane-block-1 {/* block-1 is the id of the block */
-    .pane-title {
-      display: inline-block;
-      padding: 10px 10px 11px;
-      width: auto;
-      margin-right: 5px;
-    }
-    .view-content {
-      display: inline-block;
-      width: auto;
-    }
-    li {
-      border-right: 1px solid $background;
-      font-size: 13px;
-      line-height: 1.3em;
-      margin-right: 8px;
-      padding-right: 8px;
-      width: auto;
-      &.last {
-        border: none;
-        margin-right: 0;
-        padding-right: 0;
-      }
     }
   }
 

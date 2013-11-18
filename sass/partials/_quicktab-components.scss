@@ -1,6 +1,11 @@
 /**
  * This SASS is for the Future Students Testimonial feature
  */
+.view-display-id-testimonials_future_students {
+  overflow: hidden;
+  position: relative;
+}
+
 .view-id-featured_testimonials {
   .quicktabs-wrapper { 
     .item-list {
@@ -15,7 +20,6 @@
         font-weight: bold;
         margin: 0;
         padding: 0;
-        width: 16.667%;
         a {
           @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
           border-right: 1px solid $box-background;
@@ -41,22 +45,39 @@
     }
   }
 
+  .tinynav {
+    color: $topbar-link_color;
+    @include font-copperplate;
+    font-size: 16px;
+    @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
+    option {
+      color: $topbar-link_color;
+      @include font-copperplate;
+      font-size: 16px;
+      @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
+      &:hover {
+        color: $topbar-link_color;
+      }
+    }
+  }
+
   .quicktabs-tabpage { /* .view-id-featured_testimonials .quicktabs-tabpage */
     clear: left;
     position: relative;
   }
+
   .testimonial-title {
     color: $primary-nav;
     font-size: 12px;
     float: left;
-    width: 96%;
     margin: 5px 2%;
   }
+
   .testimonial-body {
     display: block;
     margin: 5px 2%;
-    width: 96%;
   }
+
   .testimonial-body p {
     display: inline;
   }
@@ -64,14 +85,16 @@
   .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
     background: $box-background;
     padding: 1px 0;
+
     .field-content {
       margin: 0;
       padding: 10px 0 0;
       width: 100%;
     }
+
     a {
       background-color: $attention-gold;
-      @include single-box-shadow($shadow-grey, -2px, 2px, 3px);
+      box-shadow: -2px 2px 3px $shadow-grey;
       color: $primary-nav;
       display: block;
       font-weight: bold;
@@ -79,17 +102,83 @@
       padding: 6px 0;
       text-align: center;
       text-decoration: none;
-      width: 96%;
     }
   }
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .view-id-featured_testimonials {
+    .testimonial-title {
+      color: $primary-nav;
+      font-size: 14px;
+      margin: 5px 0 0;
+    }
+
+    .testimonial-body {
+      margin: 5px 0;
+    }
+
+    .testimonial-body p {
+      color: $body_text;
+      font-weight:bold;
+    }
+
+    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+      @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+
+      .field-content {
+        margin: 0;
+        padding-right: 5px;
+        padding-top: 10px;
+      }
+
+      a {
+        background-color: $attention-gold;
+        box-shadow: -2px 2px 3px $shadow-grey;
+        color: $primary-nav;
+        display: inline-block;
+        font-weight: bold;
+        margin: 15px 0;
+        padding: 6px 3px;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+  
+  .view-id-featured_testimonials {
+
+    .views-field-nothing-1 {
+
+      .field-content {
+        @include zen_grid_item(1.95, 1, right);
+      }
+
+      a {
+        margin: 15px 0;
+      }
+    }
   }
 }
 
 @media all and (min-width: 960px) { //HARD BREAK POINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
 }
