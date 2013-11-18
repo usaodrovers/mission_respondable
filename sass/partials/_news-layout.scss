@@ -115,7 +115,9 @@ $zen-column-count: 1;
 
   .section-news .middle {
    @include zen-grid-item(2.4, 1, left);
-  }.pane-views-featured-news-block {
+  }
+  
+  .pane-views-featured-news-block {
     @include zen-grid-item(7.1, 1);
     margin-top: 25px;
 
