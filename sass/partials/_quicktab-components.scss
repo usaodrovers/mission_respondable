@@ -7,61 +7,73 @@
 }
 
 .view-id-featured_testimonials {
-  .quicktabs-wrapper { 
-    .item-list {
-      padding: 0;
-    }
-    ul {
-      padding: 0;
-      li {
-        float: left;
-        font-family: $font-myriadprocondensed;
-        font-size: 15px;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-        a {
-          @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-          border-right: 1px solid $box-background;
-          display: block;
-          padding: 10px 0;
-          text-align: center;
-          text-transform: uppercase;
-          &:hover {
-            color: $attention-gold;
-          }
-          &.hide-border {
-            border: none;
-          }
-        }
-        &.last a {
-          border-right: none;
-        }
-        &.active a {
-          border: 2px solid $attention-gold;
-          padding: 8px 0;
-        }
-      }
-    }
-  }
 
   .tinynav {
+    border-color: #FFD457;
     color: $topbar-link_color;
     @include font-copperplate;
     font-size: 16px;
     @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
+
     option {
       color: $topbar-link_color;
       @include font-copperplate;
       font-size: 16px;
       @include background-image(linear-gradient($gradient-green-light, $gradient-green-dark 90%));
+
       &:hover {
         color: $topbar-link_color;
       }
     }
   }
+}
 
-  .quicktabs-tabpage { /* .view-id-featured_testimonials .quicktabs-tabpage */
+.quicktabs-wrapper { 
+
+  .item-list {
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      float: left;
+      font-family: $font-myriadprocondensed;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+
+      a {
+        @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+        border-right: 1px solid $box-background;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $attention-gold;
+        }
+
+        &.hide-border {
+          border: none;
+        }
+      }
+
+      &.last a {
+        border-right: none;
+      }
+
+      &.active a {
+        border: 2px solid $attention-gold;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .quicktabs-tabpage { /* .quicktabs-wrapper .quicktabs-tabpage */
     clear: left;
     position: relative;
   }
@@ -82,14 +94,13 @@
     display: inline;
   }
 
-  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+  .views-field-nothing-1 {/* .quicktabs-wrapper .views-field-nothing-1 */
     background: $box-background;
     padding: 1px 0;
 
     .field-content {
       margin: 0;
       padding: 10px 0 0;
-      width: 100%;
     }
 
     a {
@@ -112,7 +123,8 @@
    */
   $zen-column-count: 3;
 
-  .view-id-featured_testimonials {
+  .quicktabs-wrapper {
+
     .testimonial-title {
       color: $primary-nav;
       font-size: 14px;
@@ -128,7 +140,7 @@
       font-weight:bold;
     }
 
-    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+    .views-field-nothing-1 {/* .quicktabs-wrapper .views-field-nothing-1 */
       @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
       background-color: transparent;
       position: absolute;
@@ -161,13 +173,9 @@
    */
   $zen-column-count: 5;
   
-  .view-id-featured_testimonials {
+  .quicktabs-wrapper {
 
     .views-field-nothing-1 {
-
-      .field-content {
-        @include zen_grid_item(1.95, 1, right);
-      }
 
       a {
         margin: 15px 0;

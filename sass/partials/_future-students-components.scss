@@ -84,7 +84,7 @@ $zen-column-count: 1;
     padding-bottom: 8px;
   }
   a {
-    @include $font-myriadprocondensed;
+    font-family: $font-myriadprocondensed;
     font-size: 16px;
     color: $primary-nav;
     line-height: 18px;

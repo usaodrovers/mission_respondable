@@ -47,39 +47,6 @@ ul.student-contact-bar {
   width: 100%
 }
 
-.view-id-featured_testimonials {
-  .quicktabs-wrapper ul {
-    padding: 0;
-    li {
-      width: 16.667%;
-    }
-  }
-
-  .tinynav {
-    width: 100%;
-  }
-  
-  .testimonial-title {
-    width: 96%;
-  }
-  
-  .testimonial-body {
-    width: 96%;
-  }
-
-  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-
-    .field-content {
-      width: 100%;
-    }
-
-    a {
-      width: 96%;
-    }
-  }
-}
-
-
 @media all and (min-width: 330px) {/*Soft Breakpoint */
   ul.student-contact-bar {
     li {
@@ -98,21 +65,6 @@ ul.student-contact-bar {
   ul.student-contact-bar {
     li {
       width: 33.3%;
-    }
-  }
-
-  .view-id-featured_testimonials {
-    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
-      height: 100%;
-      @include zen_grid_item(3, 1, none);
-
-      .field-content {
-        @include zen_grid_item(1.5, 1, right);
-      }
-
-      a {
-        @include zen_grid_item(2.55, 1, none);
-      }
     }
   }
 }
@@ -141,14 +93,6 @@ ul.student-contact-bar {
 
   .pane-menu-menu-future-students-resources {
     @include zen-clear(left);
-  }
-  
-  .view-id-featured_testimonials {
-    .views-field-nothing-1 {
-      .field-content {
-        @include zen_grid_item(1.95, 1, right);
-      }
-    }
   }
 
   .act-jquery-content, .fafsa-jquery-content{
