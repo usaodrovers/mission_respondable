@@ -404,8 +404,6 @@ hgroup, #site-name, #site-slogan {
     z-index: 10;
 }
 
-.quicktabs_main img {display: block;}
-
 .button-link {
   margin-top: 9px;
   padding: 32px 0 0;
@@ -720,18 +718,6 @@ article, .webform-confirmation {
   }
 }
 
-.node-type-testimonial .field-name-body {
-  background-color: $box-background;
-  padding: 0;
-
-  p {
-    margin: 1em 30px;
-    @include font-myriadpro;
-    color: $body_text;
-    line-height: 18px;
-  }
-}
-
 .section-search h1, .not-front h1 {
   text-transform: uppercase;
   font-size: 32px;
@@ -741,6 +727,10 @@ article, .webform-confirmation {
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   padding-left: 15px;
   margin: 0;
+
+  &#page-title {
+    margin: 0 0 15px;
+  }
 }
 
 .section-testimonials #content, .section-search #content, .not-front #content {
