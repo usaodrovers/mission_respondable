@@ -448,9 +448,6 @@ hgroup, #site-name, #site-slogan {
     line-height: 100%;
     font-size: 1em;
     padding: 10px 15px;
-<<<<<<< HEAD
-    margin-top: 0;
-=======
     margin: 0;
 >>>>>>> work on SMACSS
 
@@ -685,8 +682,6 @@ article, .webform-confirmation {
   }
 }
 
-<<<<<<< HEAD
-=======
 .node-type-testimonial .field-name-body {
   background-color: $box-background;
   padding: 0;
@@ -699,7 +694,6 @@ article, .webform-confirmation {
   }
 }
 
->>>>>>> work on SMACSS
 .section-search h1, .not-front h1 {
   text-transform: uppercase;
   font-size: 32px;
@@ -927,10 +921,6 @@ article, .webform-confirmation {
  *
  */
 
-<<<<<<< HEAD
-a {
-  color: $primary-nav;
-=======
 html, button, input, select, textarea {
   font-family: $font-myriadpro;
   color: $body_text;
@@ -945,7 +935,6 @@ a {
   &:hover, &:focus {
     text-decoration: underline;
   }
->>>>>>> work on SMACSS
 }
 
 /*
@@ -953,9 +942,10 @@ a {
  *
  */
 
+//test
+
 .l-box {
   background-color: $box-background;
-<<<<<<< HEAD
 
   p {
     padding: 0 15px;
@@ -968,7 +958,6 @@ a {
 
 .l-sidebar-left {
   @include zen-grid-item(4, 1, none);
-=======
   margin-bottom: 1.5em;
 
   p, h3 {
@@ -1037,30 +1026,20 @@ a {
   .l-sidebar-right {
     @include zen-grid-item(4, 9);
   }
->>>>>>> work on SMACSS
 }
 
 .l-highlight {
   background-color: rgba(235, 234, 213, 0.7);
   @include font-myriadprocondensed_bold;
   color: $body_text;
-<<<<<<< HEAD
-  padding: 0 15px;
-=======
   padding: 5px 15px;
   font-size: 18px;
->>>>>>> work on SMACSS
 }
 
 .l-title-area {
   position: relative;
-<<<<<<< HEAD
-  top: -29px;
-  margin-bottom: -29px;
-=======
   top: -40px;
   margin-bottom: -40px;
->>>>>>> work on SMACSS
 }
 
 /*
@@ -1068,23 +1047,6 @@ a {
  *
  */
 
-<<<<<<< HEAD
-.menu {
-  margin: 0 0 1.5em;
-  padding: 0 15px;
-}
-
-.menu > li {
-  list-style: none;
-  border-bottom: 1px solid $divider;
-  padding: 5px 0;
-
-  a {
-    text-decoration: none;
-
-    &:hover, &:focus {
-      text-decoration: underline;
-=======
 .menu__vertical {
   ul {
     margin: 0 0 1.5em;
@@ -1104,7 +1066,6 @@ a {
         margin: -1px -15px;
         padding: 5px 15px;
       }
->>>>>>> work on SMACSS
     }
   }
 }
