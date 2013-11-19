@@ -4,335 +4,43 @@
  */
 $zen-column-count: 1;
 
-.section-events {
-
-  .item-list {
-    a {
-      font-size: 12px;
-    }
-  }
-
-  .view-empty {
-    margin: 10px;
-  }
-
-  p {
-    @include font-myriadpro;
-    margin: 0 15px 15px;
-    font-size: 16px;
-    color: $body-text;
-    line-height: 18px;
-
-    a {
-      @include font-myriadpro;
-      margin: 0;
-    }
-  }
-
-  .category,
-  .category-secondary,
-  .events-top,
-  .events-secondary,
-  .events-past,
-  .events-future {
-    background-color: $box_background;
-
-    .views-field-field-event-image {
-      text-align: center;
-    }
-
-    .views-field-title {
-
-      a {
-        @include font-myriadpro_semibold;
-        font-size: 14px;
-        color: $primary_nav;
-        text-decoration: none;
-        margin-left: 15px;
-        display: inline-block;
-
-        &:hover, &:focus {
-          text-decoration: underline;
-        }
-      }
-    }
-
-    ul {
-      padding: 0;
-      margin-top: 10px;
-
-      li {
-        list-style: none;
-        border-bottom: 1px solid $divider-bar;
-        padding: 3px 0;
-        margin: 0 10px;
-
-        &.active {
-          background-color: $event-active;
-          margin: -1px 0 0;
-          padding: 0 10px;
-        }
-
-        a {
-          &:hover, &:focus {
-            text-decoration: underline;
-          }
-          &.wec {
-            color: $primary_nav;
-          }
-        }
-
-        img {
-          float: left;
-          padding-right: 10px;
-        }
-      }
-    }
-
-    .view-footer {
-
-      a {
-        @include font-myriadprocondensed;
-        font-size: 16px;
-        color: $primary-nav;
-        text-decoration: none;
-
-        &:hover, &:focus {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
-  .category {
-    padding: 0;
-  }
-
-  .category-secondary {
-    padding: 0;
-    margin-top: 25px;
-  }
-
-  .pane-wec-wec-calendar {
-    padding: 0;
-
-    a {
-      @include font-myriadprocondensed;
-      @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-      font-size: 35px;
-      line-height: 1em;
-      color: $attention-gold;
-      padding: 8px 0 10px 10px;
-      text-transform: uppercase;
-      margin-top: 0;
-      margin-bottom: 0;
-      text-decoration: none;
-      display: block;
-
-      &:hover, &:focus {
-        border: 2px solid $attention-gold;
-        padding: 6px 0 10px 8px;
-        margin-bottom: -2px;
-      }
-    }
-  }
-
-  .events-top {
-    padding: 0;
-    margin: 0;
-
-    .pane-title {
-      @include font-myriadprocondensed;
-      font-size: 28px;
-      color: $attention-gold;
-      text-transform: uppercase;
-      margin-bottom: 0;
-    }
-
-    .views-row {
-      margin: 30px 0;
-      padding: 0;
-      border-top: none;
-    }
-
-    .views-row-first {
-      margin: 0 0 30px 0;
-    }
-
-    ul {
-      li {
-        border-bottom: none;
-
-        a {
-          color: $box_background;
-          @include font-myriadpro;
-        }
-      }
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-
-    .event-date {
-      float: right;
-    }
-
-    .date_time {
-      margin: 7px 0 0 15px;
-      color: $body-text;
-      @include font-myriadprocondensed_bold;
-      font-size: 16px;
-
-      a {
-        font-style: italic;
-        margin: 0;
-      }
-    }
-  }
-
-  .events-secondary {
-    padding: 14px 0;
-    margin: 0;
-
-    .views-row {
-      padding: 7px 0;
-    }
-
-    a {
-      img {
-        margin: 0;
-      }
-    }
-
-    .event-date {
-      float: right;
-    }
-
-    .date_time {
-      margin: 7px 0 0 15px;
-    }
-  }
-
-  .events-future, .events-past {
-    ul {
-      li.views-row-last {
-        border-bottom: none;
-      }
-    }
-  }
-
-}
-
-.node-type-event {
-
-  #content {
-    margin-top: 25px;
-  }
-
-  .masthead {
-    @include font-myriadprocondensed;
-    position: relative;
-    z-index: 100;
-    background-color: rgba(1, 90, 73, 0.5);
-    padding: 5px 30px;
-    font-size: 32px;
-    line-height: 1em;
-
-    a {
-      color: $attention-gold;
-      text-decoration: none;
-    }
-  }
-
-  .masthead {
-    position: relative;
-    top: -41px;
-  }
-
-  .pane-event-list-event-node {
-    margin-bottom: 15px;
-  }
-
-  .views-field-field-event-category, .views-field-field-event-other {
-    @include font-myriadprocondensed_bold;
-    color: $body-text;
-    font-size: 18px;
-    background-color: rgba(235, 234, 213, 0.7);
-    padding: 5px 0 5px 30px;
-
-    a {
-      text-decoration: none;
-      color: $primary-nav;
-    }
-  }
-
-  .views-field-field-event-other {
-    margin-top: -41px;
-    background-color: rgba(235, 234, 213, 1.0);
-
-    .location {
-      border-left: solid 2px $primary-nav;
-      padding-left: 10px;
-      margin-left: 7px;
-    }
-  }
-
-  .views-field-body {
-    background-color: $box_background;
-    padding: 0;
-
-    p {
-      margin: 0;
-      padding: .5em 30px;
-      color: $body_text;
-      @include font-myriadpro;
-      color: $body-text;
-      line-height: 18px;
-
-      a {
-        text-decoration: none;
-        color: $primary-nav;
-      }
-    }
-  }
-
-  .events-past {
-    padding: 0;
-    background-color: $box_background;
-
-    .date-display-single {
-      @include font-myriadprocondensed_bold;
-    }
-  }
-
-  .events-future {
-    padding: 0;
-    background-color: $box_background;
-
-    .date-display-single {
-      @include font-myriadprocondensed_bold;
-    }
-
-    ul {
-      li {
-        margin-bottom: 15px;
-        overflow: hidden;
-        padding-bottom: 15px;
-      }
-    }
-  }
-
-  .tabs {
-    position:relative;
-    z-index: 200;
-  }
-}
-
-.panel-pane.events {
-  background-color: $box_background;
+/*
+ * Component
+ *
+ */
+.event-link__attention {
   padding: 0;
-  margin-top: 25px;
+
+  a {
+    @include font-myriadprocondensed;
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    font-size: 35px;
+    line-height: 1em;
+    color: $attention-gold;
+    padding: 8px 0 10px 10px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    display: block;
+
+    &:hover, &:focus {
+      border: 2px solid $attention-gold;
+      padding: 6px 0 10px 8px;
+      margin-bottom: -2px;
+    }
+  }
+}
+
+.event-location {
+  @include font-myriadprocondensed_semibold-italic;
+}
+
+.event-date {
+  float: right;
+}
+
+.event-block {
 
   .event-date {
     border: 1px solid $gradient-green_dark;
@@ -373,57 +81,22 @@ $zen-column-count: 1;
     }
   }
 
-  br {
-    line-height: 0;
+  h3 {
+    padding: .75em 0px;
   }
 
-  .views-row {
-    margin: 10px;
-    border-top: 1px solid $divider;
-    padding: 15px 0;
-    clear: both;
+  ul {
+    padding: 0 15px;
+    margin: 0;
 
-    &.views-row-first {
-      border-top: none;
-    }
-  }
+    li {
+      border-top: 1px solid $divider;
+      padding: 15px 0;
+      clear: both;
 
-  .date_time {
-    @include font-myriadprocondensed_semibold_italic;
-    font-size: 15px;
-    color: $body_text;
-    margin-top: 7px;
-    line-height: 15px;
-  }
-
-  .views-field-nothing {
-    float: left;
-    width: 75px;
-    margin-top: 15px;
-  }
-
-  .views-field-field-event-image {
-    text-align: center;
-  }
-
-  .views-field-title {
-    @include font-myriadprocondensed_bold;
-    font-size: 14px;
-    color: $body_text;
-    text-decoration: none;
-    clear: both;
-
-    a {
-      color: $primary-nav;
-      text-decoration: none;
-    }
-    
-    h3 {
-      font-size: 16px;
-      font-style: normal;
-      font-weight: bold;
-      margin: 0;
-      line-height: 18px;
+      &.views-row-first {
+        border-top: none;
+      }
     }
   }
 }
@@ -438,7 +111,7 @@ $zen-column-count: 1;
    */
   $zen-column-count: 3;
 
-  .panel-pane.events {
+  .event-block {
     .event-date {
       float: left;
     }
@@ -450,6 +123,7 @@ $zen-column-count: 1;
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
+  
 }
 
 @media all and (min-width: 960px) {
@@ -458,7 +132,4 @@ $zen-column-count: 1;
    */
   $zen-column-count: 12;
 
-  .view-event-list .views-field-field-event-image img {
-    width: 100%;
-  }
 }

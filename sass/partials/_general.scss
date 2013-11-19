@@ -347,7 +347,7 @@ hgroup, #site-name, #site-slogan {
 #content, 
 #footer {
   margin: 0 auto;
-  max-width: 642px;
+  max-width: 622px;
 }
 
 .mission-statement {
@@ -437,10 +437,6 @@ hgroup, #site-name, #site-slogan {
 
 .breadcrumb {display: none;}
 
-.pane-views-featured-news-block {
-  background-color: $box-background;
-}
-
 .panel-pane {
 
   .pane-title {
@@ -452,7 +448,11 @@ hgroup, #site-name, #site-slogan {
     line-height: 100%;
     font-size: 1em;
     padding: 10px 15px;
+<<<<<<< HEAD
     margin-top: 0;
+=======
+    margin: 0;
+>>>>>>> work on SMACSS
 
     a {
       color: $topbar-link_color;
@@ -467,39 +467,6 @@ hgroup, #site-name, #site-slogan {
       }
     }
   }
-}
-
-.view-featured-news .views-row {
-  border-bottom: 1px solid $divider;
-  margin-top: 11px;
-  padding-bottom: 20px;
-  list-style: none;
-  display: table;
-}
-
-.view-featured-news li div {
-  display: block;
-  height: 70px;
-}
-
-.view-featured-news .views-field-field-news-frontpage-image {
-  padding-left: 15px;
-  display: table-cell;
-  vertical-align: middle;
-  min-width: 142px;
-}
-
-.view-featured-news .views-field-title {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 15px;
-}
-
-.view-featured-news .views-field-title span a {
-  text-decoration: none;
-  @include font-myriadpro_semibold;
-  color: $primary_nav;
-  font-size: 16px;
 }
 
 .block-mission-respondable-footer {
@@ -718,6 +685,21 @@ article, .webform-confirmation {
   }
 }
 
+<<<<<<< HEAD
+=======
+.node-type-testimonial .field-name-body {
+  background-color: $box-background;
+  padding: 0;
+
+  p {
+    margin: 1em 30px;
+    @include font-myriadpro;
+    color: $body_text;
+    line-height: 18px;
+  }
+}
+
+>>>>>>> work on SMACSS
 .section-search h1, .not-front h1 {
   text-transform: uppercase;
   font-size: 32px;
@@ -945,8 +927,25 @@ article, .webform-confirmation {
  *
  */
 
+<<<<<<< HEAD
 a {
   color: $primary-nav;
+=======
+html, button, input, select, textarea {
+  font-family: $font-myriadpro;
+  color: $body_text;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-nav;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+>>>>>>> work on SMACSS
 }
 
 /*
@@ -956,6 +955,7 @@ a {
 
 .l-box {
   background-color: $box-background;
+<<<<<<< HEAD
 
   p {
     padding: 0 15px;
@@ -968,19 +968,99 @@ a {
 
 .l-sidebar-left {
   @include zen-grid-item(4, 1, none);
+=======
+  margin-bottom: 1.5em;
+
+  p, h3 {
+    padding: .75em 15px;
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.l-box__clear {
+  @include zen-clear();
+}
+
+@media all and (min-width: 481px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .l-content-right {
+    @include zen-grid-item(3, 1, none);
+  }
+}
+
+@media all and (min-width: 651px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+   $zen-column-count: 5;
+
+   .l-content-right {
+      @include zen-grid-item(3.1, 1, right);
+   }
+
+   .l-content-left {
+      @include zen-grid-item(3.1, 1);
+   }
+
+   .l-sidebar-left {
+     @include zen-grid-item(1.6, 1, none);
+   }
+
+   .l-sidebar-right {
+     @include zen-grid-item(1.6, 4.4);
+   }
+ }
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+  .l-content-right {
+    @include zen-grid-item(7.3, 1, right);
+  }
+
+  .l-content-left {
+    @include zen-grid-item(7.3, 1);
+  }
+
+  .l-sidebar-left {
+    @include zen-grid-item(4, 1, none);
+  }
+
+  .l-sidebar-right {
+    @include zen-grid-item(4, 9);
+  }
+>>>>>>> work on SMACSS
 }
 
 .l-highlight {
   background-color: rgba(235, 234, 213, 0.7);
   @include font-myriadprocondensed_bold;
   color: $body_text;
+<<<<<<< HEAD
   padding: 0 15px;
+=======
+  padding: 5px 15px;
+  font-size: 18px;
+>>>>>>> work on SMACSS
 }
 
 .l-title-area {
   position: relative;
+<<<<<<< HEAD
   top: -29px;
   margin-bottom: -29px;
+=======
+  top: -40px;
+  margin-bottom: -40px;
+>>>>>>> work on SMACSS
 }
 
 /*
@@ -988,6 +1068,7 @@ a {
  *
  */
 
+<<<<<<< HEAD
 .menu {
   margin: 0 0 1.5em;
   padding: 0 15px;
@@ -1003,6 +1084,27 @@ a {
 
     &:hover, &:focus {
       text-decoration: underline;
+=======
+.menu__vertical {
+  ul {
+    margin: 0 0 1.5em;
+    padding: 0 15px;
+
+    li {
+      list-style: none;
+      border-bottom: 1px solid $divider;
+      padding: 5px 0;
+
+      a {
+        @include font-myriadprocondensed;
+      }
+
+      &.is-active-trail {
+        background-color: $event-active;
+        margin: -1px -15px;
+        padding: 5px 15px;
+      }
+>>>>>>> work on SMACSS
     }
   }
 }

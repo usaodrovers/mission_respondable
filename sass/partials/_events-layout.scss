@@ -4,13 +4,7 @@
  */
 $zen-column-count: 1;
 
-.section-events,
-.node-type-event {
 
-  .panels-flexible-region {
-    width: 100%;
-  }
-}
 
 @media all and (min-width: 481px) {
   /*
@@ -18,48 +12,6 @@ $zen-column-count: 1;
    */
   $zen-column-count: 3;
 
-  .events {
-    @include zen-grid-item(3, 1);
-  }
-
-  .section-events .category {
-    @include zen-grid-item(3, 1);
-    @include zen-clear();
-    float: none;
-  }
-
-  .section-events .events-top {
-    @include zen-grid-item(3, 1);
-    float: none;
-  }
-
-  .section-events .events-secondary {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-  }
-
-  .section-events .category-secondary {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-    float: none;
-  }
-
-  .section-events .pane-wec-wec-calendar {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-    float: none;
-  }
-
-  .section-events .events-past {
-    @include zen-clear();
-    @include zen-grid-item(3, 1);
-    float: none;
-  }
-
-  .section-events .events-future  {
-    @include zen-grid-item(3, 1);
-    float: none;
-  }
 }
 
 
@@ -69,39 +21,6 @@ $zen-column-count: 1;
    */
   $zen-column-count: 5;
 
-  .events {
-    @include zen-grid-item(1.8, 4.2);
-  }
-
- .section-events .category {
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .category-secondary {
-   @include zen-clear();
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .pane-wec-wec-calendar {
-   @include zen-clear();
-   @include zen-grid-item(1.6, 1);
-   float: none;
- }
-
- .section-events .events-top {
-    @include zen-grid-item(3.1, 1, right);
-  }
-
- .section-events .events-past {
-   @include zen-clear(right);
-   @include zen-grid-item(1.5, 1);
- }
-
- .section-events .events-future  {
-   @include zen-grid-item(3.25, 2.75);
- }
 }
 
 @media all and (min-width: 960px) {
@@ -110,38 +29,4 @@ $zen-column-count: 1;
    */
   $zen-column-count: 12;
 
-  .events {
-    @include zen-grid-item(4.4, 8.6);
-  }
-
-  .section-events .category {
-    @include zen-grid-item(4, 1);
-    float: none;
-    padding: 0;
-  }
-  
-  .section-events .category-secondary {
-    @include zen-clear();
-    @include zen-grid-item(4, 1);
-    float: none;
-  }
-
-  .section-events .pane-wec-wec-calendar {
-    @include zen-clear();
-    @include zen-grid-item(4, 1);
-    float: none;
-  }
-
-  .section-events .events-top {
-    @include zen-grid-item(7.3, 1, right);
-  }
-
-  .section-events .events-past {
-    @include zen-clear(right);
-    @include zen-grid-item(3.75, 1);
-  }
-
-  .section-events .events-future  {
-    @include zen-grid-item(7.75, 5.25);
-  }
 }

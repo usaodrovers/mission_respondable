@@ -1,1 +1,38 @@
+<<<<<<< HEAD
 
+=======
+.news-block {
+    
+  ul {
+    padding: 0 15px;
+    margin: 0;
+    
+    li {
+      border-bottom: 1px solid $divider;
+      margin-top: 15px;
+      padding-bottom: 10px;
+      list-style: none;
+      display: table;
+    }
+  }
+
+  .news-block__image {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 142px;
+  }
+
+  .news-block__title {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px;
+
+    a {
+      text-decoration: none;
+      @include font-myriadpro_semibold;
+      color: $primary_nav;
+      font-size: 16px;
+    }
+  }
+}
+>>>>>>> work on SMACSS
