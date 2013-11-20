@@ -449,7 +449,6 @@ hgroup, #site-name, #site-slogan {
     font-size: 1em;
     padding: 10px 15px;
     margin: 0;
->>>>>>> work on SMACSS
 
     a {
       color: $topbar-link_color;
@@ -463,6 +462,16 @@ hgroup, #site-name, #site-slogan {
         text-decoration: underline;
       }
     }
+  }
+}
+
+.content-announcement {
+
+  .pane-title {
+    color: $attention-gold;
+    font-family: $font-myriadprocondensed;
+    font-size: 32px;
+    padding-left: 15px;
   }
 }
 
