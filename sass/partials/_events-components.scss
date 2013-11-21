@@ -41,6 +41,10 @@ $zen-column-count: 1;
 }
 
 .event-block {
+    
+  .view-content {
+    margin: 10px;
+  }
 
   .event-date {
     border: 1px solid $gradient-green_dark;
@@ -86,7 +90,8 @@ $zen-column-count: 1;
   }
 
   ul {
-    padding: 0 15px;
+    list-style: none;
+    padding: 0;
     margin: 0;
 
     li {
