@@ -23,77 +23,6 @@ $zen-column-count: 1;
   display: none;
 }
 
-.pane-announcements-future-students-announcements {
-  background-color: $box-background;
-  .pane-menu-menu-future-students-resources {
-    background-color: $box-background;
-  }
-}
-
-/* .page-future-students .pane-events-future-students-events .pane-title, 
-.page-future-students .pane-announcements-future-students-announcements .pane-title, 
-.page-future-students .pane-menu-menu-future-students-resources .pane-title {
-  color: $topbar-link_color;
-  line-height: 2.3em;
-  margin-bottom: -4px;
-  padding: 11px 0 10px 10%;
-  width: 90%;
-  font-size: 16px;
-} */
-
-.pane-announcements-future-students-announcements .view-content {
-  margin: 10px;
-}
-
-.view-display-id-future_students_announcements {
-  .views-field-field-announcement-image {
-    text-align: center;
-  }
-  .views-field-title {
-    a {
-      color: $primary-nav;
-      text-decoration: none;
-    }
-     h3 {
-      font-family: $font-myriadprocondensed;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: bold;
-      margin: 0;
-      line-height: 18px;
-    }
-  }
-
-  .views-field-nothing {
-    border-bottom: 1px solid $divider;
-    clear: both;
-    margin-bottom: 8px;
-    padding-top: 6px;
-  }
-}
-
-.pane-menu-menu-future-students-resources {
-  background-color: $box-background;
-  ul {
-    padding: 0;
-  }
-  li.leaf {
-    border-bottom: 1px solid $divider;
-    list-style: none outside none;
-    margin: 0 10px;
-    padding-bottom: 8px;
-  }
-  a {
-    font-family: $font-myriadprocondensed;
-    font-size: 16px;
-    color: $primary-nav;
-    line-height: 18px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-}
-
-
 @media all and (min-width: 330px) {/*Soft Breakpoint */
   ul.student-contact-bar {
     li {
@@ -125,12 +54,10 @@ $zen-column-count: 1;
    */
   $zen-column-count: 5;
 
-  .view-display-id-future_students_announcements {
     .views-field-field-announcement-image {
       float: left;
       padding-right: 10px;
     }
-  }
 
   .act-jquery-content, .fafsa-jquery-content{
     padding: 3px 6px;
@@ -143,14 +70,4 @@ $zen-column-count: 1;
    * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
-  
-  .pane-events-future-students-events {
-    .views-field-title {
-      font-size: 14px;
-    }
-  }
-
-  .html .panel-pane.pane-events-future-students-events .views-row {
-    padding: 15px 0 0;
-  }
 }

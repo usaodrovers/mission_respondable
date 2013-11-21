@@ -935,6 +935,7 @@ a {
 
 .l-box {
   background-color: $box-background;
+  margin-bottom: 25px;
 
   p, h3 {
     padding: .75em 15px;
@@ -973,18 +974,22 @@ a {
 
    .l-content-right {
       @include zen-grid-item(3, 1, right);
+    @include zen-clear(right);
    }
 
    .l-content-left {
       @include zen-grid-item(3.1, 1);
+      @include zen-clear(left);
    }
 
    .l-sidebar-left {
-     @include zen-grid-item(1.6, 1, none);
+     @include zen-grid-item(1.6, 1, left);
+     @include zen-clear(left);
    }
 
    .l-sidebar-right {
      @include zen-grid-item(1.6, 4.4);
+     @include zen-clear(right);
    }
  }
 
@@ -996,14 +1001,17 @@ a {
 
   .l-content-right {
     @include zen-grid-item(7.3, 1, right);
+    @include zen-clear(right);
   }
 
   .l-content-left {
     @include zen-grid-item(7.3, 1);
+    @include zen-clear(left);
   }
 
   .l-sidebar-left {
-    @include zen-grid-item(4, 1, none);
+    @include zen-grid-item(4, 1, left);
+    @include zen-clear(left);
   }
 
   .l-sidebar-right {
