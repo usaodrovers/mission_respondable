@@ -3,7 +3,7 @@
              attach: function (context, settings) {
                 $('.contact-jtrigger').hover(
                   function () {
-                    $(this).children().toggleClass('student-contact-hide');
+                    $(this).children().toggleClass('element-hidden');
                 });
              }
      }

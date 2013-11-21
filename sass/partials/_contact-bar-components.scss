@@ -10,42 +10,20 @@ ul.student-contact-bar {
   }
 }
 
-.act-jquery-content,
-.fafsa-jquery-content {
-  width: 100%
-}
-
 .contact-jtrigger {
   text-transform: uppercase;
+  color: $primary_nav;
 }
 
 .act-jquery-content, .fafsa-jquery-content {
-  background: $box-background;
   border: 1px solid $background;
   border-radius: 3px;
   color: $background;
-  font-size: 18px;
-  font-weight: normal;
-  margin: -22px 0 0;
   position: absolute;
-}
-
-.student-contact-hide {
-  display: none;
+  width: auto;
 }
 
 #content .pane-block-1 {/* block-1 is the id of the block */
-  background: $box-background;
-  margin: 0 0 15px;
-
-  .pane-title {
-    margin-bottom: 0;
-    z-index: 2;
-  }
-
-  .view-content {
-    display: inline-block;
-  }
 
   ul.student-contact-bar {
     display: inline;
@@ -53,17 +31,11 @@ ul.student-contact-bar {
     position: relative;
     padding: 6px 0;
     z-index: 1;
-    list-style: none outside none;
+    list-style: none;
 
     li {
       display: inline-block;
       text-align: center;
-
-      &.contact-green, &.contact-green a {
-        color: $primary_nav;
-        text-decoration: none;
-        position: relative;
-      }
     }
   }
 }
@@ -105,11 +77,6 @@ ul.student-contact-bar {
     float: left;
     padding-right: 10px;
   }
-
-  .act-jquery-content, .fafsa-jquery-content{
-    padding: 3px 6px;
-    width: auto;
-  } 
 
   #content .pane-block-1 {/* block-1 is the id of the block */
     .pane-title {
