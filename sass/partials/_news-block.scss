@@ -1,9 +1,9 @@
 .news-block {
-    
+
   ul {
     padding: 0 15px;
     margin: 0;
-    
+
     li {
       border-bottom: 1px solid $divider;
       margin-top: 15px;
@@ -12,6 +12,7 @@
       display: table;
     }
   }
+
 
   .news-block__image {
     display: table-cell;
@@ -23,6 +24,7 @@
     display: table-cell;
     vertical-align: middle;
     padding: 0 15px;
+
 
     a {
       text-decoration: none;
