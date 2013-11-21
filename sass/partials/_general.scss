@@ -16,9 +16,10 @@ body {
   background-color: $background;
 }
 
-nav#main-menu[role="navigation"] {
+/*nav#main-menu[role="navigation"] {
   margin: 0 auto;
   max-width: 1024px;
+
   h2 {
     display: none;
   }
@@ -63,16 +64,15 @@ nav#main-menu[role="navigation"] {
       }
     }
   }
-}
+}*/
 
 #logo {
-  @include zen-grid-item(1, 1.1);
   padding: 5px 0;
   border-right: none;
 }
 
 #block-views-exp-search-panel-pane-1 {
-  @include zen-grid-item(1, 2.62);
+  @include zen_clear();
   padding: 5px 0;
   margin-bottom: 0;
   margin-top: -35px;
@@ -85,8 +85,6 @@ nav#main-menu[role="navigation"] {
 }
 
 #secondary-menu {
-  @include zen-grid-item(2.9, 1.1);
-  @include zen-clear();
   padding: 0;
 
   ul {
@@ -176,12 +174,10 @@ nav#main-menu[role="navigation"] {
 }
 
 #logo {
-  @include zen-grid-item(.8, 1);
   border: none;
 }
 
 #block-views-exp-search-panel-pane-1 {
-  @include zen-grid-item(1, 4);
   padding: 5px 0;
   margin-bottom: 0;
   margin-top: -35px;
@@ -194,8 +190,6 @@ nav#main-menu[role="navigation"] {
 }
 
 #secondary-menu {
-  @include zen-grid-item(4, 1);
-  @include zen-clear();
   padding: 0;
 
   li {
@@ -462,16 +456,6 @@ hgroup, #site-name, #site-slogan {
         text-decoration: underline;
       }
     }
-  }
-}
-
-.content-announcement {
-
-  .pane-title {
-    color: $attention-gold;
-    font-family: $font-myriadprocondensed;
-    font-size: 32px;
-    padding-left: 15px;
   }
 }
 
@@ -927,7 +911,6 @@ article, .webform-confirmation {
 
 /*
  * Base
- *
  */
 
 html, button, input, select, textarea {
@@ -948,26 +931,10 @@ a {
 
 /*
  * Layout
- *
  */
-
-//test
 
 .l-box {
   background-color: $box-background;
-
-  p {
-    padding: 0 15px;
-  }
-}
-
-.l-content-right {
-  @include zen-grid-item(7.3, 1, right);
-}
-
-.l-sidebar-left {
-  @include zen-grid-item(4, 1, none);
-  margin-bottom: 1.5em;
 
   p, h3 {
     padding: .75em 15px;
@@ -976,8 +943,18 @@ a {
   }
 }
 
-.l-box__clear {
-  @include zen-clear();
+.l-highlight {
+  background-color: rgba(235, 234, 213, 0.7);
+  @include font-myriadprocondensed_bold;
+  color: $body_text;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.l-title-area {
+  position: relative;
+  top: -40px;
+  margin-bottom: -40px;
 }
 
 @media all and (min-width: 481px) {
@@ -986,9 +963,6 @@ a {
    */
   $zen-column-count: 3;
 
-  .l-content-right {
-    @include zen-grid-item(3, 1, none);
-  }
 }
 
 @media all and (min-width: 651px) {
@@ -998,7 +972,7 @@ a {
    $zen-column-count: 5;
 
    .l-content-right {
-      @include zen-grid-item(3.1, 1, right);
+      @include zen-grid-item(3, 1, right);
    }
 
    .l-content-left {
@@ -1037,23 +1011,8 @@ a {
   }
 }
 
-.l-highlight {
-  background-color: rgba(235, 234, 213, 0.7);
-  @include font-myriadprocondensed_bold;
-  color: $body_text;
-  padding: 5px 15px;
-  font-size: 18px;
-}
-
-.l-title-area {
-  position: relative;
-  top: -40px;
-  margin-bottom: -40px;
-}
-
 /*
  * Component
- *
  */
 
 .menu__vertical {
@@ -1079,9 +1038,18 @@ a {
   }
 }
 
+.content-announcement {
+
+  .pane-title {
+    color: $attention-gold;
+    font-family: $font-myriadprocondensed;
+    font-size: 32px;
+    padding-left: 15px;
+  }
+}
+
 /*
  * State
- *
  */
 
 .menu__item.is-leaf { /* Overide of default zen */

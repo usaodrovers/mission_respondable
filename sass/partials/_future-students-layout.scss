@@ -29,7 +29,6 @@ ul.student-contact-bar {
   position: relative;
 }
 
-.pane-directory-mini-panes-future-students-directory, 
 .pane-announcements-future-students-announcements, 
 .page-future-students .panel-pane.events, 
 .pane-menu-menu-future-students-resources {
@@ -75,7 +74,6 @@ ul.student-contact-bar {
    */
   $zen-column-count: 5;
 
-  .pane-directory-mini-panes-future-students-directory, 
   .pane-menu-menu-future-students-resources {
     @include zen-grid-item(2, 1);
     padding: 0;
@@ -106,7 +104,6 @@ ul.student-contact-bar {
    */
   $zen-column-count: 12;
 
-  .pane-directory-mini-panes-future-students-directory, 
   .pane-menu-menu-future-students-resources {
     @include zen-grid-item(4.4, 1);
     padding: 0;

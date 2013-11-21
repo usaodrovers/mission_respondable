@@ -1,33 +1,24 @@
-.pane-directory-mini-panes-future-students-directory {
-  background-color: $box-background;
-  
-  .view-content {
-    margin: 10px;
-  }
+.directory-block {
   
   ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+    padding: 0 15px;
+    margin: 15px 0;
 
-  li {
-    border-top: 1px solid $divider;
-    clear: both;
-    margin-top: 10px;
-    padding-top: 10px;
-    &.views-row-first {
-      border-top: none;
-      margin-top: 0;
-      padding-top: 0;
+    li {
+      border-top: 1px solid $divider;
+      clear: both;
+      margin-top: 10px;
+      padding-top: 10px;
+      &.views-row-first {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+      }
     }
   }
   
-  .views-field {
-    text-align: center;
-  }
-
-  .views-field-field-prof-last-name {
+  .directory__name {
     color: $primary_nav;
     font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
     font-size: 16px;
@@ -36,45 +27,35 @@
     line-height: 18px;
     margin: 0;
     text-decoration: none;
-    h3 {
-      padding: 0 15px;
-    }
+    padding: 0;
   }
 
-  .views-field-title {
+  .directory__title {
     color: $body_text;
     font-size: 0.9em;
     line-height: 1.3em;
+    padding-top: 0;
+    font-size: 12px;
   }
 
-  .views-field-nothing {
-    clear: both;
+  .directory__photo {
+    float: left;
+    margin-right: 10px;
   }
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
-  .pane-directory-mini-panes-future-students-directory {
-
-    .views-field-field-prof-photo {
-      float: left;
-      margin-right: 10px;
+  .directory__photo {
+    img {
+      max-height: 100%;
     }
   }
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
-  .pane-directory-mini-panes-future-students-directory {
-
-    .views-field {
-      text-align: left;
-    }
-
-    .views-field-field-prof-photo {
-      float: left;
-      margin-right: 10px;
-      img {
-        height: 80px; //delete this later when imagecahce set
-      }
+  .directory__photo {
+    img {
+      max-height: 80px; 
     }
   }
 }

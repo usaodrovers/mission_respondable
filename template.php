@@ -17,12 +17,12 @@
  *   The name of the template being rendered ("maintenance_page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_maintenance_page(&$variables, $hook) {
+function mission_respondable_preprocess_maintenance_page(&$variables, $hook) {
   // When a variable is manipulated or added in preprocess_html or
   // preprocess_page, that same work is probably needed for the maintenance page
   // as well, so we can just re-use those functions to do that work here.
-  mission_respndable_preprocess_html($variables, $hook);
-  mission_respndable_preprocess_page($variables, $hook);
+  mission_respondable_preprocess_html($variables, $hook);
+  mission_respondable_preprocess_page($variables, $hook);
 }
 // */
 
@@ -34,7 +34,7 @@ function mission_respndable_preprocess_maintenance_page(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("html" in this case.)
  */
-function mission_respndable_preprocess_html(&$variables, $hook) {
+function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
   $pageID = arg(0);
@@ -59,7 +59,7 @@ function mission_respndable_preprocess_html(&$variables, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_page(&$variables, $hook) {
+function mission_respondable_preprocess_page(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -73,11 +73,11 @@ function mission_respndable_preprocess_page(&$variables, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_node(&$variables, $hook) {
+function mission_respondable_preprocess_node(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // mission_respndable_preprocess_node_page() or STARTERKIT_preprocess_node_story().
+  // mission_respondable_preprocess_node_page() or STARTERKIT_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $variables['node']->type;
   if (function_exists($function)) {
     $function($variables, $hook);
@@ -94,7 +94,7 @@ function mission_respndable_preprocess_node(&$variables, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_comment(&$variables, $hook) {
+function mission_respondable_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -108,7 +108,7 @@ function mission_respndable_preprocess_comment(&$variables, $hook) {
  *   The name of the template being rendered ("region" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_region(&$variables, $hook) {
+function mission_respondable_preprocess_region(&$variables, $hook) {
   // Don't use Zen's region--sidebar.tpl.php template for sidebars.
   //if (strpos($variables['region'], 'sidebar_') === 0) {
   //  $variables['theme_hook_suggestions'] = array_diff($variables['theme_hook_suggestions'], array('region__sidebar'));
@@ -125,7 +125,7 @@ function mission_respndable_preprocess_region(&$variables, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function mission_respndable_preprocess_block(&$variables, $hook) {
+function mission_respondable_preprocess_block(&$variables, $hook) {
   // Add a count to all the blocks in the region.
   // $variables['classes_array'][] = 'count-' . $variables['block_id'];
 

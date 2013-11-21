@@ -1,1 +1,2 @@
 Added header-wrapper inside of header wrapping all of the header content.
+Added <input type="checkbox" id="menu"> <label for="menu" onclick></label> to main nav to make it work responsive. //TODO Replace this hack.
