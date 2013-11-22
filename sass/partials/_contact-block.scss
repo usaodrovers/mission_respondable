@@ -39,7 +39,7 @@ $zen-column-count: 1;
 
 @media all and (min-width: 330px) {/*Soft Breakpoint */
   .contact-block {
-    li {
+    ul li {
       text-align: center;
       width: 50%;
     }
@@ -53,7 +53,7 @@ $zen-column-count: 1;
   $zen-column-count: 3;
 
   .contact-block {
-    li {
+    ul li {
       text-align: center;
       width: 33.3%;
     }
