@@ -1,18 +1,14 @@
 /* General / Cell Phone */
-.pane-mission-respondable-front-buttons-front-buttons {
-  margin-top: 10px;
-}
-
-.pane-mission-respondable-front-buttons-front-buttons {
+.button-block {
 	width: 100%;
 	margin-bottom: 15px;
+  margin-top: 10px;
 
-	.button-link {
+	.button-block__link {
 		width: 100%;
 		margin-bottom: 10px;
 	}
 }
-
 
 @media all and (min-width: 481px) { //HARD BREAK POINT  Tablet 1
   /*
@@ -27,12 +23,12 @@
    */
   $zen-column-count: 5;
 	
-	.pane-mission-respondable-front-buttons-front-buttons {
+  .button-block {
     @include zen-clear();
     clear: left;
 		height: 80px;
 
-    .button-link {
+    .button-block__link {
       @include zen-grid-item(1.58, 2.7);
       height: 43px;
 
@@ -53,13 +49,12 @@
    */
   $zen-column-count: 12;
 
-	.pane-mission-respondable-front-buttons-front-buttons {
+  .button-block {
     @include zen-clear();
     float: none;
-
 		padding: 0;
 
-    .button-link {
+    .button-block__link {
       @include zen-grid-item(3.684, 5.1);
 
       &.first {
@@ -71,8 +66,4 @@
       }
     }
   }
-
-	.pane-mission-respondable-front-buttons-front-buttons {
-		padding: 0;
-	}
 }
