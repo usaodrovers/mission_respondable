@@ -1,7 +1,7 @@
 (function ($) {
      Drupal.behaviors.fscodes = {
              attach: function (context, settings) {
-                $('.contact-jtrigger').hover(
+                $('.contact-block__jtrigger').hover(
                   function () {
                     $(this).children().toggleClass('element-hidden');
                 });
