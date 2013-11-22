@@ -42,7 +42,7 @@
   .button-block {
     @include zen-clear();
     clear: left;
-		height: 80px;
+    height: 80px;
 
     .button-block__link {
       @include zen-grid-item(1.58, 2.7);
@@ -68,7 +68,7 @@
   .button-block {
     @include zen-clear();
     float: none;
-		padding: 0;
+    padding: 0;
 
     .button-block__link {
       @include zen-grid-item(3.684, 5.1);
