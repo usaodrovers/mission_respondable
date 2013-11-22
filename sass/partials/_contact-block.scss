@@ -34,8 +34,8 @@ $zen-column-count: 1;
   color: $background;
   padding: 0;
   position: absolute;
-  top: 0;
-  width: 98%;
+  top: -1;
+  width: 99%;
 }
 
 @media all and (min-width: 330px) {/*Soft Breakpoint */
