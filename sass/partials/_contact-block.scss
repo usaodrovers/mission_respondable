@@ -34,6 +34,7 @@ $zen-column-count: 1;
   color: $background;
   padding: 0;
   position: absolute;
+  top 0;
   width: 98%;
 }
 
@@ -82,14 +83,19 @@ $zen-column-count: 1;
       border-right: 1px solid $background;
       font-size: 13px;
       line-height: 1.3em;
-      margin-right: 8px;
       padding-right: 8px;
       width: auto;
+      &:nth-child(1) {
+        padding-left: 0;
+      }
       &.last {
         border: none;
-        margin-right: 0;
         padding-right: 0;
       }
+    }
+    
+    .l-box .contact-block__jcontent {
+      top: 17px;
     }
   }
 }
