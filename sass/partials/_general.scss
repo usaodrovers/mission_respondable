@@ -391,37 +391,6 @@ hgroup, #site-name, #site-slogan {
     z-index: 10;
 }
 
-.button-block__link {
-  margin-top: 9px;
-  padding: 32px 0 0;
-  list-style: none;
-}
-
-.button-block__link {
-  color: $attention-gold;
-  text-align: center;
-  border: 2px solid $background;
-  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-  text-decoration: none;
-  height: 41px;
-  padding-top: 20px;
-  display: inline-block;
-
-  &.last {
-    margin-right: -5px;
-  }
-
-  &:hover{
-    border: 2px solid $attention-gold;
-  }
-}
-
-.oversized-text {
-  text-transform: uppercase;
-  font-size: 32px;
-  @include font-myriadprocondensed;
-}
-
 .breadcrumb {display: none;}
 
 .panel-pane {
@@ -1055,6 +1024,13 @@ a {
     padding-left: 15px;
   }
 }
+
+.oversized-text {
+  text-transform: uppercase;
+  font-size: 32px;
+  @include font-myriadprocondensed;
+}
+
 
 /*
  * State
