@@ -32,8 +32,9 @@ $zen-column-count: 1;
   border: 1px solid $background;
   border-radius: 3px;
   color: $background;
+  padding: 0;
   position: absolute;
-  width: 100%;
+  width: 98%;
 }
 
 @media all and (min-width: 330px) {/*Soft Breakpoint */
@@ -77,7 +78,7 @@ $zen-column-count: 1;
       margin-right: 5px;
     }
     
-    li {
+    ul li {
       border-right: 1px solid $background;
       font-size: 13px;
       line-height: 1.3em;
