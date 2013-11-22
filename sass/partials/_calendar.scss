@@ -8,21 +8,39 @@ $zen-column-count: 1;
   margin: 0;
 }
 
-@media all and (min-width: 481px) { //HARD BREAKPOINT
+.view .date-nav-wrapper .date-prev {
+  right: 100px;
+  top: 7px;
+
+  a {
+    color: $primary_nav;
+  }
+}
+
+.view .date-nav-wrapper .date-next {
+  right: 40px;
+  top: 7px;
+
+  a {
+    color: $primary_nav;
+  }
+}
+
+@media all and (min-width: 481px) { //HARD BREAK POINT
   /*
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
 }
 
-@media all and (min-width: 651px) { //HARD BREAKPOINT
+@media all and (min-width: 651px) { //HARD BREAK POINT
   /*
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
 }
 
-@media all and (min-width: 960px) { //HARD BREAKPOINT
+@media all and (min-width: 960px) { //HARD BREAK POINT
   /*
    * Use 12 grid columns for larger screens.
    */
