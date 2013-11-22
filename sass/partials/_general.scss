@@ -394,6 +394,7 @@ hgroup, #site-name, #site-slogan {
 .breadcrumb {display: none;}
 
 .panel-pane {
+  padding-bottom:  15px;
 
   .pane-title {
     background-color: $gradient-green_dark;
@@ -897,7 +898,6 @@ a {
 
 .l-box {
   background-color: $box-background;
-  margin-bottom: 25px;
 
   p, h3 {
     padding: .75em 15px;
