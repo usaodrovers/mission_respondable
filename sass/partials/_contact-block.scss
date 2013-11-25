@@ -28,14 +28,14 @@ $zen-column-count: 1;
   position: relative;
 }
 
-.l-box .contact-block__jcontent {
+.contact-block__jcontent {
   border: 1px solid $background;
   border-radius: 3px;
   color: $background;
-  padding: 0;
   position: absolute;
   top: -1;
   width: 99%;
+  left: 0;
 }
 
 @media all and (min-width: 330px) {/*Soft Breakpoint */
@@ -55,7 +55,6 @@ $zen-column-count: 1;
 
   .contact-block {
     ul li {
-      text-align: center;
       width: 33.3%;
     }
   }
@@ -95,7 +94,7 @@ $zen-column-count: 1;
     }
   }
 
-  .l-box .contact-block__jcontent {
+  .contact-block__jcontent {
     top: 17px;
   }
 }
