@@ -1,0 +1,178 @@
+/**
+ * This SASS is for the Future Students Testimonial feature
+ */
+
+.quicktabs_main img {display: block;}
+
+.quicktab-block {
+  overflow: hidden;
+  position: relative;
+
+  .tinynav {
+    border-color: #FFD457;
+    color: $topbar-link_color;
+    width: 100%;
+    @include font-copperplate;
+    font-size: 16px;
+
+    option {
+      color: $topbar-link_color;
+      @include font-copperplate;
+      font-size: 16px;
+
+      &:hover {
+        color: $topbar-link_color;
+      }
+    }
+  }
+}
+
+.quicktabs-wrapper { 
+
+  .item-list {
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      float: left;
+      font-family: $font-myriadprocondensed;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      width: 16.667%;
+
+      a {
+        @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+        border-right: 1px solid $box-background;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $attention-gold;
+        }
+
+        &.hide-border {
+          border: none;
+        }
+      }
+
+      &.last a {
+        border-right: none;
+      }
+
+      &.active a {
+        border: 2px solid $attention-gold;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .quicktabs-tabpage { /* .quicktabs-wrapper .quicktabs-tabpage */
+    clear: left;
+    position: relative;
+  }
+
+  .quicktab-block__title {
+    color: $primary-nav;
+    font-size: 12px;
+    float: left;
+    margin: 5px 2%;
+    width: 96%;
+  }
+
+  .quicktab-block__body {
+    display: block;
+    margin: 5px 2%;
+    width: 96%;
+  }
+
+  .quicktab-block__body p {
+    display: inline;
+  }
+
+  .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
+    padding: 1px 0;
+
+    .quicktab-block__content-wrapper {
+      margin: 0;
+      padding: 10px 0 0;
+      width: 100%;
+    }
+
+    a {
+      background-color: $attention-gold;
+      box-shadow: -2px 2px 3px $shadow-grey;
+      color: $primary-nav;
+      display: block;
+      font-weight: bold;
+      margin: 15px 2%;
+      padding: 6px 0;
+      text-align: center;
+      text-decoration: none;
+      width: 96%;
+    }
+  }
+}
+
+@media all and (min-width: 481px) { //HARD BREAK POINT
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .quicktabs-wrapper {
+
+    .quicktab-block__title {
+      font-size: 14px;
+      margin: 5px 0 0;
+    }
+
+    .quicktab-block__body {
+      margin: 5px 0;
+      color: $body_text;
+      font-weight: bold;
+    }
+
+    .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
+      @include zen_grid_item(3, 1, none);
+      @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      height: 100%;
+
+      .quicktab-block__content-wrapper {
+        @include zen_grid_item(1.5, 1, right);
+        padding-right: 5px;
+        padding-top: 10px;
+      }
+
+      a {
+        @include zen_grid_item(2.55, 1, none);
+        display: inline-block;
+        margin: 15px 0;
+        padding: 6px 3px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 651px) { //HARD BREAK POINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+}
+
+@media all and (min-width: 960px) { //HARD BREAK POINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+}

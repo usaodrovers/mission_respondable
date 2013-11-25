@@ -20,18 +20,17 @@
 
 // Optionally, add your own components here.
 @import "print";
+@import "compass/css3/images";
 @import "partials/fonts";
 @import "partials/colors";
 @import "partials/general";
 @import "partials/lt-ie9";
+@import "partials/calendar";
 @import "partials/button-block";
 @import "partials/testimonials-block";
 @import "partials/events-block";
 @import "partials/news-block";
 @import "partials/directory-block";
 @import "partials/announcements-block";
-@import "partials/calendar";
-@import "partials/quicktab-layout";
-@import "partials/quicktab-components";
+@import "partials/quicktab-block";
 @import "partials/contact-block";
-@import "compass/css3/images";
