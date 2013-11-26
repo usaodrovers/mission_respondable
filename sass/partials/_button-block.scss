@@ -45,15 +45,15 @@
     height: 80px;
 
     .button-block__link {
-      @include zen-grid-item(1.58, 2.7);
+      @include zen-grid-item(1.55, 2.7);
       height: 43px;
 
       &.first {
-        @include zen-grid-item(1.58, 1);
+        @include zen-grid-item(1.55, 1);
       }
 
       &.last {
-        @include zen-grid-item(1.58, 4.4);
+        @include zen-grid-item(1.55, 4.4);
       }
     }
   }
@@ -71,14 +71,14 @@
     padding: 0;
 
     .button-block__link {
-      @include zen-grid-item(3.684, 5.1);
+      @include zen-grid-item(3.636, 5.1);
 
       &.first {
-        @include zen-grid-item(3.684, 1);
+        @include zen-grid-item(3.636, 1);
       }
 
       &.last {
-        @include zen-grid-item(3.684, 9.2);
+        @include zen-grid-item(3.636, 9.2);
       }
     }
   }
