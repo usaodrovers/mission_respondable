@@ -576,93 +576,6 @@ article, .webform-confirmation {
   }
 }
 
-@media all and (min-width: 481px) { //HARD BREAK POINT
-  /*
-   * Use 3 grid columns for special layouts on smaller screens.
-   */
-  $zen-column-count: 3;
-
-  body {
-    background: url("../images/pretties.png") no-repeat scroll center top $background;
-  }
-}
-
-@media all and (min-width: 651px) { //HARD BREAK POINT
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
-  $zen-column-count: 5;
-
-  .pane-views-viewbook-block {
-    span.views-label {
-      display: block;
-    }
-    .views-field-body .field-content {
-      @include zen-grid-item(3.3 , 2.6);
-    }
-
-    .flex-control-nav {
-      display: block;
-    }
-
-     .flex-control-nav {
-      display: block;
-      top: -45px;
-      left: 10px;
-      position: relative;
-      width: 17%;
-    }
-  }
-}
-
-@media all and (min-width: 960px) { //HARD BREAK POINT
-  /*
-   * Use 12 grid columns for larger screens.
-   */
-  $zen-column-count: 12;
-
-  .section-testimonials #content, .section-search #content, .not-front #content {
-    padding: 0;
-  }
-
-  #logo {
-    @include zen-grid-item(2, 1);
-    border: none;
-  }
-
-  #navigation {
-    li a {
-      padding-left: 6px;
-    }
-  }
-
-  #secondary-menu {
-    @include zen-grid-item(7, 2.6);
-    clear: none;
-
-    li {
-      border-right: 1px solid $attention-gold;
-      padding: 5px 2.8%;
-    }
-
-    li.last {
-      border: none;
-    }
-  }
-
-  .pane-views-viewbook-block .views-field-body .field-content {
-    @include zen-grid-item(7.5 , 4.8);
-  }
-}
-
-@media all and (min-width: 1024px) { //SOFT BREAK POINT
-  #navigation {
-    li a {
-      padding-left: 12px;
-    }
-  }
-}
-
 /*
  * Base
  */
@@ -813,6 +726,9 @@ a {
    */
   $zen-column-count: 3;
 
+  body {
+    background: url("../images/pretties.png") no-repeat scroll center top $background;
+  }
 }
 
 @media all and (min-width: 651px) {
@@ -847,6 +763,27 @@ a {
      @include zen-grid-item(1.6, 4.4);
      @include zen-clear(right);
    }
+
+  .pane-views-viewbook-block {
+    span.views-label {
+      display: block;
+    }
+    .views-field-body .field-content {
+      @include zen-grid-item(3.3 , 2.6);
+    }
+
+    .flex-control-nav {
+      display: block;
+    }
+
+     .flex-control-nav {
+      display: block;
+      top: -45px;
+      left: 10px;
+      position: relative;
+      width: 17%;
+    }
+  }
  }
 
 @media all and (min-width: 960px) {
@@ -872,5 +809,46 @@ a {
 
   .l-sidebar-right {
     @include zen-grid-item(4, 9);
+  }
+
+  .section-testimonials #content, .section-search #content, .not-front #content {
+    padding: 0;
+  }
+
+  #logo {
+    @include zen-grid-item(2, 1);
+    border: none;
+  }
+
+  #navigation {
+    li a {
+      padding-left: 6px;
+    }
+  }
+
+  #secondary-menu {
+    @include zen-grid-item(7, 2.6);
+    clear: none;
+
+    li {
+      border-right: 1px solid $attention-gold;
+      padding: 5px 2.8%;
+    }
+
+    li.last {
+      border: none;
+    }
+  }
+
+  .pane-views-viewbook-block .views-field-body .field-content {
+    @include zen-grid-item(7.5 , 4.8);
+  }
+}
+
+@media all and (min-width: 1024px) { //SOFT BREAK POINT
+  #navigation {
+    li a {
+      padding-left: 12px;
+    }
   }
 }
