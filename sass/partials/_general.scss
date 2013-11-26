@@ -4,96 +4,6 @@
  */
 $zen-column-count: 1;
 
-body {
-  background: url('');
-  background-color: $background;
-}
-
-/*nav#main-menu[role="navigation"] {
-  margin: 0 auto;
-  max-width: 1024px;
-
-  h2 {
-    display: none;
-  }
-
-  label {
-    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-    @include font-copperplate;
-    font-size: 16px;
-    color: $topbar-link_color;
-    background-color: blue;
-    position: relative;
-    display: block;
-    height: 25px;
-    margin: 0 0 25px 0;
-    padding: 0 0 0 9px;
-    width: 98%;
-    text-transform: none;
-  }
-
-  label:after {
-      position: absolute;
-      //content: "\2261";
-      content: "Menu";
-  }
-
-  input:checked ~ ul {
-    display: block;
-
-    > li {
-      width: 100%;
-      border-top: 1px solid;
-      border-bottom: 1px solid;
-      margin: 0;
-      padding: 10px 0;
-
-      &.first {
-        margin-top: -25px;
-      }
-
-      &.last {
-        margin-bottom: 25px;
-      }
-    }
-  }
-}*/
-
-#logo {
-  padding: 5px 0;
-  border-right: none;
-}
-
-#block-views-exp-search-panel-pane-1 {
-  @include zen_clear();
-  padding: 5px 0;
-  margin-bottom: 0;
-  margin-top: -35px;
-  height: 35px;
-
-  .custom-search-box {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-#secondary-menu {
-  padding: 0;
-
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  li {
-    padding: 5px 10px 5px 0;
-  }
-}
-
-.mission-statement {
-  margin-bottom: -5px;
-}
-
 .pane-views-viewbook-block {
   @include zen-clear();
 
@@ -141,10 +51,6 @@ body {
   }
 }
 
-.icon-waht_will_they_learn_logo {
-  display: block;
-}
-
 .block-mission-respondable-footer p {
   margin: 0;
 }
@@ -158,27 +64,6 @@ body {
 
   .last {
     padding-top: 5px;
-  }
-}
-
-.section-search #content,
-.not-front #content {
-  margin-top: 30px;
-}
-
-#logo {
-  border: none;
-}
-
-#block-views-exp-search-panel-pane-1 {
-  padding: 5px 0;
-  margin-bottom: 0;
-  margin-top: -35px;
-  height: 25px;
-
-  .custom-search-box {
-    width: 100%;
-    margin-left: 0;
   }
 }
 
@@ -236,41 +121,6 @@ html, body {
 
 #logo {
   padding: 5px 1%;
-}
-
-#block-views-exp-search-panel-pane-1 {
-  padding: 0;
-
-  label {
-    display: none;
-  }
-
-  .views-exposed-form .views-exposed-widget {
-    float: left;
-    padding: 0 1em 0 0;
-    height: 0;
-  }
-
-  input.form-text {
-    border-radius: 3px 0 0 3px;
-    background-color: $box-background;
-    border: none;
-    height: 23px;
-    padding-left: 5px;
-    width: 100%;
-  }
-
-  .search-form {
-    height: 20px;
-
-    .container-inline {
-      height: 20px;
-    }
-  }
-}
-
-#block-views-exp-search-panel-pane-1 .form-submit {
-  display: none;
 }
 
 #navigation {
@@ -650,21 +500,6 @@ article, .webform-confirmation {
   }
 }
 
-.section-search h1, .not-front h1 {
-  text-transform: uppercase;
-  font-size: 32px;
-  @include font-myriadprocondensed;
-  color: $attention-gold;
-  background-color: $gradient-green_dark;
-  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-  padding-left: 15px;
-  margin: 0;
-
-  &#page-title {
-    margin: 0 0 15px;
-  }
-}
-
 .section-testimonials #content, .section-search #content, .not-front #content {
 //  background-color: $box-background;
 //  margin-top: 40px;
@@ -672,37 +507,6 @@ article, .webform-confirmation {
 
 .page-news #content, .section-events #content , .page-future-students #content {
   background-color: transparent;
-}
-
-.section-search .panel-pane {
-  margin: 0 15px;
-}
-
-.section-search .item-list {
-  margin: 0 -22px 0 -15px;
-}
-
-.section-search .views-row {
-  margin: 15px 0;
-}
-
-.section-search .attachment {
-  margin: 15px 0;
-}
-
-.section-search {
-  @include font-myriadpro;
-  font-size: 14px;
-  color: $body_text;
-  line-height: 18px;
-  margin-bottom: 25px;
-}
-
-.section-search a {
-  @include font-myriadpro_semibold;
-  font-size: 14px;
-  color: $primary_nav;
-  text-decoration: none;
 }
 
 .node-type-testimonial .title {
@@ -832,19 +636,6 @@ article, .webform-confirmation {
     }
   }
 
-  #block-views-exp-search-panel-pane-1 {
-    @include zen-grid-item(2, 9);
-    padding: 5px 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    height: 25px;
-
-    .custom-search-box {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-
   #secondary-menu {
     @include zen-grid-item(7, 2.6);
     clear: none;
@@ -881,6 +672,11 @@ html, button, input, select, textarea {
   color: $body_text;
   font-size: 16px;
   line-height: 24px;
+}
+
+body {
+  background: url('');
+  background-color: $background;
 }
 
 a {
@@ -1031,6 +827,40 @@ a {
   @include font-myriadprocondensed;
 }
 
+#logo {
+  padding: 5px 0;
+  border-right: none;
+}
+
+#secondary-menu {
+  padding: 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 5px 10px 5px 0;
+  }
+}
+
+.mission-statement {
+  margin-bottom: -5px;
+}
+
+.section-search #content,
+.not-front #content {
+  margin-top: 30px;
+}
+
+#logo {
+  border: none;
+}
+
+.icon-waht_will_they_learn_logo {
+  display: block;
+}
 
 /*
  * State
