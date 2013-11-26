@@ -20,12 +20,13 @@
 
 // Optionally, add your own components here.
 @import "print";
-@import "compass/css3/images";
 @import "partials/fonts";
+@import "partials/icons";
 @import "partials/colors";
 @import "partials/general";
 @import "partials/lt-ie9";
 @import "partials/calendar";
+@import "partials/apply";
 @import "partials/search";
 @import "partials/viewbook-block";
 @import "partials/button-block";

@@ -79,8 +79,6 @@
 
       <?php if ($main_menu): ?>
         <nav id="main-menu" role="navigation" tabindex="-1">
-          <input type="checkbox" id="menu">
-          <label for="menu" onclick></label>
           <?php
           // This code snippet is hard to modify. We recommend turning off the
           // "Main menu" on your sub-theme's settings form, deleting this PHP
