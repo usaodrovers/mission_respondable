@@ -782,27 +782,6 @@ h1 {
      @include zen-grid-item(1.6, 4.4);
      @include zen-clear(right);
    }
-
-  .pane-views-viewbook-block {
-    span.views-label {
-      display: block;
-    }
-    .views-field-body .field-content {
-      @include zen-grid-item(3.3 , 2.6);
-    }
-
-    .flex-control-nav {
-      display: block;
-    }
-
-     .flex-control-nav {
-      display: block;
-      top: -45px;
-      left: 10px;
-      position: relative;
-      width: 17%;
-    }
-  }
  }
 
 @media all and (min-width: 960px) {
@@ -860,7 +839,7 @@ h1 {
   }
 
   .pane-views-viewbook-block .views-field-body .field-content {
-    @include zen-grid-item(7.68 , 4.32);
+    @include zen-grid-item(7.68 , 4.8);
   }
 }
 
