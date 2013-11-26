@@ -1,23 +1,10 @@
-#block-views-exp-search-panel-pane-1 {
-  @include zen_clear();
+.search-block {
   padding: 5px 0;
   margin-bottom: 0;
-  margin-top: -35px;
   height: 35px;
-
-  .custom-search-box {
-    width: 100%;
-    margin-left: 0;
-  }
 
   label {
     display: none;
-  }
-
-  .views-exposed-form .views-exposed-widget {
-    float: left;
-    padding: 0 1em 0 0;
-    height: 0;
   }
 
   input.form-text {
@@ -28,64 +15,19 @@
     padding-left: 5px;
     width: 100%;
   }
-
-  .form-submit {
-    display: none;
-  }
-
-  .search-form {
-    height: 20px;
-
-    .container-inline {
-      height: 20px;
-    }
-  }
 }
 
-.section-search h1, .not-front h1 {
-  text-transform: uppercase;
-  font-size: 32px;
-  @include font-myriadprocondensed;
-  color: $attention-gold;
-  background-color: $gradient-green_dark;
-  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-  padding-left: 15px;
-  margin: 0;
-
-  &#page-title {
-    margin: 0 0 15px;
-  }
-}
-
-.section-search .panel-pane {
-  margin: 0 15px;
-}
-
-.section-search .item-list {
-  margin: 0 -22px 0 -15px;
-}
-
-.section-search .views-row {
-  margin: 15px 0;
-}
-
-.section-search .attachment {
-  margin: 15px 0;
-}
 
 .section-search {
-  @include font-myriadpro;
-  font-size: 14px;
-  color: $body_text;
-  line-height: 18px;
-  margin-bottom: 25px;
-}
 
-.section-search a {
-  @include font-myriadpro_semibold;
-  font-size: 14px;
-  color: $primary_nav;
-  text-decoration: none;
+  .panels-flexible-region {
+    float: none;
+    margin-top: -15px;
+  }
+  
+  .search-block {
+    display: none;
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
@@ -108,16 +50,11 @@
    */
   $zen-column-count: 12;
 
-  #block-views-exp-search-panel-pane-1 {
-    @include zen-grid-item(2, 9);
+  .search-block {
+    @include zen-grid-item(2, 8);
     padding: 5px 0;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -7px;
     height: 25px;
-
-    .custom-search-box {
-      width: 100%;
-      margin-left: 0;
-    }
   }
 }

@@ -601,6 +601,21 @@ a {
   }
 }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  @include font-myriadprocondensed;
+  color: $attention-gold;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  padding-left: 15px;
+  margin: 0;
+
+  &#page-title {
+    margin: 0 0 15px;
+  }
+}
+
 /*
  * Layout
  */
@@ -705,6 +720,10 @@ a {
 
 .icon-waht_will_they_learn_logo {
   display: block;
+}
+
+.html .panels-flexible-region {
+    width: 100%;
 }
 
 /*
