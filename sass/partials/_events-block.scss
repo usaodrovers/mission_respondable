@@ -110,7 +110,7 @@ $zen-column-count: 1;
   display: none;
 }
 
-.node-type-event .page-title {//Remove the display so we have the page title for SEO but the display is in the view.
+.node-type-event h1#page-title {//Remove the display so we have the page title for SEO but the display is in the view.
   display: none;
 }
 
