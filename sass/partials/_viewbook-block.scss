@@ -36,6 +36,20 @@
     font-size: 24px;
     float: right;
   }
+
+  .flex-direction-nav {
+    
+    a {
+      background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
+      text-indent: -9999px;
+      width: 30px;
+    }
+
+    .flex-next {
+      background-position: 100% 0;
+      text-align: inherit;
+    }
+  }
 }
 
 .flexslider {
@@ -61,20 +75,6 @@
     cursor: default;
     @include single-box-shadow($shadow-grey, -2px, 1px, 2px, false, true);
   }
-}
-
-.flex-direction-nav a {
-    background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
-    cursor: pointer;
-    display: block;
-    height: 30px;
-    margin: -20px 0 0;
-    opacity: 0;
-    position: absolute;
-    text-indent: -9999px;
-    top: 50%;
-    width: 30px;
-    z-index: 10;
 }
 
 @media all and (min-width: 651px) {

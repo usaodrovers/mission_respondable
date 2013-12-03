@@ -58,6 +58,7 @@ img {
 
 .l-box {
   background-color: $box-background;
+  padding-bottom: 1px;
 
   p, h3 {
     padding: .75em 15px;
@@ -459,7 +460,7 @@ img {
     @include zen-grid-item(4, 1);
     ul {
       li {
-        border-right: 1px solid $attention-gold;
+        border-right: 1px solid $topbar-link_color;
         padding: 5px 1.3%;
 
         &.last {
