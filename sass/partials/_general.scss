@@ -295,8 +295,10 @@ img {
 }
 
 #block-jump-menu-jump-menu-m-menu-moble-menu select {
-  color: #E5DEA8;
-  text-shadow: 1px 1px 1px #000000;
+  @include font-copperplate;
+  color: $attention-gold;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #004538;
   width: 100%;
 }
 
