@@ -9,33 +9,32 @@
   .testimonial-block__title {
     line-height: 1em;
     margin: 0;
-    padding-bottom: 2px;
+    padding: 5px 15px 2px;
   }
 
   .testimonial-block__body {
     @include font-myriadprocondensed;
     font-size: 20px;
     color: $body-text;
+    padding: 0 15px;
   }
 
   .edit-link {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 14px;
+    padding: 10px;
+    font-size: 24px;
   }
 
   .testimonial-block__path {
+    padding: 0 15px;
     
     a {
       color: $primary-nav;
       text-decoration: none;
       @include font-myriadpro_bold;
     }
-  }
-
-  .testimonial-block__title {
-    padding: 5px 15px 2px;
   }
 
   .testimonial-block__image {
