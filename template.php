@@ -139,7 +139,7 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
 
 function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-search-panel-pane-1') {
-      $form['search_api_views_fulltext']['#size'] = 20;  // define size of the textfield
+      $form['search_api_views_fulltext']['#size'] = 15;  // define size of the textfield
       $form['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/searchICON.png');
 
       // Alternative (HTML5) placeholder attribute instead of using the javascript

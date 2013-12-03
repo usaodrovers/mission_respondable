@@ -394,6 +394,14 @@ img {
   color: $primary_nav;
 }
 
+@media all and (max-width: 480px) {
+  .html #navigation {
+    @include zen_clear();
+    position: absolute;
+    top: 0;
+  }
+}
+
 @media all and (min-width: 481px) {
   /*
    * Use 3 grid columns for smaller screens.
@@ -403,6 +411,8 @@ img {
   body {
     background: url("../images/pretties.png") no-repeat scroll center top $background;
   }
+
+  
 }
 
 @media all and (min-width: 651px) {

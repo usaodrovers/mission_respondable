@@ -41,9 +41,13 @@
 }
 
 @media all and (max-width: 480px) { //SOFT BREAK POINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+
   .search-block {
-    clear: left;
-    padding-left: 10px;
+    @include zen_grid_item(1.7, 1.1);
   }
 }
 
