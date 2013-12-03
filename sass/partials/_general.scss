@@ -294,12 +294,19 @@ img {
   }
 }
 
-#block-jump-menu-jump-menu-m-menu-moble-menu select {
-  @include font-copperplate;
-  color: $attention-gold;
-  font-size: 24px;
-  text-shadow: 1px 1px 1px #004538;
-  width: 100%;
+#block-jump-menu-jump-menu-m-menu-moble-menu {
+  .form-item {
+    display: block;
+    margin: 0;
+  }
+
+  select {
+    @include font-copperplate;
+    color: $attention-gold;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #004538;
+    width: 100%;
+  }
 }
 
 .block-mission-respondable-footer {
@@ -397,8 +404,10 @@ img {
 @media all and (max-width: 480px) {
   .html #navigation {
     @include zen_clear();
+    margin-top: 15px;
     position: absolute;
     top: 0;
+    width: 100%;
   }
 }
 
