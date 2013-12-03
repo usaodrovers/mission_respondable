@@ -513,7 +513,7 @@ img {
   }
 
   .l-sidebar-right {
-    @include zen-grid-item(4, 9);
+    @include zen-grid-item(3.4, 8.6);
   }
 
   .section-testimonials #content, .section-search #content, .not-front #content {
