@@ -25,7 +25,6 @@
       margin-top: 0;
     }
   }
-
 }
 
 
@@ -62,7 +61,7 @@
   $zen-column-count: 5;
 
   .search-block {
-    @include zen-grid-item(2.6, 3.7);
+    @include zen-grid-item(1.4, 3.6);
   }
 }
 
