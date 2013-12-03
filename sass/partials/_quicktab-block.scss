@@ -6,19 +6,19 @@
   position: relative;
 
   .tinynav {
-    border-color: #FFD457;
-    color: $topbar-link_color;
-    width: 100%;
     @include font-copperplate;
-    font-size: 16px;
+    color: $attention-gold;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #004538;
+    width: 100%;
 
     option {
-      color: $topbar-link_color;
       @include font-copperplate;
-      font-size: 16px;
+      color: $attention-gold;
+      font-size: 24px;
 
       &:hover {
-        color: $topbar-link_color;
+        color: $attention-gold;
       }
     }
   }
