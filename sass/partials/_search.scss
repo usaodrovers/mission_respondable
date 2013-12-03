@@ -1,7 +1,9 @@
 .search-block {
+  @include zen-float(right);
   padding: 5px 0;
   margin-bottom: 0;
   margin-top: -7px;
+  margin-right: 2%;
   height: 25px;
 
   label {
@@ -45,10 +47,6 @@
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
-
-  .search-block {
-    @include zen_grid_item(1.7, 1.1);
-  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAK POINT
@@ -63,10 +61,6 @@
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
-
-  .search-block {
-    @include zen-grid-item(1.4, 3.6);
-  }
 }
 
 @media all and (min-width: 960px) { //HARD BREAK POINT
@@ -74,8 +68,4 @@
    * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
-
-  .search-block {
-    @include zen-grid-item(2.6, 9);
-  }
 }
