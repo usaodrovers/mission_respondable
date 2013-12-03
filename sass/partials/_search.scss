@@ -68,4 +68,8 @@
    * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
+
+  .search-block {
+    @include zen-grid-item(2.6, 9);
+  }
 }
