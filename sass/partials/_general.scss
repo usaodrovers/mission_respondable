@@ -211,6 +211,8 @@ img {
 #secondary-menu {
   padding: 0;
 
+  display: none;
+
   ul {
     margin: 0;
     padding: 0;
@@ -266,6 +268,10 @@ img {
   margin-top: 12px;
   text-transform: uppercase;
   z-index: 200;
+  
+  #main-menu {
+    display: none;
+  }
 
   li a {
     color: white;
@@ -480,14 +486,25 @@ img {
   }
 
   #navigation {
+  
+    #main-menu {
+      display: inherit;
+    }
+  
     li a {
       padding-left: 6px;
     }
+  }
+  
+  .region-navigation {
+    display: none;
   }
 
   #secondary-menu {
     @include zen-grid-item(7, 2.6);
     clear: none;
+
+    display: inherit;
 
     ul {
       li {
