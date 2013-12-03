@@ -402,6 +402,10 @@ img {
 }
 
 @media all and (max-width: 480px) {
+  #main {
+    position: relative;
+  }
+  
   .html #navigation {
     @include zen_clear();
     margin-top: 15px;
