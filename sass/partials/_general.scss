@@ -406,6 +406,10 @@ img {
     position: relative;
   }
   
+  #content {
+    margin-top: 3em;
+  }
+  
   .html #navigation {
     @include zen_clear();
     margin-top: 15px;
