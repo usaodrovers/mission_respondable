@@ -349,6 +349,8 @@ img {
   position: relative;
   z-index: 200;
   width: 100%;
+  
+  display: none;
 
   ul {
     margin: 0;
@@ -544,6 +546,10 @@ img {
         padding: 5px 2.8%;
       }
     }
+  }
+
+  #block-menu-menu-footer-navigation  {
+    display: inherit;
   }
 }
 
