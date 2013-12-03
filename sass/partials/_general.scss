@@ -247,7 +247,10 @@ img {
 
 #logo {
   border: none;
-  padding: 5px 1%;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 125px;
 }
 
 #header {
@@ -440,7 +443,13 @@ img {
     background: url("../images/pretties.png") no-repeat scroll center top $background;
   }
 
-  
+  #logo {
+    border: none;
+    float: left;
+    padding: 5px 1%;
+    width: auto;
+    margin: 0;
+  }
 }
 
 @media all and (min-width: 651px) {
