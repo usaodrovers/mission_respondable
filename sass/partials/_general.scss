@@ -411,6 +411,10 @@ img {
   #content {
     margin-top: 4em;
   }
+
+  .not-front #content {
+    margin-top: 4em;
+  }
   
   .html #navigation {
     @include zen_clear();
