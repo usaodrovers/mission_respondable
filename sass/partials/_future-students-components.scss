@@ -1,0 +1,422 @@
+.panels-flexible-region-9-center {
+  width: 100%;
+}
+
+#content .pane-block-1 {/* block-1 is the id of the block */
+  background: #F7F4DE;
+  margin-top: 15px;
+  .pane-title {
+    margin-bottom: 0;
+    z-index: 2;
+  }
+  .pane-content {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+ul.student-contact-bar {
+  display: inline;
+  margin: 0;
+  position: relative;
+  padding: 6px 0;
+  z-index: 1;
+  list-style: none outside none;
+  li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+li.contact-green, li.contact-green a {
+  color: #015a49;
+  text-decoration: none;
+	position: relative;
+}
+
+li.contact-blue a {
+  color: #3B5998; 
+  text-decoration: none;
+}
+
+.contact-jtrigger {
+  text-transform: uppercase;
+}
+
+.act-jquery-content, .fafsa-jquery-content {
+  background: #F7F4DE;
+  border: 1px solid #083228;
+  border-radius: 3px;
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  margin: -22px 0 0;
+  position: absolute;
+  width: 100%
+}
+
+.student-contact-hide {
+  display: none;
+}
+  
+.html .view-display-id-testimonials_future_students {
+  overflow: hidden;
+  position: relative;
+}
+
+.view-id-featured_testimonials .quicktabs-wrapper .item-list {
+  padding: 0;
+}
+
+.view-id-featured_testimonials {
+  .quicktabs-wrapper ul {
+    padding: 0;
+    li {
+      float: left;
+      font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 0;
+      width: 16.667%;
+      a {
+        @include background-image(linear-gradient(#015B4A, #004538 90%));
+        border-right: 1px solid #F7F4DE;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+          color: #FFD457;
+        }
+        &.hide-border {
+          border: none;
+        }
+      }
+      &.last a {
+        border-right: none;
+      }
+      &.active a {
+        border: 2px solid #FFD457;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .tinynav {
+    color: $primary_nav;
+    font-family: "Copperplate Gothic Bold","Copperplate Gothic Light",Copperplate,"kelvingrove-1","kelvingrove-2",serif;
+    font-size: 24px;
+    width: 100%;
+  //  @include background-image(linear-gradient(#015B4A, #004538 90%));
+    option {
+      color: $primary_nav;
+      background-color: #004538;
+      font-family: "Copperplate Gothic Bold","Copperplate Gothic Light",Copperplate,"kelvingrove-1","kelvingrove-2",serif;
+      font-size: 16px;
+  //    @include background-image(linear-gradient(#015B4A, #004538 90%));
+      &:hover {
+        color: #E5DEA8;
+      }
+    }
+  }
+  
+  .quicktabs-tabpage { /* .view-id-featured_testimonials .quicktabs-tabpage */
+    clear: left;
+    position: relative;
+  }
+  .testimonial-title {
+    color: $primary-nav;
+    font-size: 12px;
+    float: left;
+    width: 96%;
+    margin: 5px 2%;
+  }
+  .testimonial-body {
+    display: block;
+    margin: 5px 2%;
+    width: 96%;
+    clear: left;
+  }
+  .testimonial-body p {
+    display: inline;
+  }
+
+  .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+    background: #F7F4DE;
+    padding: 1px 0;
+    .field-content {
+      margin: 0;
+      padding: 10px 0 0;
+      width: 100%;
+    }
+    a {
+      background-color: #FFD457;
+      @include single-box-shadow(#777, -2px, 2px, 3px);
+      color: $primary-nav;
+      display: block;
+      font-weight: bold;
+      margin: 15px 2%;
+      padding: 6px 0;
+      text-align: center;
+      text-decoration: none;
+      width: 96%;
+
+      &.tab-title {
+         background-color: rgba(0, 0, 0, 0);
+         @include single-box-shadow(0,0,0,transparent); 
+         display: block;
+         margin: 15px 0;
+         padding: 0;
+         text-align: left;
+
+         &:hover, &:focus {
+           text-decoration: underline;
+         }
+      }
+    }
+  }
+}
+
+.pane-announcements-future-students-announcements {
+  background-color: #F7F4DE;
+  .pane-menu-menu-future-students-resources {
+    background-color: #F7F4DE;
+  }
+}
+
+/* .page-future-students .pane-events-future-students-events .pane-title, 
+.page-future-students .pane-announcements-future-students-announcements .pane-title, 
+.page-future-students .pane-menu-menu-future-students-resources .pane-title {
+  color: #E5DEA8;
+  line-height: 2.3em;
+  margin-bottom: -4px;
+  padding: 11px 0 10px 10%;
+  width: 90%;
+  font-size: 16px;
+} */
+
+.pane-announcements-future-students-announcements .pane-content {
+  margin: 10px;
+}
+
+.view-display-id-future_students_announcements {
+  .views-field-field-announcement-image {
+    text-align: center;
+  }
+  .views-field-title {
+    a {
+      color: $primary-nav;
+      text-decoration: none;
+    }
+     h3 {
+      font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: bold;
+      margin: 0;
+      line-height: 18px;
+    }
+  }
+  .views-field-body {
+    color: $body_text;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    p {
+      margin: 0;
+    }
+  }
+  .views-field-nothing {
+    border-bottom: 1px solid $divider;
+    clear: both;
+    margin-bottom: 8px;
+    padding-top: 6px;
+  }
+}
+
+.pane-menu-menu-future-students-resources {
+  background-color: #F7F4DE;
+  ul {
+    padding: 0;
+  }
+  li.leaf {
+    border-bottom: 1px solid $divider;
+    list-style: none outside none;
+    margin: 0 10px;
+    padding-bottom: 8px;
+  }
+  a {
+    @include font-myriadprocondensed;
+    font-size: 16px;
+    color: $primary-nav;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+
+@media all and (min-width: 330px) {/*Soft Breakpoint */
+  ul.student-contact-bar {
+    li {
+      width: 50%;
+      text-align: center;
+    }
+  }
+}
+
+@media all and (min-width: 481px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  ul.student-contact-bar {
+    li {
+      width: 33.3%;
+      text-align: center;
+    }
+  }
+
+  .act-jquery-content, .fafsa-jquery-content{
+    margin: 0;
+  }
+
+  .view-id-featured_testimonials {
+    .testimonial-title {
+      color: $primary-nav;
+      font-size: 14px;
+      float: left;
+      width: 100%;
+      margin: 5px 0 0;
+    }
+
+    .testimonial-body {
+      margin: 5px 0;
+    }
+
+    .testimonial-body p {
+      color: #5d5d5d;
+      font-weight:bold;
+    }
+
+    .views-field-nothing-1 {/* .view-id-featured_testimonials .views-field-nothing-1 */
+      @include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
+      background-color: transparent;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+
+     .field-content {
+        float: right;
+        margin: 0;
+        padding-right: 5px;
+        padding-top: 10px;
+        width: 50%;
+      }
+
+      a {
+        background-color: #FFD457;
+        @include single-box-shadow(#777, -2px, 2px, 3px);
+        color: $primary-nav;
+        display: inline-block;
+        font-weight: bold;
+        margin: 15px 0;
+        padding: 6px 3px;
+        text-align: center;
+        text-decoration: none;
+        width: 85%;
+
+      }
+    }
+  }
+}
+
+@media all and (min-width: 651px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .view-id-featured_testimonials {
+    .views-field-nothing-1 {
+      .field-content {
+        padding-top: 24px;
+        width: 39%;
+      }
+      a {
+        margin: 15px 0;
+
+        &.tab-title {
+           background-color: rgba(0, 0, 0, 0);
+           @include single-box-shadow(0,0,0,transparent); 
+           display: block;
+           margin: 15px 0;
+           padding: 0;
+           text-align: left;
+
+           &:hover, &:focus {
+             text-decoration: underline;
+           }
+        }
+      }
+    }
+  }
+
+  .view-display-id-future_students_announcements {
+    .views-field-field-announcement-image {
+      float: left;
+      padding-right: 10px;
+    }
+  }
+  
+  #content .pane-block-1 {/* block-1 is the id of the block */
+    .pane-title {
+      display: inline-block;
+      padding: 10px 10px 11px;
+      width: auto;
+      margin-right: 5px;
+    }
+    .pane-content {
+      display: inline-block;
+      width: auto;
+    }
+    li {
+      border-right: 1px solid #000000;
+      font-size: 13px;
+      line-height: 1.3em;
+      margin-right: 8px;
+      padding-right: 8px;
+      width: auto;
+      &.last {
+        border: none;
+        margin-right: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .act-jquery-content, .fafsa-jquery-content{
+    padding: 3px 6px;
+    width: auto;
+  }
+
+}
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+  .pane-events-future-students-events {
+    .views-field-title {
+      font-size: 14px;
+    }
+  }
+
+  .html .panel-pane.pane-events-future-students-events .views-row {
+    padding: 15px 0 0;
+  }
+}
