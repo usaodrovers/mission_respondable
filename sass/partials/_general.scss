@@ -56,7 +56,8 @@ img {
  * Layout
  */
 
-.l-box {
+.l-box,
+.node-type-basic-page #content {
   background-color: $box-background;
 
   p, h3 {
