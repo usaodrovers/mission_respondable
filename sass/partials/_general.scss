@@ -58,7 +58,6 @@ img {
 
 .l-box {
   background-color: $box-background;
-  padding-bottom: 1px;
 
   p, h3 {
     padding: .75em 15px;
@@ -86,7 +85,7 @@ img {
  */
 
 .menu__vertical {
-  ul {
+  .view-content ul {
     margin: 0 0 1.5em;
     padding: 0 15px;
 
@@ -357,7 +356,7 @@ img {
   
   display: none;
 
-  ul {
+  .view-content ul {
     margin: 0;
     padding: 0;
 
