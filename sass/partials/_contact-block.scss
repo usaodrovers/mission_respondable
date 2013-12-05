@@ -6,7 +6,7 @@ $zen-column-count: 1;
 
 .contact-block {
   
-  .view-content ul {
+  ul {
     display: inline;
     margin: 0;
     position: relative;
@@ -40,7 +40,7 @@ $zen-column-count: 1;
 
 @media all and (min-width: 330px) {/*Soft Breakpoint */
   .contact-block {
-    .view-content ul li {
+    ul li {
       text-align: center;
       width: 50%;
     }
@@ -54,7 +54,7 @@ $zen-column-count: 1;
   $zen-column-count: 3;
 
   .contact-block {
-    .view-content ul li {
+    ul li {
       width: 33.3%;
     }
   }
