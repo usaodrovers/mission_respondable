@@ -37,6 +37,16 @@ function mission_respondable_preprocess_maintenance_page(&$variables, $hook) {
 function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
+  drupal_add_js('
+  var $buoop = {vs:{i:8,f:15,o:,s:4,n:9}} 
+  $buoop.ol = window.onload; 
+  window.onload=function(){ 
+    try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+    var e = document.createElement("script"); 
+    e.setAttribute("type", "text/javascript"); 
+    e.setAttribute("src", "http://browser-update.org/update.js"); 
+    document.body.appendChild(e); 
+  } ', array('type' => 'inline'));
   $pageID = arg(0);
   if ($pageID == 'future-students') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
