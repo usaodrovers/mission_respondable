@@ -41,7 +41,7 @@ $zen-column-count: 1;
   left: 0;
 }
 
-@media all and (min-width: 330px) {/*Soft Breakpoint */
+@media all and (min-width: 393px) {/*Soft Breakpoint */
   .contact-block {
     ul li {
       text-align: center;
@@ -55,7 +55,9 @@ $zen-column-count: 1;
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
+}
 
+@media all and (min-width: 581px) {
   .contact-block {
     ul li {
       width: 33.3%;
@@ -64,6 +66,10 @@ $zen-column-count: 1;
 
   .contact-block__jcontent {
     margin: 0;
+  }
+  
+  ul li.last {
+    background: url("../images/like.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
   }
 }
 
@@ -91,6 +97,7 @@ $zen-column-count: 1;
         padding-left: 0;
       }
       &.last {
+        background: url("../images/like.png") no-repeat scroll 9px 2px rgba(0, 0, 0, 0);
         border: none;
         padding: 0 0 0 26px;
       }
