@@ -442,7 +442,8 @@ img {
   $zen-column-count: 3;
 
   body {
-    background: url("../images/pretties.png") no-repeat scroll center top $background;
+    background: url("../images/pretties.png") no-repeat center top;
+    background-color: $background;
   }
 
   #logo {
