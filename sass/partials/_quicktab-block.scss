@@ -44,7 +44,6 @@ ul.quicktabs-tabs li {
       font-weight: bold;
       margin: 0;
       padding: 0;
-      width: 16.667%;
 
       a {
         @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
@@ -117,6 +116,22 @@ ul.quicktabs-tabs li {
       text-align: center;
       text-decoration: none;
       width: 96%;
+    }
+  }
+}
+
+.quicktab-block__future {
+  ul.quicktabs-tabs li {
+    width: 16.667%;
+  }
+}
+
+.quicktab-block__future {
+  ul.quicktabs-tabs li {
+    width: 20%;
+
+    a {
+      min-height: 48px;
     }
   }
 }
