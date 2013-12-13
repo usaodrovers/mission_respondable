@@ -1,10 +1,7 @@
 .search-block {
-  @include zen-float(right);
-  padding: 5px 0;
-  margin-bottom: 0;
-  margin-top: -7px;
-  margin-right: 2%;
-  height: 25px;
+  padding: -7px 0 5px;
+  margin: 0 auto;
+  width: 175px;
 
   label {
     display: none;
@@ -54,6 +51,13 @@
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
+
+  .search-block {
+    @include zen-float(right);
+    margin-right: 2%;
+    height: 25px;
+    width: auto;
+  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAK POINT
