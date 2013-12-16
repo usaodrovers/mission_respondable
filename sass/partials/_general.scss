@@ -105,6 +105,10 @@ img {
         margin: -1px -15px;
         padding: 5px 15px;
       }
+
+      &.views-row-last {
+        border-bottom: none;
+      }
     }
   }
 }

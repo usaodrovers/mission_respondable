@@ -43,7 +43,7 @@ $zen-column-count: 1;
 .event-block {
     
   .view-content {
-    margin: 10px;
+    margin: 0 10px;
   }
 
   .event-date {
@@ -95,13 +95,8 @@ $zen-column-count: 1;
     margin: 0;
 
     li {
-      border-top: 1px solid $divider;
       padding: 15px 0;
       clear: both;
-
-      &.views-row-first {
-        border-top: none;
-      }
     }
 
     p {
