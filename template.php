@@ -148,3 +148,7 @@ function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
       $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Search USAO');
   }
 }
+
+function mission_respondable_menu_tree__menu_future_students_resources($variables) {
+  return '<ul class="menu menu__vertical">' . $variables['tree'] . '</ul>';
+}
