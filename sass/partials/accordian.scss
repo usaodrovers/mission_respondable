@@ -1,0 +1,23 @@
+.ui-accordion {
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    @include background-image(linear-gradient(#edc551 0%, #edc551 50%, #e6bf4e 50%, #e6bf4e 50%, #f1c852 54%, #f1c852 100%));
+    color: #007161;
+  }
+  .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #007161;
+  }
+  .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    @include background-image(linear-gradient(#e4be4e 0%, #e4be4e 50%, #dab54a 50%, #dab54a 50%, #eac350 54%, #eac350 100%));
+    color: #007161;
+  }
+  .ui-state-hover a, .ui-state-hover a:hover {
+    color: #007161;
+  }
+  .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: #F7F4DE;
+    color: #007161;
+  }
+  .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #007161;
+  }
+}
