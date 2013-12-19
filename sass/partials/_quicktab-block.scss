@@ -49,7 +49,7 @@ ul.quicktabs-tabs li {
         @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
         border-right: 1px solid $box-background;
         display: block;
-        padding: 10px 0;
+        padding: 10px 1px;
         text-align: center;
         text-transform: uppercase;
 
@@ -129,6 +129,17 @@ ul.quicktabs-tabs li {
 .quicktab-block__academics {
   ul.quicktabs-tabs li {
     width: 20%;
+
+    &:nth-child(2) {
+
+      &.active a {
+        padding: 8px 11px;
+      }
+    
+      a {
+        padding: 10px 11px;
+      }
+    }
 
     a {
       min-height: 48px;
