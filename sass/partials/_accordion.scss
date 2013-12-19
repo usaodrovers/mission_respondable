@@ -1,43 +1,55 @@
 .ui-accordion {
-  .ui-accordion .ui-accordion-header a {
-    display: block;
-    font-size: 1em;
-    padding: 0.2em 0.5em 0.2em 0.7em;
-    
+  .ui-accordion .ui-accordion-header .ui-accordion .ui-accordion-header a {
+    padding: 0.3em 0.5em 0.3em 0.7em;
+  }
+  .ui-icon {
+    left: -4px;
+    margin-top: -7px;
+  }
+  .ui-accordion-icons .ui-accordion-header a {
+    padding-left: 15px;
   }
   .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     background: none;
     border: none;
     color: #007161;
   }
-  .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
-    color: #007161;
+  .ui-state-default {
+    a, a:link,a:visited {
+      color: #007161;
+    }
   }
   .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
     background: none;
     border: none;
     color: #007161;
   }
-  .ui-state-hover a, .ui-state-hover a:hover {
-    color: #007161;
+  .ui-state-hover {
+    a, a:hover {
+      color: #007161;
+    }
   }
   .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
     background: none;
     border: none;
     color: #007161;
   }
-  .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-    color: #007161;
+  .ui-state-active {
+    a, a:link, a:visited {
+      color: #007161;
+    }
   }
   .ui-widget-content {
     background: none;
     border: none;
-  }
-  .ui-widget-content a {
-    color: #007161;
+    margin: -2px 10px 2px;
+    padding: 0 14px 10px;
+     a {
+      color: #007161;
+    }
   }
   .ui-icon-triangle-1-e {
-    background-position: -15px -129px;
+    background-position: -16px -129px;
   }
   .ui-icon-triangle-1-s {
     background-position: -45px -129px;
@@ -46,4 +58,5 @@
 
 .l-box .ui-accordion h3 {
   padding: 0 15px;
+  border-bottom: 1px solid #DBD6AE;
 }
