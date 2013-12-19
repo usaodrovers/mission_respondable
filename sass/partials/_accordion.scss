@@ -40,9 +40,12 @@
   }
   .ui-widget-content {
     background: $box-background;
-    border: 1px solid $divider;
+    border-bottom: 1px solid #DBD6AE;
+    border-left: medium none;
+    border-radius: 0;
+    border-right: medium none;
     margin: -2px 10px 2px;
-    padding: 0 14px 10px;
+    padding: 0 0 5px 20px;
      a {
       color: $primary-nav;
     }
