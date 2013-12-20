@@ -1,0 +1,592 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
+/*
+ * Base
+ */
+
+html, button, input, select, textarea {
+  font-family: $font-myriadpro;
+  color: $body_text;
+  font-size: 16px;
+  line-height: 24px;
+}27pxhtml, body {
+  min-width: 100%;
+}
+
+body {
+  background: url('');
+  background-color: $background;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-nav;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  @include font-myriadprocondensed;
+  color: $attention-gold;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  padding-left: 15px;
+  margin: 0;
+
+  &#page-title {
+    margin: 0 0 15px;
+  }
+}
+
+img {
+  display: block;
+}
+
+/*
+ * Layout
+ */
+
+.l-box,
+.node-type-basic-page #content,
+.page-user #content {
+  background-color: $box-background;
+
+  p, h3 {
+    padding: .5em 15px;
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.l-highlight {
+  background-color: rgba(235, 234, 213, 0.7);
+  @include font-myriadprocondensed_bold;
+  color: $body_text;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.l-title-area {
+  position: relative;
+  top: -34px;
+  margin-bottom: -40px;
+}
+
+/*
+ * Component
+ */
+
+.menu__vertical {
+  ul {
+    margin: 0 0 1.5em;
+    padding: 0 15px;
+
+    li {
+      list-style: none;
+      border-bottom: 1px solid $divider;
+      padding: 5px 0;
+
+      a {
+        @include font-myriadprocondensed;
+      }
+
+      &.is-active-trail {
+        background-color: $event-active;
+        margin: -1px -15px;
+        padding: 5px 15px;
+      }
+
+      &.views-row-last {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.content-announcement {
+
+  .pane-title {
+    color: $attention-gold;
+    font-family: $font-myriadprocondensed;
+    font-size: 32px;
+    padding-left: 15px;
+  }
+}
+
+.oversized-text {
+  text-transform: uppercase;
+  font-size: 32px;
+  @include font-myriadprocondensed;
+}
+
+#logo {
+  padding: 5px 0;
+  border-right: none;
+}
+
+.not-front #content {
+  margin-top: 30px;
+}
+
+#site-name, #site-slogan {
+  display: none;
+}
+
+#content, 
+#footer {
+  margin: 0 auto;
+  max-width: 622px;
+}
+
+.mission-statement {
+  text-align: center;
+}
+
+.breadcrumb {display: none;}
+
+.panel-pane {
+  margin-bottom:  15px;
+
+  .pane-title {
+    background-color: $gradient-green_dark;
+    color: $topbar-link_color;
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    @include font-copperplate;
+    height: 100%;
+    line-height: 100%;
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: 0;
+
+    a {
+      color: $topbar-link_color;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-size: 16px;
+      @include font-copperplate;
+      padding: 0;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.item-list {
+  @include font-myriadpro;
+  font-size: 12px;
+  padding: 10px 0;
+  color: $box-background;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+
+  .pager-current {
+    color: $attention-gold;
+  }
+
+  ul {
+    margin: 0;
+
+    li {
+      a {
+        color: $box-background;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#secondary-menu {
+  padding: 0;
+
+  display: none;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 5px 2.8%;
+      list-style: none;
+      height: 27px;
+      float: left;
+      padding: 5px 1%;
+      border: none;
+
+        a {
+          @include font-copperplate;
+          text-decoration: none;
+          color: $topbar-link_color;
+          font-size: 12px;
+          letter-spacing: .88px;
+        }
+     
+      &.last {
+        border: none;
+      }
+    }
+  }
+
+  &.block {
+    margin: 0;
+  }
+}
+
+#logo {
+  border: none;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 125px;
+}
+
+#header {
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  height: auto;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.region-header {
+  clear: none;
+}
+
+#navigation {
+  @include font-myriadprocondensed;
+  color: $primary-nav;
+  font-size: 25.5px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  z-index: 200;
+  
+  #main-menu {
+    display: none;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: -2px 2px 2px black;
+    padding-left: 12px;
+  }
+
+  ul.links li.last {
+    background-color: $attention-gold;
+    @include single-box-shadow($shadow-grey, -2px, 2px, 2px);
+    padding: 0;
+
+    a {
+      color: $primary_nav;
+      padding: 0 10px 0 10px;
+      margin: 0;
+      text-shadow: none;
+    }
+  }
+}
+
+#block-jump-menu-jump-menu-m-menu-moble-menu {
+  .form-item {
+    display: block;
+    margin: 0;
+  }
+
+  select {
+    @include font-copperplate;
+    color: $attention-gold;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #004538;
+    width: 100%;
+  }
+}
+
+.block-mission-respondable-footer {
+  border-top: 1px solid $gradient-green_light;
+  margin: 0;
+
+  ul {
+    margin: 10px 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    color: $topbar-link_color;
+    width: 255px;
+    line-height: 16px;
+    margin: 0;
+
+    a {
+      font-size: 12px;
+      color: $topbar-link_color;
+      width: 200px;
+      line-height: 16px;
+
+      &.worx {
+        color: $shadow-grey;
+      }
+    }
+  }
+}
+
+#block-menu-menu-footer-navigation  {
+  margin-top: 100px;
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 200;
+  width: 100%;
+  
+  display: none;
+
+  ul.menu {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      border-left: 1px solid $topbar-link_color;
+      padding-left: 5px;
+      line-height: 8px;
+      height: 12px;
+      
+      a {
+        color: $attention-gold;
+      }
+
+      &.first {
+        border-left: none;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .last {
+    padding-top: 0;
+  }
+}
+
+#block-mission-respondable-footer-footer-contact {
+  background: url('../images/pretties2.png') 100% 0 no-repeat;
+  height: 145px;
+  padding-top: 30px;
+}
+
+.html .panels-flexible-region {
+    width: 100%;
+}
+
+<<<<<<< HEAD
+// Go To Section on the views blocks to go to the main section.
+.view-footer {
+  background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+  p {
+    font-weight: bold;
+    padding: 0.2em 27px 0.2em 0;
+=======
+.view-footer {
+  background: #d4d288;
+  p {
+    font-weight: bold;
+    padding: 0.2em 35px 0.2em 0;
+>>>>>>> Added css to handle the Go to in the footer of the views blocks.
+    text-align: right;
+  }
+}
+
+/*
+ * State
+ */
+
+.menu__item.is-leaf { /* Overide of default zen */
+  list-style-image: none;
+  list-style: none;
+}
+
+.menu a.active {
+  color: $primary_nav;
+}
+
+@media all and (max-width: 480px) {
+  #main {
+    position: relative;
+  }
+  
+  #content {
+    margin-top: 4em;
+  }
+
+  .not-front #content {
+    margin-top: 4em;
+  }
+  
+  .html #navigation {
+    @include zen_clear();
+    margin-top: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .mission-statement {
+    margin-top: -15px;
+  }
+}
+
+@media all and (min-width: 481px) {
+  /*
+   * Use 3 grid columns for smaller screens.
+   */
+  $zen-column-count: 3;
+
+  body {
+    background: url("../images/pretties.png") no-repeat center top;
+    background-color: $background;
+  }
+
+  #logo {
+    border: none;
+    float: left;
+    padding: 5px 1%;
+    width: auto;
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 651px) {
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+   $zen-column-count: 5;
+   // comment this out in dev for size fix
+  .header-wrapper,
+  #main-menu {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+
+  #secondary-menu {
+    @include zen-grid-item(4, 1);
+    ul {
+      li {
+        border-right: 1px solid $topbar-link_color;
+        padding: 5px 1.3%;
+
+        &.last {
+          border: none;
+        }
+      }
+    }
+  }
+
+   .l-content-right {
+      @include zen-grid-item(3, 1, right);
+    @include zen-clear(right);
+   }
+
+   .l-content-left {
+      @include zen-grid-item(3.1, 1);
+      @include zen-clear(left);
+   }
+
+   .l-sidebar-left {
+     @include zen-grid-item(1.6, 1, left);
+     @include zen-clear(left);
+   }
+
+   .l-sidebar-right {
+     @include zen-grid-item(1.78, 4.22);
+     @include zen-clear(right);
+   }
+ }
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+
+  .l-content-right {
+    @include zen-grid-item(7.3, 1, right);
+    @include zen-clear(right);
+  }
+
+  .l-content-left {
+    @include zen-grid-item(7.3, 1);
+    @include zen-clear(left);
+  }
+
+  .l-sidebar-left {
+    @include zen-grid-item(4, 1, left);
+    @include zen-clear(left);
+  }
+
+  .l-sidebar-right {
+    @include zen-grid-item(4.4, 8.6);
+  }
+
+  .section-testimonials #content, .section-search #content, .not-front #content {
+    padding: 0;
+  }
+
+  #logo {
+    @include zen-grid-item(2, 1);
+    border: none;
+  }
+
+  #navigation {
+  
+    #main-menu {
+      display: inherit;
+    }
+  
+    li a {
+      padding-left: 6px;
+    }
+  }
+  
+  .region-navigation {
+    display: none;
+  }
+
+  #secondary-menu {
+    @include zen-grid-item(7, 2.6);
+    clear: none;
+
+    display: inherit;
+
+    ul {
+      li {
+        padding: 5px 2.8%;
+      }
+    }
+  }
+
+  #block-menu-menu-footer-navigation  {
+    display: inherit;
+  }
+}
+
+@media all and (min-width: 1024px) { //SOFT BREAK POINT
+  #navigation {
+    li a {
+      padding-left: 12px;
+    }
+  }
+}
