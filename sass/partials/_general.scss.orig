@@ -391,20 +391,16 @@ img {
     width: 100%;
 }
 
-<<<<<<< HEAD
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
+<<<<<<< HEAD
   background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+=======
+  background: url('../images/temp-go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+>>>>>>> Add the display of the temp image for the go to sections in the footer.
   p {
     font-weight: bold;
     padding: 0.2em 27px 0.2em 0;
-=======
-.view-footer {
-  background: #d4d288;
-  p {
-    font-weight: bold;
-    padding: 0.2em 35px 0.2em 0;
->>>>>>> Added css to handle the Go to in the footer of the views blocks.
     text-align: right;
   }
 }
