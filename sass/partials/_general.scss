@@ -13,9 +13,7 @@ html, button, input, select, textarea {
   color: $body_text;
   font-size: 16px;
   line-height: 24px;
-}
-
-html, body {
+}27pxhtml, body {
   min-width: 100%;
 }
 
@@ -405,7 +403,7 @@ img {
   background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
   p {
     font-weight: bold;
-    padding: 0.2em 35px 0.2em 0;
+    padding: 0.2em 27px 0.2em 0;
     text-align: right;
   }
 }
