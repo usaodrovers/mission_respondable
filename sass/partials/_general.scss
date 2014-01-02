@@ -146,6 +146,10 @@ img {
   max-width: 622px;
 }
 
+.node-type-divisons .blockquote {
+  background: url('../images/quote.png') no-repeat top left transparent;
+}
+
 .mission-statement {
   @include font-myriadpro_italic;
   font-size: 14px;
