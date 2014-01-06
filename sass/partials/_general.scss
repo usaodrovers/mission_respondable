@@ -59,7 +59,7 @@ img {
 .page-user #content {
   background-color: $box-background;
 
-  p, h3 {
+  p, h3, h2, .webform-component {
     padding: .5em 15px;
     margin: 0;
     font-size: 16px;
@@ -86,7 +86,7 @@ img {
 
 .menu__vertical {
   ul {
-    margin: 0 0 1.5em;
+    margin: 10px 0 1.5em;
     padding: 0 15px;
 
     li {
@@ -190,7 +190,6 @@ img {
 
 .item-list {
   @include font-myriadpro;
-  font-size: 12px;
   padding: 10px 0;
   color: $box-background;
   background-color: $gradient-green_dark;
@@ -204,6 +203,8 @@ img {
     margin: 0;
 
     li {
+      border: none;
+
       a {
         color: $box-background;
         text-decoration: none;
