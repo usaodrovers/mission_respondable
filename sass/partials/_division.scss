@@ -20,17 +20,19 @@ $zen-column-count: 1;
   h3 {
     font-weight: normal;
     padding: 0.5em 10px;
+    @include font-myriadprocondensed;
   }
   ul {
     list-style: none outside none;
     margin: 0;
     padding: 0 7px 10px;
     li {
-        padding: 3px 5px;
+      padding: 3px 5px;
     }
   }
   .views-field-title {
     font-size: 0.8em;
+    @include font-myriadprocondensed;
   }
 }
 
