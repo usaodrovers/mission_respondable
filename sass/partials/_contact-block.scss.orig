@@ -68,7 +68,15 @@ $zen-column-count: 1;
     margin: 0;
   }
   
+<<<<<<< HEAD
+<<<<<<< HEAD
   .contact-block ul li.last {
+=======
+  ul li.last {
+>>>>>>> Adjusted the media queries to account for the like image for the facebook link.
+=======
+  .contact-block ul li.last {
+>>>>>>> Fixed the css for the background image to have the contact-block.
     background: url("../images/like.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
   }
 }
