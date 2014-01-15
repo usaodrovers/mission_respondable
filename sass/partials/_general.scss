@@ -89,7 +89,7 @@ img {
 
 .menu__vertical {
   ul {
-    margin: 10px 0 1.5em;
+    margin: 10px 0 15px;
     padding: 0 15px;
 
     li {
@@ -107,7 +107,8 @@ img {
         padding: 5px 15px;
       }
 
-      &.last {
+      &.last,
+      &.views-row-last {
         border-bottom: none;
       }
     }
