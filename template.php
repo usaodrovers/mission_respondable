@@ -37,13 +37,13 @@ function mission_respondable_preprocess_maintenance_page(&$variables, $hook) {
 function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
+  //drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js', array('weight' => 10));
   $pageID = arg(0);
   if ($pageID == 'future-students') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
-
-  if ($pageID == 'academics') {
+  if ($pageID != 'frontpage') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/blockToggle.js');
   }
 
