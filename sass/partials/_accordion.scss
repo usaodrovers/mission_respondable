@@ -49,6 +49,14 @@
      a {
       color: $primary-nav;
     }
+    .views-field-edit-node {
+      font-size: 12px;
+      display: none;
+      padding: 5px 0;
+    }
+    .views-field-edit-nodenth-last-child(1) {
+      display: inherit;
+    }
   }
   .ui-icon-triangle-1-e {
     background-position: -16px -129px;
