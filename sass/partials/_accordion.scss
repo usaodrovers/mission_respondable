@@ -38,7 +38,6 @@
       color: $primary-nav;
     }
   }
-  .ui-widget-content {
     background: $box-background;
     border-bottom: 1px solid #DBD6AE;
     border-left: medium none;
@@ -46,17 +45,19 @@
     border-right: medium none;
     margin: -2px 10px 2px;
     padding: 0 0 5px 20px;
-      a {
-        color: $primary-nav;
-      }
-      .views-field-edit-node {
-        font-size: 12px;
-        display: none;
-        padding: 5px 0;
-      }
-      .views-field-edit-node:nth-last-child(1) {
-        display: inherit;
-      }
+    a {
+      color: $primary-nav;
+    }
+    .views-field-edit-node {
+      font-size: 12px;
+      display: none;
+      padding: 5px 0;
+    }
+  }
+  .ui-widget-content:nth-last-child(1) {
+    .views-field-edit-node {
+      display: inherit;
+    }
   }
   .ui-icon-triangle-1-e {
     background-position: -16px -129px;
