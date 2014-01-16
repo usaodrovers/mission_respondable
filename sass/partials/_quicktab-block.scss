@@ -34,6 +34,10 @@ ul.quicktabs-tabs li {
     padding: 0;
   }
 
+  h3{
+    padding: 0.5em 0;
+  }
+
   ul {
     padding: 0;
 
@@ -84,16 +88,14 @@ ul.quicktabs-tabs li {
     float: left;
     margin: 5px 2%;
     width: 96%;
+    padding: 0.5em 0;
   }
 
   .quicktab-block__body {
     display: block;
     margin: 5px 2%;
     width: 96%;
-  }
-
-  .quicktab-block__body p {
-    display: inline;
+    padding: 0.5em 0;
   }
 
   .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
