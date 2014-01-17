@@ -19,30 +19,6 @@ $zen-column-count: 1;
   }
 }
 
-.pane-divisons-division-side-menu {
-  .ui-accordion .ui-widget-content {
-    margin: -2px 10px 2px;
-    padding: 0 0 5px;
-  }
-  h3 {
-    font-weight: normal;
-    padding: 0.5em 10px;
-    @include font-myriadprocondensed;
-  }
-  ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0 7px 10px;
-    li {
-      padding: 3px 5px;
-    }
-  }
-  .views-field-title {
-    font-size: 0.8em;
-    @include font-myriadprocondensed;
-  }
-}
-
 @media all and (min-width: 481px) { //HARD BREAKPOINT
   /*
    * Use 3 grid columns for special layouts on smaller screens.
@@ -55,11 +31,6 @@ $zen-column-count: 1;
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
-  
-  .pane-divisons-division-side-menu ul li {
-    font-size: 12px;
-    padding: 2px 0;
-  }
 }
 
 @media all and (min-width: 960px) { //HARD BREAKPOINT
