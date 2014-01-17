@@ -87,10 +87,11 @@
   }
   .views-field-edit-node {
     font-size: 12px;
-    p{
-      font-size: 12px;
-    }
   }
+}
+
+body .l-box .ui-accordion p{//Temp for Majors and Divisons till Majors get created.
+  font-size: 12px;
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
