@@ -19,6 +19,11 @@ $zen-column-count: 1;
   }
 }
 
+.node-type-divisons .ui-accordion .field-content {
+    padding: 0 7px 10px;
+  }
+}
+
 @media all and (min-width: 481px) { //HARD BREAKPOINT
   /*
    * Use 3 grid columns for special layouts on smaller screens.
