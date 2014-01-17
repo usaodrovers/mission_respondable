@@ -50,7 +50,6 @@
       color: $primary-nav;
     }
     .views-field-edit-node {
-      font-size: 12px;
       display: none;
       padding: 5px 0;
     }
@@ -64,7 +63,7 @@
     list-style: none outside none;
     margin: 0;
     padding: 0 7px 10px;
-  }
+}
   .ui-icon-triangle-1-e {
     background-position: -16px -129px;
   }
@@ -77,13 +76,21 @@
   }
 }
 
-.l-box .ui-accordion h3 {
-  border-bottom: 1px solid $divider;
-  border-radius: 0;
-  margin: 0 10px;
-  font-weight: normal;
-  padding: 0.5em 10px;
-  @include font-myriadprocondensed;
+.l-box .ui-accordion {
+  h3 {
+    border-bottom: 1px solid $divider;
+    border-radius: 0;
+    margin: 0 10px;
+    font-weight: normal;
+    padding: 0.5em 10px;
+    @include font-myriadprocondensed;
+  }
+  .views-field-edit-node {
+    font-size: 12px;
+    p{
+      font-size: 12px;
+    }
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
