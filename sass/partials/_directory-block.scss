@@ -15,9 +15,6 @@
         margin-top: 0;
         padding-top: 0;
       }
-      &.views-row-last {
-        padding-bottom: 10px;
-      }
     }
   }
   
@@ -59,12 +56,6 @@
   .directory__photo {
     img {
       max-height: 80px; 
-    }
-  }
-
-  .directory-block {
-    .view-content ul li.views-row-last {
-      padding-bottom: 0;
     }
   }
 }

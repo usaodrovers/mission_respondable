@@ -18,7 +18,7 @@ $zen-column-count: 1;
       display: inline-block;
       text-align: center;
       width: 100%;
-      &.last {
+      &.fb {
         background: url("../images/like.png") no-repeat scroll 9px 6px rgba(0, 0, 0, 0);
       }
     }
@@ -68,7 +68,7 @@ $zen-column-count: 1;
     margin: 0;
   }
   
-  .contact-block ul li.last {
+  .contact-block ul li.fb {
     background: url("../images/like.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
   }
 }
@@ -96,17 +96,13 @@ $zen-column-count: 1;
       &:nth-child(1) {
         padding-left: 0;
       }
-      &.last {
+      &.fb {
         background: url("../images/like.png") no-repeat scroll 9px 2px rgba(0, 0, 0, 0);
-        border: none;
         padding: 0 0 0 26px;
       }
-    }
-  }
-  .division-contact-block {
-    .view-divisons {
-      display: inline-block;
-      font-size: 0.8em;
+      &.last {
+        border: none;
+      }
     }
   }
 

@@ -13,9 +13,7 @@ html, button, input, select, textarea {
   color: $body_text;
   font-size: 16px;
   line-height: 24px;
-}
-
-html, body {
+}27pxhtml, body {
   min-width: 100%;
 }
 
@@ -50,10 +48,6 @@ h1 {
 
 img {
   display: block;
-}
-
-#main {
-  margin-bottom: 0;
 }
 
 /*
@@ -92,7 +86,7 @@ img {
 
 .menu__vertical {
   ul {
-    margin: 10px 0;
+    margin: 10px 0 1.5em;
     padding: 0 15px;
 
     li {
@@ -110,7 +104,6 @@ img {
         padding: 5px 15px;
       }
 
-      &.last,
       &.views-row-last {
         border-bottom: none;
       }
@@ -134,6 +127,18 @@ img {
   @include font-myriadprocondensed;
 }
 
+.center {
+  text-align: center;
+}
+
+.attention {
+  color: $attention-gold;
+}
+
+.margin-none {
+  margin: 0;
+}
+
 #logo {
   padding: 5px 0;
   border-right: none;
@@ -154,7 +159,14 @@ img {
 }
 
 .mission-statement {
+  @include font-myriadpro_italic;
+  font-size: 14px;
+  color: $topbar-link_color;
+  background-color: $gradient-green_dark;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   text-align: center;
+  margin-top: 25px;
+  margin-bottom: -5px;
 }
 
 .breadcrumb {display: none;}
@@ -210,9 +222,6 @@ img {
         text-decoration: none;
       }
     }
-  }
-  ul.pager li {
-    margin: 0;
   }
 }
 
@@ -357,7 +366,7 @@ img {
 
 #block-menu-menu-footer-navigation  {
   margin-top: 100px;
-  margin-bottom: -123px;
+  margin-bottom: -120px;
   position: relative;
   z-index: 200;
   width: 100%;
