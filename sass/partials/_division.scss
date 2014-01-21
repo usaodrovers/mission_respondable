@@ -1,0 +1,55 @@
+/*
+ * Use 1 grid columns for smaller screens.
+ * All generic code goes here.
+ */
+$zen-column-count: 1;
+
+.node-type-divisons blockquote {
+  margin-left: 17px;
+  marging-right: 17px;
+  p {
+    background: url('../images/quote.png') no-repeat left 11px transparent;
+  }
+}
+
+.pane-divisons-division-side-menu {
+  h3 {
+    font-weight: normal;
+    padding: 0.5em 10px;
+  }
+  ul {
+    border-bottom: 1px solid #dcd8ad;
+    list-style: none outside none;
+    margin: 0 10px 1em;
+    padding: 0 7px 10px;
+    li {
+        padding: 0 5px;
+    }
+  }
+}
+
+@media all and (min-width: 481px) { //HARD BREAKPOINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+}
+
+@media all and (min-width: 651px) { //HARD BREAKPOINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+  
+  .pane-divisons-division-side-menu ul li {
+    font-size: 12px;
+    padding: 0;
+  }
+}
+
+@media all and (min-width: 960px) { //HARD BREAKPOINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
+}
