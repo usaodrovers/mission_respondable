@@ -122,16 +122,30 @@ ul.quicktabs-tabs li {
   }
 }
 
-.quicktab-block__future {
+.quicktab-block__six__single {
   ul.quicktabs-tabs li {
     width: 16.667%;
   }
 }
 
-.quicktab-block__academics {
+.quicktab-block__five__single {
+  ul.quicktabs-tabs li {
+    width: 20%;
+  }
+}
+
+.quicktab-block__five__single {
   ul.quicktabs-tabs li {
     width: 20%;
 
+    a {
+      min-height: 48px;
+    }
+  }
+}
+
+.quicktab-block__academics {
+  ul.quicktabs-tabs li {
     &:nth-child(2) {
 
       &.active a {
@@ -141,10 +155,6 @@ ul.quicktabs-tabs li {
       a {
         padding: 10px 11px;
       }
-    }
-
-    a {
-      min-height: 48px;
     }
   }
 }
