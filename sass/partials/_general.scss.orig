@@ -13,9 +13,7 @@ html, button, input, select, textarea {
   color: $body_text;
   font-size: 16px;
   line-height: 24px;
-}
-
-html, body {
+}27pxhtml, body {
   min-width: 100%;
 }
 
@@ -52,10 +50,6 @@ img {
   display: block;
 }
 
-#main {
-  margin-bottom: 0;
-}
-
 /*
  * Layout
  */
@@ -65,7 +59,7 @@ img {
 .page-user #content {
   background-color: $box-background;
 
-  p, h3, h2, .webform-component {
+  p, h3 {
     padding: .5em 15px;
     margin: 0;
     font-size: 16px;
@@ -92,7 +86,7 @@ img {
 
 .menu__vertical {
   ul {
-    margin: 10px 0;
+    margin: 0 0 1.5em;
     padding: 0 15px;
 
     li {
@@ -110,7 +104,6 @@ img {
         padding: 5px 15px;
       }
 
-      &.last,
       &.views-row-last {
         border-bottom: none;
       }
@@ -190,6 +183,7 @@ img {
 
 .item-list {
   @include font-myriadpro;
+  font-size: 12px;
   padding: 10px 0;
   color: $box-background;
   background-color: $gradient-green_dark;
@@ -203,16 +197,11 @@ img {
     margin: 0;
 
     li {
-      border: none;
-
       a {
         color: $box-background;
         text-decoration: none;
       }
     }
-  }
-  ul.pager li {
-    margin: 0;
   }
 }
 
@@ -357,7 +346,7 @@ img {
 
 #block-menu-menu-footer-navigation  {
   margin-top: 100px;
-  margin-bottom: -123px;
+  margin-bottom: -120px;
   position: relative;
   z-index: 200;
   width: 100%;
@@ -404,7 +393,11 @@ img {
 
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
+<<<<<<< HEAD
   background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+=======
+  background: url('../images/temp-go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+>>>>>>> Add the display of the temp image for the go to sections in the footer.
   p {
     font-weight: bold;
     padding: 0.2em 27px 0.2em 0;

@@ -34,10 +34,6 @@ ul.quicktabs-tabs li {
     padding: 0;
   }
 
-  h3{
-    padding: 0.5em 0;
-  }
-
   ul {
     padding: 0;
 
@@ -88,14 +84,16 @@ ul.quicktabs-tabs li {
     float: left;
     margin: 5px 2%;
     width: 96%;
-    padding: 0.5em 0;
   }
 
   .quicktab-block__body {
     display: block;
     margin: 5px 2%;
     width: 96%;
-    padding: 0.5em 0;
+  }
+
+  .quicktab-block__body p {
+    display: inline;
   }
 
   .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
@@ -128,6 +126,7 @@ ul.quicktabs-tabs li {
   }
 }
 
+<<<<<<< HEAD
 .quicktab-block__academics {
   ul.quicktabs-tabs li {
     width: 20%;
@@ -143,6 +142,12 @@ ul.quicktabs-tabs li {
       }
     }
 
+=======
+.quicktab-block__future {
+  ul.quicktabs-tabs li {
+    width: 20%;
+
+>>>>>>> Updated the Future and Academics to have css for each to have the width correct for each page and going forward for additional sections.
     a {
       min-height: 48px;
     }

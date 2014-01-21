@@ -4,26 +4,32 @@
  */
 $zen-column-count: 1;
 
-.node-type-divisons blockquote {
-  margin-left: 17px;
-  marging-right: 17px;
-  p {
-    background: url('../images/quote.png') no-repeat left 11px transparent;
+.node-type-divisons {
+  h1#page-title {
+    display: none;
+  }
+
+  blockquote {
+    margin-left: 17px;
+    marging-right: 17px;
+    p {
+      background: url('../images/quote.png') no-repeat left 11px transparent;
+      padding: 0.5em 15px 0.5em 25px;
+    }
   }
 }
 
-.pane-divisons-division-side-menu {
-  h3 {
-    font-weight: normal;
-    padding: 0.5em 10px;
-  }
-  ul {
-    border-bottom: 1px solid #dcd8ad;
-    list-style: none outside none;
-    margin: 0 10px 1em;
+
+.node-type-divisons .ui-accordion .field-content {
+  padding: 0;
+
+  .item-list {
+    background: none;
     padding: 0 7px 10px;
+    color: #222;
     li {
-        padding: 0 5px;
+      list-style: none;
+      margin: 0 0 0.25em;
     }
   }
 }
@@ -40,11 +46,6 @@ $zen-column-count: 1;
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
-  
-  .pane-divisons-division-side-menu ul li {
-    font-size: 12px;
-    padding: 0;
-  }
 }
 
 @media all and (min-width: 960px) { //HARD BREAKPOINT
