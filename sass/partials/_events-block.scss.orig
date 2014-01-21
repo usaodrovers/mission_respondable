@@ -34,7 +34,6 @@ $zen-column-count: 1;
 
 .event-location {
   @include font-myriadprocondensed_semibold-italic;
-  line-height: 18px;
 }
 
 .event-date {
@@ -43,13 +42,10 @@ $zen-column-count: 1;
 
 .event-block {
     
-<<<<<<< Updated upstream
   .view-content {
     margin: 0 10px;
   }
 
-=======
->>>>>>> Stashed changes
   .event-date {
     border: 1px solid $gradient-green_dark;
     height: 48px;
@@ -89,17 +85,18 @@ $zen-column-count: 1;
     }
   }
 
-  img {
-    float: left;
-    padding-right: 10px;
-  }
-
   h3 {
-    padding: 0;
+    padding: .75em 0px;
+<<<<<<< HEAD
+=======
     font-weight: normal;
+
+    &.field-content a {
+      font-weight: bold;
+    }
+>>>>>>> staging
   }
 
-<<<<<<< Updated upstream
   .view-content ul {
     list-style: none;
     padding: 0;
@@ -108,14 +105,11 @@ $zen-column-count: 1;
     li {
       padding: 15px 0;
       clear: both;
-=======
-  ul {
-
-    li {
-      margin: 10px 0;
->>>>>>> Stashed changes
     }
 
+    p {
+      padding: .75em 0;
+    }
   }
 }
 

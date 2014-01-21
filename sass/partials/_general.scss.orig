@@ -92,7 +92,11 @@ img {
 
 .menu__vertical {
   ul {
+<<<<<<< HEAD
+    margin: 10px 0 1.5em;
+=======
     margin: 10px 0;
+>>>>>>> staging
     padding: 0 15px;
 
     li {
