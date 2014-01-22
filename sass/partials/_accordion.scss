@@ -5,7 +5,7 @@
       margin-top: -7px;
     }
     a {
-      padding: 0.3em 0.5em 0.3em 15px;
+      padding: 0.3em 0.5em 0.3em 0.5em;
     }
   }
   .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -45,10 +45,24 @@
     border-radius: 0;
     border-right: medium none;
     margin: -2px 10px 2px;
-    padding: 0 0 5px 20px;
+    padding: 0 0 5px;
      a {
       color: $primary-nav;
     }
+    .views-field-edit-node {
+      display: none;
+      padding: 5px 0;
+    }
+  }
+  .ui-widget-content .views-row:nth-last-child(1) {
+    .views-field-edit-node {
+      display: inherit;
+    }
+  }
+  .field-content {
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px 0;
   }
   .ui-icon-triangle-1-e {
     background-position: -16px -129px;
@@ -56,11 +70,56 @@
   .ui-icon-triangle-1-s {
     background-position: -48px -129px;
   }
+  .views-field-title {
+    font-size: 0.8em;
+    @include font-myriadprocondensed;
+  }
 }
 
-.l-box .ui-accordion h3 {
-  border-bottom: 1px solid $divider;
-  border-radius: 0;
-  margin: 0 10px;
+.l-box .ui-accordion {
+  h3 {
+    border-bottom: 1px solid $divider;
+    border-radius: 0;
+    margin: 0 10px;
+    font-weight: normal;
+    padding: 5px 8px;
+    @include font-myriadprocondensed;
+  }
+}
+
+body .l-box .ui-accordion p{//Temp for Majors and Divisons till Majors get created.
   padding: 0;
+}
+
+@media all and (min-width: 481px) { //HARD BREAKPOINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+}
+
+@media all and (min-width: 651px) { //HARD BREAKPOINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+  
+  .ui-accordion .field-content {
+    font-size: 12px;
+  }
+
+  .l-box .ui-accordion field-edit-node {
+    font-size: 12px;
+  }
+
+  body .l-box .ui-accordion p{//Temp for Majors and Divisons till Majors get created.
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 960px) { //HARD BREAKPOINT
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+  $zen-column-count: 12;
 }

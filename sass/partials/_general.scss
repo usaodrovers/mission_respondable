@@ -13,7 +13,9 @@ html, button, input, select, textarea {
   color: $body_text;
   font-size: 16px;
   line-height: 24px;
-}27pxhtml, body {
+}
+
+html, body {
   min-width: 100%;
 }
 
@@ -86,7 +88,7 @@ img {
 
 .menu__vertical {
   ul {
-    margin: 10px 0 1.5em;
+    margin: 10px 0;
     padding: 0 15px;
 
     li {
@@ -159,14 +161,7 @@ img {
 }
 
 .mission-statement {
-  @include font-myriadpro_italic;
-  font-size: 14px;
-  color: $topbar-link_color;
-  background-color: $gradient-green_dark;
-  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: -5px;
 }
 
 .breadcrumb {display: none;}
