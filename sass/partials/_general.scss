@@ -57,14 +57,17 @@ img {
  */
 
 .l-box,
-.node-type-basic-page #content,
-.page-user #content {
+.page-user #content, .page-eform form {
   background-color: $box-background;
 
-  p, h3, h2, .webform-component {
+  p, h3, h2, .webform-component, .form-wrapper .form-item {
     padding: .5em 15px;
     margin: 0;
     font-size: 16px;
+  }
+
+  ol, ul {
+    padding: 0 30px;
   }
 }
 
@@ -133,6 +136,10 @@ img {
   text-align: center;
 }
 
+.html .clear {
+  clear: both;
+}
+
 .attention {
   color: $attention-gold;
 }
@@ -193,6 +200,10 @@ img {
       }
     }
   }
+}
+
+.node-type-clubs-orgs .panel-pane {
+  margin-bottom: 0;
 }
 
 .item-list {
@@ -287,6 +298,9 @@ img {
   
   #main-menu {
     display: none;
+    &:focus {
+      outline: none;
+    }
   }
 
   li a {
@@ -464,7 +478,12 @@ img {
   body {
     background: url("../images/pretties.png") no-repeat center top;
     background-color: $background;
+
+    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
+      background: url('');
+    }
   }
+
 
   #logo {
     border: none;
@@ -503,13 +522,13 @@ img {
   }
 
    .l-content-right {
-      @include zen-grid-item(3, 1, right);
-    @include zen-clear(right);
+     @include zen-grid-item(3, 1, right);
+     @include zen-clear(right);
    }
 
    .l-content-left {
-      @include zen-grid-item(3.1, 1);
-      @include zen-clear(left);
+     @include zen-grid-item(3.1, 1);
+     @include zen-clear(left);
    }
 
    .l-sidebar-left {
@@ -518,9 +537,63 @@ img {
    }
 
    .l-sidebar-right {
-     @include zen-grid-item(1.78, 4.22);
+     @include zen-grid-item(1.6, 4.22);
      @include zen-clear(right);
    }
+
+   .l-half-right {
+     @include zen-grid-item(2.5, 1, right);
+     @include zen-clear(right);
+
+     .field-label {
+       padding-left: 10px;
+     }
+   }
+
+   .l-half-left {
+     @include zen-grid-item(2.5, 1, left);
+     @include zen-clear(left);
+
+     .field-label {
+       padding-right: 10px;
+     }
+   }
+
+   .l-half-right__pad {
+     @include zen-grid-item(2.4, 1, right);
+     @include zen-clear(right);
+   }
+
+   .l-half-left__pad {
+     @include zen-grid-item(2.4, 1, left);
+     @include zen-clear(left);
+   }
+
+   .l-3col-left {
+     @include zen-grid-item(1.5, 1);
+     @include zen-clear(left);
+     
+     .item-list .pager li {
+       padding: 0;
+     }
+   }
+
+   .l-3col-center {
+     @include zen-grid-item(1.6, 2.7);
+     
+     .item-list .pager li {
+       padding: 0;
+     }
+   }
+
+   .l-3col-right {
+     @include zen-grid-item(1.5, 4.5);
+     
+     .item-list .pager li {
+       padding: 0;
+     }
+   }
+
  }
 
 @media all and (min-width: 960px) {

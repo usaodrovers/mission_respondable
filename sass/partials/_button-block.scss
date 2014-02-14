@@ -8,14 +8,13 @@
 .button-block__link {
   width: 100%;
   margin-bottom: 15px;
-  padding: 20px 0 0;
+  padding: 20px 0;
   list-style: none;
   color: $attention-gold;
   text-align: center;
   border: 2px solid $background;
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   text-decoration: none;
-  height: 41px;
   display: inline-block;
 
   &.last {
@@ -26,7 +25,6 @@
     border: 2px solid $attention-gold;
   }
 }
-
 
 @media all and (min-width: 481px) { //HARD BREAK POINT  Tablet 1
   /*
@@ -40,6 +38,13 @@
    * Use 5 grid columns for smaller screens.
    */
   $zen-column-count: 5;
+
+  .current-students .button-block__link {
+    &.last {
+      padding-top: 8px;
+      padding-bottom: 7px;
+    }
+  }
 	
   .button-block {
     @include zen-clear();
@@ -48,7 +53,8 @@
 
     .button-block__link {
       @include zen-grid-item(1.55, 2.7);
-      height: 43px;
+      min-height: 43px;
+      padding: 20px 0 0;
 
       &.first {
         @include zen-grid-item(1.55, 1);

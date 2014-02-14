@@ -92,6 +92,10 @@ $zen-column-count: 1;
     &.field-content a {
       font-weight: bold;
     }
+
+    span {
+      @include font-myriadprocondensed;
+    }
   }
 
   .view-content ul {
