@@ -429,6 +429,21 @@ img {
     width: 100%;
 }
 
+// Themeing for the Majors by Division block
+.view-display-id-division_side_menu .ui-accordion .field-content {
+  padding: 0;
+
+  .item-list {
+    background: none;
+    padding: 0 7px 10px;
+    color: #222;
+    li {
+      list-style: none;
+      margin: 0 0 0.25em;
+    }
+  }
+}
+
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
   background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
