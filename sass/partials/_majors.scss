@@ -4,6 +4,10 @@
  */
 $zen-column-count: 1;
 
+.node-type-major h1.page__title {
+  display: none;
+}
+
 .pane-majors-major-courses {
   h3 {
     font-size: 12.8px;
