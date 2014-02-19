@@ -118,7 +118,8 @@ img {
         padding: 5px 15px;
       }
 
-      &.views-row-last {
+      &.views-row-last,
+      &:nth-last-child(1) {
         border-bottom: none;
       }
     }
