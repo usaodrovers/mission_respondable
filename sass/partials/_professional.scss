@@ -14,7 +14,14 @@ $zen-column-count: 1;
   }
   .views-field-name {
     background: none;
+    h1 {
+      background: none;
+    }
   }
+}
+
+.professional-content-block {
+  margin-bottom: 0;
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
