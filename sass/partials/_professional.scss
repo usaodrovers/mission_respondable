@@ -7,6 +7,7 @@ $zen-column-count: 1;
 .split-box-green {
   background-color: #097161;
   color: $box-background;
+  font-weight: bold;
 
   img {
     float: left;
@@ -22,6 +23,12 @@ $zen-column-count: 1;
 
 .professional-content-block {
   margin-bottom: 0;
+}
+
+node-type-professionals.panel-pane h2.pane-title {
+  background: none;
+  @include font-myriadprocondensed;
+  font-size: 32px;
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
