@@ -27,6 +27,7 @@ $zen-column-count: 1;
 
 .node-type-professionals .panel-pane h2.pane-title {
   background: none;
+  color: $primary-nav;
   @include font-myriadprocondensed;
   font-size: 32px;
 }
