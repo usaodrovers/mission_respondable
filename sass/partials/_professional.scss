@@ -50,7 +50,7 @@ $zen-column-count: 1;
     width: 306px;
   }
 
-  .l-float-left:nth-child(2n + 1) {
+  .l-float-left:nth-child(2n) {
     clear: left;
     margin-right: 10px;
   }
