@@ -5,38 +5,17 @@
 $zen-column-count: 1;
 
 .split-box-green {
-  background-color: #097161;
-  color: $box-background;
   font-weight: bold;
 
   img {
     float: left;
     padding-right: 15px
   }
-  .views-field-name {
-    background: none;
-    h1 {
-      background: none;
-    }
-  }
-  a {
-    color: $box-background;
-  }
-}
-
-.professional-content-block {
-  margin-bottom: 0;
 }
 
 .node-type-professionals {
   h1#page-title {
     display: none;
-  }
-  .panel-pane h2.pane-title {
-    background: none;
-    color: $primary-nav;
-    @include font-myriadprocondensed;
-    font-size: 32px;
   }
 }
 
