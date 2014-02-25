@@ -28,11 +28,16 @@ $zen-column-count: 1;
   margin-bottom: 0;
 }
 
-.node-type-professionals .panel-pane h2.pane-title {
-  background: none;
-  color: $primary-nav;
-  @include font-myriadprocondensed;
-  font-size: 32px;
+.node-type-professionals
+  h1#page-title {
+    display: none;
+  }
+  .panel-pane h2.pane-title {
+    background: none;
+    color: $primary-nav;
+    @include font-myriadprocondensed;
+    font-size: 32px;
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
