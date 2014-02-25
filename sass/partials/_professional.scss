@@ -37,7 +37,7 @@ $zen-column-count: 1;
     width: 306px;
   }
 
-  .l-float-left:nth-child(2n) {
+  .l-float-left:nth-child(2n + 1) {
     clear: left;
     margin-right: 10px;
   }
