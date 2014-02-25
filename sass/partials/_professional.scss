@@ -17,6 +17,11 @@ $zen-column-count: 1;
   h1#page-title {
     display: none;
   }
+
+  .l-box ol, .l-box ul {
+    margin: 0;
+    padding: 1em 30px;
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
