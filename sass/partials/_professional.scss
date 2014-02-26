@@ -23,10 +23,12 @@ $zen-column-count: 1;
     padding: 1em 30px;
   }
   
-  .field-name-field-prof-courses {
-    padding: .5em 15px;
-    margin: 0;
-    font-size: 16px;
+  .item-list {
+    background: none;
+    color: $body_text;
+    a {
+      color: $primary-nav;
+    }
   }
 }
 
