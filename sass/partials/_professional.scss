@@ -22,6 +22,12 @@ $zen-column-count: 1;
     margin: 0;
     padding: 1em 30px;
   }
+  
+  .field-name-field-prof-courses {
+    padding: .5em 15px;
+    margin: 0;
+    font-size: 16px;
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
