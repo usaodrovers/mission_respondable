@@ -52,6 +52,8 @@ img {
   display: block;
 }
 
+
+
 /*
  * Layout
  */
@@ -60,7 +62,7 @@ img {
 .page-user #content, .page-eform form {
   background-color: $box-background;
 
-  p, h3, h2, .webform-component, .form-wrapper .form-item {
+  p, h3, h2, .webform-component, .form-wrapper .form-item, .field-type-link-field {
     padding: .5em 15px;
     margin: 0;
     font-size: 16px;
