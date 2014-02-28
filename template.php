@@ -43,6 +43,7 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
 
 
   // The body tag's classes are controlled by the $classes_array variable. To
