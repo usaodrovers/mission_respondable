@@ -30,6 +30,19 @@ $zen-column-count: 1;
 .pane-professional-professional-image-gallery,
 .pane-professional-professional-video-gallery {
   clear: both;
+  
+  .field-content {
+    padding: 0.5em 15px;
+  }
+  table {
+    margin: 0;
+    td {
+      text-align: center;
+      h3 {
+        padding: 0;
+      }
+    }
+  }
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
