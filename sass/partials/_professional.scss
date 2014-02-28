@@ -27,6 +27,11 @@ $zen-column-count: 1;
   }
 }
 
+.pane-professional-professional-image-gallery,
+.pane-professional-professional-video-gallery {
+  clear: both;
+}
+
 @media all and (min-width: 481px) { //HARD BREAKPOINT
   /*
    * Use 3 grid columns for special layouts on smaller screens.
