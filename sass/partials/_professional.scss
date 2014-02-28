@@ -31,7 +31,7 @@ $zen-column-count: 1;
 .pane-professional-professional-video-gallery {
   clear: both;
   
-  .field-content {
+  .view-content {
     padding: 0.5em 15px;
   }
   table {
@@ -39,9 +39,6 @@ $zen-column-count: 1;
     td {
       text-align: center;
       padding: 3px;
-      .field-content {
-        padding: 0;
-      }
       h3 {
         padding: 0;
       }
