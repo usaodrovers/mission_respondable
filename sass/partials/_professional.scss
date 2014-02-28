@@ -39,6 +39,9 @@ $zen-column-count: 1;
     td {
       text-align: center;
       padding: 3px;
+      .field-content {
+        padding: 0;
+      }
       h3 {
         padding: 0;
       }
