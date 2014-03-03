@@ -37,14 +37,21 @@ $zen-column-count: 1;
   }
   table {
     margin: 0;
+    width: 100%;
     td {
+      display: block;
+      float: left;
       text-align: center;
-      padding: 3px;
+      width: 100%;
       h3 {
         padding: 0;
       }
     }
   }
+}
+  
+.l-float-left {
+  margin-bottom: 15px;
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
@@ -52,6 +59,14 @@ $zen-column-count: 1;
    * Use 3 grid columns for special layouts on smaller screens.
    */
   $zen-column-count: 3;
+  
+  .pane-professional-professional-image-gallery table.cols-4 td,
+  .pane-professional-professional-video-gallery table.cols-4 td,
+  .pane-professional-image-gallery table.cols-4 td {
+    display: block;
+    float: left;
+    width: 25%;
+  }
 }
 
 @media all and (min-width: 651px) { //HARD BREAKPOINT
@@ -62,13 +77,27 @@ $zen-column-count: 1;
   
   .l-float-left {
     float: left;
-    margin-bottom: 15px;
-    width: 306px;
+    width: 296px;
   }
 
   .l-float-left:nth-child(2n + 1) {
     clear: left;
     margin-right: 10px;
+  }
+  
+  .pane-professional-professional-image-gallery table,
+  .pane-professional-professional-video-gallery table,
+  .pane-professional-image-gallery table {
+    &.cols-4 td {
+      display: block;
+      float: left;
+      width: 25%;
+    }
+    &.cols-2 td {
+      display: block;
+      float: left;
+      width: 50%;
+    }
   }
 }
 
@@ -77,4 +106,8 @@ $zen-column-count: 1;
    * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
+  
+  .l-float-left {
+    width: 306px;
+  }
 }
