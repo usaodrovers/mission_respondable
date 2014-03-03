@@ -42,6 +42,7 @@ $zen-column-count: 1;
       display: block;
       float: left;
       text-align: center;
+      padding: 0 1%;
       width: 100%;
       h3 {
         padding: 0;
@@ -65,7 +66,7 @@ $zen-column-count: 1;
   .pane-professional-image-gallery table.cols-4 td {
     display: block;
     float: left;
-    width: 25%;
+    width: 48%;
   }
 }
 
@@ -91,12 +92,12 @@ $zen-column-count: 1;
     &.cols-4 td {
       display: block;
       float: left;
-      width: 25%;
+      width: 23%;
     }
     &.cols-2 td {
       display: block;
       float: left;
-      width: 50%;
+      width: 48%;
     }
   }
 }
