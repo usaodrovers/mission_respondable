@@ -25,6 +25,24 @@ $zen-column-count: 1;
       color: $primary-nav;
     }
   }
+  .pane-professional-professional-info {
+    .views-field {
+      padding: 0 10px;
+    }
+    .views-field-field-prof-photo,
+    .views-field-name {
+      padding: 0;
+    }
+    .views-field-field-prof-social-links .item-list {
+      ul {
+        padding: 0;
+        li {
+          margin: 0;
+          list-style: none;
+        }
+      }
+    }
+  }
 }
 
 .pane-professional-professional-image-gallery,
@@ -77,21 +95,22 @@ $zen-column-count: 1;
 }
 
 @media all and (min-width: 481px) and (max-width: 651px) {
-  .pane-professional-professional-image-gallery,
-  .pane-professional-professional-video-gallery,
-  .pane-professional-image-gallery {
-    table.cols-4 td:nth-child(2n+1) {
-      clear: both;
-    }
-  }
-  .pane-professional-professional-image-gallery,
-  .pane-professional-professional-video-gallery,
-  .pane-professional-image-gallery {
+  .pane-professional-professional-image-gallery {
     table.cols-4 tr.row-last td{
       &:nth-child(3),
       &:nth-child(4) {
         margin-bottom: 0;
       }
+    }
+  }
+  .pane-professional-professional-video-gallery {
+    table td:nth-child(2) {
+      clear: both;
+    }
+  }
+  .pane-professional-image-gallery {
+    table.cols-4 td:nth-child(2n+1) {
+      clear: both;
     }
   }
 }
@@ -115,11 +134,23 @@ $zen-column-count: 1;
   .pane-professional-professional-image-gallery,
   .pane-professional-professional-video-gallery,
   .pane-professional-image-gallery {
-    table.cols-4 {
+    &.cols-4 {
       td {
         display: block;
         float: left;
         width: 23%;
+      }
+      tr.row-last {
+        td {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &.cols-2 {
+      td {
+        display: block;
+        float: left;
+        width: 48%;
       }
       tr.row-last {
         td {
@@ -138,15 +169,5 @@ $zen-column-count: 1;
   
   .l-float-left {
     width: 306px;
-  }
-
-  .pane-professional-professional-image-gallery,
-  .pane-professional-professional-video-gallery,
-  .pane-professional-image-gallery {
-    table.cols-2 td {
-      display: block;
-      float: left;
-      width: 48%;
-    }
   }
 }
