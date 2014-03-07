@@ -47,6 +47,24 @@
   }
 }
 
+.page-directory {
+  h1#page-title {
+    margin: 0;
+  }
+  .pane-directory-directory {
+    padding: 10px;
+  }
+  .views-exposed-widgets {
+    font-size: 12px;
+  }
+  
+  .views-row {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 @media all and (min-width: 481px) { //HARD BREAK POINT
   .directory__photo {
     img {
