@@ -55,18 +55,9 @@
   .pane-directory-directory {
     padding: 10px;
   }
-  .views-exposed-widgets {
+  #views-exposed-form-directory-directory .views-exposed-widget {
     font-size: 12px;
-  }
-  
-  .views-row {
-    border-bottom: 1px solid;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    .views-field-field-prof-photo {
-      float: left;
-      margin-right: 5
-    }
+    line-height: 19px;
   }
 }
 
