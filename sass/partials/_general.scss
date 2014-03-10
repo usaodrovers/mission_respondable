@@ -52,6 +52,11 @@ img {
   display: block;
 }
 
+// Need relative on all panel displays to allow dyanmic repositioning.
+.panel-display {
+  position: relative;
+}
+
 
 
 /*
