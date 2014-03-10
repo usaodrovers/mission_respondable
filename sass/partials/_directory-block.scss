@@ -54,6 +54,10 @@
   }
   .pane-directory-directory {
     padding: 10px;
+    ul {
+      border-bottom: 1px solid $body_text;
+      padding-bottom: 10px;
+    }
   }
   #views-exposed-form-directory-directory .views-exposed-widget {
     font-size: 12px;
