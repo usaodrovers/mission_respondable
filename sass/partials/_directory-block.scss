@@ -57,6 +57,10 @@
     ul {
       border-bottom: 1px solid $body_text;
       padding-bottom: 10px;
+      &:nth-last-child(1) {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
     }
   }
   .views-exposed-widget {
