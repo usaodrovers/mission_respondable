@@ -75,6 +75,15 @@
   }
 }
 
+.page-directory-sort-admin {
+  table {
+    width: 100%;
+  }
+  .draggable a.tabledrag-handle {
+    margin-left: 0;
+  }
+}
+
 @media all and (min-width: 481px) { //HARD BREAK POINT
   .directory__photo {
     img {
