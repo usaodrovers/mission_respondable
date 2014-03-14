@@ -79,13 +79,12 @@ jQuery(window).load(function (){
     }
   }
   function worx_footer_fix(lPos, rPos, column) {
-    var column = column;
     var top = jQuery('.p-box-full').height();
     if (lPos >= rPos) {
-      jQuery("#main").height(top + lPos + 100);
+      jQuery("#main").height(column + top + lPos + 100);
     }
     else {
-      jQuery("#main").height(top + rPos + 100);
+      jQuery("#main").height(column + top + rPos + 100);
     }
   }
 });
