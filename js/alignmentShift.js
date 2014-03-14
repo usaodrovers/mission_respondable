@@ -5,23 +5,23 @@ jQuery(window).load(function (){
   var ccPos = 0
   var rcPos = 0
   if (screen.width > 850){
-    jQuery('.panel-flexible .l-sidebar-left').each(function(i, j){
+    jQuery('.panel-flexible .p-box-column .l-sidebar-left').each(function(i, j){
       var side = 'left';
       worx_resizer(i, j, side);
     });
-    jQuery('.panel-flexible .l-content-right').each(function(i, j){
+    jQuery('.panel-flexible .p-box-column .l-content-right').each(function(i, j){
       var side = 'right';
       worx_resizer(i, j, side);
     });
-    jQuery('.panel-flexible .l-3col-left').each(function(i, j){
+    jQuery('.panel-flexible .p-box-column .l-3col-left').each(function(i, j){
       var side = 'leftc';
       worx_resizer(i, j, side);
     });
-    jQuery('.panel-flexible .l-3col-center').each(function(i, j){
+    jQuery('.panel-flexible .p-box-column .l-3col-center').each(function(i, j){
       var side = 'centerc';
       worx_resizer(i, j, side);
     });
-    jQuery('.panel-flexible .l-3col-right').each(function(i, j){
+    jQuery('.panel-flexible .p-box-column .l-3col-right').each(function(i, j){
       var side = 'rightc';
       worx_resizer(i, j, side);
     });
