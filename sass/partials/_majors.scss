@@ -8,19 +8,34 @@ $zen-column-count: 1;
   display: none;
 }
 
-.pane-majors-major-courses {
+.pane-majors-major-courses,
+.pane-major-courses {
+  .panel-pane {
+    margin-bottom: 10px;
+  }
+  
   h3 {
-    font-size: 12.8px;
-    color: $primary-nav;
+    font-size: 12px;
   }
   
   table {
-    font-size: 0.8em;
-    line-height: 14px;
+    font-size: 11px;
+    line-height: 13px;
     margin: 0.5em 15px 1em;
     width: 177px !important;
     tbody {
       border: none;
+      tr {
+        background: none;
+        border-bottom: 1px solid $body_text;
+        p {
+          font-size: 9px;
+          padding: 0.5em 0;
+        }
+        &:nth-last-child(1) {
+          border-bottom: none;
+        }
+      }
     }
     h3 {
       padding: 0
