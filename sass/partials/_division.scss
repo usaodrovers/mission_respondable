@@ -4,10 +4,8 @@
  */
 $zen-column-count: 1;
 
-.node-type-divisons {
-  h1#page-title {
-    display: none;
-  }
+.node-type-divisons h1#page-title {
+  display: none;
 }
 
 @media all and (min-width: 481px) { //HARD BREAKPOINT
