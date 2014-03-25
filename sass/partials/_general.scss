@@ -52,12 +52,15 @@ img {
   display: block;
 }
 
+// Pager fix
+.item-list .pager ul li {
+  margin: 0;
+}
+
 // Need relative on all panel displays to allow dyanmic repositioning.
 .p-box-column {
   position: relative;
 }
-
-
 
 /*
  * Layout
