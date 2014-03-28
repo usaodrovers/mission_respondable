@@ -99,7 +99,9 @@ jQuery(window).load(function (){
 
   jQuery(document).ajaxSuccess(function() {
     when_content_loaded( jQuery('#someElement'), function() {
-      worx_resize_select();
+      setTimeout(function() {
+        worx_resize_select()
+      }, 200);
     });
   });
 
