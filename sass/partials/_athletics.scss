@@ -1,9 +1,11 @@
-.page-athletics #content {
-  max-width: 954px;
-  border-left: 3px solid #FFFFFF;
-  border-right: 3px solid #FFFFFF;
-}
+.page-athletics {
+  #content {
+    max-width: 1024px;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+  }
 
-.page-athletics #main {
-  background: url("../images/athletics-bkg.png");
+  #main {
+    background: url("../images/athletics-bkg.png");
+  }
 }
