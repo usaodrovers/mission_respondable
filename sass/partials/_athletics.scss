@@ -5,7 +5,27 @@
     border-right: 3px solid #FFFFFF;
   }
 
+  #page-title {
+    margin: 0;
+  }
+
   #main {
     background: url("../images/athletics-bkg.png");
+  }
+
+  .pane-menu-menu-athletics .pane-title {
+    @include font-galette;
+    color: #575757;
+    font-size: 44px;
+    left: -487px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    top: 439px;
+    transform: rotate(-90deg);
+    background-color: #FFEFBC;
+    box-shadow: 3px 1px 3px #999999 inset;
   }
 }
