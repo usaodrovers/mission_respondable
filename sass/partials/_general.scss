@@ -318,8 +318,13 @@ img {
   
   #main-menu {
     display: none;
+    text-align: center;
     &:focus {
       outline: none;
+    }
+
+    li {
+      display: inline;
     }
   }
 
