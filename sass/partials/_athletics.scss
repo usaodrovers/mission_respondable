@@ -13,19 +13,39 @@
     background: url("../images/athletics-bkg.png");
   }
 
-  .pane-menu-menu-athletics .pane-title {
-    @include font-galette;
-    background-color: #FFEFBC;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 4%);
-    color: #575757;
-    font-size: 44px;
-    left: -487px;
-    margin: 0;
-    padding: 0 10px 0 0;
+  .pane-menu-menu-athletics {
     position: relative;
-    text-align: right;
-    text-transform: uppercase;
-    top: 439px;
-    transform: rotate(-90deg);
+
+    .pane-title {
+      @include font-galette;
+      background-color: #FFEFBC;
+      background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 4%);
+      color: #575757;
+      font-size: 44px;
+      left: -487px;
+      margin: 0;
+      padding: 0 10px 0 0;
+      position: relative;
+      text-align: right;
+      text-transform: uppercase;
+      top: 439px;
+      transform: rotate(-90deg);
+    }
+
+    .menu {
+      left: 0;
+      margin: 0;
+      padding: 0 0 0 43px;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  #navigation {
+    padding: 12px 0;
+    margin-top: 0;
+    background-color: #007362;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 10%), linear-gradient(to bottom, rgba(0,0,0,0) 90%,rgba(0,0,0,0.65) 100%);
+    box-shadow: 3px 0 5px inset;
   }
 }
