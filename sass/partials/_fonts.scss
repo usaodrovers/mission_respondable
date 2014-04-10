@@ -54,4 +54,5 @@ $font-galette: "galette-1","galette-2",sans-serif;
 
 @mixin font-galette {
   font-family: $font-galette;
+  text-transform: uppercase;
 }
