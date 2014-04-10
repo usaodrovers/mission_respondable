@@ -77,10 +77,26 @@
 
   .pane-menu-menu-athletics-media {
     @include font-galette;
+    width: 184px;
+    padding-left: 44px;
 
     .menu {
       background-color: #3C4B40;
-      padding: 0 0 0 44px;
+      margin-top: 8px;
+      padding: 0;
+
+      li.first {
+        background-color: #A4A938;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 10px #857A1D inset;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+      }
+
+      a {
+        color: #FEEFAD;
+      }
     }
   }
 
