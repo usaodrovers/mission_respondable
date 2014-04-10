@@ -7,6 +7,7 @@
   }
 
   #page-title {
+    @include font-galette;
     background-color: #797979;
     background-image: none;
     color: #FFEFBC;
@@ -27,6 +28,7 @@
   }
 
   .pane-menu-menu-athletics {
+    @include font-galette;
     position: relative;
 
     .pane-title {
@@ -47,11 +49,12 @@
     }
 
     .menu {
-      left: 0;
+      left: 1px;
       margin: 0;
       padding: 0 0 0 43px;
       position: absolute;
       top: -44px;
+
     }
   }
 
