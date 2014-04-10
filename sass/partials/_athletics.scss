@@ -49,14 +49,22 @@
     }
 
     .menu {
+      background-color: #3C4B40;
       left: 1px;
       margin: 0;
       padding: 0 0 0 43px;
       position: absolute;
       top: -44px;
 
+      li {
+        width: 184px;
+      }
+
       a {
+        border-bottom: 2px solid #797979;
         color: #FEEFAD;
+        display: block;
+        padding: 3px 0 3px 20px;
       }
     }
   }
