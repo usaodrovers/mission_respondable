@@ -10,6 +10,7 @@
     @include font-galette;
     background-color: #797979;
     background-image: none;
+    border-top: 2px solid #81B7B1;
     color: #FFEFBC;
     font-size: 1.433em;
     left: -250px;               // This is a place holder left adjustment. We will put the real number in after we have tested.
@@ -58,6 +59,10 @@
 
       li {
         width: 184px;
+      }
+
+      .last a {
+        border-bottom-color: #81B7B1;
       }
 
       a {
