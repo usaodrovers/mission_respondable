@@ -43,6 +43,7 @@
       text-transform: uppercase;
       top: 439px;
       transform: rotate(-90deg);
+      z-index: 3;
     }
 
     .menu {
@@ -50,7 +51,7 @@
       margin: 0;
       padding: 0 0 0 43px;
       position: absolute;
-      top: 0;
+      top: -44px;
     }
   }
 
