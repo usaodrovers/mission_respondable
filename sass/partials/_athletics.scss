@@ -13,7 +13,7 @@
     border-top: 2px solid #81B7B1;
     color: #FFEFBC;
     font-size: 1.433em;
-    left: -250px;               // This is a place holder left adjustment. We will put the real number in after we have tested.
+    left: -263px;
     letter-spacing: 4px;
     margin: 0;
     padding: 0 10px 0 0;
@@ -31,6 +31,7 @@
   .pane-menu-menu-athletics {
     @include font-galette;
     position: relative;
+    margin: 0;
 
     .pane-title {
       @include font-galette;
