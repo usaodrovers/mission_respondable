@@ -77,12 +77,9 @@
 
   .pane-menu-menu-athletics-media {
     @include font-galette;
-    position: relative;
-    top: -16px;
 
     .menu {
       background-color: #3C4B40;
-      margin: 0;
       padding: 0 0 0 44px;
     }
   }
