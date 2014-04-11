@@ -86,13 +86,21 @@
       margin-top: 8px;
       padding: 0;
 
-      li.first {
-        background-color: #A4A938;
+      li {
         border-radius: 10px;
-        box-shadow: 0 0 10px 10px #857A1D inset;
         margin: 5px;
         padding: 5px;
         text-align: center;
+      }
+
+      .first {
+        background-color: #A4A938;
+        box-shadow: 0 0 10px 10px #857A1D inset;
+      }
+
+      .last {
+        background-color: #007161;
+        box-shadow: 0 0 10px 10px #00502E inset;
       }
 
       a {
