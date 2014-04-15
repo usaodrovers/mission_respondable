@@ -126,11 +126,24 @@
     }
   }
 
+  .pane-athletics-news-panel-pane-1 {
+    left: 260px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+  }
+
   #navigation {
     @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 10%), linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.65) 100%));
     padding: 12px 0;
     margin-top: 0;
     background-color: #007362;
     box-shadow: 3px 0 5px inset;
+  }
+}
+
+.logged-in.page-athletics {
+  .pane-athletics-news-panel-pane-1 {
+    top: 10px;
   }
 }
