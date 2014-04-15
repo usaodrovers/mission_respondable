@@ -133,7 +133,7 @@
   .pane-athletics-news-panel-pane-1 {
     left: 264px;
     position: absolute;
-    top: 0;
+    top: -36px;
     width: 500px;
 
     .flexslider {
@@ -158,11 +158,5 @@
     margin-top: 0;
     background-color: #007362;
     box-shadow: 3px 0 5px inset;
-  }
-}
-
-.logged-in.page-athletics {
-  .pane-athletics-news-panel-pane-1 {
-    top: 10px;
   }
 }
