@@ -78,12 +78,13 @@
   .pane-menu-menu-athletics-media {
     @include font-galette;
     font-size: 18px;
+    margin-bottom: 0;
     padding-left: 44px;
     width: 184px;
 
     .menu {
       background-color: #3C4B40;
-      margin-top: 8px;
+      margin: 8px 0 0 0;
       padding: 10px 0;
 
       li {
