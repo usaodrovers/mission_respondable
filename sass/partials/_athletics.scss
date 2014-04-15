@@ -127,7 +127,7 @@
   }
 
   .pane-athletics-news-panel-pane-1 {
-    left: 260px;
+    left: 264px;
     position: absolute;
     top: 0;
     width: 500px;
@@ -135,6 +135,16 @@
     .flexslider {
       background: none;
       border: none;
+    }
+
+    .views-slideshow-controls-top {
+      position: absolute;
+      border: 1px solid red;
+
+      #views_slideshow_controls_text_previous_athletics_news-panel_pane_1,
+      #views_slideshow_controls_text_pause_athletics_news-panel_pane_1 {
+        display: none;
+      }
     }
   }
 
