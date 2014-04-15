@@ -28,6 +28,10 @@
     margin-top: 0;
   }
 
+  .panel-display {
+    position: relative;
+  }
+
   .pane-menu-menu-athletics {
     @include font-galette;
     position: relative;
