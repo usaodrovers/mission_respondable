@@ -134,11 +134,32 @@
     left: 264px;
     position: absolute;
     top: -36px;
-    width: 500px;
 
     .flexslider {
       background: none;
       border: none;
+
+      .views-field-field-news-image {
+        float: left;
+        width: 375px;
+      }
+
+      .views-field-title {
+        @include font-galette;
+        color: #FFD457;
+        font-size: 18px;
+        left: 15px;
+        position: relative;
+        top: 15px;
+      }
+
+      .views-field-body {
+        margin: 15px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 349px;
+      }
     }
 
     .views-slideshow-controls-top {
