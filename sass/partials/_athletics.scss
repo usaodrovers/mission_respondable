@@ -148,9 +148,7 @@
       .views-field-title {
         @include font-galette;
         font-size: 18px;
-        left: 15px;
-        position: relative;
-        top: 15px;
+        margin: 15px 0 0 15px;
 
         a {
           color: #FFD457;
