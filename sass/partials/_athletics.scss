@@ -136,9 +136,27 @@
     position: absolute;
     top: -36px;
 
+    .pane-title {
+      @include font-galette;
+      background: none;
+      color: #FFD457;
+      display: inline;
+      font-size: 18px;
+      height: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 349px;
+    }
+
     .flexslider {
       background: none;
       border: none;
+
+      .flex-direction-nav,
+      .flex-control-nav {
+        display: none;
+      }
 
       .views-field-field-news-image {
         float: left;
@@ -146,9 +164,8 @@
       }
 
       .views-field-title {
-        @include font-galette;
-        font-size: 18px;
-        margin: 15px 0 0 15px;
+        float: left;
+        margin: 35px 0 0 15px;
 
         a {
           color: #FFD457;
@@ -156,14 +173,17 @@
       }
 
       .views-field-body {
+        color: #FFEFBC;
         float: left;
         margin-left: 15px;
         width: 349px;
       }
 
       .views-field-view-node {
+        color: #FFEFBC;
         float: left;
         margin-left: 15px;
+        text-transform: uppercase;
       }
     }
 
