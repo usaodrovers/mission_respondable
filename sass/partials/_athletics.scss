@@ -161,6 +161,10 @@
       .views-field-field-news-image {
         float: left;
         width: 375px;
+
+        img {
+          border-radius: 0 0 25px 0;
+        }
       }
 
       .views-field-title {
