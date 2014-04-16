@@ -147,6 +147,7 @@
       right: 0;
       top: 0;
       width: 349px;
+      z-index: 10;
     }
 
     .flexslider {
@@ -164,8 +165,10 @@
       }
 
       .views-field-title {
+        background-color: #00483A;
         float: left;
-        margin: 35px 0 0 15px;
+        padding: 35px 15px 0 15px;
+        width: 349px;
 
         a {
           color: #FFD457;
@@ -173,9 +176,10 @@
       }
 
       .views-field-body {
+        background-color: #00483A;
         color: #FFEFBC;
         float: left;
-        margin-left: 15px;
+        padding: 0 15px;
         width: 349px;
 
         p:nth-child(1) {
@@ -184,9 +188,11 @@
       }
 
       .views-field-view-node {
+        background-color: #00483A;
         float: left;
-        margin-left: 15px;
+        padding: 0 15px 20px 15px;
         text-transform: uppercase;
+        width: 349px;
 
         a {
           color: #FFEFBC;
