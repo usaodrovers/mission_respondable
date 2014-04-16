@@ -177,13 +177,20 @@
         float: left;
         margin-left: 15px;
         width: 349px;
+
+        p:nth-child(1) {
+          margin-top: 10px;
+        }
       }
 
       .views-field-view-node {
-        color: #FFEFBC;
         float: left;
         margin-left: 15px;
         text-transform: uppercase;
+
+        a {
+          color: #FFEFBC;
+        }
       }
     }
 
