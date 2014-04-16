@@ -131,6 +131,7 @@
   }
 
   .pane-athletics-news-panel-pane-1 {
+    background-color: #00483A;
     left: 264px;
     position: absolute;
     top: -36px;
@@ -146,19 +147,25 @@
 
       .views-field-title {
         @include font-galette;
-        color: #FFD457;
         font-size: 18px;
         left: 15px;
         position: relative;
         top: 15px;
+
+        a {
+          color: #FFD457;
+        }
       }
 
       .views-field-body {
-        margin: 15px;
-        position: absolute;
-        right: 0;
-        top: 0;
+        float: left;
+        margin-left: 15px;
         width: 349px;
+      }
+
+      .views-field-view-node {
+        float: left;
+        margin-left: 15px;
       }
     }
 
