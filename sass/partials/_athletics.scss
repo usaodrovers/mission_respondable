@@ -218,10 +218,12 @@
   }
 
   .pane-athletics-blurbs-panel-pane-1 {
+    @include font-old-athletics;
     background-color: #FFD457;
     border: 3px solid #FFFFFF;
     border-radius: 18px 0 0 18px / 100px 0 0 100px;
     border-right: none;
+    height: 207px;
     position: absolute;
     right: 0;
     top: 197px;

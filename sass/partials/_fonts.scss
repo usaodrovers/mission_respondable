@@ -3,6 +3,7 @@ $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copper
 $font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
 $font-myriadprocondensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
 $font-galette: "galette-1","galette-2",sans-serif;
+$font-old-athletics: Tahoma,Verdana,Arial,Helvetica,"Bitstream Vera Sans",sans-serif;
 
 @mixin font-copperplate {
   font-family: $font-copperplate;
@@ -55,4 +56,10 @@ $font-galette: "galette-1","galette-2",sans-serif;
 @mixin font-galette {
   font-family: $font-galette;
   text-transform: uppercase;
+}
+
+@mixin font-old-athletics {
+  font-family: $font-old-athletics;
+  font-size: .75em;
+  line-height: 16px;
 }
