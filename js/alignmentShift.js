@@ -79,13 +79,46 @@ jQuery(window).load(function (){
     }
   }
   function worx_footer_fix(lPos, rPos, column) {
-    var column = column;
-    var top = jQuery('.p-box-full').height();
+    //var top = jQuery('.p-box-full').height();
     if (lPos >= rPos) {
       jQuery("#main").height(top + lPos + 100);
     }
     else {
-      jQuery("#main").height(top + rPos + 100);
+      jQuery(".p-box-column").height(column + rPos);
+    }
+  }
+
+  jQuery(document).ajaxSuccess(function() {
+    when_content_loaded( jQuery('#someElement'), function() {
+      setTimeout(function() {
+        worx_resize_select()
+      }, 300);
+    });
+  });
+
+  //jQuery('.view-id-semester_resources.view-display-id-panel_pane_1 .view-content, .view-id-divisons.view-display-id-division_side_menu .view-content').accordion({
+  jQuery('.accordion-resize .view-content').accordion({
+    change: function(e, ui) {
+      worx_resize_select();  
+    }
+  }); 
+
+  function when_content_loaded(_contentContainer, callback) {
+    _contentContainer.html(_contentContainer.html());
+    var _content = _contentContainer.find('img, iframe, frame, script'),
+      content_length = _content.length,
+      content_load_cntr = 0;
+
+    if (content_length) { //if the _contentContainer contains new onload-enabled content.
+      _content.on('load', function() { //then we avoid the callback until onload-enabled content is loaded
+        content_load_cntr++;
+        if (content_load_cntr == content_length) {
+          callback();
+        }
+    });
+    }
+    else { //otherwise just do the main callback action if there's no onload-enabled content in _contentContainer.
+      callback();
     }
   }
 });
