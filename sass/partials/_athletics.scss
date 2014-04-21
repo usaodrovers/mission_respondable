@@ -133,6 +133,7 @@
   }
 
   .pane-athletics-news-panel-pane-1 {
+    @include font-old-athletics;
     left: 264px;
     position: absolute;
     top: -36px;
@@ -227,7 +228,8 @@
     position: absolute;
     right: 0;
     top: 197px;
-    width: 395px;
+    width: 393px;
+    z-index: 3;
 
     .views-row {
       padding: 0 181px 0 30px;
@@ -237,6 +239,10 @@
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    .views-field-title {
+      padding-top: 40px;
     }
   }
 
