@@ -31,7 +31,7 @@
   }
 
   .panel-display {
-    background: linear-gradient(to right, rgba(60,75,64,1) 0%,rgba(60,75,64,1) 29%,rgba(255,219,123,1) 29%,rgba(255,219,123,1) 100%);
+    @include background-image(linear-gradient(to right, rgba(60, 75, 64, 1) 0%, rgba(60, 75, 64, 1) 24%, rgba(255,219,123,1) 24%, rgba(255, 219, 123, 1) 100%));
     position: relative;
   }
 
@@ -41,10 +41,10 @@
     margin: 0;
 
     .pane-title {
+      @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0) 8%));
       @include font-galette;
       @include rotate(-90deg);
       background-color: #FFEFBC;
-      background-image: linear-gradient(to bottom, rgba(0,0,0,0.30) 0%,rgba(0,0,0,0) 8%);
       color: #575757;
       font-size: 44px;
       left: -487px;
