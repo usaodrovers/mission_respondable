@@ -174,10 +174,10 @@
         top: 60px;
         z-index: 1000;
         opacity: 1;
+      }
 
-        :before {
-          display: none;
-        }
+      .flex-direction-nav a.flex-next:before {
+        display: none;
       }
 
       .views-field-field-news-image {
