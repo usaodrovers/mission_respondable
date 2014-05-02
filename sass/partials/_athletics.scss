@@ -279,3 +279,11 @@
     box-shadow: 3px 0 5px inset;
   }
 }
+
+// This is reserved for one of things that sports node doesn't have in common
+// with the front Athletics page.
+.node-type-sport {
+  .tabs {
+    display: none;
+  }
+}
