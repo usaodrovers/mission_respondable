@@ -170,15 +170,19 @@
         display: none;
       }
 
-      .flex-direction-nav .flex-next {
-        right: 378px;
-        top: 60px;
-        z-index: 1000;
-        opacity: 1;
+      .flex-direction-nav .flex-next,
+      .flex-direction-nav a.flex-next:before {
+        display: none;
       }
 
-      .flex-direction-nav a.flex-next:before {
-        content: none;
+      #views_slideshow_controls_text_next_athletics_news-panel_pane_1 a {
+        background: url("../images/next-slide.png") no-repeat top left #00483A;
+        border-radius: 5px 0 0 5px;
+        padding: 15px;
+        position: absolute;
+        right: -371px;
+        top: 30px;
+        z-index: 1000;
       }
 
       .views-field-field-news-image {
