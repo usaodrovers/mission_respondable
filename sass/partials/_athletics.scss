@@ -140,7 +140,8 @@
     }
   }
 
-  .pane-athletics-news-panel-pane-1 {
+  .pane-athletics-news-panel-pane-1,
+  .pane-athletics-news-panel-pane-2 {
     @include font-old-athletics;
     left: 264px;
     position: absolute;
