@@ -273,11 +273,35 @@
     }
   }
 
-  .pane-athletics-schedule-results-panel-pane-3,
-  .pane-athletics-schedule-results-panel-pane-1 {
+  .pane-athletics-schedule-results {
     margin-left: 264px;
     position: absolute;
     top: 474px;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        padding: 10px;
+      }
+    }
+
+    #athletics-schedule-results {
+      position: relative;
+
+      .athletics-schedule-view,
+      .athletics-results-view {
+        left: 0;
+        position: absolute;
+        top: 40px;
+      }
+
+      .athletics-results-view {
+        display: none;
+      }
+    }
   }
 
   #navigation {
