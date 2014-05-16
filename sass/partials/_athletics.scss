@@ -277,7 +277,7 @@
     margin-left: 264px;
     position: absolute;
     top: 474px;
-    width: calc(100% - 264px);
+    width: calc(100% - 294px);
 
     ul {
       display: inline-block;
@@ -300,15 +300,22 @@
     }
 
     #athletics-schedule-results {
+      padding-left: 15px;
       position: relative;
 
       #athletics-schedule-view,
       #athletics-results-view {
         border: 2px solid #BF9F41;
+        border-radius: 15px;
         left: 0;
+        margin: 0 15px;
         position: absolute;
         top: 40px;
         width: 100%;
+
+        .view-content {
+          padding: 15px;
+        }
       }
 
       #athletics-results-view {
