@@ -291,14 +291,14 @@
     #athletics-schedule-results {
       position: relative;
 
-      .athletics-schedule-view,
-      .athletics-results-view {
+      #athletics-schedule-view,
+      #athletics-results-view {
         left: 0;
         position: absolute;
         top: 40px;
       }
 
-      .athletics-results-view {
+      #athletics-results-view {
         display: none;
       }
     }
