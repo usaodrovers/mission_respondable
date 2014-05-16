@@ -277,19 +277,22 @@
     margin-left: 264px;
     position: absolute;
     top: 474px;
+    width: calc(100% - 264px);
 
     ul {
-      background-color: #3C4B40;
+      display: inline-block;
       margin: 0;
       padding: 0;
 
       li {
-        color: #FEEFAD;
+        @include font-galette;
+        color: #575757;
         display: inline-block;
+        font-size: 20px;
         padding: 10px 10px 7px 10px;
 
         &.schedule {
-          border-right: 1px solid #81B7B1;
+          border-right: 1px solid #BF9F41;
           padding: 0 10px;
           margin: 10px 0 7px 0;
         }
@@ -301,11 +304,11 @@
 
       #athletics-schedule-view,
       #athletics-results-view {
-        border-top: 3px solid #3C4B40;
-        border-bottom: 3px solid #3C4B40;
+        border: 2px solid #BF9F41;
         left: 0;
         position: absolute;
         top: 40px;
+        width: 100%;
       }
 
       #athletics-results-view {
