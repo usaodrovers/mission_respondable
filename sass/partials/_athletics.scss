@@ -315,6 +315,11 @@
 
         .view-content {
           padding: 15px;
+
+          .views-field {
+            display: inline-block;
+            padding-right: 10px;
+          }
         }
       }
 
