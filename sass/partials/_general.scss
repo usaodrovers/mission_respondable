@@ -64,7 +64,8 @@ img {
  */
 
 .l-box,
-.page-user #content, .page-eform form {
+.page-user #content, .page-eform form,
+.webform-confirmation {
   background-color: $box-background;
 
   p, h3, h2, .webform-component, .form-wrapper .form-item, .field-type-link-field {
@@ -639,7 +640,7 @@ img {
   $zen-column-count: 12;
 
   .l-content-right {
-    @include zen-grid-item(7.3, 1, right);
+    @include zen-grid-item(7.31, 1, right);
     @include zen-clear(right);
   }
 
@@ -662,8 +663,8 @@ img {
   }
 
   #logo {
-    @include zen-grid-item(2, 1);
     border: none;
+    display: inline-block;
   }
 
   #navigation {
@@ -682,7 +683,7 @@ img {
   }
 
   #secondary-menu {
-    @include zen-grid-item(7, 2.6);
+    display: inline-block;
     clear: none;
 
     display: inherit;

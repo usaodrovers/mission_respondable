@@ -39,7 +39,7 @@
     font-size: 0.9em;
     line-height: 1.3em;
     padding-top: 0;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .directory__photo {
@@ -102,6 +102,10 @@
   .directory-block {
     .view-content ul li.views-row-last {
       padding-bottom: 0;
+    }
+
+    .directory__title {
+      font-size: 12px;
     }
   }
 }

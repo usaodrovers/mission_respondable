@@ -74,6 +74,6 @@
   $zen-column-count: 12;
 
   .search-block {
-    @include zen-grid-item(2.6, 9);
+    display: inline-block;
   }
 }

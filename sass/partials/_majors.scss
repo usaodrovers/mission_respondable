@@ -4,8 +4,22 @@
  */
 $zen-column-count: 1;
 
-.node-type-major h1.page__title {
-  display: none;
+.node-type-major {
+  h1.page__title {
+    display: none;
+  }
+
+  .pane-majors-major-resources {
+    .view-header {
+      li.views-row-last {
+        border-bottom: 1px solid #dbd6ae;
+      }
+    }
+
+    .view-content {
+      margin-top: -.7em;
+    }
+  }
 }
 
 .pane-majors-major-courses,
@@ -15,7 +29,7 @@ $zen-column-count: 1;
   }
   
   h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   table {
@@ -39,6 +53,19 @@ $zen-column-count: 1;
     }
     h3 {
       padding: 0
+    }
+  }
+
+  .view-footer {
+    background: none;
+    margin-top: -10px;
+
+    tr {
+      border-top: 1px solid $body_text;
+
+      h4 {
+        margin: 0;
+      }
     }
   }
 }

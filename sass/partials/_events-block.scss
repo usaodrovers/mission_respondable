@@ -48,9 +48,15 @@ $zen-column-count: 1;
 
   .event-date {
     border: 1px solid $gradient-green_dark;
-    height: 48px;
-    width: 61px;
+    height: 3em;
+    width: 3.8em;
     margin: 0 10px 10px 0;
+    background-color: rgba(247,244,222,1);
+    background-image: -ms-linear-gradient( left, rgba(247,244,222,1) 0%, rgba(247,244,222,1) 75%, rgba(0,69,56,1) 75%, rgba(0,69,56,1) 100%);
+    @include filter-gradient(#f7f4de, #004538, horizontal);
+    @include background-image(linear-gradient( left, rgba(247,244,222,1) 0%, rgba(247,244,222,1) 75%, rgba(0,69,56,1) 75%, rgba(0,69,56,1) 100%));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f4de', endColorstr='#004538', GradientType=1 );
+
 
     .event-day {
       @include font-myriadprocondensed_bold;
@@ -70,7 +76,7 @@ $zen-column-count: 1;
 
     .event-year {
       @include font-myriadprocondensed_bold;
-      background-color: $gradient-green_dark;
+    //  background-color: $gradient-green_dark;
       color: $topbar-link_color;
       display: inline-block;
       margin-left: 29px;
@@ -86,7 +92,7 @@ $zen-column-count: 1;
   }
 
   h3 {
-    padding: .75em 0px;
+    padding: .8em 0px;
     font-weight: normal;
 
     &.field-content a {

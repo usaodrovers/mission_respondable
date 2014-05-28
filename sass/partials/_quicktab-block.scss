@@ -28,6 +28,18 @@ ul.quicktabs-tabs li {
   white-space: normal;
 }
 
+.image-only {
+  .quicktabs-wrapper {
+    ul {
+      li.active {
+        a {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
 .quicktabs-wrapper { 
 
   .item-list {

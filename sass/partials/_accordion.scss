@@ -48,6 +48,7 @@
     padding: 0 0 5px;
      a {
       color: $primary-nav;
+      font-size: 14px;
     }
     .views-field-edit-node {
       display: none;
@@ -73,6 +74,9 @@
   .views-field-title {
     font-size: 0.8em;
     @include font-myriadprocondensed;
+  }
+  .accordion-item {
+    padding-left:35px;
   }
 }
 
@@ -104,12 +108,14 @@ body .l-box .ui-accordion p{//Temp for Majors and Divisons till Majors get creat
    */
   $zen-column-count: 5;
   
-  .ui-accordion .field-content {
-    font-size: 12px;
+  .ui-accordion .field-content .item-list {
+    font-size: 14px;
+    @include font-myriadprocondensed_bold;
   }
 
-  .l-box .ui-accordion field-edit-node {
-    font-size: 12px;
+  .l-box .ui-accordion .field-edit-node .item-list {
+    font-size: 14px;
+    @include font-myriadprocondensed_bold;
   }
 
   body .l-box .ui-accordion p{//Temp for Majors and Divisons till Majors get created.

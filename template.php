@@ -38,10 +38,11 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/quicktab-select.js');
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   $pageID = arg(0);
-  if ($pageID == 'future-students') {
+  $otherPageID = arg(1);
+  if ($pageID == 'future-students' || $otherPageID == '38621') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
-    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
 
