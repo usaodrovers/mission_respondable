@@ -5,6 +5,15 @@ jQuery(window).load(function (){
   var ccPos = 0
   var rcPos = 0
   if (screen.width > 850){
+    worx_resize_select();
+  }
+  function worx_resize_select() {
+  var lPos = 0;
+  var rPos = 0;
+  var lcPos = 0
+  var ccPos = 0
+  var rcPos = 0
+  if (screen.width > 850){
     jQuery('.panel-flexible .p-box-column .l-sidebar-left').each(function(i, j){
       var side = 'left';
       worx_resizer(i, j, side);
