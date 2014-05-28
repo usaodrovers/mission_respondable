@@ -100,7 +100,7 @@ jQuery(window).load(function (){
   jQuery(document).ajaxSuccess(function() {
     when_content_loaded( jQuery('#someElement'), function() {
       setTimeout(function() {
-        if (screen.width > 850){
+        setTimeout(function() {
           worx_resize_select()
         }
       }, 300);
