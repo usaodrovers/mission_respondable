@@ -88,7 +88,6 @@ jQuery(window).load(function (){
     }
   }
   function worx_footer_fix(lPos, rPos, column) {
-    console.log(column);
     var top = jQuery('.p-box-full').height();
     if (column == 0) {
       if (lPos >= rPos) {
