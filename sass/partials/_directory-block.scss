@@ -1,55 +1,47 @@
 .directory-block,
 .page-directory {
-  
-  .view-content ul {
+  .view-content {
     list-style: none;
-    padding: 0 15px;
     margin: 15px 0;
-
+    padding: 0 15px;
     li {
       border-top: 1px solid $divider;
       clear: both;
       margin-top: 10px;
       padding-top: 10px;
-      &.views-row-first {
-        border-top: none;
-        margin-top: 0;
-        padding-top: 0;
-      }
-      &.views-rof-last {
-        padding-bottom: 10px;
-      }
+    }
+    .views-row-first {
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .views-rof-last {
+      padding-bottom: 10px;
     }
   }
-  
   .directory__name {
+    @include font-myriadpro_bold;
     color: $primary_nav;
-    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: bold;
     line-height: 18px;
     margin: 0;
-    text-decoration: none;
     padding: 0;
+    text-decoration: none;
   }
-
   .directory__title {
     color: $body_text;
-    font-size: 0.9em;
+    font-size: .9em;
+    font-size: 14px;
     line-height: 1.3em;
     padding-top: 0;
-    font-size: 14px;
   }
-
   .directory__photo {
     float: left;
     margin-right: 10px;
   }
 }
-
 .page-directory {
-  h1#page-title {
+  #page-title {
     margin: 0;
   }
   .pane-directory-directory {
@@ -58,7 +50,7 @@
       border-bottom: 1px solid $body_text;
       padding-bottom: 10px;
       &:nth-last-child(1) {
-        border-bottom: none;
+        border-bottom: 0;
         padding-bottom: 0;
       }
     }
@@ -74,7 +66,6 @@
     }
   }
 }
-
 .page-directory-sort-admin {
   table {
     width: 100%;
@@ -83,7 +74,6 @@
     margin-left: 0;
   }
 }
-
 @media all and (min-width: 481px) { //HARD BREAK POINT
   .directory__photo {
     img {
@@ -91,24 +81,20 @@
     }
   }
 }
-
 @media all and (min-width: 651px) { //HARD BREAK POINT
   .directory__photo {
     img {
       max-height: 80px; 
     }
   }
-
   .directory-block {
-    .view-content ul li.views-row-last {
+    .view-content li.views-row-last {
       padding-bottom: 0;
     }
-
     .directory__title {
       font-size: 12px;
     }
   }
 }
-
 @media all and (min-width: 960px) { //HARD BREAK POINT
 }

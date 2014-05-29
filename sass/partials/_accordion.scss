@@ -53,10 +53,10 @@
     }
   }
   .ui-widget-content {
+    @include border-radius(0);
     background: $box-background;
     border-bottom: 1px solid $divider;
     border-left: medium none;
-    @include border-radius(0);
     border-right: medium none;
     margin: -2px 10px 2px;
     padding: 0 0 5px;
@@ -68,11 +68,9 @@
       display: none;
       padding: 5px 0;
     }
-    .views-row:nth-last-child(1) {
-      .views-field-edit-node {
-        display: inherit;
-      }
-    }
+  }
+  :last-child .views-field-edit-node {
+    display: inherit;
   }
   .field-content {
     list-style: none outside none;
@@ -86,8 +84,8 @@
     background-position: -48px -129px;
   }
   .views-field-title {
-    font-size: .8em;
     @include font-myriadprocondensed;
+    font-size: .8em;
   }
   .accordion-item {
     padding-left: 35px;
@@ -98,8 +96,8 @@
     @include border-radius(0);
     @include font-myriadprocondensed;
     border-bottom: 1px solid $divider;
-    margin: 0 10px;
     font-weight: normal;
+    margin: 0 10px;
     padding: 5px 8px;
   }
   p {//Temp for Majors and Divisons till Majors get created.
