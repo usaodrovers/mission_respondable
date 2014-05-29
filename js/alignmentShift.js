@@ -88,11 +88,19 @@ jQuery(window).load(function (){
     }
   }
   function worx_footer_fix(lPos, rPos, column) {
+    console.log(column);
     var top = jQuery('.p-box-full').height();
-    if (lPos >= rPos) {
-      jQuery("#main").height(top + lPos + 100);
+    if (column == 0) {
+      if (lPos >= rPos) {
+        jQuery("#main").height(top + lPos + 100);
+        console.log("lPos larger, height is :" + (top + lPos + 100));
+      }
+      else if (lPos <= rPos) {
+        jQuery("#main").height(top + rPos + 100);
+        console.log("lPos smaller, height is :" + (top + rPos + 100));
+      }
     }
-    else {
+    else if (column > 0) {
       jQuery(".p-box-column").height(column + rPos);
     }
   }
