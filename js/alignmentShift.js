@@ -88,7 +88,7 @@ jQuery(window).load(function (){
     }
   }
   function worx_footer_fix(lPos, rPos, column) {
-    //var top = jQuery('.p-box-full').height();
+    var top = jQuery('.p-box-full').height();
     if (lPos >= rPos) {
       jQuery("#main").height(top + lPos + 100);
     }
@@ -105,7 +105,6 @@ jQuery(window).load(function (){
     });
   });
 
-  //jQuery('.view-id-semester_resources.view-display-id-panel_pane_1 .view-content, .view-id-divisons.view-display-id-division_side_menu .view-content').accordion({
   jQuery('.accordion-resize .view-content').accordion({
     change: function(e, ui) {
       worx_resize_select();  
