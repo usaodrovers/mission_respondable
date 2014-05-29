@@ -18,5 +18,5 @@
         $(".l-box__toggle div.view").show();
       }
     }
-  }
+  };
 })(jQuery);

@@ -89,7 +89,7 @@ jQuery(window).load(function (){
   }
   function worx_footer_fix(lPos, rPos, column) {
     var top = jQuery('.p-box-full').height();
-    if (column == 0) {
+    if (column === 0) {
       if (lPos >= rPos) {
         jQuery("#main").height(top + lPos + 100);
         console.log("lPos larger, height is :" + (top + lPos + 100));

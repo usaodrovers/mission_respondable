@@ -40,7 +40,7 @@
         showHide();//run on every window resize
       });
     }
-  }
+  };
 
   function showHide() {  
     if ($(window).width() > 651) {
