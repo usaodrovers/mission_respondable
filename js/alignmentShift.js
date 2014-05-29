@@ -8,11 +8,11 @@ jQuery(window).load(function (){
     worx_resize_select();
   }
   function worx_resize_select() {
-    var lPos = 0;
-    var rPos = 0;
-    var lcPos = 0;
-    var ccPos = 0;
-    var rcPos = 0;
+    lPos = 0;
+    rPos = 0;
+    lcPos = 0;
+    ccPos = 0;
+    rcPos = 0;
 
     jQuery('.panel-flexible .p-box-column .l-sidebar-left').each(function(i, j){
       var side = 'left';

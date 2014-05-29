@@ -115,11 +115,7 @@
   $zen-column-count: 5;
   .lbox {
     .ui-accordion {
-      .field-content .item-list {
-        @include font-myriadprocondensed_bold;
-        font-size: 14px;
-      }
-      .field-edit-node .item-list {
+      .item-list {
         @include font-myriadprocondensed_bold;
         font-size: 14px;
       }
