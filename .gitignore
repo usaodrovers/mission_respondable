@@ -6,3 +6,6 @@
 *.swp
 *.css
 *.orig
+node_modules
+.npm-debug.log
+tmp
