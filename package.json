@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git://github.com/cdracars/mission_respondable.git "
   },
-  "author": "",
+  "author": "Cody Dracars",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cdracars/mission_respondable.git /issues"
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/cdracars/mission_respondable.git ",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0"
+    "grunt-contrib-compass": "^0.8.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-scss-lint": "^0.1.9",
+    "matchdep": "^0.3.0"
   }
 }
