@@ -13,6 +13,7 @@ jQuery(window).load(function (){
     var lcPos = 0;
     var ccPos = 0;
     var rcPos = 0;
+
     jQuery('.panel-flexible .p-box-column .l-sidebar-left').each(function(i, j){
       var side = 'left';
       worx_resizer(i, j, side);
