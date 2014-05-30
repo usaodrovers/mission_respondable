@@ -37,9 +37,9 @@ h1 {
   margin: 0;
   padding-left: 15px;
   text-transform: uppercase;
-  #page-title {
-    margin: 0 0 15px;
-  }
+}
+#page-title {
+  margin: 0 0 15px;
 }
 img {
   display: block;
@@ -349,7 +349,7 @@ img {
 }
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
-  background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
+  background: url('../images/go-to.png') no-repeat right center $footer-more;//image is temperary till we get a better version
   p {
     font-weight: bold;
     padding: .2em 27px .2em 0;
@@ -357,9 +357,9 @@ img {
   }
 }
 // State
-.menu__item.is-leaf { /* Overide of default zen */
-  list-style-image: none;
+.menu__item.is-leaf { // Overide of default zen.
   list-style: none;
+  list-style-image: none;
 }
 .menu a.active {
   color: $primary_nav;
@@ -389,7 +389,7 @@ img {
    // Use 3 grid columns for smaller screens.
   $zen-column-count: 3;
   body {
-    background: url("../images/pretties.png") no-repeat center top;
+    background: url('../images/pretties.png') no-repeat center top;
     background-color: $background;
     &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
       background: url('');
@@ -407,24 +407,24 @@ img {
   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
   // comment this out in dev for size fix
- .header-wrapper,
- #main-menu {
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 1024px;
- }
- #secondary-menu {
-   @include zen-grid-item(4, 1);
-   ul {
-     li {
-       border-right: 1px solid $topbar-link_color;
-       padding: 5px 1.3%;
-       &.last {
-         border: 0;
-       }
-     }
-   }
- }
+  .header-wrapper,
+  #main-menu {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+  #secondary-menu {
+    @include zen-grid-item(4, 1);
+    ul {
+      li {
+        border-right: 1px solid $topbar-link_color;
+        padding: 5px 1.3%;
+        &.last {
+          border: 0;
+        }
+      }
+    }
+  }
   .l-content-right {
     @include zen-grid-item(3, 1, right);
     @include zen-clear(right);
@@ -466,19 +466,19 @@ img {
   .l-3col-left {
     @include zen-grid-item(1.5, 1);
     @include zen-clear(left);
-    .item-list .pager li {
+    .pager li {
       padding: 0;
     }
   }
   .l-3col-center {
     @include zen-grid-item(1.6, 2.7);
-    .item-list .pager li {
+    .pager li {
       padding: 0;
     }
   }
   .l-3col-right {
     @include zen-grid-item(1.5, 4.5);
-    .item-list .pager li {
+    .pager li {
       padding: 0;
     }
   }
@@ -501,12 +501,14 @@ img {
   .l-sidebar-right {
     @include zen-grid-item(4.4, 8.6);
   }
-  .section-testimonials #content, .section-search #content, .not-front #content {
+  .section-testimonials #content,
+  .section-search #content,
+  .not-front #content {
     padding: 0;
   }
   #logo {
+    @include inline-block;
     border: 0;
-    display: inline-block;
   }
   #navigation {
     #main-menu {
@@ -520,8 +522,8 @@ img {
     display: none;
   }
   #secondary-menu {
+    @include inline-block;
     clear: none;
-    display: inline-block;
     display: inherit;
     ul {
       li {
@@ -529,7 +531,7 @@ img {
       }
     }
   }
-  #block-menu-menu-footer-navigation  {
+  #block-menu-menu-footer-navigation {
     display: inherit;
   }
 }
