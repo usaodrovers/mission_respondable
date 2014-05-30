@@ -31,13 +31,13 @@ a {
 h1 {
   @include font-myriadprocondensed;
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-  color: $attention-gold;
   background-color: $gradient-green_dark;
+  color: $attention-gold;
   font-size: 32px;
   margin: 0;
   padding-left: 15px;
   text-transform: uppercase;
-  &#page-title {
+  #page-title {
     margin: 0 0 15px;
   }
 }
@@ -58,7 +58,7 @@ img {
   h3,
   h2,
   .webform-component,
-  .form-wrapper .form-item,
+  .form-item,
   .field-type-link-field {
     font-size: 16px;
     margin: 0;
@@ -71,15 +71,15 @@ img {
 }
 .l-box blockquote {
   margin-left: 17px;
-  marging-right: 17px;
+  margin-right: 17px;
   p {
     background: url('../images/quote.png') no-repeat left 11px transparent;
-    padding: 0.5em 15px 0.5em 25px;
+    padding: .5em 15px .5em 25px;
   }
 }
 .l-highlight {
   @include font-myriadprocondensed_bold;
-  background-color: rgba(235, 234, 213, 0.7);
+  background-color: rgba(235, 234, 213, .7);
   color: $body_text;
   font-size: 18px;
   padding: 5px 15px;
@@ -95,12 +95,10 @@ img {
     margin: 10px 0;
     padding: 0 15px;
     li {
+      @include font-myriadprocondensed;
       border-bottom: 1px solid $divider;
       list-style: none;
       padding: 5px 0;
-      a {
-        @include font-myriadprocondensed;
-      }
       &.is-active-trail {
         background-color: $event-active;
         margin: -1px -15px;
@@ -108,7 +106,7 @@ img {
       }
       &.views-row-last,
       &:nth-last-child(1) {
-        border-bottom: none;
+        border-bottom: 0;
       }
     }
   }
@@ -139,13 +137,18 @@ img {
   margin: 0;
 }
 #logo {
-  border-right: none;
+  border: 0;
+  display: block;
+  float: none;
+  margin: 0 auto;
   padding: 5px 0;
+  width: 125px;
 }
 .not-front #content {
   margin-top: 30px;
 }
-#site-name, #site-slogan {
+#site-name,
+#site-slogan {
   display: none;
 }
 #content, 
@@ -158,24 +161,24 @@ img {
 }
 .breadcrumb {display: none;}
 .panel-pane {
-  margin-bottom:  15px;
+  margin-bottom: 15px;
   .pane-title {
     @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
     @include font-copperplate;
     background-color: $gradient-green_dark;
     color: $topbar-link_color;
+    font-size: 1em;
     height: 100%;
     line-height: 100%;
-    font-size: 1em;
     margin: 0;
     padding: 10px 15px;
     a {
       @include font-copperplate;
       color: $topbar-link_color;
-      text-decoration: none;
       font-size: 16px;
       letter-spacing: 2px;
       padding: 0;
+      text-decoration: none;
       &:hover {
         text-decoration: underline;
       }
@@ -196,50 +199,35 @@ img {
   }
   ul {
     margin: 0;
-    li {
-      border: 0;
-      a {
-        color: $box-background;
-        text-decoration: none;
-      }
+    a {
+      color: $box-background;
+      text-decoration: none;
     }
   }
 }
 #secondary-menu {
   display: none;
   padding: 0;
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
+  li {
+    border: 0;
+    float: left;
+    height: 27px;
+    list-style: none;
+    padding: 5px 1%;
+    a {
+      @include font-copperplate;
+      color: $topbar-link_color;
+      font-size: 12px;
+      letter-spacing: .88px;
+      text-decoration: none;
+    }
+    &.last {
       border: 0;
-      height: 27px;
-      float: left;
-      list-style: none;
-      padding: 5px 1%;
-        a {
-          @include font-copperplate;
-          color: $topbar-link_color;
-          font-size: 12px;
-          letter-spacing: .88px;
-          text-decoration: none;
-        }
-      &.last {
-        border: 0;
-      }
     }
   }
   &.block {
     margin: 0;
   }
-}
-#logo {
-  border: 0;
-  display: block;
-  float: none;
-  margin: 0 auto;
-  padding: 5px 0;
-  width: 125px;
 }
 #header {
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
@@ -265,20 +253,20 @@ img {
     }
   }
   li a {
-    color: white;
+    color: #FFF;
     padding-left: 12px;
     text-decoration: none;
-    text-shadow: -2px 2px 2px black;
+    @include text-shadow(rgba(#000, 0), -2px 2px 2px);
   }
-  ul.links li.last {
+  li.last {
     @include single-box-shadow($shadow-grey, -2px, 2px, 2px);
     background-color: $attention-gold;
     padding: 0;
     a {
       color: $primary_nav;
       margin: 0;
-      padding: 0 10px 0 10px;
-      text-shadow: none;
+      padding: 0 10px;
+      @include text-shadow(none);
     }
   }
 }
@@ -289,9 +277,9 @@ img {
   }
   select {
     @include font-copperplate;
+    @include text-shadow(1px 1px 1px #004538);
     color: $attention-gold;
     font-size: 24px;
-    text-shadow: 1px 1px 1px #004538;
     width: 100%;
   }
 }
@@ -323,31 +311,28 @@ img {
     }
   }
 }
-#block-menu-menu-footer-navigation  {
+#block-menu-menu-footer-navigation {
   display: none;
+  margin-bottom: -125px;
+  margin-left: -30px;
   margin-top: 100px;
-  margin-bottom: -120px;
   position: relative;
-  z-index: 200;
   width: 100%;
-  ul.menu {
-    margin: 0;
-    padding: 0;
-    li {
-      border-left: 1px solid $topbar-link_color;
-      display: inline-block;
-      height: 12px;
-      line-height: 8px;
-      list-style: none;
-      padding-left: 5px;
-      a {
-        color: $attention-gold;
-        font-size: 15px;
-      }
-      &.first {
-        border-left: none;
-        padding-left: 0;
-      }
+  z-index: 200;
+  li {
+    @include inline-block;
+    border-left: 1px solid $topbar-link_color;
+    height: 12px;
+    line-height: 8px;
+    list-style: none;
+    padding-left: 5px;
+    a {
+      color: $attention-gold;
+      font-size: 15px;
+    }
+    &.first {
+      border-left: 0;
+      padding-left: 0;
     }
   }
   .last {
@@ -360,30 +345,14 @@ img {
   padding-top: 30px;
 }
 .html .panels-flexible-region {
-    width: 100%;
-}
-// Themeing for the Majors by Division block
-.view-display-id-division_side_menu .ui-accordion .field-content {
-  padding: 0;
-  .item-list {
-    background: none;
-    color: #222;
-    padding: 0 7px 10px;
-    ul {
-      padding: 0;
-      li {
-        list-style: none;
-        margin: 0 0 0.25em;
-      }
-    }
-  }
+  width: 100%;
 }
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
   background: url('../images/go-to.png') no-repeat right center #d4d288;//image is temperary till we get a better version
   p {
     font-weight: bold;
-    padding: 0.2em 27px 0.2em 0;
+    padding: .2em 27px .2em 0;
     text-align: right;
   }
 }
@@ -435,85 +404,85 @@ img {
   }
 }
 @media all and (min-width: 651px) {
-   // Use 5 grid columns for smaller screens.
-   $zen-column-count: 5;
-   // comment this out in dev for size fix
-  .header-wrapper,
-  #main-menu {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-  }
-  #secondary-menu {
-    @include zen-grid-item(4, 1);
-    ul {
-      li {
-        border-right: 1px solid $topbar-link_color;
-        padding: 5px 1.3%;
-        &.last {
-          border: 0;
-        }
-      }
-    }
-  }
-   .l-content-right {
-     @include zen-grid-item(3, 1, right);
-     @include zen-clear(right);
-   }
-   .l-content-left {
-     @include zen-grid-item(3.1, 1);
-     @include zen-clear(left);
-   }
-   .l-sidebar-left {
-     @include zen-grid-item(1.6, 1, left);
-     @include zen-clear(left);
-   }
-   .l-sidebar-right {
-     @include zen-grid-item(1.6, 4.22);
-     @include zen-clear(right);
-   }
-   .l-half-right {
-     @include zen-grid-item(2.5, 1, right);
-     @include zen-clear(right);
-     .field-label {
-       padding-left: 10px;
-     }
-   }
-   .l-half-left {
-     @include zen-grid-item(2.5, 1, left);
-     @include zen-clear(left);
-     .field-label {
-       padding-right: 10px;
-     }
-   }
-   .l-half-right__pad {
-     @include zen-grid-item(2.4, 1, right);
-     @include zen-clear(right);
-   }
-   .l-half-left__pad {
-     @include zen-grid-item(2.4, 1, left);
-     @include zen-clear(left);
-   }
-   .l-3col-left {
-     @include zen-grid-item(1.5, 1);
-     @include zen-clear(left);
-     .item-list .pager li {
-       padding: 0;
-     }
-   }
-   .l-3col-center {
-     @include zen-grid-item(1.6, 2.7);
-     .item-list .pager li {
-       padding: 0;
-     }
-   }
-   .l-3col-right {
-     @include zen-grid-item(1.5, 4.5);
-     .item-list .pager li {
-       padding: 0;
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  // comment this out in dev for size fix
+ .header-wrapper,
+ #main-menu {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1024px;
+ }
+ #secondary-menu {
+   @include zen-grid-item(4, 1);
+   ul {
+     li {
+       border-right: 1px solid $topbar-link_color;
+       padding: 5px 1.3%;
+       &.last {
+         border: 0;
+       }
      }
    }
  }
+  .l-content-right {
+    @include zen-grid-item(3, 1, right);
+    @include zen-clear(right);
+  }
+  .l-content-left {
+    @include zen-grid-item(3.1, 1);
+    @include zen-clear(left);
+  }
+  .l-sidebar-left {
+    @include zen-grid-item(1.6, 1, left);
+    @include zen-clear(left);
+  }
+  .l-sidebar-right {
+    @include zen-grid-item(1.6, 4.22);
+    @include zen-clear(right);
+  }
+  .l-half-right {
+    @include zen-grid-item(2.5, 1, right);
+    @include zen-clear(right);
+    .field-label {
+      padding-left: 10px;
+    }
+  }
+  .l-half-left {
+    @include zen-grid-item(2.5, 1, left);
+    @include zen-clear(left);
+    .field-label {
+      padding-right: 10px;
+    }
+  }
+  .l-half-right__pad {
+    @include zen-grid-item(2.4, 1, right);
+    @include zen-clear(right);
+  }
+  .l-half-left__pad {
+    @include zen-grid-item(2.4, 1, left);
+    @include zen-clear(left);
+  }
+  .l-3col-left {
+    @include zen-grid-item(1.5, 1);
+    @include zen-clear(left);
+    .item-list .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-center {
+    @include zen-grid-item(1.6, 2.7);
+    .item-list .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-right {
+    @include zen-grid-item(1.5, 4.5);
+    .item-list .pager li {
+      padding: 0;
+    }
+  }
+}
 @media all and (min-width: 960px) {
    // Use 12 grid columns for larger screens.
   $zen-column-count: 12;
