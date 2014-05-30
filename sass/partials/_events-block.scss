@@ -33,17 +33,12 @@ $zen-column-count: 1;
 .event-block {
   .view-content {
     margin: 0 10px;
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      li {
-        clear: both;
-        padding: 15px 0;
-      }
-      p {
-        padding: .75em 0;
-      }
+    li {
+      clear: both;
+      padding: 15px 0;
+    }
+    p {
+      padding: .75em 0;
     }
   }
   .event-date {
