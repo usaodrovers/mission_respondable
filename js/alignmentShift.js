@@ -107,14 +107,18 @@ jQuery(window).load(function (){
   jQuery(document).ajaxSuccess(function() {
     when_content_loaded( jQuery('#someElement'), function() {
       setTimeout(function() {
-        worx_resize_select();
+        if (screen.width > 850){
+          worx_resize_select();  
+        }
       }, 300);
     });
   });
 
   jQuery('.accordion-resize .view-content').accordion({
     change: function(e, ui) {
-      worx_resize_select();  
+      if (screen.width > 850){
+        worx_resize_select();  
+      }
     }
   }); 
 
