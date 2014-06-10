@@ -92,11 +92,9 @@ jQuery(window).load(function (){
     if (column === 0) {
       if (lPos >= rPos) {
         jQuery("#main").height(top + lPos + 100);
-        console.log("lPos larger, height is :" + (top + lPos + 100));
       }
       else if (lPos <= rPos) {
         jQuery("#main").height(top + rPos + 100);
-        console.log("lPos smaller, height is :" + (top + rPos + 100));
       }
     }
     else if (column > 0) {

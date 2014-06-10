@@ -44,6 +44,7 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   if ($pageID == 'future-students' || $otherPageID == '38621') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
   }
+  drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
 
 

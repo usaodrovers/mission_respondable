@@ -199,6 +199,7 @@ img {
   }
   ul {
     margin: 0;
+    padding: 0;
     a {
       color: $box-background;
       text-decoration: none;
@@ -313,7 +314,7 @@ img {
 }
 #block-menu-menu-footer-navigation {
   display: none;
-  margin-bottom: -125px;
+  margin-bottom: -140px;
   margin-left: -30px;
   margin-top: 100px;
   position: relative;
@@ -346,6 +347,9 @@ img {
 }
 .html .panels-flexible-region {
   width: 100%;
+}
+.bottom-margin-none {
+  margin-bottom: 0;
 }
 // Go To Section on the views blocks to go to the main section.
 .view-footer {
