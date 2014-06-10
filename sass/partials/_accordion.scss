@@ -115,8 +115,10 @@
     .ui-accordion {
       .item-list {
         @include font-myriadprocondensed_bold;
-        font-size: 14px;
         background: $box-background;
+        font-size: 14px;
+        letter-spacing: .01em;
+        padding: 0;
       }
       p {//Temp for Majors and Divisons till Majors get created.
         font-size: 12px;
