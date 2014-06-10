@@ -111,11 +111,12 @@
 @media all and (min-width: 651px) { //HARD BREAKPOINT
    // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
-  .lbox {
+  .l-box {
     .ui-accordion {
       .item-list {
         @include font-myriadprocondensed_bold;
         font-size: 14px;
+        background: $box-background;
       }
       p {//Temp for Majors and Divisons till Majors get created.
         font-size: 12px;

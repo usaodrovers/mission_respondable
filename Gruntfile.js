@@ -79,7 +79,11 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: '<%= project.src %>/scss/{,*/}*.{scss,sass}',
-        tasks: ['compass']
+        tasks: ['compass', 'scsslint']
+      },
+      js: {
+        files: '<%= project.src %>/js/*.js',
+        tasks: ['jshint']
       }
     }
   });
