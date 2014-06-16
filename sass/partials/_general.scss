@@ -48,6 +48,9 @@ img {
 .p-box-column {
   position: relative;
 }
+.logged-in .p-box-full {
+  margin-top: 25px;
+}
 // Layout
 .l-box,
 .page-user #content,
@@ -68,6 +71,9 @@ img {
   ul {
     padding: 0 30px;
   }
+}
+.node-unpublished.l-box {
+  background-color: #fff4f4;
 }
 .l-box blockquote {
   margin-left: 17px;
