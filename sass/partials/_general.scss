@@ -73,7 +73,7 @@ img {
   }
 }
 .node-unpublished.l-box {
-  background-color: #fff4f4;
+  background-color: #FFF4F4;
 }
 .l-box blockquote {
   margin-left: 17px;
@@ -105,6 +105,7 @@ img {
       border-bottom: 1px solid $divider;
       list-style: none;
       padding: 5px 0;
+      margin: 0;
       &.is-active-trail {
         background-color: $event-active;
         margin: -1px -15px;
@@ -203,13 +204,12 @@ img {
   .pager-current {
     color: $attention-gold;
   }
-  ul {
-    margin: 0;
-    padding: 0;
-    a {
-      color: $box-background;
-      text-decoration: none;
-    }
+  .pager {
+    margin: 0
+  }
+  a {
+    color: $box-background;
+    text-decoration: none;
   }
 }
 #secondary-menu {

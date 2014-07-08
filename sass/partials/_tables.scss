@@ -1,0 +1,98 @@
+// More practical CSS...
+// using mobile first method (IE8,7 requires respond.js polyfill https://github.com/scottjehl/Respond)
+
+/*$breakpoint-alpha: 680px; // adjust to your needs
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px; // adjust to your needs
+  
+  tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  td {
+    display: block; 
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    &:before {
+      content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
+      font-weight: bold;
+
+      // optional stuff to make it look nicer
+      width: 6.5em; // magic number :( adjust according to your own content
+      display: inline-block;
+      // end options
+      
+      @media (min-width: $breakpoint-alpha) {
+        display: none;
+      }
+    }
+  }
+  
+  th, td {
+    text-align: left;
+    
+    @media (min-width: $breakpoint-alpha) {
+      display: table-cell;
+      padding: .25em .5em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}*/
+
+  .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  * html .cf { zoom: 1; }
+  *:first-child+html .cf { zoom: 1; }
+
+
+  code { padding: 0 .5em; background: #fff2b2; }
+
+
+
+  .rt { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
+
+  .rt th,
+  .rt td { margin: 0; padding: 0.4166em;/*10*/ vertical-align: top; border: 1px solid #babcbf; background: #fff; }
+  .rt th { text-align: left; background: #fff2b2; }
+
+
+  @media only screen and (max-width: 40em) { /*640*/
+
+    table { display: block; position: relative; width: 100%; }
+    table thead { display: block; float: left; }
+    table tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+    table thead tr { display: block; }
+    table th { display: block; }
+    table tbody tr { display: inline-block; vertical-align: top; }
+    table td { display: block; min-height: 1.25em; }
+
+    /* sort out borders */
+
+    .rt th { border-bottom: 0; }
+    .rt td { border-left: 0; border-right: 0; border-bottom: 0; }
+    .rt tbody tr { border-right: 1px solid #babcbf; }
+    .rt th:last-child,
+    .rt td:last-child { border-bottom: 1px solid #babcbf; }
+
+  }

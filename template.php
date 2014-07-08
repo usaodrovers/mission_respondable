@@ -62,12 +62,9 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
-function mission_respondable_preprocess_page(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+/*function mission_respondable_preprocess_page(&$variables, $hook) {
 }
-// */
-
+ */
 /**
  * Override or insert variables into the node templates.
  *
@@ -128,8 +125,23 @@ function mission_respondable_preprocess_region(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("block" in this case.)
  */
-/* -- Delete this line if you want to use this function
+ /*global $user;
+ $roles = $user->roles;
+
+ if (!in_array('administrator', $roles)){
+   print_r($block_id);
+ }*/
 function mission_respondable_preprocess_block(&$variables, $hook) {
+   $block_id = $variables['block']->module . '-' . $variables['block']->delta;
+   $classes = &$variables['classes_array'];
+
+   /* Add classes based on the block delta. */
+   switch ($block_id) {
+   case 'views--exp-search-search':
+     $classes[] = 'search-block';
+     break;
+   }
+      
   // Add a count to all the blocks in the region.
   // $variables['classes_array'][] = 'count-' . $variables['block_id'];
 
@@ -144,7 +156,7 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
 function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
   global $base_url;
   $site_path = $base_url . base_path();
-  if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-search-panel-pane-1') {
+  if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-search-search') {
       $form['search_api_views_fulltext']['#size'] = 15;  // define size of the textfield
       $form['submit'] = array('#type' => 'image_button', '#src' =>  $site_path . path_to_theme() . '/images/searchICON.png');
 
@@ -156,69 +168,3 @@ function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
 function mission_respondable_menu_tree__menu_future_students_resources($variables) {
   return '<ul class="menu menu__vertical">' . $variables['tree'] . '</ul>';
 }
-/*
-function mission_respondable_item_list($variables) {
-  $items = $variables['items'];
-  $title = $variables['title'];
-  $type = $variables['type'];
-  $attributes = $variables['attributes'];
-
-  // Only output the list container and title, if there are any list items.
-  // Check to see whether the block title exists before adding a header.
-  // Empty headers are not semantic and present accessibility challenges.
-  if (arg(0) == 'node' && is_numeric(arg(1))) {
-    $node = node_load(arg(1));
-    if ($node->type == 'professionals') {
-      $output = '<div class="menu">';
-    }
-    else {
-      $output = '<div class="item-list">';
-    }
-  }
-  if (isset($title) && $title !== '') {
-    $output .= '<h3>' . $title . '</h3>';
-  }
-
-  if (!empty($items)) {
-    $output .= "<$type" . drupal_attributes($attributes) . '>';
-    $num_items = count($items);
-    $i = 0;
-    foreach ($items as $item) {
-      $attributes = array();
-      $children = array();
-      $data = '';
-      $i++;
-      if (is_array($item)) {
-        foreach ($item as $key => $value) {
-          if ($key == 'data') {
-            $data = $value;
-          }
-          elseif ($key == 'children') {
-            $children = $value;
-          }
-          else {
-            $attributes[$key] = $value;
-          }
-        }
-      }
-      else {
-        $data = $item;
-      }
-      if (count($children) > 0) {
-        // Render nested list.
-        $data .= theme_item_list(array('items' => $children, 'title' => NULL, 'type' => $type, 'attributes' => $attributes));
-      }
-      if ($i == 1) {
-        $attributes['class'][] = 'first';
-      }
-      if ($i == $num_items) {
-        $attributes['class'][] = 'last';
-      }
-      $output .= '<li' . drupal_attributes($attributes) . '>' . $data . "</li>\n";
-    }
-    $output .= "</$type>";
-  }
-  $output .= '</div>';
-  return $output;
-}
- */

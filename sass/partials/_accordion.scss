@@ -69,8 +69,11 @@
       padding: 5px 0;
     }
   }
-  :last-child .views-field-edit-node {
-    display: inherit;
+  //&:last-child .views-field-edit-node {
+  .views-row:nth-last-child(1) { 
+    .views-field-edit-node {
+      display: inherit;
+    }
   }
   .field-content {
     list-style: none outside none;
@@ -101,6 +104,13 @@
     padding: 5px 8px;
   }
   p {//Temp for Majors and Divisons till Majors get created.
+    padding: 0;
+  }
+  .item-list {
+    @include font-myriadprocondensed_bold;
+    background: $box-background;
+    font-size: 14px;
+    letter-spacing: .01em;
     padding: 0;
   }
 }

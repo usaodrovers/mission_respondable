@@ -12,13 +12,6 @@ $zen-column-count: 1;
   #page-title {
     display: none;
   }
-  .item-list {
-    background: none;
-    color: $body_text;
-    a {
-      color: $primary-nav;
-    }
-  }
   .pane-professional-professional-info {
     .views-field {
       padding: 0 10px;
@@ -36,6 +29,30 @@ $zen-column-count: 1;
     }
   }
 }
+.view-display-id-professional_grid,
+.views-field-field-prof-social-links, 
+.views-field-field-prof-courses,
+.pane-professional-professional-course-syllabus {
+  .item-list {
+    background: none;
+    color: $body_text;
+    a {
+      color: $primary-nav;
+    }
+  }
+}
+.pane-professional-professional-courses, 
+.pane-professional-professional-course-syllabus {
+  ul {
+    padding: 0 5px;
+    margin: 0;
+  }
+}  
+.field-name-field-prof-education {
+  li:last-child {
+    padding-bottom: 20px;
+  }
+}
 .pane-professional-professional-image-gallery,
 .pane-professional-professional-video-gallery,
 .pane-professional-image-gallery {
@@ -43,9 +60,12 @@ $zen-column-count: 1;
   .view-content {
     padding: .5em 15px;
   }
-  table {
+  table,
+ tbody,
+ tr {
     margin: 0;
     width: 100%;
+    display: inline-block;
   }
   td {
     display: block;
@@ -102,11 +122,11 @@ $zen-column-count: 1;
    // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
   .l-float-left {
-    float: left;
+    float: right;
     width: 296px;
   }
   .l-float-left:nth-child(2n + 1) {
-    clear: left;
+    float: left;
     margin-right: 10px;
   }
   .pane-professional-professional-image-gallery,

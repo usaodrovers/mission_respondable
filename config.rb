@@ -36,13 +36,13 @@ javascripts_dir = "js"
 
 # Sass compile configuration
 
-on_stylesheet_saved do |filename|
-  def clear_cache
-    clearcache = `drush cc all`
-    puts clearcache
-  end
-  clear_cache
-end
+#on_stylesheet_saved do |filename|
+#  def clear_cache
+#    clearcache = `drush cc all`
+#    puts clearcache
+#  end
+#  clear_cache
+#end
 
 ##
 ## You probably don't need to edit anything below this.

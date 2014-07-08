@@ -5,6 +5,16 @@ $zen-column-count: 1;
   #page-title {
     display: none;
   }
+  .pane-divisons-division-resources {
+    .view-content {
+      margin-top: -.7em;
+    }
+  }
+  .view-header {
+    .views-row-last {
+      border-bottom: 1px solid #dbd6ae;
+    }
+  }
 }
 @media all and (min-width: 481px) { //HARD BREAKPOINT
    // Use 3 grid columns for special layouts on smaller screens.

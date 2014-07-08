@@ -2,9 +2,20 @@
 .page-directory {
   .directory-listing {
     list-style: none;
-    margin: 15px 0;
     padding: 0 15px;
+    h3 {
+      padding: .5em 0;
+      &.field-content{
+        padding: 0;
+      }
+    }
     li {
+      border-top: 1px solid $divider;
+      clear: both;
+      margin-top: 10px;
+      padding-top: 10px;
+    } 
+    .views-row {
       border-top: 1px solid $divider;
       clear: both;
       margin-top: 10px;
@@ -12,11 +23,7 @@
     }
     .views-row-first {
       border-top: 0;
-      margin-top: 0;
       padding-top: 0;
-    }
-    .views-rof-last {
-      padding-bottom: 10px;
     }
   }
   .directory__name {
@@ -44,25 +51,38 @@
   #page-title {
     margin: 0;
   }
-  .pane-directory-directory {
-    padding: 10px;
-    ul {
-      border-bottom: 1px solid $body_text;
-      padding-bottom: 10px;
-      &:nth-last-child(1) {
-        border-bottom: 0;
-        padding-bottom: 0;
-      }
+  .form-item {
+    padding: 0 0 0 10px;
+  }
+  .view-header-link {
+    padding: .5em 15px;
+  }
+  .views-row-first {
+    margin-top: 1.5em;
+  }
+  .views-row-last,
+  ul {
+    border-bottom: 1px solid $body_text;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.5em;
+    &:nth-last-child(1) {
+      border-bottom: 0;
+      padding-bottom: 0;
     }
   }
-  .views-exposed-widget {
+  .views-exposed-widgets {
     font-size: 12px;
     line-height: 19px;
+    margin-bottom: 0;
+    label {
+      padding-left: 10px;
+    }
     button, 
     input,
     select {
       font-size: 12px;
       line-height: 19px;
+      max-width: 280px;
     }
   }
 }

@@ -50,7 +50,6 @@ module.exports = function(grunt) {
      */
      scsslint: {
        allFiles: [
-         '<%= project.src %>/sass/mission_respondable.scss',
          '<%= project.src %>/sass/partials/*.scss',
        ],
        options: {
@@ -78,7 +77,7 @@ module.exports = function(grunt) {
      */
     watch: {
       css: {
-        files: '<%= project.src %>/scss/{,*/}*.{scss,sass}',
+        files: ['<%= project.src %>/sass/*.scss', '<%= project.src %>/sass/partials/*.scss'],
         tasks: ['compass', 'scsslint']
       },
       js: {
@@ -98,7 +97,6 @@ module.exports = function(grunt) {
    * Run `grunt` on the command line
    */
   grunt.registerTask('default', [
-    'compass',
     'watch'
   ]);
 };
