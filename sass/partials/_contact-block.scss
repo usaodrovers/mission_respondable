@@ -98,6 +98,17 @@ $zen-column-count: 1;
   .contact-block__jcontent {
     top: 17px;
   }
+  .page-node-38690 {
+    .contact-block {
+      .pane-title {
+        display: block;
+        margin-right: 0;
+      }
+      .views-field-title {
+        padding-left: 10px;
+      }
+    }
+  }
 }
 @media all and (min-width: 960px) { //HARD BREAKPOINT
    // Use 12 grid columns for larger screens.

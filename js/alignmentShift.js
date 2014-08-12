@@ -1,10 +1,10 @@
-jQuery(window).load(function (){
+jQuery(window).load(function (e) {
   var lPos = 0;
   var rPos = 0;
   var lcPos = 0;
   var ccPos = 0;
   var rcPos = 0;
-  if (screen.width > 850){
+  if (jQuery(window).width() > 850){
     worx_resize_select();
   }
   function worx_resize_select() {
@@ -75,6 +75,10 @@ jQuery(window).load(function (){
     }
     var column = worx_bigger(lcPos, ccPos, rcPos);
     worx_footer_fix(lPos, rPos, column);
+    if (jQuery(window).width() < 651){
+      jQuery(j).removeClass("ashift-pos");
+      jQuery(j).removeClass("ashift-right");
+    }
   }
   function worx_bigger(lcPos, ccPos, rcPos) {
     if (lcPos > ccPos && lcPos > rcPos) {
@@ -105,7 +109,7 @@ jQuery(window).load(function (){
   jQuery(document).ajaxSuccess(function() {
     when_content_loaded( jQuery('#someElement'), function() {
       setTimeout(function() {
-        if (screen.width > 850){
+        if (jQuery(window).width() > 850){
           worx_resize_select();  
         }
       }, 300);
@@ -114,7 +118,7 @@ jQuery(window).load(function (){
 
   jQuery('.accordion-resize .view-content').accordion({
     change: function(e, ui) {
-      if (screen.width > 850){
+      if (jQuery(window).width() > 850){
         worx_resize_select();  
       }
     }
@@ -138,4 +142,5 @@ jQuery(window).load(function (){
       callback();
     }
   }
+  jQuery(window).resize(worx_resize_select);
 });

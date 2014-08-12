@@ -16,6 +16,43 @@ $zen-column-count: 1;
     }
   }
 }
+.pane-division-courses {
+  .panel-pane {
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  table {
+    font-size: 11px;
+    line-height: 13px;
+    margin: .5em 15px 1em;
+    width: 177px !important;
+    tbody {
+      border: 0;
+    }
+    tr {
+      background: none;
+      border-bottom: 1px solid $body_text;
+      &:nth-last-child(1) {
+        border-bottom: 0;
+      }
+    }
+    h3 {
+      padding: 0;
+    }
+  }
+  .view-footer {
+    background: none;
+    margin-top: -10px;
+    tr {
+      border-top: 1px solid $body_text;
+    }
+    h4 {
+      margin: 0;
+    }
+  }
+}
 @media all and (min-width: 481px) { //HARD BREAKPOINT
    // Use 3 grid columns for special layouts on smaller screens.
   $zen-column-count: 3;

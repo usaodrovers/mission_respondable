@@ -30,6 +30,7 @@ $zen-column-count: 1;
   }
 }
 .view-display-id-professional_grid,
+.pane-professional-professional-resources,
 .views-field-field-prof-social-links, 
 .views-field-field-prof-courses,
 .pane-professional-professional-course-syllabus {
@@ -128,6 +129,10 @@ $zen-column-count: 1;
   .l-float-left:nth-child(2n + 1) {
     float: left;
     margin-right: 10px;
+  }
+  .l-float-left.shift-right {
+    float: right;
+    margin-right: 0;
   }
   .pane-professional-professional-image-gallery,
   .pane-professional-professional-video-gallery,
