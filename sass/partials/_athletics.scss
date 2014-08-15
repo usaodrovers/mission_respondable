@@ -166,9 +166,14 @@
       border: none;
       box-shadow: none;
 
-      .flex-direction-nav .flex-prev,
-      .flex-control-nav {
+      .flex-direction-nav .flex-prev {
         display: none;
+      }
+
+      .flex-control-nav {
+        position: absolute;
+        top: 12px;
+        left: 113px;
       }
 
       .flex-direction-nav .flex-next,
