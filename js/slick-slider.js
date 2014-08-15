@@ -53,4 +53,8 @@ jQuery(document).ready(function() {
     }
     count++;
   }
+
+  jQuery(window).resize(function() {
+    measure_slide_fast;
+  });
 });
