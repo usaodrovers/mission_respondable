@@ -276,7 +276,7 @@
   .pane-athletics-schedule-results {
     margin-left: 264px;
     position: absolute;
-    top: 474px;
+    top: 561px;
     width: calc(100% - 294px);
 
     ul {
@@ -303,14 +303,18 @@
       padding-left: 15px;
       position: relative;
 
+      ul {
+        margin-left: 30px;
+        border: 2px solid #BF9F41;
+        border-radius: 15px 15px 0 0;
+        border-bottom: none;
+      }
+
       #athletics-schedule-view,
       #athletics-results-view {
         border: 2px solid #BF9F41;
         border-radius: 15px;
-        left: 0;
         margin: 0 15px;
-        position: absolute;
-        top: 40px;
         width: 100%;
 
         .view-content {
