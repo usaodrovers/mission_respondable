@@ -15,6 +15,16 @@ jQuery(document).ready(function() {
     // Can't pass params in onBeforeChange setting function. boo.
     onBeforeChange: measure_slide_fast,
     lazyLoad: 'progressive',
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          centerMode: false,
+          arrows: false,
+          onBeforeChange: null,
+        }
+      },
+    ]
   });
   
   // Check height of div containing slides because occasionaly the script loads
@@ -55,7 +65,7 @@ jQuery(document).ready(function() {
   }
 
   jQuery(window).resize(function() {
-    var screenWidth = screen.width;
+    var screenWidth = jQuery(window).width();
     console.log(screenWidth);
     measure_slide_fast;
   });
