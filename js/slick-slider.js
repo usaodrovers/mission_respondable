@@ -55,6 +55,8 @@ jQuery(document).ready(function() {
   }
 
   jQuery(window).resize(function() {
+    var screenWidth = screen.width;
+    console.log(screenWidth);
     measure_slide_fast;
   });
 });
