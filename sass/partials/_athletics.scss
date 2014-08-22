@@ -32,7 +32,7 @@
   }
 
   .panel-display {
-    @include background-image(linear-gradient(to right, rgba(60, 75, 64, 1) 0%, rgba(60, 75, 64, 1) 25%, rgba(255,219,123,1) 24%, rgba(255, 219, 123, 1) 100%));
+    @include background-image(linear-gradient(to right, rgba(60, 75, 64, 1) 0%, rgba(60, 75, 64, 1) 25%, rgba(255,219,123,1) 25%, rgba(255, 219, 123, 1) 100%));
     position: relative;
     min-height: 593px;
   }
@@ -194,7 +194,7 @@
         background-color: #00483A;
         float: left;
         padding: 35px 15px 0 15px;
-        width: 349px;
+        width: 346px;
 
         a {
           color: #FFD457;
@@ -206,7 +206,7 @@
         color: #FFEFBC;
         float: left;
         padding: 0 15px;
-        width: 349px;
+        width: 346px;
 
         p:nth-child(1) {
           margin-top: 10px;
@@ -218,7 +218,7 @@
         float: left;
         padding: 0 15px 40px 15px;
         text-transform: uppercase;
-        width: 349px;
+        width: 346px;
 
         a {
           color: #FFEFBC;
@@ -232,9 +232,9 @@
       height: 29px;
       position: absolute;
       overflow: hidden;
-      right: -371px;
+      right: -303px;
       text-indent: -9999px;
-      top: 40px;
+      top: 28px;
       width: 38px;
       z-index: 1000;
     }
