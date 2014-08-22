@@ -34,7 +34,7 @@
   .panel-display {
     @include background-image(linear-gradient(to right, rgba(60, 75, 64, 1) 0%, rgba(60, 75, 64, 1) 25%, rgba(255,219,123,1) 24%, rgba(255, 219, 123, 1) 100%));
     position: relative;
-    min-height: 700px;
+    min-height: 593px;
   }
 
   .pane-menu-menu-athletics {
@@ -281,7 +281,7 @@
   .pane-athletics-schedule-results {
     margin-left: 264px;
     position: absolute;
-    top: 561px;
+    bottom: 0;
     width: calc(100% - 294px);
 
     ul {
