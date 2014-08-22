@@ -283,6 +283,7 @@
     position: absolute;
     top: 561px;
     width: calc(100% - 294px);
+    z-index: 10;
 
     ul {
       display: inline-block;
@@ -306,6 +307,10 @@
 
     #athletics-schedule-results {
       position: relative;
+
+      .active {
+        background-color: #FFFFFF;
+      }
 
       ul {
         background-color: #ffd457;
