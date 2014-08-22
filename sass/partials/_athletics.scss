@@ -140,8 +140,9 @@
     }
   }
 
-  .pane-athletics-news-panel-pane-1,
-  .pane-athletics-news-panel-pane-2 {
+  //.pane-athletics-news-panel-pane-1,
+  //.pane-athletics-news-panel-pane-2 {
+  .athletics-news {
     @include font-old-athletics;
     left: 264px;
     position: absolute;
@@ -226,7 +227,8 @@
       }
     }
 
-    #views_slideshow_controls_text_next_athletics_news-panel_pane_1 a {
+    //#views_slideshow_controls_text_next_athletics_news-panel_pane_1 a {
+    .views-slideshow-controls-text-next a {
       background: url("../images/next-slide.png") no-repeat center center #00483A;
       border-radius: 5px 0 0 5px;
       height: 29px;
@@ -243,8 +245,10 @@
       position: absolute;
       border: 1px solid red;
 
-      #views_slideshow_controls_text_previous_athletics_news-panel_pane_1,
-      #views_slideshow_controls_text_pause_athletics_news-panel_pane_1 {
+      //#views_slideshow_controls_text_previous_athletics_news-panel_pane_1,
+      //#views_slideshow_controls_text_pause_athletics_news-panel_pane_1 {
+      .views-slideshow-controls-text-previous,
+      .views-slideshow-controls-text-pause {
         display: none;
       }
     }
