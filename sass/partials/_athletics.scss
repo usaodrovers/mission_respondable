@@ -172,9 +172,11 @@
       }
 
       .flex-control-nav {
+        height: 15px;
         position: absolute;
         top: 12px;
-        left: 113px;
+        left: 346px;
+        width: 150px;
         z-index: 10;
       }
 
@@ -297,6 +299,7 @@
       li {
         @include font-galette;
         color: #575757;
+        cursor: pointer;
         display: inline-block;
         font-size: 20px;
         padding: 10px 10px 7px 10px;
