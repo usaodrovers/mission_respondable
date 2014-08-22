@@ -302,19 +302,22 @@
         padding: 10px 10px 7px 10px;
 
         &.schedule {
+          border-radius: 13px 0 0 0;
           border-right: 1px solid #BF9F41;
-          padding: 0 10px;
-          margin: 10px 0 7px 0;
+        }
+
+        &.results {
+          border-radius: 0 13px 0 0;
+        }
+
+        .active {
+          background-color: #FFFFFF;
         }
       }
     }
 
     #athletics-schedule-results {
       position: relative;
-
-      .active {
-        background-color: #FFFFFF;
-      }
 
       ul {
         background-color: #ffd457;
