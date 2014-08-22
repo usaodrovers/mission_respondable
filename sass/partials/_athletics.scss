@@ -184,7 +184,6 @@
 
       .views-field-field-news-image {
         float: left;
-        width: 375px;
 
         img {
           border-radius: 0 0 25px 0;
@@ -309,14 +308,16 @@
       position: relative;
 
       ul {
-        margin-left: 30px;
+        background-color: #ffd457;
         border: 2px solid #BF9F41;
         border-radius: 15px 15px 0 0;
         border-bottom: none;
+        margin-left: 30px;
       }
 
       #athletics-schedule-view,
       #athletics-results-view {
+        background-color: #ffd457;
         border: 2px solid #BF9F41;
         border-radius: 15px;
         margin: 0 15px;
