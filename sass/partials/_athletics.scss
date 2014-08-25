@@ -92,6 +92,11 @@ body.section-sports {
       top: -80px;
       width: 184px;
 
+      &.sports-links {
+        border-top: dashed 1px #ceb251;
+        border-bottom: dashed 1px #ceb251;
+        margin-bottom: 15px;
+      }
       li {
         width: 184px;
       }
