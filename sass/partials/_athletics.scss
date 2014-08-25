@@ -1,3 +1,10 @@
+body.section-athletics {
+  background-image: url("../images/athletics-bkg.png") !important;
+  background-position: center top;
+  background-repeat: repeat;
+  margin-top: 0;
+  overflow: hidden;
+}
 .page-athletics,
 .node-type-sport {
   #content {
@@ -26,9 +33,25 @@
   }
 
   #main {
-    background: url("../images/athletics-bkg.png");
     margin-top: 0;
     overflow: hidden;
+    margin-bottom: 0;
+  }
+
+  #footer {
+    background-color: #00483A;
+    max-width: 954px;
+    border-left: solid #fff 3px;
+    border-right: solid #fff 3px;
+    border-bottom: solid #fff 3px;
+    border-radius: 0 0 25px 25px;
+  }
+  #block-menu-menu-footer-navigation {
+    margin-top: -1px;
+    margin-bottom: -30px;
+  }
+  #block-mission-respondable-footer-footer-contact {
+    height: 125px;
   }
 
   .panel-display {
@@ -140,8 +163,6 @@
     }
   }
 
-  //.pane-athletics-news-panel-pane-1,
-  //.pane-athletics-news-panel-pane-2 {
   .athletics-news {
     @include font-old-athletics;
     left: 264px;
@@ -229,7 +250,6 @@
       }
     }
 
-    //#views_slideshow_controls_text_next_athletics_news-panel_pane_1 a {
     .views-slideshow-controls-text-next a {
       background: url("../images/next-slide.png") no-repeat center center #00483A;
       border-radius: 5px 0 0 5px;
@@ -247,8 +267,6 @@
       position: absolute;
       border: 1px solid red;
 
-      //#views_slideshow_controls_text_previous_athletics_news-panel_pane_1,
-      //#views_slideshow_controls_text_pause_athletics_news-panel_pane_1 {
       .views-slideshow-controls-text-previous,
       .views-slideshow-controls-text-pause {
         display: none;
