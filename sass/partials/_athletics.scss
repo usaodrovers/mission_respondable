@@ -1,11 +1,11 @@
-body.section-athletics {
+body.section-sports {
   background-image: url("../images/athletics-bkg.png") !important;
   background-position: center top;
   background-repeat: repeat;
   margin-top: 0;
   overflow: hidden;
 }
-.page-athletics,
+.section-sports,
 .node-type-sport {
   #content {
     max-width: 954px;
@@ -39,7 +39,8 @@ body.section-athletics {
   }
 
   #footer {
-    background-color: #00483A;
+    background-color: $gradient-green_dark;
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
     max-width: 954px;
     border-left: solid #fff 3px;
     border-right: solid #fff 3px;
