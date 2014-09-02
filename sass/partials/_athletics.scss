@@ -18,18 +18,26 @@ body.section-sports {
     @include rotate(-90deg);
     background-color: #797979;
     background-image: none;
-    border-top: 2px solid #81B7B1;
     color: #FFEFBC;
     font-size: 1.433em;
-    left: -352px;
+    height: 25px;
+    left: -353px;
     letter-spacing: 4px;
+    line-height: 29px;
     margin: 0;
-    padding: 0 10px 0 0;
+    padding: 0;
     position: relative;
     text-align: right;
-    top: 580px;
+    top: 579px;
     width: 125%;
     z-index: 3;
+    margin-bottom: -26px;
+  }
+
+  .tabs-primary {
+    position: relative;
+    z-index: 100;
+    float: right;
   }
 
   #main {
@@ -56,7 +64,7 @@ body.section-sports {
   }
 
   .panel-display {
-    @include background-image(linear-gradient(to right, rgba(60, 75, 64, 1) 0%, rgba(60, 75, 64, 1) 25%, rgba(255,219,123,1) 25%, rgba(255, 219, 123, 1) 100%));
+    background: url(http://usao.edu/sites/usao.edu/modules/custom_features/usao_sports/css/images/sports-sidebar.png) repeat-y top left #ffdb7b;
     position: relative;
     min-height: 665px;
   }
@@ -67,36 +75,40 @@ body.section-sports {
     margin: 0;
 
     .pane-title {
-      @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0) 8%));
       @include font-galette;
       @include rotate(-90deg);
-      background-color: #FFEFBC;
+      background-color: transparent;
+      background-image: none;
       color: #575757;
       font-size: 44px;
-      left: -576px;
+      left: -146px;
       margin: 0;
       padding: 0 10px 0 0;
       position: relative;
       text-align: right;
       text-transform: uppercase;
-      top: 539px;
+      top: 135px;
       width: 125%;
       z-index: 3;
     }
 
     .menu {
-      background-color: #3C4B40;
-      left: 1px;
+      left: -2px;
       margin: 0;
       padding: 0 0 0 43px;
       position: relative;
-      top: -80px;
+      top: -45px;
       width: 184px;
 
-      &.sports-links {
+      &.sports-links .first {
         border-top: dashed 1px #ceb251;
+      }
+      &.sports-links .last {
         border-bottom: dashed 1px #ceb251;
         margin-bottom: 15px;
+      }
+      &.sports-links .last a {
+        border-bottom: none;
       }
       li {
         width: 184px;
@@ -121,11 +133,10 @@ body.section-sports {
     margin-bottom: 0;
     padding-left: 44px;
     position: relative;
-    top: -80px;
+    top: -45px;
     width: 184px;
 
     .menu {
-      background-color: #3C4B40;
       margin: 8px 0 0 0;
       padding: 10px 0;
 
@@ -154,12 +165,11 @@ body.section-sports {
   }
 
   .pane-block-3 {
-    background-color: #3C4B40;
     margin: 0 0 0 44px;
     padding-left: 8px;
     position: relative;
     width: 176px;
-    top: -80px;
+    top: -45px;
 
     table {
       margin-top: 0;
@@ -247,7 +257,7 @@ body.section-sports {
       .views-field-view-node {
         background-color: #00483A;
         float: left;
-        padding: 0 15px 52px 15px;
+        padding: 0 15px 70px 15px;
         text-transform: uppercase;
         width: 346px;
 
