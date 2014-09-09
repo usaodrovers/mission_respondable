@@ -1,0 +1,98 @@
+.image-gallery,
+.video-gallery {
+  clear: both;
+
+  .view-content {
+    padding: 0.5em 15px;
+  }
+  table {
+    margin: 0;
+    width: 100%;
+    td {
+      display: block;
+      float: left;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 0 1%;
+      width: 98%;
+      h3 {
+        padding: 0;
+      }
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 481px) { //HARD BREAKPOINT
+  /*
+   * Use 3 grid columns for special layouts on smaller screens.
+   */
+  $zen-column-count: 3;
+
+  .image-gallery,
+  .video-gallery {
+    table.cols-4 td {
+      display: block;
+      float: left;
+      width: 48%;
+    }
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 651px) {
+  .image-gallery {
+    table.cols-4 tr.row-last td{
+      &:nth-child(3),
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .video-gallery {
+    table td:nth-child(2) {
+      clear: both;
+    }
+  }
+  .image-gallery {
+    table.cols-4 td:nth-child(2n+1) {
+      clear: both;
+    }
+  }
+}
+
+@media all and (min-width: 651px) { //HARD BREAKPOINT
+  /*
+   * Use 5 grid columns for smaller screens.
+   */
+  $zen-column-count: 5;
+
+  .video-gallery,
+  .image-gallery {
+    &.cols-4 {
+      td {
+        display: block;
+        float: left;
+        width: 23%;
+      }
+      tr.row-last {
+        td {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &.cols-2 {
+      td {
+        display: block;
+        float: left;
+        width: 48%;
+      }
+      tr.row-last {
+        td {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
