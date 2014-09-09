@@ -41,7 +41,7 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   $pageID = arg(0);
   $otherPageID = arg(1);
-  if ($pageID == 'future-students' || $otherPageID == '38621') {
+  if ($pageID == 'future-students' || $otherPageID == '38621' || $otherPageID =='39241') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
   }
   drupal_add_library('system', 'ui.accordion');
