@@ -4,7 +4,7 @@ jQuery(window).load(function (e) {
   var lcPos = 0;
   var ccPos = 0;
   var rcPos = 0;
-  if (jQuery(window).width() > 850){
+  if (jQuery(window).width() > 481){
     worx_resize_select();
   }
   function worx_resize_select() {
@@ -109,7 +109,7 @@ jQuery(window).load(function (e) {
   jQuery(document).ajaxSuccess(function() {
     when_content_loaded( jQuery('#someElement'), function() {
       setTimeout(function() {
-        if (jQuery(window).width() > 850){
+        if (jQuery(window).width() > 481){
           worx_resize_select();  
         }
       }, 300);
@@ -118,7 +118,7 @@ jQuery(window).load(function (e) {
 
   jQuery('.accordion-resize .view-content').accordion({
     change: function(e, ui) {
-      if (jQuery(window).width() > 850){
+      if (jQuery(window).width() > 481){
         worx_resize_select();  
       }
     }
@@ -142,5 +142,9 @@ jQuery(window).load(function (e) {
       callback();
     }
   }
-  jQuery(window).resize(worx_resize_select);
+  jQuery(window).resize(function() {
+      if (jQuery(window).width() > 481) {
+          worx_resize_select();
+      }
+  });
 });
