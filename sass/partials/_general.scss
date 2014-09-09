@@ -111,6 +111,12 @@ img {
         margin: -1px -15px;
         padding: 5px 15px;
       }
+      a.active {
+        background-color: $event-active;
+        margin: -1px -15px;
+        padding: 5px 15px;
+        display:block;
+      }
       &.views-row-last,
       &:nth-last-child(1) {
         border-bottom: 0;

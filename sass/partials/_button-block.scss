@@ -41,6 +41,12 @@
       padding-top: 8px;
     }
   }
+  .disability-services .button-block__link {
+    &.btn2 {
+      padding-bottom: 7px;
+      padding-top: 8px;
+    }
+  }
   .button-block {
     @include zen-clear();
     clear: left;
