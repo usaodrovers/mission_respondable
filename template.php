@@ -168,3 +168,12 @@ function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
 function mission_respondable_menu_tree__menu_future_students_resources($variables) {
   return '<ul class="menu menu__vertical">' . $variables['tree'] . '</ul>';
 }
+
+function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'webform_client_form_38713':
+      $form['#attributes']['class'][] = 'sample-order-form';
+      drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
+      break;
+  }
+}
