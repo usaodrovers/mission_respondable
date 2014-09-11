@@ -166,7 +166,6 @@ function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
   switch ($form_id) {
     case 'webform_client_form_38713':
       $form['some_element']['#after_build'] = array('_load_my_javascript');
-      print_r($form_id);
       function _load_my_javascript($element){
         drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/printshop.js');
       }
