@@ -201,9 +201,6 @@ iframe {
     }
   }
 }
-.node-type-clubs-orgs .panel-pane {
-  margin-bottom: 0;
-}
 .item-list {
   @include font-myriadpro;
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
