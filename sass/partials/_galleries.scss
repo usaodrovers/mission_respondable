@@ -70,28 +70,23 @@
 
   .video-gallery,
   .image-gallery {
-    &.cols-4 {
+    .cols-4 {
       td {
         display: block;
         float: left;
         width: 23%;
       }
-      tr.row-last {
-        td {
-          margin-bottom: 0;
-        }
+    }
+    .row-last {
+      td {
+        margin-bottom: 0;
       }
     }
-    &.cols-2 {
+    .cols-2 {
       td {
         display: block;
         float: left;
         width: 48%;
-      }
-      tr.row-last {
-        td {
-          margin-bottom: 0;
-        }
       }
     }
   }
