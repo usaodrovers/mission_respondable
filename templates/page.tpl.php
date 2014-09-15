@@ -54,6 +54,12 @@
 
   </header>
 
+  <?php if ($page['alert']): ?>
+    <div id="alert">
+      <?php print render($page['alert']); ?>
+    </div>
+  <?php endif; ?>
+
   <div id="main">
 
     <div id="content" class="column" role="main">
