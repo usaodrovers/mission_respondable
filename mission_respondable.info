@@ -98,6 +98,7 @@ stylesheets[all][] = css/mission_respondable.css
 ;   <?php print $header_top; ?>
 
 regions[header]         = Header
+regions[alert]          = Alert
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
