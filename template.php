@@ -44,7 +44,7 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
-  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-master/slick/slick.min.js');
+  drupal_add_js(libraries_get_path('slick-master') . '/slick/slick.min.js');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-slider.js');
 
 
