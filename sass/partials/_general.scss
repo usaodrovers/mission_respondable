@@ -671,7 +671,7 @@ img {
   }
 
   #logo {
-    @include zen-grid-item(2, 1);
+    @include inline-block;
     border: none;
   }
 
@@ -691,9 +691,8 @@ img {
   }
 
   #secondary-menu {
-    @include zen-grid-item(7, 2.6);
+    @include inline-block;
     clear: none;
-
     display: inherit;
 
     ul {
