@@ -1,79 +1,57 @@
 .search-block {
-  padding: -7px 0 5px;
   margin: 0 auto;
+  padding: -7px 0 5px;
   width: 175px;
-
   label {
     display: none;
   }
-
   input.form-text {
-    border-radius: 3px 0 0 3px;
+    @include border-radius(3px 0 0 3px);
     background-color: $box-background;
-    border: none;
+    border: 0;
+    height: 28px;
     padding-left: 5px;
     width: 100%;
-    height: 28px;
   }
-
   .views-exposed-widget {
     margin: 0;
     padding: .4em 0 0;
-
     .form-submit {
       margin-top: 0;
     }
   }
 }
-
-
 .section-search {
-
   .panels-flexible-region {
     float: none;
     margin-top: -15px;
   }
-  
   #main .search-block {
     display: none;
   }
 }
-
 @media all and (max-width: 480px) { //SOFT BREAK POINT
-  /*
-   * Use 3 grid columns for special layouts on smaller screens.
-   */
+   // Use 3 grid columns for special layouts on smaller screens.
   $zen-column-count: 3;
 }
-
 @media all and (min-width: 481px) { //HARD BREAK POINT
-  /*
-   * Use 3 grid columns for special layouts on smaller screens.
-   */
+   // Use 3 grid columns for special layouts on smaller screens.
   $zen-column-count: 3;
-
   .search-block {
     @include zen-float(right);
-    margin-right: 2%;
     height: 25px;
+    margin-right: 2%;
     width: auto;
   }
 }
-
 @media all and (min-width: 651px) { //HARD BREAK POINT
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
+   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
 }
-
 @media all and (min-width: 960px) { //HARD BREAK POINT
-  /*
-   * Use 12 grid columns for larger screens.
-   */
+   // Use 12 grid columns for larger screens.
   $zen-column-count: 12;
-
   .search-block {
-    @include inline-block; 
+    @include inline-block;
   }
 }
