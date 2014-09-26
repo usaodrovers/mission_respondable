@@ -46,6 +46,9 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   }
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
+  drupal_add_css(drupal_get_path('theme', 'mission_respondable') . '/js/slick-master/slick/slick.css');
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-master/slick/slick.js');
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-slider.js');
 
 
   // The body tag's classes are controlled by the $classes_array variable. To
@@ -141,7 +144,7 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
      $classes[] = 'search-block';
      break;
    }
-      
+
   // Add a count to all the blocks in the region.
   // $variables['classes_array'][] = 'count-' . $variables['block_id'];
 
