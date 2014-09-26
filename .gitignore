@@ -9,3 +9,4 @@
 node_modules
 .npm-debug.log
 tmp
+js/slick-master/
