@@ -46,8 +46,8 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   }
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
-  drupal_add_css(drupal_get_path('theme', 'mission_respondable') . '/js/slick-master/slick/slick.css');
-  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-master/slick/slick.js');
+  drupal_add_css(libraries_get_path('slick-master') . '/slick/slick.css');
+  drupal_add_js(libraries_get_path('slick-master') . '/slick/slick.js');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-slider.js');
 
 
