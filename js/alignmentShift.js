@@ -8,7 +8,7 @@ jQuery(window).load(function (e) {
   if (tourHeight > 40){
     worx_resize_select();
   }
-  else if {
+  else {
     var tourHeight = jQuery('.vtour').height();
   }
   if (jQuery(window).width() > 481){
