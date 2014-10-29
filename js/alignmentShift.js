@@ -5,14 +5,19 @@ jQuery(window).load(function (e) {
   var ccPos = 0;
   var rcPos = 0;
   var tourHeight = jQuery('.vtour').height();
-  if (tourHeight > 40){
-    worx_resize_select();
-  }
-  else {
-    var tourHeight = jQuery('.vtour').height();
-  }
-  if (jQuery(window).width() > 481){
-    worx_resize_select();
+  console.log(tourHeight); //Just to verify it exists.
+  
+  resize_init();
+  
+  function resize_init() {
+    if (jQuery(window).width() > 481){
+      if (tourHeight > 40) { 
+        worx_resize_select();
+      }
+      else {
+        resize_init();
+      }
+    }
   }
   function worx_resize_select() {
     lPos = 0;
