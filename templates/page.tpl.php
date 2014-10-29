@@ -126,5 +126,5 @@
   <?php print render($page['footer']); ?>
 
 </div>
-
+<script async="async" defer="defer"src="//www.youvisit.com/tour/Embed/js2"></script>
 <?php print render($page['bottom']); ?>
