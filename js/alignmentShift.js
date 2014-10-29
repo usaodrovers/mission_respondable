@@ -4,6 +4,13 @@ jQuery(window).load(function (e) {
   var lcPos = 0;
   var ccPos = 0;
   var rcPos = 0;
+  var tourHeight = jQuery('.vtour').height();
+  if (tourHeight > 40){
+    worx_resize_select();
+  }
+  else if {
+    var tourHeight = jQuery('.vtour').height();
+  }
   if (jQuery(window).width() > 481){
     worx_resize_select();
   }
