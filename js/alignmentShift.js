@@ -15,7 +15,9 @@ jQuery(window).load(function (e) {
         worx_resize_select();
       }
       else {
-        resize_init();
+        setTimeout(function() {
+          resize_init();
+        }, 100);
       }
     }
   }
