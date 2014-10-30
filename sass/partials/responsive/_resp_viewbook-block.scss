@@ -1,0 +1,33 @@
+@media all and (min-width: 651px) {
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  .viewbook-block {
+
+    .viewbook-block__label {
+      display: block;
+    }
+    .viewbook-block__body {
+      @include zen-grid-item(3.3 , 2.6);
+    }
+    .flex-control-nav {
+      display: block;
+      left: 10px;
+      position: relative;
+      top: -65px;
+      width: 17%;
+    }
+  }
+}
+@media all and (min-width: 960px) {
+  // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+  .viewbook-block {
+    .viewbook-block__body {
+      @include zen-grid-item(7.68 , 4.8);
+      height: 45px;
+    }
+    .flex-control-nav {
+      top: -40px;
+    }
+  }
+}

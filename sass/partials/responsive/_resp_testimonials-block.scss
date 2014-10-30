@@ -1,0 +1,18 @@
+@media all and (min-width: 481px) { //HARD BREAK POINT
+  // Use 3 grid columns for smaller screens.
+  $zen-column-count: 3;
+}
+@media all and (min-width: 651px) { //HARD BREAK POINT
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  .testimonial-block {
+    .testimonial-block__image {
+      max-width: 325px;
+      padding-right: 15px;
+    }
+  }
+}
+@media all and (min-width: 960px) { //HARD BREAK POINT
+  // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+}

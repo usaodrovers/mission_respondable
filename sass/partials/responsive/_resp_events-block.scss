@@ -1,0 +1,9 @@
+@media all and (min-width: 481px) {
+  // Use 3 grid columns for special layouts on smaller screens.
+  $zen-column-count: 3;
+  .event-block {
+    .event-date {
+      float: left;
+    }
+  }
+}

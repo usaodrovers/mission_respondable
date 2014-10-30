@@ -102,27 +102,4 @@
     margin-left: 0;
   }
 }
-@media all and (min-width: 481px) { //HARD BREAK POINT
-  .directory__photo {
-    img {
-      max-height: 100%;
-    }
-  }
-}
-@media all and (min-width: 651px) { //HARD BREAK POINT
-  .directory__photo {
-    img {
-      max-height: 80px; 
-    }
-  }
-  .directory-block {
-    .view-content li.views-row-last {
-      padding-bottom: 0;
-    }
-    .directory__title {
-      font-size: 12px;
-    }
-  }
-}
-@media all and (min-width: 960px) { //HARD BREAK POINT
-}
+

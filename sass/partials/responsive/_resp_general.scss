@@ -1,0 +1,178 @@
+@media all and (max-width: 480px) {
+  #main {
+    position: relative;
+  }
+  #content {
+    margin-top: 4em;
+  }
+  .not-front #content {
+    margin-top: 4em;
+  }
+  .html #navigation {
+    @include zen_clear();
+    margin-top: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mission-statement {
+    margin-top: -15px;
+  }
+}
+@media all and (min-width: 481px) {
+  // Use 3 grid columns for smaller screens.
+  $zen-column-count: 3;
+  body {
+    background: url('../images/pretties.png') no-repeat center top;
+    background-color: $background;
+    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
+      background: url('');
+    }
+  }
+  #logo {
+    border: 0;
+    float: left;
+    margin: 0;
+    padding: 5px 1%;
+    width: auto;
+  }
+}
+@media all and (min-width: 651px) {
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  // comment this out in dev for size fix
+  .header-wrapper,
+  #main-menu {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+  #secondary-menu {
+    @include zen-grid-item(4, 1);
+    ul {
+      li {
+        border-right: 1px solid $topbar-link_color;
+        padding: 5px 1.3%;
+        &.last {
+          border: 0;
+        }
+      }
+    }
+  }
+  .l-content-right {
+    @include zen-grid-item(3, 1, right);
+    @include zen-clear(right);
+  }
+  .l-content-left {
+    @include zen-grid-item(3.1, 1);
+    @include zen-clear(left);
+  }
+  .l-sidebar-left {
+    @include zen-grid-item(1.6, 1, left);
+    @include zen-clear(left);
+  }
+  .l-sidebar-right {
+    @include zen-grid-item(1.6, 4.22);
+    @include zen-clear(right);
+  }
+  .l-half-right {
+    @include zen-grid-item(2.5, 1, right);
+    @include zen-clear(right);
+    .field-label {
+      padding-left: 10px;
+    }
+  }
+  .l-half-left {
+    @include zen-grid-item(2.5, 1, left);
+    @include zen-clear(left);
+    .field-label {
+      padding-right: 10px;
+    }
+  }
+  .l-half-right__pad {
+    @include zen-grid-item(2.4, 1, right);
+    @include zen-clear(right);
+  }
+  .l-half-left__pad {
+    @include zen-grid-item(2.4, 1, left);
+    @include zen-clear(left);
+  }
+  .l-3col-left {
+    @include zen-grid-item(1.5, 1);
+    @include zen-clear(left);
+    .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-center {
+    @include zen-grid-item(1.6, 2.7);
+    .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-right {
+    @include zen-grid-item(1.5, 4.5);
+    .pager li {
+      padding: 0;
+    }
+  }
+}
+@media all and (min-width: 960px) {
+  // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+  .l-content-right {
+    @include zen-grid-item(7.31, 1, right);
+    @include zen-clear(right);
+  }
+  .l-content-left {
+    @include zen-grid-item(7.3, 1);
+    @include zen-clear(left);
+  }
+  .l-sidebar-left {
+    @include zen-grid-item(4, 1, left);
+    @include zen-clear(left);
+  }
+  .l-sidebar-right {
+    @include zen-grid-item(4.4, 8.6);
+  }
+  .section-testimonials #content,
+  .section-search #content,
+  .not-front #content {
+    padding: 0;
+  }
+  #logo {
+    @include inline-block;
+    border: 0;
+  }
+  #navigation {
+    #main-menu {
+      display: inherit;
+    }
+    li a {
+      padding-left: 6px;
+    }
+  }
+  .region-navigation {
+    display: none;
+  }
+  #secondary-menu {
+    @include inline-block;
+    clear: none;
+    display: inherit;
+    ul {
+      li {
+        padding: 5px 1.8%;
+      }
+    }
+  }
+  #block-menu-menu-footer-navigation {
+    display: inherit;
+  }
+}
+@media all and (min-width: 1024px) { //SOFT BREAK POINT
+  #navigation {
+    li a {
+      padding-left: 12px;
+    }
+  }
+}

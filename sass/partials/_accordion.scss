@@ -114,29 +114,4 @@
     padding: 0;
   }
 }
-@media all and (min-width: 481px) { //HARD BREAKPOINT
-   // Use 3 grid columns for special layouts on smaller screens.
-  $zen-column-count: 3;
-}
-@media all and (min-width: 651px) { //HARD BREAKPOINT
-   // Use 5 grid columns for smaller screens.
-  $zen-column-count: 5;
-  .l-box {
-    .ui-accordion {
-      .item-list {
-        @include font-myriadprocondensed_bold;
-        background: $box-background;
-        font-size: 14px;
-        letter-spacing: .01em;
-        padding: 0;
-      }
-      p {//Temp for Majors and Divisons till Majors get created.
-        font-size: 12px;
-      }
-    }
-  }
-}
-@media all and (min-width: 960px) { //HARD BREAKPOINT
-   // Use 12 grid columns for larger screens.
-  $zen-column-count: 12;
-}
+

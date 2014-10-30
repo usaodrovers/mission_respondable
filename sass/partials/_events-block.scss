@@ -98,20 +98,4 @@ $zen-column-count: 1;
 .node-type-event #page-title {//Remove the display so we have the page title for SEO but the display is in the view.
   display: none;
 }
-@media all and (min-width: 481px) {
-   // Use 3 grid columns for special layouts on smaller screens.
-  $zen-column-count: 3;
-  .event-block {
-    .event-date {
-      float: left;
-    }
-  }
-}
-@media all and (min-width: 651px) {
-   // Use 5 grid columns for smaller screens.
-  $zen-column-count: 5;
-}
-@media all and (min-width: 960px) {
-   // Use 12 grid columns for larger screens.
-  $zen-column-count: 12;
-}
+
