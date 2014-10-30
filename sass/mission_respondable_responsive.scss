@@ -1,0 +1,47 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+// Import Sass mixins, variables, Compass modules, etc.
+@import 'init';
+
+// HTML element (SMACSS base) rules.
+@import 'normalize';
+
+// Layout rules.
+@import 'layouts/responsive';
+
+// Component (SMACSS module) rules. 
+@import 'components/misc';
+
+// Optionally, add your own components here.
+@import 'partials/fonts';
+@import 'partials/icons';
+@import 'partials/colors';
+// Above are Global
+@import 'partials/general';
+@import 'partials/calendar';
+@import 'partials/apply';
+@import 'partials/search';
+@import 'partials/viewbook-block';
+@import 'partials/button-block';
+@import 'partials/testimonials-block';
+@import 'partials/events-block';
+@import 'partials/news-block';
+@import 'partials/directory-block';
+@import 'partials/announcements-block';
+@import 'partials/quicktab-block';
+@import 'partials/contact-block';
+@import 'partials/accordion';
+@import 'partials/majors';
+@import 'partials/professional';
+@import 'partials/alignmentshift';
+@import 'partials/tables';
+@import 'partials/division';
+@import 'partials/galleries';
+@import 'partials/slick';
+@import 'partials/rwd_display';
