@@ -1,3 +1,6 @@
+(function ($) {
+  Drupal.behaviors.rwd_display = {
+    attach: function (context, settings) {
 // viewport stuff
 var targetWidth = 980;
 var deviceWidth = 'device-width';
@@ -35,3 +38,6 @@ $("#view-full").on("click", function(){
 $('.rwd-display-options').on("click", "#view-responsive", function(){
     showMobileOptimized();
 });
+     }
+  };
+})(jQuery);
