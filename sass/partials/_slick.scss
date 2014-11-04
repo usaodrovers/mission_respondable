@@ -5,9 +5,15 @@
       max-width: 1200px;
     }
     .pane-three-button-pane,
-    #page-title {
+    #page-title,
+    .squeeze-to-fit {
       max-width: 622px;
       margin: 0 auto;
+    }
+    .gallery-title-image {
+      max-width: 647px;
+      margin: 0 auto;
+      margin-bottom: 25px;
     }
   }
 }
