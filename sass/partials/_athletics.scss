@@ -1,5 +1,5 @@
 body.section-sports {
-  background-image: url("../images/athletics-background.png") !important;
+  background-image: url("../images/athletics-bkg.png") !important;
   background-position: center top;
   background-repeat: repeat;
   margin-top: 0;
@@ -14,7 +14,7 @@ body.section-sports {
     margin-top: 0;
   }
 
-  .pane-node-title h1 {
+  .pane-node-title h1, h1.pane-title {
     @include font-galette;
     @include rotate(-90deg);
     background-color: transparent;
@@ -68,7 +68,7 @@ body.section-sports {
   }
 
   .panel-display {
-    background: url(http://usao.edu/sites/usao.edu/modules/custom_features/usao_sports/css/images/sports-sidebar.png) repeat-y top left #ffdb7b;
+    background: url("../images/athletics-background.png") repeat-y top left #ffdb7b;
     position: relative;
     min-height: 665px;
   }
@@ -195,10 +195,10 @@ body.section-sports {
       color: #FFD457;
       display: block;
       font-size: 18px;
-      left: 311px;
-      position: relative;
-      width: 358px;
+      /*
+      width: 359px;
       z-index: 10;
+      */
     }
 
     .flexslider {
@@ -225,37 +225,31 @@ body.section-sports {
       }
 
       .athletics-news-image {
-        width: 308px;
+        float: left;
+        margin-top: -38px;
+        width: 44.19%;
       }
 
-      .views-field-field-news-image {
+      .athletics-other-fields {
+        background-color: #00483A;
         float: left;
+        padding: 15px;
+        width: 51.51%;
+      }
 
-        img {
-          border-radius: 0 0 25px 0;
-        }
+      .field-name-field-sports-news-image img {
+        border-radius: 0 0 25px 0;
       }
 
       .field-name-field-sports-news-image {
       }
 
-      .views-field-title {
-        background-color: #00483A;
-        float: left;
-        padding: 60px 15px 0 15px;
-        width: 346px;
-
-        a {
-          color: #FFD457;
-        }
+      .views-field-title a {
+        color: #FFD457;
       }
 
       .views-field-body {
-        background-color: #00483A;
         color: #FFEFBC;
-        float: left;
-        padding: 0 15px;
-        width: 346px;
 
         p:nth-child(1) {
           margin-top: 10px;
@@ -263,11 +257,7 @@ body.section-sports {
       }
 
       .views-field-view-node {
-        background-color: #00483A;
-        float: left;
-        padding: 0 15px 70px 15px;
         text-transform: uppercase;
-        width: 346px;
 
         a {
           color: #FFEFBC;
@@ -301,14 +291,12 @@ body.section-sports {
 
   .pane-athletics-blurbs-panel-pane-1 {
     @include font-old-athletics;
+    /*
     background-color: #FFD457;
     border: 3px solid #FFFFFF;
     border-radius: 18px 0 0 18px / 100px 0 0 100px;
     border-right: none;
     height: 207px;
-    position: absolute;
-    right: 0;
-    top: 200px;
     width: 393px;
     z-index: 3;
 
@@ -325,6 +313,7 @@ body.section-sports {
     .views-field-title {
       padding-top: 40px;
     }
+    */
   }
 
   .pane-athletics-schedule-results {
