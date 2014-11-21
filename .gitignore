@@ -6,4 +6,10 @@
 *.swp
 *.css
 *.orig
-*.map
+node_modules
+.npm-debug.log
+tmp
+.idea
+bin
+*.iml
+.bundle
