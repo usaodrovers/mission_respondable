@@ -14,6 +14,14 @@ body.section-sports {
     margin-top: 0;
   }
 
+  .panel-placeholder {
+    height: 10px;
+  }
+
+  .panel-right {
+    position: relative;
+  }
+
   .pane-node-title h1, h1.pane-title {
     @include font-galette;
     @include rotate(-90deg);
@@ -142,13 +150,10 @@ body.section-sports {
     @include font-galette;
     font-size: 18px;
     margin-bottom: 0;
-    padding-left: 44px;
-    position: relative;
-    top: -45px;
     width: 184px;
 
     .menu {
-      margin: 8px 0 0 0;
+      margin: 0;
       padding: 10px 0;
 
       li {
@@ -187,11 +192,13 @@ body.section-sports {
 
   .athletics-news {
     @include font-old-athletics;
+    background-color: #00483A;
+    margin-bottom: 0;
     position: relative;
 
     .pane-title {
       @include font-galette;
-      background: none #00483A;
+      background-image: none;
       color: #FFD457;
       display: block;
       font-size: 18px;
@@ -213,8 +220,8 @@ body.section-sports {
       .flex-control-nav {
         height: 15px;
         position: absolute;
-        top: 37px;
-        left: 280px;
+        top: -26px;
+        left: 70px;
         width: 150px;
         z-index: 10;
       }
@@ -225,16 +232,14 @@ body.section-sports {
       }
 
       .athletics-news-image {
-        float: left;
-        margin-top: -38px;
-        width: 44.19%;
+        left: -308px;
+        position: absolute;
+        top: -38px;
+        width: 308px;
       }
 
       .athletics-other-fields {
-        background-color: #00483A;
-        float: left;
         padding: 15px;
-        width: 51.51%;
       }
 
       .field-name-field-sports-news-image img {
@@ -271,16 +276,15 @@ body.section-sports {
       height: 29px;
       position: absolute;
       overflow: hidden;
-      right: -304px;
+      right: 4px;
       text-indent: -9999px;
-      top: 53px;
+      top: 11px;
       width: 38px;
       z-index: 1000;
     }
 
     .views-slideshow-controls-top {
       position: absolute;
-      border: 1px solid red;
 
       .views-slideshow-controls-text-previous,
       .views-slideshow-controls-text-pause {
@@ -289,22 +293,23 @@ body.section-sports {
     }
   }
 
-  .pane-athletics-blurbs-panel-pane-1 {
+  .athletics-blurb {
     @include font-old-athletics;
-    /*
     background-color: #FFD457;
     border: 3px solid #FFFFFF;
     border-radius: 18px 0 0 18px / 100px 0 0 100px;
     border-right: none;
     height: 207px;
-    width: 393px;
+    left: -18px;
+    position: relative;
+    width: 404px;
     z-index: 3;
 
     .views-row {
       padding: 0 181px 0 30px;
     }
 
-    .views-field-field-blurb-image {
+    .athletics-blurb-image {
       position: absolute;
       right: 0;
       top: 0;
@@ -313,14 +318,9 @@ body.section-sports {
     .views-field-title {
       padding-top: 40px;
     }
-    */
   }
 
   .pane-athletics-schedule-results {
-    margin-left: 264px;
-    position: absolute;
-    top: 452px;
-
     ul {
       display: inline-block;
       margin: 0;
@@ -389,6 +389,55 @@ body.section-sports {
     margin-top: 0;
     background-color: #007362;
     box-shadow: 3px 0 5px inset;
+  }
+}
+
+// Roster
+
+.page-node-roster {
+  table {
+    width: 100%;
+  }
+  td {
+    padding-bottom: 15px;
+  }
+  .pane-views-panes .pane-title {
+    background-image: none;
+    background-color: transparent;
+    color: #007161;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+  }
+  span {
+    font-weight: 700;
+  }
+  .field-name-field-sports-ros-image {
+    float: left;
+    margin: 0 10px;
+  }
+  .views-field {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.node-type-sport {
+  .athletics-blurb {
+    .pane-title {
+      background-image: none;
+      background-color: transparent;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #bf9f41;
+      letter-spacing: 1px;
+      padding-left: 30px;
+      height: auto;
+      margin-bottom: -40px;
+    }
+    span {
+      font-weight: 700;
+    }
   }
 }
 
