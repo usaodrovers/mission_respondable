@@ -299,7 +299,7 @@ body.section-sports {
     border: 3px solid #FFFFFF;
     border-radius: 18px 0 0 18px / 100px 0 0 100px;
     border-right: none;
-    height: 207px;
+    height: 227px;
     left: -18px;
     position: relative;
     width: 404px;
@@ -438,9 +438,40 @@ body.section-sports {
     span {
       font-weight: 700;
     }
+    .views-field-field-see-team {
+      @include font-galette;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-align: right;
+      margin-top: 15px;
+      a {
+        color: #bf9f41;
+      }
+    }
   }
 }
-
+.athletics-news-listing {
+  img{
+    float: left;
+    padding: 0 10px 25px 10px;
+  }
+  .item-list {
+    background-color: transparent;
+    background-image: none;
+    a {
+      color: $gradient-green_light;
+    }
+    .pager-current {
+      color: $gradient-green_dark;
+    }
+    .pager-ellipsis {
+      color: $body-text;
+    }
+    .pager li {
+      padding: 0.1em;
+    }
+  }
+}
 // This is reserved for one of things that sports node doesn't have in common
 // with the front Athletics page.
 .node-type-sport {

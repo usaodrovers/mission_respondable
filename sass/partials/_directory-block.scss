@@ -1,80 +1,101 @@
 .directory-block,
+.page-sports-athletic-staff,
 .page-directory {
-  
-  .view-content ul {
+  .directory-listing {
     list-style: none;
     padding: 0 15px;
-    margin: 15px 0;
-
+    h3 {
+      padding: .5em 0;
+      &.field-content{
+        padding: 0;
+      }
+    }
     li {
       border-top: 1px solid $divider;
       clear: both;
       margin-top: 10px;
       padding-top: 10px;
-      &.views-row-first {
-        border-top: none;
-        margin-top: 0;
-        padding-top: 0;
-      }
-      &.views-rof-last {
-        padding-bottom: 10px;
-      }
+    } 
+    .views-row {
+      border-top: 1px solid $divider;
+      clear: both;
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+    .views-row-first {
+      border-top: 0;
+      padding-top: 0;
     }
   }
-  
   .directory__name {
+    @include font-myriadprocondensed_bold;
     color: $primary_nav;
-    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: bold;
     line-height: 18px;
     margin: 0;
-    text-decoration: none;
     padding: 0;
+    text-decoration: none;
   }
-
   .directory__title {
     color: $body_text;
-    font-size: 0.9em;
+    font-size: .9em;
+    font-size: 14px;
     line-height: 1.3em;
     padding-top: 0;
-    font-size: 12px;
   }
-
   .directory__photo {
     float: left;
     margin-right: 10px;
   }
-}
-
-.page-directory {
-  h1#page-title {
-    margin: 0;
-  }
-  .pane-directory-directory {
-    padding: 10px;
-    ul {
-      border-bottom: 1px solid $body_text;
-      padding-bottom: 10px;
-      &:nth-last-child(1) {
-        border-bottom: none;
-        padding-bottom: 0;
-      }
+  .item-list {
+    li {
+      margin: 0;
     }
   }
-  .views-exposed-widget {
+  .views-row-last {
+    padding-bottom: 10px;
+  }
+}
+.page-sports-athletic-staff,
+.page-directory {
+  #page-title {
+    margin: 0;
+  }
+  .form-item {
+    padding: 0 0 0 10px;
+  }
+  .view-header-link {
+    padding: .5em 15px;
+  }
+  .views-row-first {
+    margin-top: 1.5em;
+  }
+  .views-row-last,
+  ul {
+    border-bottom: 1px solid $body_text;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.5em;
+    &:nth-last-child(1) {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+  .views-exposed-widgets {
     font-size: 12px;
     line-height: 19px;
+    margin-bottom: 0;
+    label {
+      padding-left: 10px;
+    }
     button, 
     input,
     select {
       font-size: 12px;
       line-height: 19px;
+      max-width: 280px;
     }
   }
 }
-
 .page-directory-sort-admin {
   table {
     width: 100%;
@@ -83,7 +104,6 @@
     margin-left: 0;
   }
 }
-
 @media all and (min-width: 481px) { //HARD BREAK POINT
   .directory__photo {
     img {
@@ -91,20 +111,20 @@
     }
   }
 }
-
 @media all and (min-width: 651px) { //HARD BREAK POINT
   .directory__photo {
     img {
       max-height: 80px; 
     }
   }
-
   .directory-block {
-    .view-content ul li.views-row-last {
+    .view-content li.views-row-last {
       padding-bottom: 0;
+    }
+    .directory__title {
+      font-size: 12px;
     }
   }
 }
-
 @media all and (min-width: 960px) { //HARD BREAK POINT
 }
