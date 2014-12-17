@@ -67,9 +67,19 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/*function mission_respondable_preprocess_page(&$variables, $hook) {
+function mission_respondable_preprocess_page(&$variables, $hook) {
+ // if this is a panel page, add template suggestions
+  if($panel_page = page_manager_get_current_page()) {
+    // add a generic suggestion for all panel pages
+    $variables['theme_hook_suggestions'][] = 'page__panel';
+
+    // add the panel page machine name to the template suggestions
+    $variables['theme_hook_suggestions'][] = 'page__' . $panel_page['name'];
+
+    //add a body class for good measure
+    $body_classes[] = 'page-panel';
+  }
 }
- */
 /**
  * Override or insert variables into the node templates.
  *
