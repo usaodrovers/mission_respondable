@@ -14,6 +14,8 @@
 
     <div class="header-wrapper">
 
+      <a class="mobile-icon" href="#mmenu_left"><span class="icon-menu"></span></a>
+
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
       <?php endif; ?>
@@ -49,6 +51,8 @@
       <?php endif; ?>
 
     <?php print render($page['header']); ?>
+
+    <a class="mobile-icon" href="#mmenu_top"><span class="icon-search"></span></a>
 
     </div>
 

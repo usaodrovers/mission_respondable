@@ -1,0 +1,24 @@
+.mobile-icon {
+  font-size: 25px;
+  padding: 0 10px;
+  display: inline-block;
+  color: #bababa;
+  vertical-align: middle;
+  zoom: 1;
+}
+
+.header-wrapper { text-align: center; }
+
+#logo, #logo img { display: inline-block;}
+.mm-menu.mm-front.mm-top { height: 30%; }
+
+.icon-close { position: absolute; right: 0; top: 50%; cursor: pointer;}
+
+.mm-menu .mm-list,
+.mm-list > li > span {
+  padding: 0;
+}
+
+nav.mm-menu.mm-basic [class^="icon-list2"] {
+  display: none;
+}

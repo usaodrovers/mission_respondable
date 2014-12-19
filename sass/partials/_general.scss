@@ -283,19 +283,6 @@ iframe {
     }
   }
 }
-#block-jump-menu-jump-menu-m-menu-moble-menu {
-  .form-item {
-    display: block;
-    margin: 0;
-  }
-  select {
-    @include font-copperplate;
-    @include text-shadow(1px 1px 1px #004538);
-    color: $attention-gold;
-    font-size: 24px;
-    width: 100%;
-  }
-}
 .block-mission-respondable-footer {
   border-top: 1px solid $gradient-green_light;
   margin: 0;
