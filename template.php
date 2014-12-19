@@ -46,7 +46,17 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   }
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
+<<<<<<< HEAD
 
+=======
+  drupal_add_css(libraries_get_path('slick-master') . '/slick/slick.css');
+  drupal_add_js(libraries_get_path('slick-master') . '/slick/slick.js');
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-slider.js');
+  drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slider-nav.js');
+  if ($otherPageID == '39555' || $otherPageID == '39556' || $otherPageID == '39557') {
+    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/buttonCollapse.js');
+  }
+>>>>>>> 22fe3c9... New mobile nav work
 
   // The body tag's classes are controlled by the $classes_array variable. To
   // remove a class from $classes_array, use array_diff().
