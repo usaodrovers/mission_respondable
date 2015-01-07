@@ -1,7 +1,13 @@
 .search-block {
-  margin: 0 auto;
+  @include zen-float(right);
+  display: none;
+  height: 25px;
+  margin-right: 2%;
   padding: -7px 0 5px;
-  width: 175px;
+  width: auto;
+  @include bp(wide-screens) {
+    @include inline-block;
+  }
   label {
     display: none;
   }
@@ -28,30 +34,5 @@
   }
   #main .search-block {
     display: none;
-  }
-}
-@media all and (max-width: 480px) { //SOFT BREAK POINT
-   // Use 3 grid columns for special layouts on smaller screens.
-  $zen-column-count: 3;
-}
-@media all and (min-width: 481px) { //HARD BREAK POINT
-   // Use 3 grid columns for special layouts on smaller screens.
-  $zen-column-count: 3;
-  .search-block {
-    @include zen-float(right);
-    height: 25px;
-    margin-right: 2%;
-    width: auto;
-  }
-}
-@media all and (min-width: 651px) { //HARD BREAK POINT
-   // Use 5 grid columns for smaller screens.
-  $zen-column-count: 5;
-}
-@media all and (min-width: 960px) { //HARD BREAK POINT
-   // Use 12 grid columns for larger screens.
-  $zen-column-count: 12;
-  .search-block {
-    @include inline-block;
   }
 }
