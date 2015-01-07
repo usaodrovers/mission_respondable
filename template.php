@@ -156,7 +156,9 @@ function mission_respondable_preprocess_block(&$variables, $hook) {
 function mission_respondable_form_alter(&$form, &$form_state, $form_id) {
   global $base_url;
   $site_path = $base_url . base_path();
-  if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-search-search') {
+  //drupal_set_message('<pre>'. print_r($form, TRUE) .'</pre>');
+  //if ($form_id == 'views_exposed_form' && $form['#id'] == 'views-exposed-form-search-search') {
+  if ($form_id == 'views_exposed_form' && $form['form_id']['#id'] == 'edit-views-exposed-form') {
       $form['search_api_views_fulltext']['#size'] = 15;  // define size of the textfield
       $form['submit'] = array('#type' => 'image_button', '#src' =>  $site_path . path_to_theme() . '/images/searchICON.png');
 
