@@ -12,7 +12,7 @@
         centerMode: true,
         centerPadding: '23%',
         slidesToShow: 1,
-        autoplay: true,
+        autoplay: false,
         speed: 700,
         // Can't pass params in onBeforeChange setting function. boo.
         onBeforeChange: measure_slide_fast,
