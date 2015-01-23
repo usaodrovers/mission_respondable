@@ -43,6 +43,9 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
+  if ($pageID == 'sports/athletic-staff') {
+    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/athleticsDirectoryRewrite.js');
+  }
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
   drupal_add_js(libraries_get_path('slick-master') . '/slick/slick.min.js');
