@@ -39,11 +39,12 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/quicktab-select.js');
   $pageID = arg(0);
+  $pageID1 = arg(1);
   if ($pageID == 'future-students') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   }
-  if ($pageID == 'sports/athletic-staff') {
+  if ($pageID1 == 'athletic-staff') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/athleticsDirectoryRewrite.js');
   }
   drupal_add_library('system', 'ui.accordion');
