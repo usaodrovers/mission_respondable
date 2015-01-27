@@ -11,6 +11,13 @@
                 $('.button-block').html('<select class="button-block_menu"></select>');
                 var selectMenu = $('select.button-block_menu');
 
+                // Create default option "Go to..."
+                $("<option />", {
+                   "selected": "selected",
+		   "value"   : "",
+		   "text"    : "Go to..."
+		}).appendTo("select.button-block_menu");
+
                 /* Navigate our nav clone for information needed to populate options */
                 $(mainNavigation).children('a').each(function() {
 
