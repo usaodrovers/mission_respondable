@@ -1,10 +1,10 @@
-@import 'partials/custom_mixins';
+@import 'custom_mixins';
 
 .mobile-icon {
+  @include inline-block;
+  color: #BABABA;
   font-size: 25px;
   padding: 0 10px;
-  display: inline-block;
-  color: #bababa;
   vertical-align: middle;
   zoom: 1;
   @include bp(wide-screens) {
@@ -15,10 +15,11 @@
   height: 30%;
 }
 .icon-close {
+  cursor: pointer;
   position: absolute;
   right: 0;
   top: 50%;
-  cursor: pointer;
+  padding-top: 10px;
 }
 .mm-menu .mm-list,
 .mm-list > li > span {
@@ -29,9 +30,23 @@ nav.mm-menu.mm-basic [class^="icon-list2"] {
 }
 nav.mm-menu.mm-basic {
   background: $box-background;
-  color: #c4ccda;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5) !important;
+  color: $body-text;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
 }
 
+nav.mm-menu.mm-basic > .mm-footer,
+nav.mm-menu.mm-basic > .mm-header,
+nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
+  background: $background;
+  color: $box-background;
+}
 
+nav.mm-menu.mm-basic > .mm-header {
+  height: 0;
+  line-height: 0;
+}
+
+nav.mm-menu.mm-basic.mm-hasheader > .mm-panel {
+  padding-top: 0;
+}

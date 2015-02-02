@@ -1,3 +1,5 @@
+@import 'custom_mixins';
+
 .search-block {
   @include zen-float(right);
   display: none;
@@ -34,5 +36,11 @@
   }
   #main .search-block {
     display: none;
+  }
+}
+.mm-menu .search-block {
+  display: block;
+  input.form-text {
+    background-color: $footer-more;
   }
 }
