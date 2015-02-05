@@ -94,7 +94,9 @@
   }
 
   .panel-display {
-    background: url('../images/athletics-background.png') repeat-y top left #ffdb7b;
+    //background: url('../images/athletics-background.png') repeat-y top left #ffdb7b;
+    display: -webkit-flex;
+    display: flex;
     min-height: 665px;
     position: relative;
   }
