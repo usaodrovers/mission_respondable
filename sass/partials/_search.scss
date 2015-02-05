@@ -38,9 +38,20 @@
     display: none;
   }
 }
-.mm-menu .search-block {
-  display: block;
-  input.form-text {
-    background-color: $footer-more;
+.mm-menu {
+  .search-block {
+    display: block;
+    float: none;
+    input.form-text {
+      background-color: $footer-more;
+    }
   }
+  .views-widget-filter-search_api_views_fulltext {
+    margin-left: 5%;
+    width: 77%;
+  }
+}
+nav.mm-menu.mm-basic.mm-top > .mm-list li {
+  border-bottom: 0;
+  border-top: 0;
 }
