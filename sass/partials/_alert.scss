@@ -21,7 +21,8 @@
 
   .Info {
     @include background-image(linear-gradient(#2989cc, #acdbfc 90%));
-    @include display-flex;
+    display: -webkit-flex;
+    display: flex;
     padding-top: 10px;
   }
 
