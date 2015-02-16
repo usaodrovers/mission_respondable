@@ -46,6 +46,9 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   }
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
+  if ($otherPageID == '39739' || $otherPageID =='39740') {
+    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/toggle.js');
+  }
 
 
   // The body tag's classes are controlled by the $classes_array variable. To

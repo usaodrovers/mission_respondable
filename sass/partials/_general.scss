@@ -90,10 +90,20 @@ img {
   font-size: 18px;
   padding: 5px 15px;
 }
+.cutline {
+  @extend .l-highlight;
+  font-weight: 400;
+  font-size: 16px;
+}
 .l-title-area {
   margin-bottom: -40px;
   position: relative;
   top: -34px;
+}
+.l-news-title-area {
+  margin-bottom: -40px;
+  position: relative;
+  top: -6px;
 }
 // Component
 .menu__vertical {

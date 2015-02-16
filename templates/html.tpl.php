@@ -26,6 +26,15 @@
 
   <?php print $styles; ?>
   <script async="async" defer="defer"src="//www.youvisit.com/tour/Embed/js2"></script>
+  <script type="text/javascript">
+    /*<![CDATA[*/
+    (function() {
+      var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+      sz.src = '//us1.siteimprove.com/js/siteanalyze_6013742.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+  </script>
   <?php print $scripts; ?>
   <?php if ($add_html5_shim and !$add_respond_js): ?>
     <!--[if lt IE 9]>
