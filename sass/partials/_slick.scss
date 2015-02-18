@@ -1,0 +1,26 @@
+.section-gallery {
+  #content.panel {
+    max-width: 1200px;
+    .pane-gallery-image-header-nesbitt-gallery-slider {
+      max-width: 1200px;
+    }
+    .pane-three-button-pane,
+    #page-title,
+    .panel-column-layout,
+    .squeeze-to-fit {
+      max-width: 622px;
+      margin: 0 auto 15px auto;
+    }
+    .gallery-title-image {
+      max-width: 647px;
+      margin: 0 auto 15px auto;
+      margin-bottom: 25px;
+    }
+  }
+}
+.view-display-id-nesbitt_gallery_slider .slick-slide {
+  overflow: hidden;
+}
+.view-display-id-nesbitt_gallery_slider .slick-slide.slick-center {
+  margin-top: 0;
+}
