@@ -1,3 +1,5 @@
+@import 'partials/custom_mixins';
+
  // Use 1 grid columns for smaller screens.
  // All generic code goes here.
 $zen-column-count: 1;
@@ -15,10 +17,15 @@ textarea {
 html,
 body {
   min-width: 100%;
-}
-body {
-  background: url('');
+  background: transparent;
   background-color: $background;
+  @include bp(wide-screens) {
+    background: url("../images/pretties.png") no-repeat center top;
+    background-color: $background;
+    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
+      background: url('');
+    }
+  }
 }
 a {
   color: $primary-nav;
@@ -150,12 +157,18 @@ img {
   margin: 0;
 }
 #logo {
+  @include inline-block;
   border: 0;
-  display: block;
   float: none;
   margin: 0 auto;
   padding: 5px 0;
   width: 125px;
+  @include bp(wide-screens) {
+    float: left;
+  }
+}
+#logo img {
+  @extend #logo;
 }
 .not-front #content {
   margin-top: 30px;
@@ -252,6 +265,13 @@ iframe {
 .region-header {
   clear: none;
 }
+.header-wrapper,
+#main-menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  text-align: center;
+}
 #navigation {
   @include font-myriadprocondensed;
   color: $primary-nav;
@@ -282,6 +302,21 @@ iframe {
       @include text-shadow(none);
     }
   }
+}
+#main {
+  margin-top: 0;
+  padding-top: 1.25em;
+  position: relative;
+  @include bp(medium-screens) {
+    padding-top: .25em;
+  }
+    @include bp(wide-screens) {
+    margin-top: 212px;
+    padding-top: 3em;
+  }
+}
+#content {
+  margin-top: .75em;
 }
 .block-mission-respondable-footer {
   border-top: 1px solid $gradient-green_light;
@@ -368,12 +403,6 @@ iframe {
   color: $primary_nav;
 }
 @media all and (max-width: 480px) {
-  #main {
-    position: relative;
-  }
-  #content {
-    margin-top: 4em;
-  }
   .not-front #content {
     margin-top: 4em;
   }
@@ -388,34 +417,10 @@ iframe {
     margin-top: -15px;
   }
 }
-@media all and (min-width: 481px) {
-   // Use 3 grid columns for smaller screens.
-  $zen-column-count: 3;
-  body {
-    background: url('../images/pretties.png') no-repeat center top;
-    background-color: $background;
-    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
-      background: url('');
-    }
-  }
-  #logo {
-    border: 0;
-    float: left;
-    margin: 0;
-    padding: 5px 1%;
-    width: auto;
-  }
-}
 @media all and (min-width: 651px) {
   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
   // comment this out in dev for size fix
-  .header-wrapper,
-  #main-menu {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-  }
   #secondary-menu {
     @include zen-grid-item(4, 1);
     ul {
@@ -508,10 +513,6 @@ iframe {
   .section-search #content,
   .not-front #content {
     padding: 0;
-  }
-  #logo {
-    @include inline-block;
-    border: 0;
   }
   #navigation {
     #main-menu {
