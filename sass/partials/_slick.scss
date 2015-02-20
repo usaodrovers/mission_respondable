@@ -1,20 +1,31 @@
+@import 'custom_mixins';
+
 .section-gallery {
-  #content.panel {
-    max-width: 1200px;
-    .pane-gallery-image-header-nesbitt-gallery-slider {
+  #content {
+    margin-top: 0;
+    &.panel {
       max-width: 1200px;
+      .pane-gallery-image-header-nesbitt-gallery-slider {
+        max-width: 1200px;
+      }
+      .pane-three-button-pane,
+      #page-title,
+      .panel-column-layout,
+      .squeeze-to-fit {
+        max-width: 622px;
+        margin: 0 auto 15px auto;
+      }
+      .gallery-title-image {
+        max-width: 647px;
+        margin: 0 auto 15px auto;
+        margin-bottom: 25px;
+      }
     }
-    .pane-three-button-pane,
-    #page-title,
-    .panel-column-layout,
-    .squeeze-to-fit {
-      max-width: 622px;
-      margin: 0 auto 15px auto;
+    @include bp(medium-screens) {
+      margin-top: 15px;
     }
-    .gallery-title-image {
-      max-width: 647px;
-      margin: 0 auto 15px auto;
-      margin-bottom: 25px;
+    @include bp(wide-screens) {
+      margin-top: 30px;
     }
   }
 }
