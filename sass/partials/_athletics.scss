@@ -427,6 +427,28 @@
     margin-top: 0;
     padding: 12px 0;
   }
+
+  #multimedia-in-the-saddle h2.pane-title,
+  #multimedia-videos h2.pane-title,
+  #multimedia-photos h2.pane-title {
+    background: none;
+    color: #ffd457;
+    font-size: 24px;
+  }
+
+  #multimedia-in-the-saddle a,
+  #multimedia-videos a,
+  #multimedia-photos a {
+    color: #ffefbc;
+  }
+
+  #multimedia-in-the-saddle .views-row,
+  #multimedia-videos .views-row,
+  #multimedia-photos .views-row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 // Roster
