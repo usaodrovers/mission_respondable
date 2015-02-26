@@ -1,0 +1,67 @@
+@import 'custom_mixins';
+
+.mobile-icon {
+  @include inline-block;
+  color: $box-background;
+  font-size: 25px;
+  padding: 0 10px;
+  vertical-align: middle;
+  zoom: 1;
+  @include bp(wide-screens) {
+    display: none;
+  }
+}
+.mm-menu.mm-front.mm-top {
+  height: 30%;
+}
+.icon-close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding-top: 10px;
+}
+.mm-menu .mm-list,
+.mm-list > li > span {
+  padding: 0;
+}
+nav.mm-menu.mm-basic .mmenu-block-title {
+  padding: 7px 0;
+}
+nav.mm-menu.mm-basic [class^="icon-list2"] {
+  display: none;
+}
+nav.mm-menu.mm-basic {
+  background: $box-background;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5) !important;
+  color: $body-text;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+nav.mm-menu.mm-basic > .mm-list li {
+  border-top: 0;
+}
+nav.mm-menu.mm-basic > .mm-list .mmenu-block-wrap,
+nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded,
+  nav.mm-menu.mm-basic > .mm-list li.last {
+  border-bottom: 0;
+}
+nav.mm-menu.mm-basic > .mm-list .mmenu-block-wrap .block {
+  margin-bottom: 0;
+}
+
+nav.mm-menu.mm-basic > .mm-footer,
+nav.mm-menu.mm-basic > .mm-header,
+nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
+  background: $background;
+  color: $box-background;
+}
+
+nav.mm-menu.mm-basic > .mm-header {
+  height: 0;
+  line-height: 0;
+}
+
+nav.mm-menu.mm-basic.mm-hasheader > .mm-panel {
+  padding-top: 0;
+}

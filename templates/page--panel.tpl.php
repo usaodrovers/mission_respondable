@@ -14,7 +14,7 @@
 
     <div class="header-wrapper">
 
-      <a class="mobile-icon" href="#mmenu_left"><span class="icon-menu"></span></a>
+    <a class="mobile-icon" href="#mmenu_left"><span class="icon-menu"></span></a>
 
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
@@ -66,7 +66,7 @@
 
   <div id="main">
 
-    <div id="content" class="column" role="main">
+    <div id="content" class="column panel" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
@@ -130,5 +130,5 @@
   <?php print render($page['footer']); ?>
 
 </div>
-<script async="async" defer="defer"src="//www.youvisit.com/tour/Embed/js2"></script>
+
 <?php print render($page['bottom']); ?>
