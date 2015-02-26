@@ -2898,18 +2898,19 @@ iframe {
 .mm-menu .search-block {
   display: block;
   float: none;
+  height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000346}}
 .mm-menu .search-block input.form-text {
   background-color: #d4d288;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000350}}
 .mm-menu .views-widget-filter-search_api_views_fulltext {
   margin-left: 5%;
   width: 77%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000355}}
 nav.mm-menu.mm-basic.mm-top > .mm-list li {
   border-bottom: 0;
   border-top: 0;
@@ -4657,8 +4658,13 @@ code {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000318}}
 .section-gallery #content.panel .gallery-title-image {
   max-width: 647px;
-  margin: 0 auto 15px auto;
-  margin-bottom: 25px;
+  margin: 0 auto 0 auto;
+}
+@media only screen and (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000318}}
+  .section-gallery #content.panel .gallery-title-image {
+    margin: 0 auto 25px auto;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 959px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000034}}
@@ -4672,13 +4678,19 @@ code {
     margin-top: 30px;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000333}}
+  .section-gallery .button-block {
+    height: 100%;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000339}}
 .view-display-id-nesbitt_gallery_slider .slick-slide {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000342}}
 .view-display-id-nesbitt_gallery_slider .slick-slide.slick-center {
   margin-top: 0;
 }

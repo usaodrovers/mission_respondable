@@ -3,7 +3,7 @@
         attach: function (context, settings) {
             /* Get the window's width, and check whether it is narrower than 480 pixels */
             var windowWidth = $(window).width();
-            if (windowWidth <= 480) {
+            if (windowWidth <= 800) {
                 /* Clone our navigation */
                 var mainNavigation = $('.button-block').clone();
 

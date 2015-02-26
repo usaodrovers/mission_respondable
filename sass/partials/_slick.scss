@@ -17,8 +17,10 @@
       }
       .gallery-title-image {
         max-width: 647px;
-        margin: 0 auto 15px auto;
-        margin-bottom: 25px;
+        margin: 0 auto 0 auto;
+        @include bp(small-screens) {
+          margin: 0 auto 25px auto;
+        }
       }
     }
     @include bp(medium-screens) {
@@ -26,6 +28,11 @@
     }
     @include bp(wide-screens) {
       margin-top: 30px;
+    }
+  }
+  .button-block {
+    @include bp(medium-screens) {
+      height: 100%;
     }
   }
 }

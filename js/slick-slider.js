@@ -4,7 +4,7 @@
       var count = 0;
       // Fire in initial resize function on page load so slides appear sized
       // correctly
-      if (jQuery(window).width() > 481) {
+      if (jQuery(window).width() > 800) {
           measure_slide_fast();
       }
 
@@ -69,7 +69,7 @@
       $(window).resize(function() {
         // var screenWidth = $(window).width();
         count = 0;
-          if (jQuery(window).width() > 481) {
+          if (jQuery(window).width() > 800) {
               measure_slide_fast();
           }
       });
