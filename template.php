@@ -50,10 +50,15 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js(libraries_get_path('slick-master') . '/slick/slick.js');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slick-slider.js');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/slider-nav.js');
-  if ($otherPageID == '39555' || $otherPageID == '39556' || $otherPageID == '39557') {
-    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/buttonCollapse.js');
-  }
 
+  if (isset($_GET['q'])) {
+    $path = drupal_get_path_alias($_GET['q']);
+    if (preg_match('#gallery#', $path)  ||
+        preg_match('#gallery\/about#', $path) ||
+        preg_match('#gallery\/directions#', $path)) {
+      drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/buttonCollapse.js');
+    }
+  }
 
   // The body tag's classes are controlled by the $classes_array variable. To
   // remove a class from $classes_array, use array_diff().

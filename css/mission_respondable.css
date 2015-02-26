@@ -2898,18 +2898,19 @@ iframe {
 .mm-menu .search-block {
   display: block;
   float: none;
+  height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000346}}
 .mm-menu .search-block input.form-text {
   background-color: #d4d288;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000350}}
 .mm-menu .views-widget-filter-search_api_views_fulltext {
   margin-left: 5%;
   width: 77%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000355}}
 nav.mm-menu.mm-basic.mm-top > .mm-list li {
   border-bottom: 0;
   border-top: 0;
@@ -4634,15 +4635,19 @@ code {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000034}}
+.section-gallery #content {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000036}}
 .section-gallery #content.panel {
   max-width: 1200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000038}}
 .section-gallery #content.panel .pane-gallery-image-header-nesbitt-gallery-slider {
   max-width: 1200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000314}}
 .section-gallery #content.panel .pane-three-button-pane,
 .section-gallery #content.panel #page-title,
 .section-gallery #content.panel .panel-column-layout,
@@ -4650,19 +4655,42 @@ code {
   max-width: 622px;
   margin: 0 auto 15px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000318}}
 .section-gallery #content.panel .gallery-title-image {
   max-width: 647px;
-  margin: 0 auto 15px auto;
-  margin-bottom: 25px;
+  margin: 0 auto 0 auto;
+}
+@media only screen and (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000318}}
+  .section-gallery #content.panel .gallery-title-image {
+    margin: 0 auto 25px auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000034}}
+  .section-gallery #content {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\000034}}
+  .section-gallery #content {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000333}}
+  .section-gallery .button-block {
+    height: 100%;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000339}}
 .view-display-id-nesbitt_gallery_slider .slick-slide {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_slick\.scss}line{font-family:\0000342}}
 .view-display-id-nesbitt_gallery_slider .slick-slide.slick-center {
   margin-top: 0;
 }
@@ -4675,7 +4703,7 @@ code {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  color: #BABABA;
+  color: #f7f4de;
   font-size: 25px;
   padding: 0 10px;
   vertical-align: middle;
@@ -4709,11 +4737,16 @@ code {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000328}}
+nav.mm-menu.mm-basic .mmenu-block-title {
+  padding: 7px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000331}}
 nav.mm-menu.mm-basic [class^="icon-list2"] {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000334}}
 nav.mm-menu.mm-basic {
   background: #f7f4de;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5) !important;
@@ -4721,7 +4754,24 @@ nav.mm-menu.mm-basic {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000341}}
+nav.mm-menu.mm-basic > .mm-list li {
+  border-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000346}}
+nav.mm-menu.mm-basic > .mm-list .mmenu-block-wrap,
+nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded,
+nav.mm-menu.mm-basic > .mm-list li.last {
+  border-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000349}}
+nav.mm-menu.mm-basic > .mm-list .mmenu-block-wrap .block {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000355}}
 nav.mm-menu.mm-basic > .mm-footer,
 nav.mm-menu.mm-basic > .mm-header,
 nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
@@ -4729,13 +4779,13 @@ nav.mm-menu.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
   color: #f7f4de;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000360}}
 nav.mm-menu.mm-basic > .mm-header {
   height: 0;
   line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_mobile_nav\.scss}line{font-family:\0000365}}
 nav.mm-menu.mm-basic.mm-hasheader > .mm-panel {
   padding-top: 0;
 }

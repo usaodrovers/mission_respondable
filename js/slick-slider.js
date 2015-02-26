@@ -4,7 +4,9 @@
       var count = 0;
       // Fire in initial resize function on page load so slides appear sized
       // correctly
-      measure_slide_fast();
+      if (jQuery(window).width() > 800) {
+          measure_slide_fast();
+      }
 
       // Initialize the slick slider function.
       // find properties and documentation here: http://kenwheeler.github.io/slick/
@@ -67,7 +69,9 @@
       $(window).resize(function() {
         // var screenWidth = $(window).width();
         count = 0;
-        measure_slide_fast();
+          if (jQuery(window).width() > 800) {
+              measure_slide_fast();
+          }
       });
     }
   }
