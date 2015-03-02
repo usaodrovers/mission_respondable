@@ -2224,7 +2224,7 @@ img {
   border: 0;
   float: none;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 3px 0;
   width: 125px;
 }
 @media only screen and (min-width: 960px) {
@@ -2234,44 +2234,39 @@ img {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003183}}
-.not-front #content {
-  margin-top: 30px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003184}}
 #site-name,
 #site-slogan {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003188}}
 #content,
 #footer {
   margin: 0 auto;
   max-width: 622px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003192}}
 iframe {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003195}}
 .mission-statement {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003198}}
 .breadcrumb {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003199}}
 .panel-pane {
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003201}}
 .panel-pane .pane-title {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -2289,7 +2284,7 @@ iframe {
   margin: 0;
   padding: 10px 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003211}}
 .panel-pane .pane-title a {
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
   font-weight: 400;
@@ -2300,12 +2295,12 @@ iframe {
   padding: 0;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003218}}
 .panel-pane .pane-title a:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003224}}
 .item-list {
   font-family: "myriad-pro-1", "myriad-pro-2", sans-serif;
   font-weight: 400;
@@ -2319,26 +2314,26 @@ iframe {
   color: #f7f4de;
   padding: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003230}}
 .item-list .pager-current {
   color: #ffd457;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003233}}
 .item-list .pager {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003236}}
 .item-list a {
   color: #f7f4de;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003241}}
 #secondary-menu {
   display: none;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003244}}
 #secondary-menu li {
   border: 0;
   float: left;
@@ -2346,7 +2341,7 @@ iframe {
   list-style: none;
   padding: 5px 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003250}}
 #secondary-menu li a {
   font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
   font-weight: 400;
@@ -2356,16 +2351,16 @@ iframe {
   letter-spacing: .88px;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003257}}
 #secondary-menu li.last {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003261}}
 #secondary-menu.block {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003265}}
 #header {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #015b4a), color-stop(90%, #004538));
   background-image: -webkit-linear-gradient(#015b4a, #004538 90%);
@@ -2374,16 +2369,17 @@ iframe {
   background-image: linear-gradient(#015b4a, #004538 90%);
   background-color: #004538;
   height: auto;
+  max-height: 37px;
   margin-bottom: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003273}}
 .region-header {
   clear: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003277}}
 .header-wrapper,
 #main-menu {
   margin-left: auto;
@@ -2392,7 +2388,7 @@ iframe {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003283}}
 #navigation {
   font-family: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
   font-weight: 400;
@@ -2403,22 +2399,22 @@ iframe {
   text-transform: uppercase;
   z-index: 200;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003290}}
 #navigation #main-menu {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003292}}
 #navigation #main-menu:focus {
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003296}}
 #navigation li a {
   color: #FFF;
   padding-left: 12px;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0), -2px 2px 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003302}}
 #navigation li.last {
   -webkit-box-shadow: -2px 2px 2px #777777;
   -moz-box-shadow: -2px 2px 2px #777777;
@@ -2426,7 +2422,7 @@ iframe {
   background-color: #ffd457;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003306}}
 #navigation li.last a {
   color: #007161;
   margin: 0;
@@ -2434,42 +2430,42 @@ iframe {
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003314}}
 #main {
   margin-top: 0;
   padding-top: 1.25em;
   position: relative;
 }
 @media only screen and (min-width: 481px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003314}}
   #main {
     padding-top: .25em;
   }
 }
 @media only screen and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003314}}
   #main {
     margin-top: 212px;
     padding-top: 3em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003326}}
 #content {
   margin-top: .75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003329}}
 .block-mission-respondable-footer {
   border-top: 1px solid #015b4a;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003332}}
 .block-mission-respondable-footer ul {
   margin: 10px 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003335}}
 .block-mission-respondable-footer ul li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -2479,7 +2475,7 @@ iframe {
   *display: inline;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003340}}
 .block-mission-respondable-footer p {
   color: #e5dea8;
   font-size: 12px;
@@ -2487,19 +2483,19 @@ iframe {
   margin: 0;
   width: 255px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003346}}
 .block-mission-respondable-footer p a {
   color: #e5dea8;
   font-size: 12px;
   line-height: 16px;
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003351}}
 .block-mission-respondable-footer p a.worx {
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003357}}
 #block-menu-menu-footer-navigation {
   display: none;
   margin-bottom: -140px;
@@ -2509,7 +2505,7 @@ iframe {
   width: 100%;
   z-index: 200;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003365}}
 #block-menu-menu-footer-navigation li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -2523,67 +2519,62 @@ iframe {
   list-style: none;
   padding-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003372}}
 #block-menu-menu-footer-navigation li a {
   color: #ffd457;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003376}}
 #block-menu-menu-footer-navigation li.first {
   border-left: 0;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003381}}
 #block-menu-menu-footer-navigation .last {
   padding-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003385}}
 #block-mission-respondable-footer-footer-contact {
   background: url("../images/pretties2.png") 100% 0 no-repeat;
   height: 145px;
   padding-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003390}}
 .html .panels-flexible-region {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003393}}
 .bottom-margin-none {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003397}}
 .view-footer {
   background: url("../images/go-to.png") no-repeat right center #d4d288;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003399}}
 .view-footer p {
   font-weight: bold;
   padding: .2em 27px .2em 0;
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003406}}
 .menu__item.is-leaf {
   list-style: none;
   list-style-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003410}}
 .menu a.active {
   color: #007161;
 }
 
 @media all and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003416}}
-  .not-front #content {
-    margin-top: 4em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003414}}
   .html #navigation {
     clear: left;
     margin-top: 15px;
@@ -2592,30 +2583,30 @@ iframe {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003421}}
   .mission-statement {
     margin-top: -15px;
   }
 }
 @media all and (min-width: 651px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003429}}
   #secondary-menu {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003432}}
   #secondary-menu ul li {
     border-right: 1px solid #e5dea8;
     padding: 5px 1.3%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003435}}
   #secondary-menu ul li.last {
     border: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003441}}
   .l-content-right {
     float: right;
     width: 60%;
@@ -2624,7 +2615,7 @@ iframe {
     clear: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003445}}
   .l-content-left {
     float: left;
     width: 62%;
@@ -2633,7 +2624,7 @@ iframe {
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003449}}
   .l-sidebar-left {
     float: left;
     width: 32%;
@@ -2642,7 +2633,7 @@ iframe {
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003453}}
   .l-sidebar-right {
     float: left;
     width: 32%;
@@ -2651,7 +2642,7 @@ iframe {
     clear: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003457}}
   .l-half-right {
     float: right;
     width: 50%;
@@ -2659,12 +2650,12 @@ iframe {
     margin-left: -50%;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003460}}
   .l-half-right .field-label {
     padding-left: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003464}}
   .l-half-left {
     float: left;
     width: 50%;
@@ -2672,12 +2663,12 @@ iframe {
     margin-right: -50%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003467}}
   .l-half-left .field-label {
     padding-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003471}}
   .l-half-right__pad {
     float: right;
     width: 48%;
@@ -2686,7 +2677,7 @@ iframe {
     clear: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003475}}
   .l-half-left__pad {
     float: left;
     width: 48%;
@@ -2695,7 +2686,7 @@ iframe {
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003479}}
   .l-3col-left {
     float: left;
     width: 30%;
@@ -2703,37 +2694,37 @@ iframe {
     margin-right: -30%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003482}}
   .l-3col-left .pager li {
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003486}}
   .l-3col-center {
     float: left;
     width: 32%;
     margin-left: 34%;
     margin-right: -66%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003488}}
   .l-3col-center .pager li {
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003492}}
   .l-3col-right {
     float: left;
     width: 30%;
     margin-left: 70%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003494}}
   .l-3col-right .pager li {
     padding: 0;
   }
 }
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003502}}
   .l-content-right {
     float: right;
     width: 60.91667%;
@@ -2742,7 +2733,7 @@ iframe {
     clear: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003506}}
   .l-content-left {
     float: left;
     width: 60.83333%;
@@ -2751,7 +2742,7 @@ iframe {
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003510}}
   .l-sidebar-left {
     float: left;
     width: 33.33333%;
@@ -2760,7 +2751,7 @@ iframe {
     clear: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003514}}
   .l-sidebar-right {
     float: left;
     width: 36.66667%;
@@ -2768,28 +2759,28 @@ iframe {
     margin-right: -100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003519}}
   .section-testimonials #content,
   .section-search #content,
   .not-front #content {
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003523}}
   #navigation #main-menu {
     display: inherit;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003526}}
   #navigation li a {
     padding-left: 6px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003530}}
   .region-navigation {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003533}}
   #secondary-menu {
     display: -moz-inline-stack;
     display: inline-block;
@@ -2800,18 +2791,18 @@ iframe {
     clear: none;
     display: inherit;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003538}}
   #secondary-menu ul li {
     padding: 5px 1.8%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003543}}
   #block-menu-menu-footer-navigation {
     display: inherit;
   }
 }
 @media all and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_general\.scss}line{font-family:\00003549}}
   #navigation li a {
     padding-left: 12px;
   }
@@ -2856,6 +2847,7 @@ iframe {
   display: none;
   height: 25px;
   margin-right: 2%;
+  margin-top: -2px;
   padding: -7px 0 5px;
   width: auto;
 }
@@ -2870,11 +2862,11 @@ iframe {
     *display: inline;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000314}}
 .search-block label {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000317}}
 .search-block input.form-text {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -2887,43 +2879,43 @@ iframe {
   padding-left: 5px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000325}}
 .search-block .views-exposed-widget {
   margin: 0;
   padding: .4em 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000328}}
 .search-block .views-exposed-widget .form-submit {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000334}}
 .section-search .panels-flexible-region {
   float: none;
   margin-top: -15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000338}}
 .section-search #main .search-block {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000343}}
 .mm-menu .search-block {
   display: block;
   float: none;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000347}}
 .mm-menu .search-block input.form-text {
   background-color: #d4d288;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000351}}
 .mm-menu .views-widget-filter-search_api_views_fulltext {
   margin-left: 5%;
   width: 77%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000356}}
 nav.mm-menu.mm-basic.mm-top > .mm-list li {
   border-bottom: 0;
   border-top: 0;

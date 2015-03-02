@@ -117,7 +117,7 @@ jQuery(window).load(function (e) {
   });
 
   jQuery('.accordion-resize .view-content').accordion({
-    change: function(e, ui) {
+    activate: function(e, ui) {
       if (jQuery(window).width() > 481){
         worx_resize_select();  
       }

@@ -171,7 +171,7 @@ img {
   border: 0;
   float: none;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 3px 0;
   width: 125px;
   @include bp(wide-screens) {
     float: left;
@@ -179,9 +179,6 @@ img {
 }
 #logo img {
   @extend #logo;
-}
-.not-front #content {
-  margin-top: 30px;
 }
 #site-name,
 #site-slogan {
@@ -269,6 +266,7 @@ iframe {
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   background-color: $gradient-green_dark;
   height: auto;
+  max-height: 37px;
   margin-bottom: 0;
   padding: 0;
 }
@@ -413,9 +411,6 @@ iframe {
   color: $primary_nav;
 }
 @media all and (max-width: 480px) {
-  .not-front #content {
-    margin-top: 4em;
-  }
   .html #navigation {
     @include zen_clear();
     margin-top: 15px;
