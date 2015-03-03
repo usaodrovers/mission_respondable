@@ -2849,7 +2849,9 @@ iframe {
   margin-right: 2%;
   margin-top: -2px;
   padding: -7px 0 5px;
+  position: relative;
   width: auto;
+  z-index: 100;
 }
 @media only screen and (min-width: 960px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\000033}}
@@ -2862,11 +2864,11 @@ iframe {
     *display: inline;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000316}}
 .search-block label {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000319}}
 .search-block input.form-text {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -2879,43 +2881,43 @@ iframe {
   padding-left: 5px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000327}}
 .search-block .views-exposed-widget {
   margin: 0;
   padding: .4em 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000330}}
 .search-block .views-exposed-widget .form-submit {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000336}}
 .section-search .panels-flexible-region {
   float: none;
   margin-top: -15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000340}}
 .section-search #main .search-block {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000345}}
 .mm-menu .search-block {
   display: block;
   float: none;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000349}}
 .mm-menu .search-block input.form-text {
   background-color: #d4d288;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000353}}
 .mm-menu .views-widget-filter-search_api_views_fulltext {
   margin-left: 5%;
   width: 77%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cdracars\/IdeaProjects\/mission_respondable\/sass\/partials\/_search\.scss}line{font-family:\0000358}}
 nav.mm-menu.mm-basic.mm-top > .mm-list li {
   border-bottom: 0;
   border-top: 0;
