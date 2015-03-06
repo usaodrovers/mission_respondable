@@ -95,11 +95,16 @@
   }
 
   .panel-display {
-    //background: url('../images/athletics-background.png') repeat-y top left #ffdb7b;
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     min-height: 665px;
     position: relative;
+    @include bp(wide-screens){
+      -webkit-flex-direction: row;
+      flex-direction: row;
+    }
   }
 
   .pane-athletics-athletics-drover-sports-title {
@@ -213,9 +218,25 @@
     margin-bottom: 0;
     position: relative;
 
+    li.flexslider_views_slideshow_slide {
+      display: -webkit-flex !important;
+      display: flex !important;
+      .athletics-other-fields {
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-order: 2;
+        order: 2;
+      }
+      .athletics-news-image {
+        -webkit-flex: 1;
+        flex: 1;
+      }
+    }
+
     .pane-title {
       @include font-galette;
       background-image: none;
+      background-color: #00483A;
       color: $attention-gold;
       display: block;
       font-size: 18px;
@@ -431,7 +452,9 @@
   #multimedia-in-the-saddle,
   #multimedia-videos,
   #multimedia-photos {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
   }
 
@@ -452,6 +475,7 @@
   #multimedia-in-the-saddle .view,
   #multimedia-videos .view,
   #multimedia-photos .view {
+    -webkit-flex: 1;
     flex: 1;
     position: relative;
   }
@@ -459,8 +483,11 @@
   #multimedia-in-the-saddle .views-row,
   #multimedia-videos .views-row,
   #multimedia-photos .views-row {
+    -webkit-align-items: center;
     align-items: center;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
     padding: 4.0% 8.6%;
     text-align: center;
