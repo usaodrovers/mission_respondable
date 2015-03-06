@@ -452,10 +452,10 @@
   #multimedia-in-the-saddle,
   #multimedia-videos,
   #multimedia-photos {
-    //display: -webkit-flex;
-    //display: flex;
-    //-webkit-flex-direction: column;
-    //flex-direction: column;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
 
   #multimedia-in-the-saddle h2.pane-title,
@@ -475,12 +475,12 @@
   #multimedia-in-the-saddle .view,
   #multimedia-videos .view,
   #multimedia-photos .view {
-    //display: -webkit-flex;
-    //display: flex;
-    //-webkit-flex: 1;
-    //flex: 1;
-    //-webkit-flex-wrap: wrap;
-    //flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   #multimedia-in-the-saddle .view-content,
@@ -516,12 +516,12 @@
   #multimedia-in-the-saddle .item-list,
   #multimedia-videos .item-list,
   #multimedia-photos .item-list {
-    //display: -webkit-flex;
-    //display: flex;
-    //-webkit-flex: 1;
-    //flex: 1;
-    //-webkit-align-self: flex-end;
-    //align-self: flex-end;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
     background: none;
   }
 
