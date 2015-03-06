@@ -500,8 +500,31 @@
   #multimedia-in-the-saddle .item-list,
   #multimedia-videos .item-list,
   #multimedia-photos .item-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
     -webkit-align-self: flex-end;
     align-self: flex-end;
+    background: none;
+  }
+
+  #multimedia-in-the-saddle .item-list ul,
+  #multimedia-videos .item-list ul,
+  #multimedia-photos .item-list ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+
+  #multimedia-in-the-saddle .item-list ul li,
+  #multimedia-videos .item-list ul li,
+  #multimedia-photos .item-list ul li {
+    padding: 0;
+    margin: 0 10px;
+    -webkit-flex: 1;
+    flex: 1;
   }
 }
 
