@@ -484,6 +484,15 @@
     position: relative;
   }
 
+  #multimedia-in-the-saddle .view-content,
+  #multimedia-videos .view-content,
+  #multimedia-photos .view-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
   #multimedia-in-the-saddle .views-row,
   #multimedia-videos .views-row,
   #multimedia-photos .views-row {
