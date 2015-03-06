@@ -95,15 +95,15 @@
   }
 
   .panel-display {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex-direction: column;
+    //flex-direction: column;
     min-height: 665px;
     position: relative;
     @include bp(wide-screens){
-      -webkit-flex-direction: row;
-      flex-direction: row;
+      //-webkit-flex-direction: row;
+      //flex-direction: row;
     }
   }
 
@@ -219,17 +219,17 @@
     position: relative;
 
     li.flexslider_views_slideshow_slide {
-      display: -webkit-flex !important;
-      display: flex !important;
+      //display: -webkit-flex !important;
+      //display: flex !important;
       .athletics-other-fields {
-        -webkit-flex: 1;
-        flex: 1;
-        -webkit-order: 2;
-        order: 2;
+        //-webkit-flex: 1;
+        //flex: 1;
+        //-webkit-order: 2;
+        //order: 2;
       }
       .athletics-news-image {
-        -webkit-flex: 1;
-        flex: 1;
+        //-webkit-flex: 1;
+        //flex: 1;
       }
     }
 
@@ -452,10 +452,10 @@
   #multimedia-in-the-saddle,
   #multimedia-videos,
   #multimedia-photos {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex-direction: column;
+    //flex-direction: column;
   }
 
   #multimedia-in-the-saddle h2.pane-title,
@@ -511,28 +511,28 @@
   #multimedia-in-the-saddle .views-row,
   #multimedia-videos .views-row,
   #multimedia-photos .views-row {
-    padding: 0 17px;
+    padding: 0 17px 20px 0;
   }
 
   #multimedia-in-the-saddle .item-list,
   #multimedia-videos .item-list,
   #multimedia-photos .item-list {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-align-self: flex-end;
-    align-self: flex-end;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex: 1;
+    //flex: 1;
+    //-webkit-align-self: flex-end;
+    //align-self: flex-end;
     background: none;
   }
 
   #multimedia-in-the-saddle .item-list ul,
   #multimedia-videos .item-list ul,
   #multimedia-photos .item-list ul {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex: 1;
-    flex: 1;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex: 1;
+    //flex: 1;
   }
 
   #multimedia-in-the-saddle .item-list ul li,
@@ -540,8 +540,8 @@
   #multimedia-photos .item-list ul li {
     padding: 0;
     margin: 0 10px;
-    -webkit-flex: 1;
-    flex: 1;
+    //-webkit-flex: 1;
+    //flex: 1;
   }
 }
 
