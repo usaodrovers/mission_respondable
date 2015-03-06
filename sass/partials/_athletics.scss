@@ -475,22 +475,21 @@
   #multimedia-in-the-saddle .view,
   #multimedia-videos .view,
   #multimedia-photos .view {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    position: relative;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex: 1;
+    //flex: 1;
+    //-webkit-flex-wrap: wrap;
+    //flex-wrap: wrap;
   }
 
   #multimedia-in-the-saddle .view-content,
   #multimedia-videos .view-content,
   #multimedia-photos .view-content {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex-wrap: wrap;
+    //flex-wrap: wrap;
   }
 
   /*
