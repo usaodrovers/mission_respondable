@@ -12,15 +12,25 @@
 //noinspection ScssLintInspection,ScssLintInspection
 .section-sports,
 .node-type-sport {
+  #content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #main {
+    padding-top: 0;
+    @include bp(wide-screens) {
+      padding-top: 3em;
+    }
+  }
   .column {
-    border-left: 3px solid #fff;
-    border-right: 3px solid #fff;
+    border-left: 0;
+    border-right: 0;
     margin-top: 0 !important;
     max-width: 960px !important;
-  }
-
-  .panel-placeholder {
-    height: 10px;
+    @include bp(wide-screens) {
+      border-left: 3px solid #fff;
+      border-right: 3px solid #fff;
+    }
   }
 
   .panel-right {
@@ -66,11 +76,17 @@
   .region-footer {
     @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
     background-color: $gradient-green_dark;
-    border-bottom: solid #fff 3px;
-    border-left: solid #fff 3px;
-    border-radius: 0 0 25px 25px;
-    border-right: solid #fff 3px;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
     max-width: 960px !important;
+    @include bp(wide-screens) {
+      border-bottom: solid #fff 3px;
+      border-left: solid #fff 3px;
+      border-radius: 0 0 25px 25px;
+      border-right: solid #fff 3px;
+    }
   }
 
   .block-mission-respondable-footer {
@@ -95,16 +111,8 @@
   }
 
   .panel-display {
-    //display: -webkit-flex;
-    //display: flex;
-    //-webkit-flex-direction: column;
-    //flex-direction: column;
     min-height: 665px;
     position: relative;
-    @include bp(wide-screens){
-      //-webkit-flex-direction: row;
-      //flex-direction: row;
-    }
   }
 
   .pane-athletics-athletics-drover-sports-title {
@@ -230,6 +238,10 @@
       .athletics-news-image {
         //-webkit-flex: 1;
         //flex: 1;
+        display: none;
+        @include bp(wide-screens) {
+          display: block;
+        }
       }
     }
 
@@ -309,11 +321,17 @@
       height: 29px;
       overflow: hidden;
       position: absolute;
-      right: 4px;
+      right: -37px;
       text-indent: -9999px;
-      top: 11px;
+      top: -11px;
       width: 38px;
       z-index: 1000;
+      display: none;
+      @include bp(wide-screens) {
+        top: 11px;
+        right: 4px;
+        display: block;
+      }
     }
 
     .views-slideshow-controls-top {
@@ -329,27 +347,43 @@
   .athletics-blurb {
     @include font-old-athletics;
     background-color: $attention-gold;
-    border: 3px solid #fff;
-    border-radius: 18px 0 0 18px / 100px 0 0 100px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-radius: 0;
     border-right: 0;
-    height: 227px;
-    left: -18px;
+    left: 0;
     position: relative;
-    width: 404px;
+    width: 100%;
     z-index: 3;
-
-    .views-row {
-      padding: 0 181px 0 30px;
+    @include bp(wide-screens) {
+      border: 3px solid #fff;
+      border-radius: 18px 0 0 18px / 100px 0 0 100px;
+      left: -18px;
+      width: 404px;
     }
 
-    .athletics-blurb-image {
-      position: absolute;
-      right: 0;
-      top: 0;
+    .field-content {
+      display: -webkit-flex;
+      display: flex;
     }
 
-    .views-field-title {
-      padding-top: 40px;
+    .blurb_col1,
+    .blurb_col2 {
+      -webkit-flex: 50% 1;
+      flex: 50% 1;
+      margin: auto;
+    }
+
+    .blurb_col1 {
+      padding: 0 20px;
+    }
+    .blurb_col2 {
+      -webkit-align-items: flex-end;
+      align-items: flex-end;
+    }
+
+    img {
+      float: right;
     }
   }
 
@@ -402,9 +436,15 @@
       #athletics-schedule-view,
       #athletics-results-view {
         background-color: $attention-gold;
-        border: 3px solid #fff;
-        border-radius: 15px;
-        margin: 0 15px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-radius: 0;
+        margin: 0;
+        @include bp(wide-screens) {
+          border: 3px solid #fff;
+          border-radius: 15px;
+          margin: 0 15px;
+        }
 
         .view-content {
           padding: 15px;
@@ -428,6 +468,11 @@
             }
           }
         }
+
+        .sr_full_link {
+          text-align: right;
+          padding-right: 10px;
+        }
       }
 
       #athletics-results-view {
@@ -437,16 +482,18 @@
   }
 
   #navigation {
-    @include background-image(linear-gradient(to bottom,
-                                  rgba(0, 0, 0, .65) 0%,
-                                  rgba(0, 0, 0, 0) 10%),
-                             linear-gradient(to bottom,
-                                  rgba(0, 0, 0, 0) 90%,
-                                  rgba(0, 0, 0, .65) 100%));
-    background-color: #007362;
-    box-shadow: 3px 0 5px inset;
-    margin-top: 0;
-    padding: 12px 0;
+    @include bp(wide-screens) {
+      @include background-image(linear-gradient(to bottom,
+              rgba(0, 0, 0, .65) 0%,
+              rgba(0, 0, 0, 0) 10%),
+              linear-gradient(to bottom,
+                      rgba(0, 0, 0, 0) 90%,
+                      rgba(0, 0, 0, .65) 100%));
+      background-color: #007362;
+      box-shadow: 3px 0 5px inset;
+      margin-top: 0;
+      padding: 12px 0;
+    }
   }
 
   #multimedia-in-the-saddle,
@@ -518,8 +565,8 @@
   #multimedia-photos .item-list {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex: 1;
-    flex: 1;
+    -webkit-flex: 100% 1;
+    flex: 100% 1;
     -webkit-align-self: flex-end;
     align-self: flex-end;
     background: none;
@@ -564,10 +611,6 @@
     text-transform: uppercase;
   }
 
-  span {
-    font-weight: 700;
-  }
-
   .field-name-field-sports-ros-image {
     float: left;
     margin: 0 10px;
@@ -576,6 +619,19 @@
   .views-field {
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .view-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .views-row {
+      -webkit-flex: 300px 1;
+      flex: 300px 1;
+      margin-bottom: 15px;
+      padding-left: 20px;
+    }
   }
 }
 
@@ -664,19 +720,19 @@
       height: auto;
       letter-spacing: 1px;
       margin-bottom: -40px;
-      padding-left: 30px;
+      padding-left: 19px;
       text-transform: uppercase;
     }
 
-    span {
+    .field-content span {
       font-weight: 700;
     }
 
     .views-field-field-see-team {
       @include font-galette;
       font-size: 16px;
-      margin-top: 15px;
-      text-align: right;
+      margin-top: -16px;
+      margin-left: 19px;
       text-transform: uppercase;
       //a {
       //  color: #bf9f41;
