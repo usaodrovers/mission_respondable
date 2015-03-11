@@ -32,9 +32,9 @@
             <?php endif; ?>
               <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
             <?php if (drupal_is_front_page()): ?>
-              </div>
-            <?php else: ?>
               </h1>
+            <?php else: ?>
+              </div>
             <?php endif; ?>
           <?php endif; ?>
   
