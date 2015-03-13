@@ -449,13 +449,29 @@
         .view-content {
           padding: 15px;
 
+          .views-row {
+            border-bottom: 1px solid #fff;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            &.views-row-last {
+              border-bottom: 0;
+              margin-bottom: 0;
+              padding-bottom: 0;
+            }
+          }
+
           .views-field {
             display: inline-block;
             padding-right: 10px;
 
             &.views-field-field-sr-home-away,
+            &.views-field-field-sr-opponent,
             &.views-field-field-sport-abbreviation {
               padding-right: 5px;
+            }
+
+            &.views-field-field-sr-game-type {
+              margin-left: -5px;
             }
 
             &.views-field-field-sr-score {
@@ -619,6 +635,9 @@
   .views-field {
     font-size: 12px;
     line-height: 15px;
+    span {
+      font-weight: 700;
+    }
   }
 
   .view-content {
@@ -658,7 +677,14 @@
 
   th.views-field-field-sr-date-1,
   td.views-field-field-sr-date-1 {
-    padding-left: 15px;
+    padding-left: 0;
+    @include bp(wide-screens) {
+      padding-left: 15px;
+    }
+  }
+
+  td {
+    line-height: 15px;
   }
 
   thead {
@@ -731,8 +757,9 @@
     .views-field-field-see-team {
       @include font-galette;
       font-size: 16px;
-      margin-top: -16px;
+      margin-top: -21px;
       margin-left: 19px;
+      padding-bottom: 5px;
       text-transform: uppercase;
       //a {
       //  color: #bf9f41;
@@ -789,9 +816,16 @@
     margin-bottom: 0;
   }
   .field-name-field-sports-news-image {
-    float: right;
-    padding-left: 10px;
+    float: none;
+    padding-left: 0;
+    padding-top: 25px;
     padding-bottom: 10px;
+    @include bp(small-screens) {
+      float: right;
+    }
+    img {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -808,9 +842,19 @@
     padding: 0 10px;
   }
   .pane-entity-field {
+    line-height: 20px;
     span {
       font-weight: 700;
+      &.field-label {
+        padding: 0;
+      }
     }
+  }
+  .pane-node-field-sports-ros-image {
+    padding-top: 15px;
+  }
+  .pane-node-field-sports-ros-major {
+    padding-bottom: 15px;
   }
   .panel-pane {
     margin-bottom: 0;
