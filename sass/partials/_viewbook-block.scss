@@ -1,116 +1,100 @@
 .viewbook-block {
-
   .flex-control-nav {
-    top: -70px;
-    left: -5px;
     display: none;
-
+    left: -5px;
+    top: -70px;
     li {
-      display: inline-block;
+      @include inline-block;
       margin: 0 2px;
     }
   }
-
   .viewbook-block__body {
+    color: $topbar-link_color;
     height: auto;
     padding-top: 7px;
-    color: $topbar-link_color;
   }
-
   .viewbook-block__label {
     @include font-copperplate;
+    border-right: 2px solid $topbar-link_color;
+    color: $topbar-link_color;
     display: none;
     font-size: 18px;
-    text-transform: uppercase;
-    color: $topbar-link_color;
-    padding: 30px 6px 17px 15px;
     letter-spacing: 2px;
-    border-right: 2px solid $topbar-link_color;
-    position: absolute;
     margin-top: 9px;
+    padding: 30px 6px 17px 15px;
+    position: absolute;
+    text-transform: uppercase;
   }
-
   .viewbook-block__edit {
-    width: 50px;
-    padding: 10px;
-    font-size: 24px;
     float: right;
+    font-size: 24px;
+    padding: 10px;
+    width: 50px;
   }
-
   .flex-direction-nav {
-    
     a {
-      background: url("../images/bg_direction_nav.png") no-repeat scroll 0 0 transparent;
+      background: url('../images/bg_direction_nav.png') no-repeat scroll 0 0 transparent;
       text-indent: -9999px;
       width: 30px;
     }
-
     .flex-next {
       background-position: 100% 0;
       text-align: inherit;
     }
   }
 }
-
 .flexslider {
+  @include border-radius(0);
   background: $gradient-green_light;
   border: 5px $gradient-green_light solid;
-  border-radius: 0;
   margin-bottom: 0;
 }
-
 .flex-control-paging li a {
+  @include single-box-shadow(transparent, 0, 0, 0);
+  @include border-radius(20px);
   background: none repeat scroll 0 0 $gradient-green_light;
   border: 2px solid $topbar-link_color;
-  border-radius: 20px 20px 20px 20px;
-  @include single-box-shadow(transparent, 0, 0, 0);
   cursor: pointer;
   display: block;
   height: 11px;
   text-indent: -9999px;
   width: 11px;
-
   &.flex-active {
+    @include single-box-shadow($shadow-grey, -2px, 1px, 2px, false, true);
     background: none repeat scroll 0 0 $topbar-link_color;
     cursor: default;
-    @include single-box-shadow($shadow-grey, -2px, 1px, 2px, false, true);
   }
 }
-
 @media all and (min-width: 651px) {
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
+   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
-
   .viewbook-block {
     
     .viewbook-block__label {
       display: block;
     }
-
     .viewbook-block__body {
       @include zen-grid-item(3.3 , 2.6);
     }
-
     .flex-control-nav {
       display: block;
-      top: -40px;
       left: 10px;
       position: relative;
+      top: -65px;
       width: 17%;
     }
   }
 }
-
 @media all and (min-width: 960px) {
-  /*
-   * Use 12 grid columns for larger screens.
-   */
+   // Use 12 grid columns for larger screens.
   $zen-column-count: 12;
-
-  .viewbook-block .viewbook-block__body {
-    @include zen-grid-item(7.68 , 4.8);
-    height: 45px;
+  .viewbook-block {
+    .viewbook-block__body {
+      @include zen-grid-item(7.68 , 4.8);
+      height: 45px;
+    } 
+    .flex-control-nav {
+      top: -40px;
+    }
   }
 }

@@ -1,4 +1,4 @@
-@import "compass/css3/images";
+@import 'compass/css3/images';
 
 .block-mission-respondable-footer {
   ul {
@@ -22,8 +22,8 @@
 }
 
 .icon-facebook_logo {
+  @include inline-block;
   background: url('../images/facebook.png') no-repeat;
-  display: inline-block;
   height: 34px;
   overflow: hidden;
   text-indent: 100%;
@@ -32,8 +32,8 @@
 }
 
 .icon-twitter_logo {
+  @include inline-block;
   background: url('../images/twitter.png') no-repeat;
-  display: inline-block;
   height: 34px;
   overflow: hidden;
   text-indent: 100%;
@@ -42,8 +42,8 @@
 }
 
 .icon-youtube_logo {
+  @include inline-block;
   background: url('../images/youtube.png') no-repeat;
-  display: inline-block;
   height: 34px;
   overflow: hidden;
   text-indent: 100%;
@@ -52,8 +52,8 @@
 }
 
 .icon-googleplus_logo {
+  @include inline-block;
   background: url('../images/googleplus.png') no-repeat;
-  display: inline-block;
   height: 34px;
   overflow: hidden;
   text-indent: 100%;
@@ -62,8 +62,8 @@
 }
 
 .icon-pinterest_logo {
+  @include inline-block;
   background: url('../images/pinterest.png') no-repeat;
-  display: inline-block;
   height: 34px;
   overflow: hidden;
   text-indent: 100%;
@@ -72,8 +72,8 @@
 }
 
 .icon-coplac_logo {
+  @include inline-block;
   background: url('../images/coplac.png') no-repeat;
-  display: inline-block;
   height: 58px;
   overflow: hidden;
   text-indent: 100%;
@@ -82,8 +82,8 @@
 }
 
 .icon-what_will_they_learn_logo {
+  @include inline-block;
   background: url('../images/WHATwillTHEYlearn.png') no-repeat;
-  display: inline-block;
   height: 59px;
   overflow: hidden;
   text-indent: 100%;
@@ -138,7 +138,7 @@
   }
 
   .icon-what_will_they_learn_logo {
-    margin-right: -5px;
     margin-left: 20px;
+    margin-right: -5px;
   }
 }

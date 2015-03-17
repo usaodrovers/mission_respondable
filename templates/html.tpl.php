@@ -27,6 +27,15 @@
 
   <?php print $styles; ?>
   <script async="async" defer="defer"src="//www.youvisit.com/tour/Embed/js2"></script>
+  <script type="text/javascript">
+    /*<![CDATA[*/
+    (function() {
+      var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+      sz.src = '//us1.siteimprove.com/js/siteanalyze_6013742.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+  </script>
   <?php print $scripts; ?>
   <?php if ($add_html5_shim and !$add_respond_js): ?>
     <!--[if lt IE 9]>
@@ -43,13 +52,13 @@
   <?php endif; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
-<?php if ($skip_link_text && $skip_link_anchor): ?>
-  <p id="skip-link">
-    <a href="#<?php print $skip_link_anchor; ?>" class="element-invisible element-focusable"><?php print $skip_link_text; ?></a>
-  </p>
-<?php endif; ?>
-<?php print $page_top; ?>
-<?php print $page; ?>
-<?php print $page_bottom; ?>
+  <?php if ($skip_link_text && $skip_link_anchor): ?>
+    <p id="skip-link">
+      <a href="#<?php print $skip_link_anchor; ?>" class="element-invisible element-focusable"><?php print $skip_link_text; ?></a>
+    </p>
+  <?php endif; ?>
+  <?php print $page_top; ?>
+  <?php print $page; ?>
+  <?php print $page_bottom; ?>
 </body>
 </html>

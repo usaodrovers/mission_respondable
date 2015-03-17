@@ -1,48 +1,44 @@
-/**
- * This SASS is for the Future Students Testimonial feature
- */
+ // This SASS is for the Future Students Testimonial feature
 .quicktab-block {
   overflow: hidden;
   position: relative;
-
   .tinynav {
     @include font-copperplate;
+    @include text-shadow(1px 1px 1px #004538);
     color: $attention-gold;
     font-size: 24px;
-    text-shadow: 1px 1px 1px #004538;
     width: 100%;
-
     option {
       @include font-copperplate;
       color: $attention-gold;
       font-size: 24px;
-
       &:hover {
         color: $attention-gold;
       }
     }
   }
 }
-
 ul.quicktabs-tabs li {
   white-space: normal;
 }
-
+.image-only {
+  li.active {
+    a {
+      border: 0;
+    }
+  }
+}
 .quicktabs-wrapper { 
-
   .item-list {
     padding: 0;
   }
-
   h3 {
-    padding: 0;
-    margin: 5px 2%;
     font-size: 16px;
+    margin: 5px 2%;
+    padding: 0;
   }
-
   ul {
     padding: 0;
-
     li {
       float: left;
       font-family: $font-myriadprocondensed;
@@ -50,71 +46,59 @@ ul.quicktabs-tabs li {
       font-weight: bold;
       margin: 0;
       padding: 0;
-
-      a {
-        @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
-        border-right: 1px solid $box-background;
-        display: block;
-        padding: 10px 1px;
-        text-align: center;
-        text-transform: uppercase;
-
-        &:hover {
-          color: $attention-gold;
-        }
-
-        &.hide-border {
-          border: none;
-        }
-      }
-
-      &.last a {
-        border-right: none;
-      }
-
-      &.active a {
-        border: 2px solid $attention-gold;
-        padding: 8px 0;
-      }
+    }
+    &.hide-border {
+      border: 0;
     }
   }
-
-  .quicktabs-tabpage { /* .quicktabs-wrapper .quicktabs-tabpage */
+  li a {
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    border-right: 1px solid $box-background;
+    display: block;
+    padding: 10px 1px;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+      color: $attention-gold;
+    }
+  }
+  li.last a {
+    border-right: 0;
+  }
+  li.active a {
+    border: 2px solid $attention-gold;
+    padding: 8px 0;
+  }
+  .quicktabs-tabpage { // .quicktabs-wrapper .quicktabs-tabpage */
     clear: left;
     position: relative;
   }
-
   .quicktab-block__title {
     color: $primary-nav;
-    font-size: 12px;
     float: left;
+    font-size: 12px;
     margin: 5px 2%;
     width: 96%;
   }
-
   .quicktab-block__body {
     display: block;
     margin: 5px 2%;
     padding: 0;
     width: 96%;
+    p {
+      display: inline;
+    }
   }
-
-  .quicktab-block__body p {
-    display: inline;
-  }
-
-  .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
+  .quicktab-block__content {// .quicktabs-wrapper .views-field-nothing-1 */
     padding: 1px 0;
-
     .quicktab-block__content-wrapper {
       margin: 0;
       padding: 10px 0 0;
       width: 100%;
     }
-
     .quicktab-block__button {
       background-color: $attention-gold;
-      box-shadow: -2px 2px 3px $shadow-grey;
+      @include box-shadow($shadow-grey, -2px 2px 3px);
       color: $primary-nav;
       display: block;
       font-weight: bold;
@@ -126,113 +110,89 @@ ul.quicktabs-tabs li {
     }
   }
 }
-
 .quicktab-block__six__single {
   ul.quicktabs-tabs li {
     width: 16.667%;
   }
 }
-
 .quicktab-block__five__single {
   ul.quicktabs-tabs li {
     width: 20%;
   }
 }
-
 .quicktab-block__five__double {
   ul.quicktabs-tabs li {
     width: 20%;
-
-    a {
-      min-height: 48px;
-    }
+  }
+  a {
+    min-height: 48px;
   }
 }
-
 .quicktab-block__two__single {
   ul.quicktabs-tabs li {
     width: 50%;
   }
 }
-
 .quicktab-block__academics {
-  ul.quicktabs-tabs li {
-
+  li {
     &:nth-child(2) {
-
       &.active a {
         padding: 8px 11px;
       }
-
       a {
         padding: 10px 11px;
       }
     }
   }
 }
-
 @media all and (min-width: 481px) { //HARD BREAK POINT
-  /*
-   * Use 3 grid columns for smaller screens.
-   */
+   // Use 3 grid columns for smaller screens.
   $zen-column-count: 3;
-
   .quicktabs-wrapper {
-
     .quicktab-block__title {
       font-size: 14px;
       margin: 5px 0 0;
     }
-
     .quicktab-block__body {
-      margin: 5px 0;
       color: $body_text;
       font-weight: bold;
+      margin: 5px 0;
     }
-
-    .quicktab-block__content {/* .quicktabs-wrapper .views-field-nothing-1 */
+    .quicktab-block__content {// .quicktabs-wrapper .views-field-nothing-1 */
       @include zen_grid_item(3, 1, none);
-      //@include background-image(linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%));
-      /* Using below instead of above due to IE10+ not working right with current compass implemntations.
-      /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjZjdmNGRlIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-      background: -moz-linear-gradient(left, rgba(247,244,222,0) 0%, rgba(247,244,222,0.2) 35%, rgba(247,244,222,0.75) 60%, rgba(247,244,222,0.75) 100%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(247,244,222,0)), color-stop(35%,rgba(247,244,222,0.2)), color-stop(60%,rgba(247,244,222,0.75)), color-stop(100%,rgba(247,244,222,0.75))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, rgba(247,244,222,0) 0%,rgba(247,244,222,0.2) 35%,rgba(247,244,222,0.75) 60%,rgba(247,244,222,0.75) 100%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, rgba(247,244,222,0) 0%,rgba(247,244,222,0.2) 35%,rgba(247,244,222,0.75) 60%,rgba(247,244,222,0.75) 100%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(left, rgba(247,244,222,0) 0%,rgba(247,244,222,0.2) 35%,rgba(247,244,222,0.75) 60%,rgba(247,244,222,0.75) 100%); /* IE10+ */
-      background: linear-gradient(to right, rgba(247,244,222,0) 0%,rgba(247,244,222,0.2) 35%,rgba(247,244,222,0.75) 60%,rgba(247,244,222,0.75) 100%); /* W3C */
+      //@include background-image(linear-gradient(left, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%));
+      // Using below instead of above due to IE10+ not working right with current compass implemntations.
+      // IE9 SVG, needs conditional override of 'filter' to 'none' */
+      background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjZjdmNGRlIiBzdG9wLW9wYWNpdHk9IjAuNzUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y3ZjRkZSIgc3RvcC1vcGFjaXR5PSIwLjc1Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=');
+      background: -moz-linear-gradient(left, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%); // FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(247, 244, 222, 0)), color-stop(35%, rgba(247, 244, 222, .2)), color-stop(60%, rgba(247, 244, 222, .75)), color-stop(100%, rgba(247, 244, 222, .75))); // Chrome, Safari4+ */
+      background: -webkit-linear-gradient(left, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%); // Chrome10+, Safari5.1+ */
+      background: -o-linear-gradient(left, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%); // Opera 11.10+ */
+      background: -ms-linear-gradient(left, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%); // IE10+ */
+      background: linear-gradient(to right, rgba(247, 244, 222, 0) 0%, rgba(247, 244, 222, .2) 35%, rgba(247, 244, 222, .75) 60%, rgba(247, 244, 222, .75) 100%); // W3C */
       background-color: transparent;
+      height: 100%;
       position: absolute;
       top: 0;
-      height: 100%;
-
       .quicktab-block__content-wrapper {
         @include zen_grid_item(1.5, 1, right);
         padding-right: 5px;
         padding-top: 10px;
       }
-
       .quicktab-block__button {
         @include zen_grid_item(2.55, 1, none);
-        display: inline-block;
+        @include inline-block;
         margin: 15px 0;
         padding: 6px 3px;
       }
     }
   }
 }
-
 @media all and (min-width: 651px) { //HARD BREAK POINT
-  /*
-   * Use 5 grid columns for smaller screens.
-   */
+   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
 }
-
 @media all and (min-width: 960px) { //HARD BREAK POINT
-  /*
-   * Use 12 grid columns for larger screens.
-   */
+   // Use 12 grid columns for larger screens.
   $zen-column-count: 12;
 }

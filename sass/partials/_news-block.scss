@@ -1,36 +1,29 @@
 .news-block {
-
-  .view-content ul {
-    padding: 0 15px;
+  ul {
     margin: 0;
-
+    padding: 0 15px;
     li {
       border-bottom: 1px solid $divider;
+      display: table;
+      list-style: none;
       margin-top: 15px;
       padding-bottom: 10px;
-      list-style: none;
-      display: table;
     }
   }
-
-
   .news-block__image {
     display: table-cell;
-    vertical-align: middle;
     min-width: 142px;
+    vertical-align: middle;
   }
-
   .news-block__title {
     display: table-cell;
-    vertical-align: middle;
     padding: 0 15px;
-
-
+    vertical-align: middle;
     a {
-      text-decoration: none;
       @include font-myriadpro_semibold;
       color: $primary_nav;
       font-size: 16px;
+      text-decoration: none;
     }
   }
 }

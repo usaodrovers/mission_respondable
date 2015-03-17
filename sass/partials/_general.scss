@@ -1,3 +1,5 @@
+@import 'partials/custom_mixins';
+
  // Use 1 grid columns for smaller screens.
  // All generic code goes here.
 $zen-column-count: 1;
@@ -15,10 +17,15 @@ textarea {
 html,
 body {
   min-width: 100%;
-}
-body {
-  background: url('');
+  background: transparent;
   background-color: $background;
+  @include bp(wide-screens) {
+    background: url("../images/pretties.png") no-repeat center top;
+    background-color: $background;
+    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
+      background: url('');
+    }
+  }
 }
 a {
   color: $primary-nav;
@@ -90,10 +97,20 @@ img {
   font-size: 18px;
   padding: 5px 15px;
 }
+.cutline {
+  @extend .l-highlight;
+  font-weight: 400;
+  font-size: 16px;
+}
 .l-title-area {
   margin-bottom: -40px;
   position: relative;
   top: -34px;
+}
+.l-news-title-area {
+  margin-bottom: -40px;
+  position: relative;
+  top: -6px;
 }
 // Component
 .menu__vertical {
@@ -150,15 +167,18 @@ img {
   margin: 0;
 }
 #logo {
+  @include inline-block;
   border: 0;
-  display: block;
   float: none;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 3px 0;
   width: 125px;
+  @include bp(wide-screens) {
+    float: left;
+  }
 }
-.not-front #content {
-  margin-top: 30px;
+#logo img {
+  @extend #logo;
 }
 #site-name,
 #site-slogan {
@@ -184,6 +204,7 @@ iframe {
     background-color: $gradient-green_dark;
     color: $topbar-link_color;
     font-size: 1em;
+    height: 100%;
     line-height: 100%;
     margin: 0;
     padding: 10px 15px;
@@ -245,11 +266,19 @@ iframe {
   @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
   background-color: $gradient-green_dark;
   height: auto;
+  max-height: 37px;
   margin-bottom: 0;
   padding: 0;
 }
 .region-header {
   clear: none;
+}
+.header-wrapper,
+#main-menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  text-align: center;
 }
 #navigation {
   @include font-myriadprocondensed;
@@ -282,18 +311,20 @@ iframe {
     }
   }
 }
-#block-jump-menu-jump-menu-m-menu-moble-menu {
-  .form-item {
-    display: block;
-    margin: 0;
+#main {
+  margin-top: 0;
+  padding-top: 1.25em;
+  position: relative;
+  @include bp(medium-screens) {
+    padding-top: .25em;
   }
-  select {
-    @include font-copperplate;
-    @include text-shadow(1px 1px 1px #004538);
-    color: $attention-gold;
-    font-size: 24px;
-    width: 100%;
+    @include bp(wide-screens) {
+    margin-top: 212px;
+    padding-top: 3em;
   }
+}
+#content {
+  margin-top: .75em;
 }
 .block-mission-respondable-footer {
   border-top: 1px solid $gradient-green_light;
@@ -323,7 +354,7 @@ iframe {
     }
   }
 }
-.block-menu {
+#block-menu-menu-footer-navigation {
   display: none;
   margin-bottom: -140px;
   margin-left: -30px;
@@ -380,15 +411,6 @@ iframe {
   color: $primary_nav;
 }
 @media all and (max-width: 480px) {
-  #main {
-    position: relative;
-  }
-  #content {
-    margin-top: 4em;
-  }
-  .not-front #content {
-    margin-top: 4em;
-  }
   .html #navigation {
     @include zen_clear();
     margin-top: 15px;
@@ -400,34 +422,10 @@ iframe {
     margin-top: -15px;
   }
 }
-@media all and (min-width: 481px) {
-   // Use 3 grid columns for smaller screens.
-  $zen-column-count: 3;
-  body {
-    background: url('../images/pretties.png') no-repeat center top;
-    background-color: $background;
-    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
-      background: url('');
-    }
-  }
-  #logo {
-    border: 0;
-    float: left;
-    margin: 0;
-    padding: 5px 1%;
-    width: auto;
-  }
-}
 @media all and (min-width: 651px) {
   // Use 5 grid columns for smaller screens.
   $zen-column-count: 5;
   // comment this out in dev for size fix
-  .header-wrapper,
-  #main-menu {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-  }
   #secondary-menu {
     @include zen-grid-item(4, 1);
     ul {
@@ -520,10 +518,6 @@ iframe {
   .section-search #content,
   .not-front #content {
     padding: 0;
-  }
-  #logo {
-    @include inline-block;
-    border: 0;
   }
   #navigation {
     #main-menu {
