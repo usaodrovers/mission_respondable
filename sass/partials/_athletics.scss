@@ -865,3 +865,25 @@
     margin-bottom: 0;
   }
 }
+
+// Multimedia PHOTO Galleries
+
+.node-type-sports-multimedia {
+  article {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .field {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex: 33% 1;
+      flex: 33% 1;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      margin-top: 25px;
+    }
+  }
+}
