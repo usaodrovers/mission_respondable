@@ -16,12 +16,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-  #main {
-    padding-top: 0;
-    @include bp(wide-screens) {
-      padding-top: 3em;
-    }
-  }
   .column {
     border-left: 0;
     border-right: 0;
@@ -68,11 +62,16 @@
   }
 
   #main {
-    margin-bottom: 0;
+    margin-bottom: -10px;
     margin-top: 0;
     overflow: hidden;
+    padding-top: 0;
+    top: -10px;
+    width: 100%;
+    @include bp(wide-screens) {
+      padding-top: 3em;
+    }
   }
-
   .region-footer {
     @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
     background-color: $gradient-green_dark;
