@@ -50,7 +50,7 @@ javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
-output_style = (environment == :development) ? :expanded : :compressed
+output_style = (environment == :compressed) ? :expanded : :compressed
 
 # To enable relative paths to assets via compass helper functions. Since Drupal
 # themes can be installed in multiple locations, we don't need to worry about
@@ -63,3 +63,4 @@ relative_assets = true
 # Pass options to sass. For development, we turn on the FireSass-compatible
 # debug_info if the firesass config variable above is true.
 sass_options = (environment == :development && firesass == true) ? {:debug_info => true} : {}
+sourcemap = true

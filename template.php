@@ -37,6 +37,13 @@ function mission_respondable_preprocess_maintenance_page(&$variables, $hook) {
 function mission_respondable_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://use.typekit.com/cgw5wnf.js');
   drupal_add_js('try{Typekit.load();}catch(e){}', array('type' => 'inline'));
+    drupal_add_js('/*<![CDATA[*/
+    (function() {
+      var sz = document.createElement("script"); sz.type = "text/javascript"; sz.async = true;
+      sz.src = "//us1.siteimprove.com/js/siteanalyze_6013742.js";
+      var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sz, s);
+    })();
+/*]]>*/', array('type' => 'inline'));
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/quicktab-select.js');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/qtabborder.js');
   $pageID = arg(0);
@@ -44,6 +51,10 @@ function mission_respondable_preprocess_html(&$variables, $hook) {
   if ($pageID == 'future-students' || $otherPageID == '38621' || $otherPageID =='39241') {
     drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/fscodes.js');
   }
+  if ($otherPageID == 'athletic-staff') {
+    drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/athleticsDirectoryRewrite.js');
+  }
+  drupal_add_library('system', 'ui.accordion');
   drupal_add_library('system', 'ui.accordion');
   drupal_add_js(drupal_get_path('theme', 'mission_respondable') . '/js/alignmentShift.js');
   drupal_add_css(libraries_get_path('slick-master') . '/slick/slick.css');

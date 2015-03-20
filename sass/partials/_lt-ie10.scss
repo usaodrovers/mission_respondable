@@ -1,0 +1,11 @@
+.lt-ie10 .section-sports,
+.lt-ie10 .node-type-sport {
+  .panel-display {
+    @include inline-block;
+    background: url('../images/athletics-background.png') repeat-y top left #ffdb7b;
+  }
+
+}
+.lt-ie10 .panel-container-left {
+  @include inline-block;
+}

@@ -25,9 +25,17 @@
       <?php if ($site_name || $site_slogan): ?>
         <div class="header__name-and-slogan" id="name-and-slogan">
           <?php if ($site_name): ?>
-            <h1 class="header__site-name" id="site-name">
+           <?php if (drupal_is_front_page()): ?>
+              <h1 class="header__site-name" id="site-name">
+            <?php else: ?>
+              <div class="header__site-name" id="site-name">
+            <?php endif; ?>
               <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-            </h1>
+            <?php if (drupal_is_front_page()): ?>
+              </h1>
+            <?php else: ?>
+              </div>
+            <?php endif; ?>
           <?php endif; ?>
   
           <?php if ($site_slogan): ?>

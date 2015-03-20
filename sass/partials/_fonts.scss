@@ -1,7 +1,9 @@
 // Fonts. 
 $font-copperplate: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "kelvingrove-1", "kelvingrove-2", serif;
-$font-myriadpro: "myriad-pro-1", "myriad-pro-2", sans-serif;
-$font-myriadprocondensed: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sans-serif;
+$font-myriadpro: "myriad-pro-1","myriad-pro-2",sans-serif;
+$font-myriadprocondensed: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
+$font-galette: "galette-1","galette-2",sans-serif;
+$font-old-athletics: Tahoma,Verdana,Arial,Helvetica,"Bitstream Vera Sans",sans-serif;
 
 @mixin font-copperplate {
   font-family: $font-copperplate;
@@ -49,4 +51,15 @@ $font-myriadprocondensed: "myriad-pro-condensed-1", "myriad-pro-condensed-2", sa
   font-family: $font-myriadprocondensed;
   font-weight: 600;
   font-style: italic;
+}
+
+@mixin font-galette {
+  font-family: $font-galette;
+  text-transform: uppercase;
+}
+
+@mixin font-old-athletics {
+  font-family: $font-old-athletics;
+  font-size: .75em;
+  line-height: 16px;
 }
