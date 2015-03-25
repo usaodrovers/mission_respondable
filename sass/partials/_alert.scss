@@ -1,13 +1,16 @@
 #alert {
   color: #fff;
+  display: -webkit-flex;
+  display: flex;
   margin-bottom: -24px;
+  width: 100%;
+  .block,
+  .region {
+    width: 100%;
+  }
 }
 .view-alert {
   text-align: center;
-
-  .views-row {
-   // margin-top: -24px;
-  }
 
   img, p, a {
     @include inline-block;
@@ -17,13 +20,19 @@
   .alert-text,
   .alert-image {
     @include inline-block;
+    padding: 10px;
   }
 
   .Info {
     @include background-image(linear-gradient(#2989cc, #acdbfc 90%));
     display: -webkit-flex;
     display: flex;
-    padding-top: 10px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    @include bp(wide-screens) {
+      top: -10px;
+    }
   }
 
   .Warning {

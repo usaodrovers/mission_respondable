@@ -25,6 +25,8 @@ body {
     &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
       background: url('');
     }
+    height: 100%;
+    min-height: 100%;
   }
 }
 a {

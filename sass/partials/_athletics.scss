@@ -7,6 +7,17 @@
   background-position: center top;
   background-repeat: repeat;
   margin-top: 0;
+  &.page-node-43417,
+  &.page-node-43419,
+  &.page-node-43427,
+  &.page-node-43435,
+  &.page-node-43437,
+  &.page-node-43438 {
+    table {
+      font-size: 0;
+      margin-left: 10px;
+    }
+  }
 }
 
 //noinspection ScssLintInspection,ScssLintInspection
@@ -25,6 +36,10 @@
       border-left: 3px solid #fff;
       border-right: 3px solid #fff;
     }
+  }
+
+  .l-box {
+    background-color: #ffdb7b;
   }
 
   .panel-right {
@@ -82,6 +97,10 @@
     border-radius: 0;
     border-right: 0;
     max-width: 960px !important;
+    .block-menu {
+      margin-bottom: -60px;
+      margin-top: -15px;
+    }
     @include bp(wide-screens) {
       border-bottom: solid #fff 3px;
       border-left: solid #fff 3px;
@@ -99,11 +118,6 @@
     p {
       width: 260px;
     }
-  }
-
-  .block-menu {
-    margin-bottom: -60px;
-    margin-top: -15px;
   }
 
   #block-mission-respondable-footer-footer-contact {
@@ -212,6 +226,7 @@
   }
 
   .pane-athletics-athletics-logos {
+    margin-left: 15px;
     table {
       margin-top: 0;
 
@@ -373,6 +388,10 @@
       -webkit-flex: 50% 1;
       flex: 50% 1;
       margin: auto;
+      line-height: 13px;
+      @include bp(wide-screens) {
+        line-height: 16px;
+      }
     }
 
     .blurb_col1 {
@@ -483,6 +502,10 @@
             &.views-field-field-sr-date-1 {
               padding-right: 20px;
             }
+            &.views-field-field-sr-home-away-1 {
+              display: none !important;
+              visibility: hidden;
+            }
           }
         }
 
@@ -538,7 +561,10 @@
 
   #multimedia-in-the-saddle a,
   #multimedia-videos a,
-  #multimedia-photos a {
+  #multimedia-photos a,
+  #multimedia-in-the-saddle span,
+  #multimedia-videos span,
+  #multimedia-photos span {
     color: #ffefbc;
   }
 
