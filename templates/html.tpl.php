@@ -6,13 +6,24 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728208
  */
-?><!DOCTYPE html>
-<!--[if IEMobile 7]><html class="iem7" <?php print $html_attributes; ?>><![endif]-->
-<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" <?php print $html_attributes; ?>><![endif]-->
-<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" <?php print $html_attributes; ?>><![endif]-->
-<!--[if IE 8]><html class="lt-ie9" <?php print $html_attributes; ?>><![endif]-->
-<!--[if IE 9]><html class="lt-ie10" <?php print $html_attributes; ?>><![endif]-->
-<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
+?>
+<?php
+  if (isset($_GET['q'])) {
+    $path = drupal_get_path_alias($_GET['q']);
+    if (preg_match('#sports#', $path)) {
+      $class = "section-sports";
+    } else {
+      $class = "";
+    }
+}
+?>
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7 <?php print $class; ?>" <?php print $html_attributes; ?>><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7 <?php print $class; ?>" <?php print $html_attributes; ?>><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 <?php print $class; ?>" <?php print $html_attributes; ?>><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 <?php print $class; ?>" <?php print $html_attributes; ?>><![endif]-->
+<!--[if IE 9]><html class="lt-ie10 <?php print $class; ?>" <?php print $html_attributes; ?>><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html class="<?php print $class; ?>" <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
 
 <head>
   <?php print $head; ?>
