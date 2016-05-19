@@ -4,10 +4,17 @@
  // All generic code goes here.
 $zen-column-count: 1;
  // Base
+<<<<<<< HEAD
 html,
 button,
 input,
 select,
+=======
+html,
+button,
+input,
+select,
+>>>>>>> master
 textarea {
   color: $body_text;
   font-family: $font-myriadpro;
@@ -189,7 +196,11 @@ img {
 #site-slogan {
   display: none;
 }
+<<<<<<< HEAD
 #content,
+=======
+#content,
+>>>>>>> master
 #footer {
   margin: 0 auto;
   max-width: 622px;
