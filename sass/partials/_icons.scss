@@ -1,0 +1,144 @@
+@import 'compass/css3/images';
+
+.block-mission-respondable-footer {
+  ul {
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+    width: 18%;
+
+    a {
+      margin-bottom: 7px;
+    }
+  }
+
+  li:nth-child(6),
+  :nth-child(7) {
+    display: block;
+    width: auto;
+  }
+}
+
+.icon-facebook_logo {
+  @include inline-block;
+  background: url('../images/facebook.png') no-repeat;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.icon-twitter_logo {
+  @include inline-block;
+  background: url('../images/twitter.png') no-repeat;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.icon-youtube_logo {
+  @include inline-block;
+  background: url('../images/youtube.png') no-repeat;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.icon-googleplus_logo {
+  @include inline-block;
+  background: url('../images/googleplus.png') no-repeat;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.icon-pinterest_logo {
+  @include inline-block;
+  background: url('../images/pinterest.png') no-repeat;
+  height: 34px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.icon-coplac_logo {
+  @include inline-block;
+  background: url('../images/coplac.png') no-repeat;
+  height: 58px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.icon-what_will_they_learn_logo {
+  @include inline-block;
+  background: url('../images/WHATwillTHEYlearn.png') no-repeat;
+  height: 59px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 139px;
+}
+
+@media all and (min-width: 481px) {
+  .block-mission-respondable-footer {
+    ul {
+      text-align: left;
+    }
+
+    li {
+      text-align: left;
+      width: auto;
+    }
+
+    li:nth-child(6),
+    :nth-child(7) {
+      display: inline;
+    }
+  }
+
+  .icon-facebook_logo {
+    position: relative;
+    top: -9px;
+  }
+
+  .icon-twitter_logo {
+    position: relative;
+    top: -9px;
+  }
+
+  .icon-youtube_logo {
+    position: relative;
+    top: -9px;
+  }
+
+  .icon-googleplus_logo {
+    position: relative;
+    top: -9px;
+  }
+
+  .icon-pinterest_logo {
+    position: relative;
+    top: -9px;
+  }
+
+  .icon-coplac_logo {
+    margin-left: 115px;
+  }
+
+  .icon-what_will_they_learn_logo {
+    margin-left: 20px;
+    margin-right: -5px;
+  }
+}

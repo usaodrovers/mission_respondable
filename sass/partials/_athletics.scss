@@ -1,0 +1,895 @@
+@import 'colors';
+@import 'fonts';
+@import 'custom_mixins';
+
+.section-sports {
+  background-image: url('../images/athletics-bkg.png') !important;
+  background-position: center top;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+//noinspection ScssLintInspection,ScssLintInspection
+.section-sports,
+.node-type-sport {
+  #content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .column {
+    border-left: 0;
+    border-right: 0;
+    margin-top: 0 !important;
+    max-width: 960px !important;
+    @include bp(wide-screens) {
+      border-left: 3px solid #fff;
+      border-right: 3px solid #fff;
+    }
+  }
+
+  .panel-right {
+    position: relative;
+  }
+
+  .pane-node-title h1,
+  h1.pane-title,
+  .pane-taxonomy-term h2 {
+    @include font-galette;
+    @include rotate(-90deg);
+    background: transparent none;
+    color: #ffefbc;
+    font-size: 1.433em;
+    left: -390px;
+    letter-spacing: 4px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    top: 395px;
+    width: 810px;
+    z-index: 3;
+  }
+
+  .block-system {
+    margin-bottom: 0;
+  }
+
+  .tabs-primary {
+    float: right;
+    position: relative;
+    z-index: 100;
+  }
+
+  #main {
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-top: 0;
+    top: 0;
+    width: 100%;
+    @include bp(wide-screens) {
+      padding-top: 3em;
+      top: -10px;
+      margin-bottom: -10px;
+    }
+  }
+  .region-footer {
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    background-color: $gradient-green_dark;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+    max-width: 960px !important;
+    @include bp(wide-screens) {
+      border-bottom: solid #fff 3px;
+      border-left: solid #fff 3px;
+      border-radius: 0 0 25px 25px;
+      border-right: solid #fff 3px;
+    }
+  }
+
+  .block-mission-respondable-footer {
+    border-top: 0;
+    ul {
+      display: none;
+    }
+
+    p {
+      width: 260px;
+    }
+  }
+
+  .block-menu {
+    margin-bottom: -60px;
+    margin-top: -15px;
+  }
+
+  #block-mission-respondable-footer-footer-contact {
+    height: 125px;
+    padding-top: 40px;
+  }
+
+  .panel-display {
+    min-height: 665px;
+    position: relative;
+  }
+
+  .pane-athletics-athletics-drover-sports-title {
+    .pane-title {
+      @include font-galette;
+      @include rotate(-90deg);
+      background-color: transparent;
+      background-image: none;
+      color: #575757;
+      font-size: 44px;
+      left: -135px;
+      margin: 0;
+      padding: 0 10px 0 0;
+      position: relative;
+      text-align: right;
+      top: 134px;
+      width: 300px;
+      z-index: 3;
+    }
+  }
+
+  .athletics-menu {
+    @include font-galette;
+    margin: 0;
+    position: relative;
+
+    .menu {
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      &.sports-links .first {
+        border-top: dashed 1px #ceb251;
+      }
+
+      &.sports-links .last {
+        border-bottom: dashed 1px #ceb251;
+        margin-bottom: 15px;
+
+        a {
+          border-bottom: 0;
+        }
+      }
+
+      .last a {
+        border-bottom-color: #81b7b1;
+      }
+
+      a {
+        border-bottom: 2px solid #797979;
+        color: #feefad;
+        display: block;
+        padding: 3px 0 3px 20px;
+
+        &:hover,
+        &.active {
+          background-color: #2a7469;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .pane-menu-menu-athletics-media {
+    @include font-galette;
+    font-size: 18px;
+    margin-bottom: 0;
+    width: 184px;
+
+    .menu {
+      margin: 0;
+      padding: 10px 0;
+
+      li {
+        @include border-radius(10px);
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+      }
+
+      .first {
+        background-color: #a4a938;
+        box-shadow: 0 0 10px 10px #857a1d inset;
+      }
+
+      .last {
+        background-color: #007161;
+        box-shadow: 0 0 10px 10px #00502e inset;
+        padding: 17px;
+      }
+
+      a {
+        color: #feefad;
+      }
+    }
+  }
+
+  .pane-athletics-athletics-logos {
+    table {
+      margin-top: 0;
+
+      tbody {
+        border: 0;
+      }
+    }
+  }
+
+  .athletics-news {
+    @include font-old-athletics;
+    background-color: #00483A;
+    margin-bottom: 0;
+    position: relative;
+
+    li.flexslider_views_slideshow_slide {
+      //display: -webkit-flex !important;
+      //display: flex !important;
+      .athletics-other-fields {
+        //-webkit-flex: 1;
+        //flex: 1;
+        //-webkit-order: 2;
+        //order: 2;
+      }
+      .athletics-news-image {
+        //-webkit-flex: 1;
+        //flex: 1;
+        display: none;
+        @include bp(wide-screens) {
+          display: block;
+        }
+      }
+    }
+
+    .pane-title {
+      @include font-galette;
+      background-image: none;
+      background-color: #00483A;
+      color: $attention-gold;
+      display: block;
+      font-size: 18px;
+      //width: 359px;
+      //z-index: 10;
+    }
+
+    .flexslider {
+      background: none;
+      border: 0;
+      box-shadow: none;
+
+      .flex-direction-nav .flex-prev {
+        display: none;
+      }
+
+      .flex-control-nav {
+        height: 15px;
+        left: 70px;
+        position: absolute;
+        top: -26px;
+        width: 150px;
+        z-index: 10;
+      }
+
+      .flex-direction-nav .flex-next,
+      .flex-direction-nav a.flex-next:before {
+        display: none;
+      }
+
+      .athletics-news-image {
+        left: -308px;
+        position: absolute;
+        top: -38px;
+        width: 308px;
+      }
+
+      .athletics-other-fields {
+        padding: 15px;
+      }
+
+      .field-name-field-sports-news-image img {
+        border-radius: 0 0 25px;
+      }
+
+      .views-field-title a {
+        color: $attention-gold;
+      }
+
+      .views-field-body {
+        color: #FFEFBC;
+
+        p:nth-child(1) {
+          margin-top: 10px;
+        }
+      }
+
+      .views-field-view-node {
+        text-transform: uppercase;
+
+        a {
+          color: #FFEFBC;
+        }
+      }
+    }
+
+    .views-slideshow-controls-text-next a {
+      background: url('../images/next-slide.png') no-repeat center center #00483A;
+      border-radius: 5px 0 0 5px;
+      height: 29px;
+      overflow: hidden;
+      position: absolute;
+      right: -37px;
+      text-indent: -9999px;
+      top: -11px;
+      width: 38px;
+      z-index: 1000;
+      display: none;
+      @include bp(wide-screens) {
+        top: 11px;
+        right: 2px;
+        display: block;
+      }
+    }
+
+    .views-slideshow-controls-top {
+      position: absolute;
+
+      .views-slideshow-controls-text-previous,
+      .views-slideshow-controls-text-pause {
+        display: none;
+      }
+    }
+  }
+
+  .athletics-blurb {
+    @include font-old-athletics;
+    background-color: $attention-gold;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-radius: 0;
+    border-right: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    @include bp(wide-screens) {
+      border: 3px solid #fff;
+      border-radius: 18px 0 0 18px / 100px 0 0 100px;
+      left: -18px;
+      width: 404px;
+    }
+
+    .field-content {
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    .blurb_col1,
+    .blurb_col2 {
+      -webkit-flex: 50% 1;
+      flex: 50% 1;
+      margin: auto;
+    }
+
+    .blurb_col1 {
+      padding: 0 20px;
+    }
+    .blurb_col2 {
+      -webkit-align-items: flex-end;
+      align-items: flex-end;
+    }
+
+    img {
+      float: right;
+    }
+  }
+
+  .pane-athletics-schedule-results {
+    ul {
+      @include inline-block;
+      margin: 0;
+      padding: 0;
+
+      li {
+        @include font-galette;
+        @include inline-block;
+        background-color: #00483A;
+        color: $attention-gold;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px 10px 7px;
+
+        &.schedule {
+          border-radius: 13px 0 0;
+          border-right: 1px solid #BF9F41;
+        }
+
+        &.results {
+          border-radius: 0 13px 0 0;
+        }
+
+        &.active {
+          background-color: transparent;
+          color: #575757;
+        }
+      }
+    }
+
+    #athletics-schedule-results {
+      position: relative;
+
+      ul {
+        background-color: $attention-gold;
+        border: 3px solid #fff;
+        border-bottom: 0;
+        border-radius: 15px 15px 0 0;
+        margin-left: 30px;
+      }
+
+      .view-empty {
+        padding-left: 15px;
+      }
+
+      #athletics-schedule-view,
+      #athletics-results-view {
+        background-color: $attention-gold;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-radius: 0;
+        margin: 0;
+        @include bp(wide-screens) {
+          border: 3px solid #fff;
+          border-radius: 15px;
+          margin: 0 15px;
+        }
+
+        .view-content {
+          padding: 15px;
+
+          .views-row {
+            border-bottom: 1px solid #fff;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            &.views-row-last {
+              border-bottom: 0;
+              margin-bottom: 0;
+              padding-bottom: 0;
+            }
+          }
+
+          .views-field {
+            display: inline-block;
+            padding-right: 10px;
+
+            &.views-field-field-sr-home-away,
+            &.views-field-field-sr-opponent,
+            &.views-field-field-sport-abbreviation {
+              padding-right: 5px;
+            }
+
+            &.views-field-field-sr-game-type {
+              margin-left: -5px;
+            }
+
+            &.views-field-field-sr-score {
+              float: right;
+            }
+
+            &.views-field-field-sr-date,
+            &.views-field-field-sr-date-1 {
+              padding-right: 20px;
+            }
+          }
+        }
+
+        .sr_full_link {
+          text-align: right;
+          padding-right: 10px;
+        }
+      }
+
+      #athletics-results-view {
+        display: none;
+      }
+    }
+  }
+
+  #navigation {
+    @include bp(wide-screens) {
+      @include background-image(linear-gradient(to bottom,
+              rgba(0, 0, 0, .65) 0%,
+              rgba(0, 0, 0, 0) 10%),
+              linear-gradient(to bottom,
+                      rgba(0, 0, 0, 0) 90%,
+                      rgba(0, 0, 0, .65) 100%));
+      background-color: #007362;
+      box-shadow: 3px 0 5px inset;
+      margin-top: 0;
+      padding: 12px 0;
+    }
+  }
+
+  #multimedia .pager-next,
+  #multimedia .pager-previous {
+    font-size: 20px;
+  }
+
+  #multimedia-in-the-saddle,
+  #multimedia-videos,
+  #multimedia-photos {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  #multimedia-in-the-saddle h2.pane-title,
+  #multimedia-videos h2.pane-title,
+  #multimedia-photos h2.pane-title {
+    background: none;
+    color: #ffd457;
+    font-size: 24px;
+    height: auto;
+  }
+
+  #multimedia-in-the-saddle a,
+  #multimedia-videos a,
+  #multimedia-photos a {
+    color: #ffefbc;
+  }
+
+  #multimedia-in-the-saddle .view,
+  #multimedia-videos .view,
+  #multimedia-photos .view {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #multimedia-in-the-saddle .view-content,
+  #multimedia-videos .view-content,
+  #multimedia-photos .view-content {
+    //display: -webkit-flex;
+    //display: flex;
+    //-webkit-flex-wrap: wrap;
+    //flex-wrap: wrap;
+  }
+
+  /*
+  #multimedia-in-the-saddle .views-row,
+  #multimedia-videos .views-row,
+  #multimedia-photos .views-row {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 4.0% 8.6%;
+    text-align: center;
+  }
+  */
+
+  #multimedia-in-the-saddle .views-row,
+  #multimedia-videos .views-row,
+  #multimedia-photos .views-row {
+    padding: 0 17px 20px 17px;
+  }
+
+  #multimedia-in-the-saddle .item-list,
+  #multimedia-videos .item-list,
+  #multimedia-photos .item-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 100% 1;
+    flex: 100% 1;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    background: none;
+  }
+
+  #multimedia-in-the-saddle .item-list ul,
+  #multimedia-videos .item-list ul,
+  #multimedia-photos .item-list ul {
+    display: -webkit-flex;
+    display: flex;
+    webkit-flex: 1;
+    flex: 1;
+  }
+
+  #multimedia-in-the-saddle .item-list ul li,
+  #multimedia-videos .item-list ul li,
+  #multimedia-photos .item-list ul li {
+    padding: 0;
+    margin: 0 10px;
+    webkit-flex: 1;
+    flex: 1;
+  }
+}
+
+// Roster
+
+.page-node-roster {
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding-bottom: 15px;
+  }
+
+  .view-header {
+    margin-left: 30px;
+  }
+
+  .pane-views-panes .pane-title {
+    background-color: transparent;
+    background-image: none;
+    color: #007161;
+    font-size: 32px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  .field-name-field-sports-ros-image {
+    float: left;
+    margin: 0 10px;
+  }
+
+  .views-field {
+    font-size: 12px;
+    line-height: 15px;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .view-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .views-row {
+      -webkit-flex: 300px 1;
+      flex: 300px 1;
+      margin-bottom: 15px;
+      padding-left: 20px;
+    }
+  }
+}
+
+// Schedule Results
+.page-node-schedule-results,
+.page-sports-schedule-results {
+  .view-header {
+    padding-left: 15px;
+  }
+
+  .pane-views-panes .pane-title {
+    background-color: transparent;
+    background-image: none;
+    color: #007161;
+    font-size: 32px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  table {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  th.views-field-field-sr-date-1,
+  td.views-field-field-sr-date-1 {
+    padding-left: 0;
+    @include bp(wide-screens) {
+      padding-left: 15px;
+    }
+  }
+
+  td {
+    line-height: 15px;
+  }
+
+  thead {
+    background-color: #2a7469;
+    color: #FCEDB8;
+  }
+
+  tr.sr_home {
+    background-color: #3C4A40;
+    color: #FCEDB8;
+  }
+
+  tr.sr_away {
+    background-color: #FCEDB8;
+    color: #3C4A40;
+  }
+}
+
+.sr-full-link {
+  @include font-galette;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  text-align: right;
+  text-transform: uppercase;
+ }
+
+.page-taxonomy-term {
+  .view-athletics-directory {
+    .view-content > h3 {
+      display: none;
+    }
+  }
+}
+
+.view-athletics-directory {
+  h3 {
+    padding-left: 15px;
+  }
+
+  .directory-listing {
+    .views-row {
+      border-top: 1px solid #FFEFBC;
+
+      &.views-row-first {
+        border-top: 0;
+      }
+    }
+  }
+ }
+
+.node-type-sport {
+  .athletics-blurb {
+    .pane-title {
+      background-color: transparent;
+      background-image: none;
+      color: #575757;
+      font-size: 20px;
+      height: auto;
+      letter-spacing: 1px;
+      margin-bottom: -40px;
+      padding-left: 19px;
+      text-transform: uppercase;
+    }
+
+    .field-content span {
+      font-weight: 700;
+    }
+
+    .views-field-field-see-team {
+      @include font-galette;
+      font-size: 16px;
+      margin-top: -21px;
+      margin-left: 19px;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      //a {
+      //  color: #bf9f41;
+      //}
+    }
+  }
+  // This is reserved for one of things that sports node doesn't have in common
+  // with the front Athletics page.
+  .tabs {
+    display: none;
+  }
+}
+
+.athletics-news-listing {
+  padding-top: 20px;
+
+  img {
+    float: left;
+    padding: 0 10px 25px;
+  }
+
+  .item-list {
+    background-color: transparent;
+    background-image: none;
+
+    a {
+      color: $gradient-green_light;
+    }
+
+    .pager-current {
+      color: $gradient-green_dark;
+    }
+
+    .pager-ellipsis {
+      color: $body-text;
+    }
+
+    .pager li {
+      padding: .1em;
+    }
+  }
+}
+
+.node-type-sports-news,
+.node-type-sports-blurb {
+  .node {
+    padding: 0 10px;
+  }
+}
+
+.node-type-sports-news {
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  .field-name-field-sports-news-image {
+    float: none;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    @include bp(small-screens) {
+      float: right;
+    }
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.node-type-sports-blurb {
+  .field-name-field-sports-blurb-image {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.node-type-sports-roster {
+  .panel-right .inside {
+    padding: 0 10px;
+  }
+  .pane-entity-field {
+    line-height: 20px;
+    span {
+      font-weight: 700;
+      &.field-label {
+        padding: 0;
+      }
+    }
+  }
+  .pane-node-field-sports-ros-image {
+    padding-top: 15px;
+  }
+  .pane-node-field-sports-ros-major {
+    padding-bottom: 15px;
+  }
+  .panel-pane {
+    margin-bottom: 0;
+  }
+}
+
+// Multimedia PHOTO Galleries
+
+.node-type-sports-multimedia {
+  article {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .field {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex: 33% 1;
+      flex: 33% 1;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      margin-top: 25px;
+    }
+  }
+}

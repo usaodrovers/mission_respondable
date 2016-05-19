@@ -1,0 +1,67 @@
+.testimonial-block {
+  padding: 0;
+  .bqstart,
+  .bqend {
+    display: inline;
+    @include font-myriadpro;
+  }
+  .testimonial-block__title {
+    line-height: 1em;
+    margin: 0;
+    padding: 5px 15px 2px;
+  }
+  .testimonial-block__body {
+    @include font-myriadprocondensed;
+    color: $body-text;
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  .edit-link {
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .testimonial-block__path {
+    padding: 0 15px;
+    
+    a {
+      @include font-myriadpro_bold;
+      color: $primary-nav;
+      text-decoration: none;
+    }
+  }
+  .testimonial-block__image {
+    display: block;
+    float: left;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+.view-display-id-major_alumni img {
+  float: left;
+  margin-right: 10px;
+}
+.not-logged-in .pane-views-testimonial-block .views-field-edit-node,
+.not-logged-in .pane-testimonial .views-field-edit-node {
+  display: none;
+}
+@media all and (min-width: 481px) { //HARD BREAK POINT
+ // Use 3 grid columns for smaller screens.
+  $zen-column-count: 3;
+}
+@media all and (min-width: 651px) { //HARD BREAK POINT
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  .testimonial-block {
+    .testimonial-block__image {
+      max-width: 325px;
+      padding-right: 15px;
+    }
+  }
+}
+@media all and (min-width: 960px) { //HARD BREAK POINT
+ // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+}

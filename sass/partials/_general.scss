@@ -1,0 +1,558 @@
+@import 'partials/custom_mixins';
+
+ // Use 1 grid columns for smaller screens.
+ // All generic code goes here.
+$zen-column-count: 1;
+ // Base
+html,
+button,
+input,
+select,
+textarea {
+  color: $body_text;
+  font-family: $font-myriadpro;
+  font-size: 16px;
+  line-height: 24px;
+}
+html,
+body {
+  min-width: 100%;
+  background: transparent;
+  background-color: $background;
+  @include bp(wide-screens) {
+    background: url("../images/pretties.png") no-repeat center top;
+    background-color: $background;
+    &.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders {
+      background: url('');
+    }
+  }
+}
+a {
+  color: $primary-nav;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+h1 {
+  @include font-myriadprocondensed;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  background-color: $gradient-green_dark;
+  color: $attention-gold;
+  font-size: 32px;
+  margin: 0;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+#page-title {
+  margin: 0 0 15px;
+}
+img {
+  display: block;
+}
+// Need relative on all panel displays to allow dyanmic repositioning.
+.p-box-column {
+  position: relative;
+}
+.logged-in .p-box-full {
+  margin-top: 25px;
+}
+// Layout
+.l-box,
+.page-user #content,
+.page-eform form,
+.webform-confirmation {
+  background-color: $box-background;
+  p,
+  h3,
+  h2,
+  .webform-component,
+  .form-item,
+  .field-type-link-field {
+    font-size: 16px;
+    margin: 0;
+    padding: .5em 15px;
+  }
+  ol,
+  ul {
+    padding: 0 30px;
+  }
+}
+.node-unpublished.l-box {
+  background-color: #FFF4F4;
+}
+.l-box blockquote {
+  margin-left: 17px;
+  margin-right: 17px;
+  p {
+    background: url('../images/quote.png') no-repeat left 11px transparent;
+    padding: .5em 15px .5em 25px;
+  }
+}
+.l-highlight {
+  @include font-myriadprocondensed_bold;
+  background-color: rgba(235, 234, 213, .7);
+  color: $body_text;
+  font-size: 18px;
+  padding: 5px 15px;
+  // override for events with multiple days.
+  .date-display-range {
+    @include inline-block;
+    vertical-align: baseline;
+  }
+}
+.cutline {
+  @extend .l-highlight;
+  font-weight: 400;
+  font-size: 16px;
+}
+.l-title-area {
+  margin-bottom: -40px;
+  position: relative;
+  top: -34px;
+}
+.l-news-title-area {
+  margin-bottom: -40px;
+  position: relative;
+  top: -6px;
+}
+// Component
+.menu__vertical {
+  ul {
+    margin: 10px 0;
+    padding: 0 15px;
+    li {
+      @include font-myriadprocondensed;
+      border-bottom: 1px solid $divider;
+      list-style: none;
+      padding: 5px 0;
+      margin: 0;
+      &.is-active-trail {
+        background-color: $event-active;
+        margin: -1px -15px;
+        padding: 5px 15px;
+      }
+      a.active {
+        background-color: $event-active;
+        margin: -1px -15px;
+        padding: 5px 15px;
+        display:block;
+      }
+      &.views-row-last,
+      &:nth-last-child(1) {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+.content-announcement {
+  .pane-title {
+    color: $attention-gold;
+    font-family: $font-myriadprocondensed;
+    font-size: 32px;
+    padding-left: 15px;
+  }
+}
+.oversized-text {
+  @include font-myriadprocondensed;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+.html .clear {
+  clear: both;
+}
+.attention {
+  color: $attention-gold;
+}
+.margin-none {
+  margin: 0;
+}
+#logo {
+  @include inline-block;
+  border: 0;
+  float: none;
+  margin: 0 auto;
+  padding: 3px 0;
+  width: 125px;
+  @include bp(wide-screens) {
+    float: left;
+  }
+}
+#logo img {
+  @extend #logo;
+}
+#site-name,
+#site-slogan {
+  display: none;
+}
+#content,
+#footer {
+  margin: 0 auto;
+  max-width: 622px;
+}
+iframe {
+  max-width: 100%;
+}
+.mission-statement {
+  text-align: center;
+}
+.breadcrumb {display: none;}
+.panel-pane {
+  margin-bottom: 15px;
+  .pane-title {
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    @include font-copperplate;
+    background-color: $gradient-green_dark;
+    color: $topbar-link_color;
+    font-size: 1em;
+    height: 100%;
+    line-height: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    a {
+      @include font-copperplate;
+      color: $topbar-link_color;
+      font-size: 16px;
+      letter-spacing: 2px;
+      padding: 0;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.item-list {
+  @include font-myriadpro;
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  background-color: $gradient-green_dark;
+  color: $box-background;
+  padding: 10px 0;
+  .pager-current {
+    color: $attention-gold;
+  }
+  .pager {
+    margin: 0
+  }
+  a {
+    color: $box-background;
+    text-decoration: none;
+  }
+}
+#secondary-menu {
+  display: none;
+  padding: 0;
+  li {
+    border: 0;
+    float: left;
+    height: 27px;
+    list-style: none;
+    padding: 5px 1%;
+    a {
+      @include font-copperplate;
+      color: $topbar-link_color;
+      font-size: 12px;
+      letter-spacing: .88px;
+      text-decoration: none;
+    }
+    &.last {
+      border: 0;
+    }
+  }
+  &.block {
+    margin: 0;
+  }
+}
+#header {
+  @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+  background-color: $gradient-green_dark;
+  height: auto;
+  max-height: 37px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.region-header {
+  clear: none;
+}
+.header-wrapper,
+#main-menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  text-align: center;
+}
+#navigation {
+  @include font-myriadprocondensed;
+  color: $primary-nav;
+  font-size: 25.5px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  z-index: 200;
+  #main-menu {
+    display: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  li a {
+    color: #FFF;
+    padding-left: 12px;
+    text-decoration: none;
+    @include text-shadow(rgba(#000, 0), -2px 2px 2px);
+  }
+  li.last {
+    @include single-box-shadow($shadow-grey, -2px, 2px, 2px);
+    background-color: $attention-gold;
+    padding: 0;
+    a {
+      color: $primary_nav;
+      margin: 0;
+      padding: 0 10px;
+      @include text-shadow(none);
+    }
+  }
+}
+#main {
+  margin-top: 0;
+  padding-top: 1.25em;
+  position: relative;
+  @include bp(medium-screens) {
+    padding-top: .25em;
+  }
+    @include bp(wide-screens) {
+    margin-top: 212px;
+    padding-top: 3em;
+  }
+}
+#content {
+  margin-top: .75em;
+}
+.block-mission-respondable-footer {
+  border-top: 1px solid $gradient-green_light;
+  margin: 0;
+  ul {
+    margin: 10px 0;
+    padding: 0;
+    li {
+      @include inline-block;
+      list-style: none;
+    }
+  }
+  p {
+    color: $topbar-link_color;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    width: 255px;
+    a {
+      color: $topbar-link_color;
+      font-size: 12px;
+      line-height: 16px;
+      width: 200px;
+      &.worx {
+        color: $shadow-grey;
+      }
+    }
+  }
+}
+.region-footer .block-menu {
+  display: none;
+  margin-bottom: -140px;
+  margin-left: -30px;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  li {
+    @include inline-block;
+    border-left: 1px solid $topbar-link_color;
+    height: 12px;
+    line-height: 8px;
+    list-style: none;
+    padding-left: 5px;
+    a {
+      color: $attention-gold;
+      font-size: 15px;
+    }
+    &.first {
+      border-left: 0;
+      padding-left: 0;
+    }
+  }
+  .last {
+    padding-top: 0;
+  }
+}
+#block-mission-respondable-footer-footer-contact {
+  background: url('../images/pretties2.png') 100% 0 no-repeat;
+  height: 145px;
+  padding-top: 30px;
+}
+.html .panels-flexible-region {
+  width: 100%;
+}
+.bottom-margin-none {
+  margin-bottom: 0;
+}
+// Go To Section on the views blocks to go to the main section.
+.view-footer {
+  background: url('../images/go-to.png') no-repeat right center $footer-more;//image is temperary till we get a better version
+  p {
+    font-weight: bold;
+    padding: .2em 27px .2em 0;
+    text-align: right;
+  }
+}
+// State
+.menu__item.is-leaf { // Overide of default zen.
+  list-style: none;
+  list-style-image: none;
+}
+.menu a.active {
+  color: $primary_nav;
+}
+@media all and (max-width: 480px) {
+  .html #navigation {
+    @include zen_clear();
+    margin-top: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mission-statement {
+    margin-top: -15px;
+  }
+}
+@media all and (min-width: 651px) {
+  // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+  // comment this out in dev for size fix
+  #secondary-menu {
+    @include zen-grid-item(4, 1);
+    ul {
+      li {
+        border-right: 1px solid $topbar-link_color;
+        padding: 5px 1.3%;
+        &.last {
+          border: 0;
+        }
+      }
+    }
+  }
+  .l-content-right {
+    @include zen-grid-item(3, 1, right);
+    @include zen-clear(right);
+  }
+  .l-content-left {
+    @include zen-grid-item(3.1, 1);
+    @include zen-clear(left);
+  }
+  .l-sidebar-left {
+    @include zen-grid-item(1.6, 1, left);
+    @include zen-clear(left);
+  }
+  .l-sidebar-right {
+    @include zen-grid-item(1.6, 4.22);
+    @include zen-clear(right);
+  }
+  .l-half-right {
+    @include zen-grid-item(2.5, 1, right);
+    @include zen-clear(right);
+    .field-label {
+      padding-left: 10px;
+    }
+  }
+  .l-half-left {
+    @include zen-grid-item(2.5, 1, left);
+    @include zen-clear(left);
+    .field-label {
+      padding-right: 10px;
+    }
+  }
+  .l-half-right__pad {
+    @include zen-grid-item(2.4, 1, right);
+    @include zen-clear(right);
+  }
+  .l-half-left__pad {
+    @include zen-grid-item(2.4, 1, left);
+    @include zen-clear(left);
+  }
+  .l-3col-left {
+    @include zen-grid-item(1.5, 1);
+    @include zen-clear(left);
+    .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-center {
+    @include zen-grid-item(1.6, 2.7);
+    .pager li {
+      padding: 0;
+    }
+  }
+  .l-3col-right {
+    @include zen-grid-item(1.5, 4.5);
+    .pager li {
+      padding: 0;
+    }
+  }
+}
+@media all and (min-width: 960px) {
+   // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+  .l-content-right {
+    @include zen-grid-item(7.31, 1, right);
+    @include zen-clear(right);
+  }
+  .l-content-left {
+    @include zen-grid-item(7.3, 1);
+    @include zen-clear(left);
+  }
+  .l-sidebar-left {
+    @include zen-grid-item(4, 1, left);
+    @include zen-clear(left);
+  }
+  .l-sidebar-right {
+    @include zen-grid-item(4.4, 8.6);
+  }
+  .section-testimonials #content,
+  .section-search #content,
+  .not-front #content {
+    padding: 0;
+  }
+  #navigation {
+    #main-menu {
+      display: inherit;
+    }
+    li a {
+      padding-left: 6px;
+    }
+  }
+  .region-navigation {
+    display: none;
+  }
+  #secondary-menu {
+    @include inline-block;
+    clear: none;
+    display: inherit;
+    ul {
+      li {
+        padding: 5px 1.8%;
+      }
+    }
+  }
+  #block-menu-menu-footer-navigation {
+    display: inherit;
+  }
+}
+@media all and (min-width: 1024px) { //SOFT BREAK POINT
+  #navigation {
+    li a {
+      padding-left: 12px;
+    }
+  }
+}

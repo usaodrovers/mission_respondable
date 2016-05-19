@@ -1,0 +1,117 @@
+ // Use 1 grid columns for smaller screens.
+ // All generic code goes here.
+$zen-column-count: 1;
+ // Component.
+.event-link__attention {
+  padding: 0;
+  a {
+    @include font-myriadprocondensed;
+    @include background-image(linear-gradient($gradient-green_light, $gradient-green_dark 90%));
+    color: $attention-gold;
+    display: block;
+    font-size: 35px;
+    line-height: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px 0 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      border: 2px solid $attention-gold;
+      margin-bottom: -2px;
+      padding: 6px 0 10px 8px;
+    }
+  }
+}
+.event-location {
+  @include font-myriadprocondensed_semibold-italic;
+}
+.event-date {
+  float: right;
+}
+.event-block {
+  .view-content {
+    margin: 0 10px;
+    li {
+      clear: both;
+      padding: 15px 0;
+    }
+    p {
+      padding: .75em 0;
+    }
+  }
+  .event-date {
+    @include filter-gradient($box-background, $gradient-green_dark, horizontal);
+    @include background-image(linear-gradient(left, rgba(247, 244, 222, 1) 0%, rgba(247, 244, 222, 1) 75%, rgba(0, 69, 56, 1) 75%, rgba(0, 69, 56, 1) 100%));
+    background-color: rgba(247, 244, 222, 1);
+    background-image: -ms-linear-gradient(left, rgba(247, 244, 222, 1) 0%, rgba(247, 244, 222, 1) 75%, rgba(0, 69, 56, 1) 75%, rgba(0, 69, 56, 1) 100%);
+    border: 1px solid $gradient-green_dark;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$box-background', endColorstr='$gradient-green_dark', GradientType=1);
+    height: 3em;
+    margin: 0 10px 10px 0;
+    width: 3.8em;
+    .event-day {
+      @include font-myriadprocondensed_bold;
+      color: $primary_nav;
+      font-size: 30px;
+      line-height: 5px;
+      margin-left: 10px;
+    }
+    .event-month {
+      @include font-copperplate;
+      color: $primary_nav;
+      font-size: 13px;
+      line-height: 5px;
+      margin-left: 10px;
+    }
+    .event-year {
+      @include font-myriadprocondensed_bold;
+      @include rotate(-90deg);
+      @include inline-block;
+      color: $topbar-link_color;
+      letter-spacing: 3px;
+      line-height: 14px;
+      margin-left: 29px;
+      margin-top: 5px;
+      overflow: hidden;
+      padding: 0 5px 2px;
+      position: relative;
+      top: -37px;
+    }
+  }
+  h3 {
+    font-weight: normal;
+    padding: .8em 0;
+    &.field-content a {
+      font-weight: bold;
+    }
+    span {
+      @include font-myriadprocondensed;
+    }
+  }
+}
+.view-display-id-upcoming_events_list .views-exposed-widgets, 
+.view-display-id-past_events_list .views-exposed-widgets {
+  display: none;
+}
+.node-type-event #page-title {//Remove the display so we have the page title for SEO but the display is in the view.
+  display: none;
+}
+@media all and (min-width: 481px) {
+   // Use 3 grid columns for special layouts on smaller screens.
+  $zen-column-count: 3;
+  .event-block {
+    .event-date {
+      float: left;
+    }
+  }
+}
+@media all and (min-width: 651px) {
+   // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+}
+@media all and (min-width: 960px) {
+   // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+}

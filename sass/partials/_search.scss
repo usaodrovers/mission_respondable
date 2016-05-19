@@ -1,0 +1,64 @@
+@import 'custom_mixins';
+
+.search-block {
+  @include zen-float(right);
+  display: none;
+  height: 25px;
+  margin-right: 2%;
+  margin-top: -2px;
+  padding: -7px 0 5px;
+  position: relative;
+  width: auto;
+  z-index: 100;
+  @include bp(wide-screens) {
+    @include inline-block;
+  }
+  label {
+    display: none;
+  }
+  input.form-text {
+    @include border-radius(3px 0 0 3px);
+    background-color: $box-background;
+    border: 0;
+    height: 28px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .views-exposed-widget {
+    margin: 0;
+    padding: .4em 0 0;
+    .form-submit {
+      margin-top: 0;
+    }
+  }
+  .form-item-sort-by {
+    display: none;
+  }
+}
+.section-search {
+  .panels-flexible-region {
+    float: none;
+    margin-top: -15px;
+  }
+  #main .search-block {
+    display: none;
+  }
+}
+.mm-menu {
+  .search-block {
+    display: block;
+    float: none;
+    height: 40px;
+    input.form-text {
+      background-color: $footer-more;
+    }
+  }
+  .views-widget-filter-search_api_views_fulltext {
+    margin-left: 5%;
+    width: 77%;
+  }
+}
+nav.mm-menu.mm-basic.mm-top > .mm-list li {
+  border-bottom: 0;
+  border-top: 0;
+}

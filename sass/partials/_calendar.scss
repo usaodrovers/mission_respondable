@@ -1,0 +1,34 @@
+ // Use 1 grid columns for smaller screens.
+ // All generic code goes here.
+$zen-column-count: 1;
+.section-calendar h1 {
+  margin: 0;
+}
+.view {
+  .date-prev {
+    right: 100px;
+    top: 7px;
+    a {
+      color: $primary_nav;
+    }
+  }
+  .date-next {
+    right: 40px;
+    top: 7px;
+    a {
+      color: $primary_nav;
+    }
+  }
+}
+@media all and (min-width: 481px) { //HARD BREAK POINT
+   // Use 3 grid columns for special layouts on smaller screens.
+  $zen-column-count: 3;
+}
+@media all and (min-width: 651px) { //HARD BREAK POINT
+   // Use 5 grid columns for smaller screens.
+  $zen-column-count: 5;
+}
+@media all and (min-width: 960px) { //HARD BREAK POINT
+   // Use 12 grid columns for larger screens.
+  $zen-column-count: 12;
+}

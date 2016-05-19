@@ -1,0 +1,35 @@
+  .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  * html .cf { zoom: 1; }
+  *:first-child+html .cf { zoom: 1; }
+
+
+  code { padding: 0 .5em; background: #fff2b2; }
+
+
+
+  .rt { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
+
+  .rt th,
+  .rt td { margin: 0; padding: 0.4166em;/*10*/ vertical-align: top; border: 1px solid #babcbf; background: #fff; }
+  .rt th { text-align: left; background: #fff2b2; }
+
+
+  @media only screen and (max-width: 40em) { /*640*/
+
+    table.rt { display: block; position: relative; width: 100%; }
+    table.rt thead { display: block; float: left; }
+    table.rt tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+    table.rt thead tr { display: block; }
+    table.rt th { display: block; }
+    table.rt tbody tr { display: inline-block; vertical-align: top; }
+    table.rt td { display: block; min-height: 1.25em; }
+
+    /* sort out borders */
+
+    .rt th { border-bottom: 0; }
+    .rt td { border-left: 0; border-right: 0; border-bottom: 0; }
+    .rt tbody tr { border-right: 1px solid #babcbf; }
+    .rt th:last-child,
+    .rt td:last-child { border-bottom: 1px solid #babcbf; }
+
+  }
